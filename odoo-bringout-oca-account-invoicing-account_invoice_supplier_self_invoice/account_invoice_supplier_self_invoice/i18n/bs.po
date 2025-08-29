@@ -1,0 +1,302 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_supplier_self_invoice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:mail.template,body_html:account_invoice_supplier_self_invoice.email_template_self_invoice
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Dear\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+"        </t>\n"
+"        <t t-else=\"\">\n"
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
+"        </t>\n"
+"        <br><br>\n"
+"        Here is your Self-Bill Invoice\n"
+"        <t t-if=\"object.name and object.ref\">\n"
+"            <strong><t t-out=\"object.ref or ''\">INVREF/2021/05/0005</t></strong>\n"
+"        </t>\n"
+"        <t t-if=\"object.name and not object.ref\">\n"
+"            <strong><t t-out=\"object.name or ''\">INV/2021/05/0005</t></strong>\n"
+"        </t>\n"
+"        <t t-if=\"object.invoice_origin\">\n"
+"            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
+"        </t>\n"
+"        amounting in <strong t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</strong>\n"
+"        to <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <t t-if=\"object.payment_state in ('paid', 'in_payment')\">\n"
+"            This Self-Bill Invoice is already paid.\n"
+"        </t>\n"
+"        <br><br>\n"
+"        Do not hesitate to contact us if you have any questions.\n"
+"        <t t-if=\"object.invoice_user_id.signature\">\n"
+"            <br>\n"
+"            <t t-out=\"object.invoice_user_id.signature or ''\">--<br>Mitchell Admin</t>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>\n"
+"        "
+msgstr ""
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.invoice_supplier_form
+msgid ""
+"<span>\n"
+"                        This Invoice will generate a new Self-Bill Invoice Number.\n"
+"                    </span>"
+msgstr ""
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_document_self_invoice
+msgid "<strong>Credit Note Date:</strong>"
+msgstr "<strong>Datum knjižne obavijesti:</strong>"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_document_self_invoice
+msgid "<strong>Invoice Date:</strong>"
+msgstr "<strong>Datum fakturisanja:</strong>"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_document_self_invoice
+msgid "<strong>Receipt Date:</strong>"
+msgstr "<strong>Datum prijema:</strong>"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.external_layout_striped_self_invoice
+msgid "<strong>This Self-bill is not valid</strong>"
+msgstr "<strong>Ova samonaplata nije važeća</strong>"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_bank_statement_line__can_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_move__can_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_payment__can_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_partner__self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_users__self_invoice
+msgid "Approves Self Billing"
+msgstr "Odobrava samonaplatu"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model,name:account_invoice_supplier_self_invoice.model_res_company
+msgid "Companies"
+msgstr "Kompanije"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model,name:account_invoice_supplier_self_invoice.model_res_config_settings
+msgid "Config Settings"
+msgstr "Postavke"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model,name:account_invoice_supplier_self_invoice.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.view_partner_selfinvoice_form
+msgid "Create missing Self Billing sequences"
+msgstr "Kreiraj nedostajuće sekvence samonaplate"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_company__self_invoice_prefix
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_config_settings__self_invoice_prefix
+msgid "Default Self Billing prefix"
+msgstr "Zadani prefiks samonaplate"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.res_config_settings_view_form
+msgid "Default prefix when generating a new sequence for Self Billing"
+msgstr "Zadani prefiks kada se generiše nova sekvenca za samonaplatu"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_bank_statement_line__is_self_invoice_number_different
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_move__is_self_invoice_number_different
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_payment__is_self_invoice_number_different
+msgid "Different Invoice Reference and Self-Bill Invoice Number"
+msgstr "Različita referenca fakture i broj samonaplate fakture"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_partner__self_invoice_report_footer
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_users__self_invoice_report_footer
+msgid "Footer text displayed at the bottom of the self invoice reports."
+msgstr "Tekst podnožja prikazan na dnu izvještaja samofakturisanja."
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_account_bank_statement_line__set_self_invoice
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_account_move__set_self_invoice
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_account_payment__set_self_invoice
+msgid "If enabled, create a Self-Bill Invoice when validating."
+msgstr "Ako je omogućeno, kreiraj fakturu samonaplate pri validaciji."
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_partner__self_invoice_partner_prefix
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_users__self_invoice_partner_prefix
+msgid ""
+"If set, Self Billing Partner Prefix will be added after the company prefix when the sequence is created for the first time. Eg.:\n"
+"With partner prefix: <COMP_PREFIX>/<PARTNER_PREFIX>/INV/<year>\n"
+"Without partner prefix: <COMP_PREFIX>/INV/<year>"
+msgstr ""
+
+#. module: account_invoice_supplier_self_invoice
+#. odoo-python
+#: code:addons/account_invoice_supplier_self_invoice/models/res_partner.py:0
+#, python-format
+msgid "Invoiced by the recipent"
+msgstr "Fakturisano od strane primaoca"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model,name:account_invoice_supplier_self_invoice.model_account_move
+msgid "Journal Entry"
+msgstr "Žurnal"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.external_layout_striped_self_invoice
+msgid "Logo"
+msgstr "Logo"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:mail.template,name:account_invoice_supplier_self_invoice.email_template_self_invoice
+msgid "Purchase Self-Bill Invoice: Send by email"
+msgstr "Nabavka samonaplate fakture: Pošalji emailom"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.view_partner_selfinvoice_form
+msgid "Self Billing"
+msgstr "Samonaplata"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_partner__self_invoice_refund_sequence_id
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_users__self_invoice_refund_sequence_id
+msgid "Self Billing Refund sequence"
+msgstr "Sekvenca povrata samonaplate"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_partner__self_invoice_report_footer
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_users__self_invoice_report_footer
+msgid "Self Billing footer"
+msgstr "Podnožje samonaplate"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_partner__self_invoice_partner_prefix
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_users__self_invoice_partner_prefix
+msgid "Self Billing partner prefix"
+msgstr "Prefiks partnera samonaplate"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_company__self_invoice_prefix
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_config_settings__self_invoice_prefix
+msgid "Self Billing prefix for Bills generated by this company"
+msgstr "Prefiks samonaplate za račune generirane od ove kompanije"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_partner__self_invoice_sequence_id
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_users__self_invoice_sequence_id
+msgid "Self Billing sequence"
+msgstr "Sekvenca samonaplate"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.view_account_invoice_filter
+msgid "Self Invoices"
+msgstr "Samonaplata fakture"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_bank_statement_line__self_invoice_number
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_move__self_invoice_number
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_payment__self_invoice_number
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.invoice_supplier_form
+msgid "Self-Bill Invoice Number"
+msgstr "Broj samonaplate fakture"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_account_bank_statement_line__is_self_invoice_number_different
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_account_move__is_self_invoice_number_different
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_account_payment__is_self_invoice_number_different
+msgid "Self-Bill Number is different than Invoice Reference"
+msgstr "Broj samonaplate se razlikuje od reference fakture"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_document_self_invoice
+msgid "Self-bill Credit Note"
+msgstr "Samonaplata odobrenja"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_document_self_invoice
+msgid "Self-bill Invoice"
+msgstr "Samonaplata faktura"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:mail.template,report_name:account_invoice_supplier_self_invoice.email_template_self_invoice
+msgid ""
+"Self_bill_invoice_{{ (object.ref or object.name or '').replace('/','_') }}{{"
+" object.state == 'draft' and '_draft' or '' }}"
+msgstr ""
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_bank_statement_line__set_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_move__set_self_invoice
+#: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_payment__set_self_invoice
+msgid "Set Self Invoice"
+msgstr "Postaviti samonaplatu fakture"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.external_layout_striped_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_document_self_invoice
+msgid "Tax ID"
+msgstr "PDV ID"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_document_self_invoice
+msgid "Vendor Bill"
+msgstr "Ulazni račun"
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_document_self_invoice
+msgid "Vendor Credit Note"
+msgstr "Knjižno odobrenje dobavljača"
+
+#. module: account_invoice_supplier_self_invoice
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_partner__self_invoice
+#: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_users__self_invoice
+msgid ""
+"When checked, all vendor Bills will generate by default a Self-Bill Invoice "
+"on confirmation."
+msgstr ""
+
+#. module: account_invoice_supplier_self_invoice
+#. odoo-python
+#: code:addons/account_invoice_supplier_self_invoice/models/res_partner.py:0
+#, python-format
+msgid "You must set a Self Billing prefix in Account Settings."
+msgstr "Morate postaviti prefiks samonaplate u podešavanjima računa."
+
+#. module: account_invoice_supplier_self_invoice
+#: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.invoice_supplier_form
+msgid "is different than Invoice Reference."
+msgstr "je različit od reference fakture."
+
+#. module: account_invoice_supplier_self_invoice
+#: model:mail.template,subject:account_invoice_supplier_self_invoice.email_template_self_invoice
+msgid ""
+"{{ object.company_id.name }} Self-Bill Invoice (Ref {{ object.ref or "
+"object.name or 'n/a' }})"
+msgstr ""

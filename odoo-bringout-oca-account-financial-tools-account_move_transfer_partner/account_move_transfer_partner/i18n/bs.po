@@ -1,0 +1,175 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_move_transfer_partner
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_move_transfer_partner
+#: model_terms:ir.ui.view,arch_db:account_move_transfer_partner.wizard_account_move_transfer_partner_view_form
+msgid ""
+"<span>You can edit <strong>Amount to transfer</strong> only when you apply "
+"this on one move</span>"
+msgstr ""
+
+#. module: account_move_transfer_partner
+#: model_terms:ir.ui.view,arch_db:account_move_transfer_partner.wizard_account_move_transfer_partner_view_form
+msgid ""
+"<span>You only can perform this operation on invoice/refund documents</span>"
+msgstr ""
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__account_date
+msgid "Account date"
+msgstr "Datum računa"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__allow_edit_amount_to_transfer
+msgid "Allow edit amount to transfer?"
+msgstr "Dozvoli uređivanje iznosa za prenos?"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__amount_to_transfer
+msgid "Amount to transfer"
+msgstr "Iznos za prenos"
+
+#. module: account_move_transfer_partner
+#. odoo-python
+#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py:0
+#, python-format
+msgid ""
+"Amount to transfer %(amount_to_transfer)s should be equal or lower than "
+"total amount due %(total_amount_due)s"
+msgstr ""
+
+#. module: account_move_transfer_partner
+#. odoo-python
+#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py:0
+#, python-format
+msgid "Amount to transfer should be bigger than zero"
+msgstr "Iznos za prenos treba biti veći od nule"
+
+#. module: account_move_transfer_partner
+#: model_terms:ir.ui.view,arch_db:account_move_transfer_partner.wizard_account_move_transfer_partner_view_form
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. module: account_move_transfer_partner
+#: model_terms:ir.ui.view,arch_db:account_move_transfer_partner.wizard_account_move_transfer_partner_view_form
+msgid "Continue"
+msgstr "Nastavi"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__destination_partner_id
+msgid "Destination partner"
+msgstr "Odredišni partner"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__journal_id
+msgid "Journal"
+msgstr "Vrsta naloga"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__move_ids
+msgid "Moves Selected"
+msgstr "Zapisi odabrani"
+
+#. module: account_move_transfer_partner
+#. odoo-python
+#: code:addons/account_move_transfer_partner/tests/test_account_move_transfer_partner.py:0
+#, python-format
+msgid "No Chart of Account Template has been defined !"
+msgstr "Nije definiran template kontnog plana!"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__no_invoice_documents
+msgid "No invoice documents?"
+msgstr "Nema dokumenata faktura?"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__origin_partner_ids
+msgid "Origin Partner"
+msgstr "Originalni partner"
+
+#. module: account_move_transfer_partner
+#: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__total_amount_due
+msgid "Total Amount Due"
+msgstr "Ukupno dospjeli iznos"
+
+#. module: account_move_transfer_partner
+#. odoo-python
+#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py:0
+#, python-format
+msgid "Transfer amount due from %s"
+msgstr "Prenos dospjelog iznosa iz %s"
+
+#. module: account_move_transfer_partner
+#: model:ir.actions.act_window,name:account_move_transfer_partner.wizard_account_move_transfer_partner_view_form_action
+#: model:ir.actions.act_window,name:account_move_transfer_partner.wizard_account_payment_transfer_partner_view_form_action
+msgid "Transfer amount due to another partner"
+msgstr "Prenos dospjelog iznosa drugom partneru"
+
+#. module: account_move_transfer_partner
+#. odoo-python
+#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py:0
+#, python-format
+msgid "Transfer due amount from %s"
+msgstr "Prenos dospjelog iznosa iz %s"
+
+#. module: account_move_transfer_partner
+#: model:ir.model,name:account_move_transfer_partner.model_wizard_account_move_transfer_partner
+msgid "Wizard to transfer due amount to another partner"
+msgstr "Čarobnjak za prenos dospjelog iznosa drugom partneru"
+
+#. module: account_move_transfer_partner
+#: model_terms:ir.ui.view,arch_db:account_move_transfer_partner.wizard_account_move_transfer_partner_view_form
+msgid "wizard_account_move_transfer_partner_form"
+msgstr "wizard_account_move_transfer_partner_form"

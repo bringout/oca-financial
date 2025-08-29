@@ -1,0 +1,3 @@
+# Configuration
+
+Refer to Odoo settings for account_avatax_oca_log. Configure related models, access rights, and options as needed.

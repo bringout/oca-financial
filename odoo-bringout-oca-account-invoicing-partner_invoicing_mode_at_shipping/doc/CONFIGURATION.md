@@ -1,0 +1,3 @@
+# Configuration
+
+Refer to Odoo settings for partner_invoicing_mode_at_shipping. Configure related models, access rights, and options as needed.

@@ -1,0 +1,307 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_asset_transfer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,help:account_asset_transfer.field_account_asset__can_transfer
+msgid "Allow transfer AUC (running) to Asset"
+msgstr "Dozvoli transfer AUC (pokretno) na imovinu"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__analytic_distribution
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__analytic_distribution
+msgid "Analytic"
+msgstr "Analitika"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__analytic_distribution_search
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__analytic_distribution_search
+msgid "Analytic Distribution Search"
+msgstr "Pretraga analitičkih distribucija"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__analytic_precision
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__analytic_precision
+msgid "Analytic Precision"
+msgstr "Preciznost analitike"
+
+#. module: account_asset_transfer
+#: model:ir.model,name:account_asset_transfer.model_account_asset
+msgid "Asset"
+msgstr "Osnovna sredstva"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_form
+msgid "Asset From"
+msgstr "Imovina od"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__asset_name
+msgid "Asset Name"
+msgstr "Naziv osnovnog sredstva"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__asset_profile_id
+msgid "Asset Profile"
+msgstr "Grupe osnovnih sredstava"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_form
+msgid "Asset To"
+msgstr "Imovina do"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py:0
+#, python-format
+msgid "Asset Transfer Journal Entry"
+msgstr "Zapis dnevnika transfera imovine"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__asset_value
+msgid "Asset Value"
+msgstr "Vrijednost imovine"
+
+#. module: account_asset_transfer
+#: model:ir.model,name:account_asset_transfer.model_account_asset_profile
+msgid "Asset profile"
+msgstr "Grupe osnovnih sredstava"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/models/account_asset.py:0
+#, python-format
+msgid "Assets"
+msgstr "Osnovna sredstva"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__balance
+msgid "Balance"
+msgstr "Saldo"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset__can_transfer
+msgid "Can Transfer"
+msgstr "Može transfer"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_search
+msgid "Can be transferred"
+msgstr "Može se prenijeti"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__company_id
+msgid "Company"
+msgstr "Preduzeće"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__create_uid
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__create_date
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__display_name
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "Expand Asset"
+msgstr "Proširi imovinu"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "From"
+msgstr "Od"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__from_asset_ids
+msgid "From Asset(s)"
+msgstr "Sa imovine(a)"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__from_asset_value
+msgid "From Value"
+msgstr "Sa vrijednosti"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__id
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset__is_transfer
+msgid "Is Transfer"
+msgstr "Je transfer"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer____last_update
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__write_uid
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__write_date
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__note
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "Notes"
+msgstr "Zabilješke"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/models/account_asset.py:0
+#, python-format
+msgid "Only running assets without depreciation (AUC) can transfer"
+msgstr "Samo pokretna imovina bez amortizacije (AUC) može transfer"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__partner_id
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__partner_id
+msgid "Partner"
+msgstr "Partner"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__quantity
+msgid "Quantity"
+msgstr "Količina"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_form
+msgid ""
+"There are no journal entries on current asset(s), asset transfer will use "
+"account settings from the asset/asset profile instead."
+msgstr ""
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__to_asset_ids
+msgid "To Asset(s)"
+msgstr "Na imovinu(e)"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "To New Asset"
+msgstr "Na novu imovinu"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__to_asset_value
+msgid "To Value"
+msgstr "Na vrijednost"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py:0
+#, python-format
+msgid "Total values of new assets must equal to source assets"
+msgstr "Ukupne vrijednosti novih imovine moraju biti jednake s izvornim imovinama"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__transfer_id
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_form
+msgid "Transfer"
+msgstr "Prijenos"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/models/account_asset.py:0
+#, python-format
+msgid "Transfer AUC to Asset & Create Transfer Journal Entry"
+msgstr "Prenesi AUC na imovinu i kreiraj zapis dnevnika transfera"
+
+#. module: account_asset_transfer
+#: model:ir.actions.act_window,name:account_asset_transfer.action_account_asset_transfer
+#: model:ir.actions.server,name:account_asset_transfer.action_asset_transfer_from_list
+#: model:ir.model,name:account_asset_transfer.model_account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
+msgid "Transfer Asset"
+msgstr "Transfer imovine"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__date_transfer
+msgid "Transfer Date"
+msgstr "Datum prijenosa"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_profile__transfer_journal_id
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__transfer_journal_id
+msgid "Transfer Journal"
+msgstr "Dnevnik transfera"
+
+#. module: account_asset_transfer
+#: model:ir.model,name:account_asset_transfer.model_account_asset_transfer_line
+msgid "Transfer To Asset"
+msgstr "Prenesi na imovinu"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_form
+msgid "Transfer asset from AUC to Asset"
+msgstr "Prenesi imovinu sa AUC na imovinu"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,help:account_asset_transfer.field_account_asset_transfer__date_transfer
+msgid "Transfer date must be after the asset journal entry"
+msgstr "Datum transfera mora biti nakon zapisa dnevnika imovine"
+
+#. module: account_asset_transfer
+#: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_view_search
+msgid "Transferable"
+msgstr "Prenosivo"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer_line__price_unit
+msgid "Unit Price"
+msgstr "Cijena"
+
+#. module: account_asset_transfer
+#. odoo-python
+#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py:0
+#, python-format
+msgid "Value of new asset must greater than 0.0"
+msgstr "Vrijednost nove imovine mora biti veća od 0.0"
+
+#. module: account_asset_transfer
+#: model:ir.model.fields,help:account_asset_transfer.field_account_asset__is_transfer
+msgid ""
+"flag indicating if the asset has been transferred from/to another asset."
+msgstr ""

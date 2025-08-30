@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [account](https://github.com/bringout/oca-ocb-accounting/tree/150f2ecdb69d7dcf1345d7fd66832f9d87a21860/odoo-bringout-oca-ocb-account)
+- [account](https://github.com/bringout/oca-ocb-accounting/tree/1c86482d8238e19ed78579629f21cd46d51a058e/odoo-bringout-oca-ocb-account)
 - [partner_invoicing_mode](https://github.com/bringout/oca-financial)
 - [queue_job](https://github.com/bringout/oca-technical)
-- [stock](https://github.com/bringout/oca-ocb-warehouse/tree/62a8c36c9372364b7b073231c40d68a45f49dd78/odoo-bringout-oca-ocb-stock)
+- [stock](https://github.com/bringout/oca-ocb-warehouse/tree/9b14fcb23c7ebeb2f1d8695642aaa941064d4d00/odoo-bringout-oca-ocb-stock)

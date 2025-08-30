@@ -3,5 +3,5 @@
 This addon depends on:
 
 - [account_cutoff_accrual_order_base](https://github.com/bringout/oca-technical)
-- [purchase](https://github.com/bringout/oca-ocb-core/tree/3269462e6a0442fbf5ae30a27b3c18135ac733b9/odoo-bringout-oca-ocb-purchase)
+- [purchase](https://github.com/bringout/oca-ocb-core/tree/680f309d65868a57afe7e3be0f9905cc2a7043fb/odoo-bringout-oca-ocb-purchase)
 - [purchase_force_invoiced](https://github.com/bringout/oca-workflow-process)

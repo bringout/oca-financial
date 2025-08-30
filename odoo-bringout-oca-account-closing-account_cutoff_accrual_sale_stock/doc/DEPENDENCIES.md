@@ -4,4 +4,4 @@ This addon depends on:
 
 - [account_cutoff_accrual_sale](https://github.com/bringout/oca-technical)
 - [account_cutoff_accrual_order_stock_base](https://github.com/bringout/oca-technical)
-- [sale_stock](https://github.com/bringout/oca-ocb-sale/tree/3e269fa48ad4d81d3305977a3a962b1dc0f75ef3/odoo-bringout-oca-ocb-sale_stock)
+- [sale_stock](https://github.com/bringout/oca-ocb-sale/tree/b79cef0fc454482466e93989011360a14a738822/odoo-bringout-oca-ocb-sale_stock)

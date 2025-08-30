@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [purchase](../../odoo-bringout-oca-ocb-purchase)
-- [product_analytic](../../odoo-bringout-oca-account-analytic-product_analytic)
+- [purchase](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-purchase)
+- [product_analytic](../../../../odoo-bringout-oca-account-analytic-product_analytic)

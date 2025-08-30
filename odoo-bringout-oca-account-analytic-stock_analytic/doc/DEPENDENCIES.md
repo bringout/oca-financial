@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_account](../../odoo-bringout-oca-ocb-stock_account)
-- [analytic](../../odoo-bringout-oca-ocb-analytic)
+- [stock_account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-stock_account)
+- [analytic](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-analytic)

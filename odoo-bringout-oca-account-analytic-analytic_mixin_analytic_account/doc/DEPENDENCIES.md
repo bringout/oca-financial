@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [analytic](../../odoo-bringout-oca-ocb-analytic)
+- [analytic](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-analytic)

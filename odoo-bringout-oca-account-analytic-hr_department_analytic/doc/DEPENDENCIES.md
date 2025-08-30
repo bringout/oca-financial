@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr](../../odoo-bringout-oca-ocb-hr)
-- [analytic](../../odoo-bringout-oca-ocb-analytic)
+- [hr](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr)
+- [analytic](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-analytic)

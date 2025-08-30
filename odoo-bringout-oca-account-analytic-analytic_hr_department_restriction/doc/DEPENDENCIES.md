@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../odoo-bringout-oca-ocb-account)
-- [hr](../../odoo-bringout-oca-ocb-hr)
+- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
+- [hr](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account_avatax_sale_oca](../../../../odoo-bringout-oca-account-fiscal-rule-account_avatax_sale_oca)
-- [website_sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-website_sale)
+- [account_avatax_sale_oca](https://github.com/bringout/oca-financial)
+- [website_sale](https://github.com/bringout/oca-ocb-sale)

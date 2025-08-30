@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
-- [base_partition](../../../../../oca-technical/odoo-bringout-oca-server-tools-base_partition)
+- [account](https://github.com/bringout/oca-ocb-accounting)
+- [base_partition](https://github.com/bringout/oca-technical)

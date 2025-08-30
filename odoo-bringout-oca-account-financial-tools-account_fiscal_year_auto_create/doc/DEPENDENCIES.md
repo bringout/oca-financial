@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [account_fiscal_year](../../../../odoo-bringout-oca-account-financial-tools-account_fiscal_year)
+- [account_fiscal_year](https://github.com/bringout/oca-financial)

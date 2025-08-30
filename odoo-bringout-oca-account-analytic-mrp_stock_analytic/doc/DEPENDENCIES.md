@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mrp_account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-mrp_account)
-- [stock_analytic](../../../../odoo-bringout-oca-account-analytic-stock_analytic)
+- [mrp_account](https://github.com/bringout/oca-ocb-accounting)
+- [stock_analytic](https://github.com/bringout/oca-financial)

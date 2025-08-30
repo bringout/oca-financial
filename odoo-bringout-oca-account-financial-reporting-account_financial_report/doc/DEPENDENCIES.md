@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
-- [date_range](../../../../../oca-technical/odoo-bringout-oca-server-ux-date_range)
-- [report_xlsx](../../../../../oca-report/odoo-bringout-oca-reporting-engine-report_xlsx)
+- [account](https://github.com/bringout/oca-ocb-accounting)
+- [date_range](https://github.com/bringout/oca-technical)
+- [report_xlsx](https://github.com/bringout/oca-report)

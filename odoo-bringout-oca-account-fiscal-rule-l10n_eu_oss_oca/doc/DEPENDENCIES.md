@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
-- [account_fiscal_position_partner_type](../../../../odoo-bringout-oca-account-fiscal-rule-account_fiscal_position_partner_type)
+- [account](https://github.com/bringout/oca-ocb-accounting)
+- [account_fiscal_position_partner_type](https://github.com/bringout/oca-financial)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
-- [queue_job](../../../../../oca-technical/odoo-bringout-oca-queue-queue_job)
+- [sale](https://github.com/bringout/oca-ocb-sale)
+- [queue_job](https://github.com/bringout/oca-technical)

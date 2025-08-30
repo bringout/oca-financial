@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account_asset_management](../../../../odoo-bringout-oca-account-financial-tools-account_asset_management)
-- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)
+- [account_asset_management](https://github.com/bringout/oca-financial)
+- [stock](https://github.com/bringout/oca-ocb-warehouse)

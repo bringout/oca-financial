@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
-- [base_substate](../../../../../oca-technical/odoo-bringout-oca-server-ux-base_substate)
+- [account](https://github.com/bringout/oca-ocb-accounting)
+- [base_substate](https://github.com/bringout/oca-technical)

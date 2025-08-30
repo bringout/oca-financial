@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
-- [account_usability](../../../../odoo-bringout-oca-account-financial-tools-account_usability)
+- [account](https://github.com/bringout/oca-ocb-accounting)
+- [account_usability](https://github.com/bringout/oca-financial)

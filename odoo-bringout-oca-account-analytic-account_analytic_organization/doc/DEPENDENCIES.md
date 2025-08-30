@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [analytic](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-analytic)
-- [contacts](../../../../../oca-ocb-technical/odoo-bringout-oca-ocb-contacts)
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
+- [analytic](https://github.com/bringout/oca-ocb-core)
+- [contacts](https://github.com/bringout/oca-ocb-technical)
+- [account](https://github.com/bringout/oca-ocb-accounting)

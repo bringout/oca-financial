@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account_ecotax](../../../../odoo-bringout-oca-account-fiscal-rule-account_ecotax)
-- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
+- [account_ecotax](https://github.com/bringout/oca-financial)
+- [sale](https://github.com/bringout/oca-ocb-sale)

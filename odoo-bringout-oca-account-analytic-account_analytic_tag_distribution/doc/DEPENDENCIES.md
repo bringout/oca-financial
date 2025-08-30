@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [account_analytic_tag](../../../../odoo-bringout-oca-account-analytic-account_analytic_tag)
+- [account_analytic_tag](https://github.com/bringout/oca-financial)

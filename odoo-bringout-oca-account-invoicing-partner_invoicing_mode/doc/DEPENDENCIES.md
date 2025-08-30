@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
-- [base_partition](../../../../../oca-technical/odoo-bringout-oca-server-tools-base_partition)
-- [queue_job](../../../../../oca-technical/odoo-bringout-oca-queue-queue_job)
-- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
+- [account](https://github.com/bringout/oca-ocb-accounting)
+- [base_partition](https://github.com/bringout/oca-technical)
+- [queue_job](https://github.com/bringout/oca-technical)
+- [sale](https://github.com/bringout/oca-ocb-sale)

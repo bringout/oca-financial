@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [account](https://github.com/bringout/oca-ocb-accounting/tree/b11fb50e2ed11eec1e305a0df730b49554c01199/odoo-bringout-oca-ocb-account)
+- [account](https://github.com/bringout/oca-ocb-accounting/tree/eb4335e9848ccce1d07fb3692af80937feeb0e3c/odoo-bringout-oca-ocb-account)
 - [base_partition](https://github.com/bringout/oca-technical)
 - [queue_job](https://github.com/bringout/oca-technical)
-- [sale](https://github.com/bringout/oca-ocb-sale/tree/681dc8d5fff638cb0862a34e48091a2098d091f8/odoo-bringout-oca-ocb-sale)
+- [sale](https://github.com/bringout/oca-ocb-sale/tree/9c47621e05c4317db98aaea61473df9add3d66b6/odoo-bringout-oca-ocb-sale)

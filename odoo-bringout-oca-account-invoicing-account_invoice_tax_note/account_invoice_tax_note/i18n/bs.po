@@ -21,7 +21,8 @@ msgstr "Žurnal"
 #. module: account_invoice_tax_note
 #: model:ir.model.fields,help:account_invoice_tax_note.field_account_tax_group__report_note
 msgid "Note to insert on Invoice Report if the tax group is used."
-msgstr "Napomena za umetanje u izvještaj fakture ako se koristi poreska grupa."
+msgstr ""
+"Napomena za umetanje u izvještaj fakture ako se koristi poreska grupa."
 
 #. module: account_invoice_tax_note
 #: model:ir.model.fields,field_description:account_invoice_tax_note.field_account_tax_group__report_note

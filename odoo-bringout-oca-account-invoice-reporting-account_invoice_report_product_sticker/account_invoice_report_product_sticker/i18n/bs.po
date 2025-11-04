@@ -20,7 +20,6 @@ msgstr "<span class=\"o_form_label\">Naljepnice proizvoda</span>"
 
 #. module: account_invoice_report_product_sticker
 #: model:ir.model.fields.selection,name:account_invoice_report_product_sticker.selection__account_move__show_product_stickers__bottom_left
-#: model:ir.model.fields.selection,name:account_invoice_report_product_sticker.selection__res_config_settings__show_product_stickers__bottom_left
 msgid "Bottom (left)"
 msgstr "Dolje (lijevo)"
 
@@ -31,9 +30,6 @@ msgstr "Postavke"
 
 #. module: account_invoice_report_product_sticker
 #: model:ir.model.fields,help:account_invoice_report_product_sticker.field_account_bank_statement_line__show_product_stickers
-#: model:ir.model.fields,help:account_invoice_report_product_sticker.field_account_move__show_product_stickers
-#: model:ir.model.fields,help:account_invoice_report_product_sticker.field_account_payment__show_product_stickers
-#: model:ir.model.fields,help:account_invoice_report_product_sticker.field_res_config_settings__show_product_stickers
 msgid "Display Product Stickers on chosen position inside the report."
 msgstr "Prikaz naljepnica proizvoda na odabranoj poziciji unutar izvještaja."
 
@@ -49,8 +45,6 @@ msgstr "Naljepnice proizvoda"
 
 #. module: account_invoice_report_product_sticker
 #: model:ir.model.fields,field_description:account_invoice_report_product_sticker.field_account_bank_statement_line__show_product_stickers
-#: model:ir.model.fields,field_description:account_invoice_report_product_sticker.field_account_move__show_product_stickers
-#: model:ir.model.fields,field_description:account_invoice_report_product_sticker.field_account_payment__show_product_stickers
 msgid "Show Product Stickers"
 msgstr "Prikaži naljepnice proizvoda"
 
@@ -61,13 +55,10 @@ msgstr "Prikaži naljepnice proizvoda na vašim izvještajima na:"
 
 #. module: account_invoice_report_product_sticker
 #: model:ir.model.fields,field_description:account_invoice_report_product_sticker.field_account_bank_statement_line__sticker_ids
-#: model:ir.model.fields,field_description:account_invoice_report_product_sticker.field_account_move__sticker_ids
-#: model:ir.model.fields,field_description:account_invoice_report_product_sticker.field_account_payment__sticker_ids
 msgid "Stickers"
 msgstr "Naljepnice"
 
 #. module: account_invoice_report_product_sticker
 #: model:ir.model.fields.selection,name:account_invoice_report_product_sticker.selection__account_move__show_product_stickers__top_right
-#: model:ir.model.fields.selection,name:account_invoice_report_product_sticker.selection__res_config_settings__show_product_stickers__top_right
 msgid "Top (right)"
 msgstr "Gore (desno)"

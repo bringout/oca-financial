@@ -13,38 +13,43 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_force_number
 #: model:res.groups,name:account_invoice_force_number.group_allow_invoice_force_number
 msgid "Allow \"Invoice Force Number\""
 msgstr "Dozvoli frosiranje broja na računima"
 
+# taken from hr.po
 #. module: account_invoice_force_number
 #: model:ir.model.fields,field_description:account_invoice_force_number.field_account_bank_statement_line__move_name
-#: model:ir.model.fields,field_description:account_invoice_force_number.field_account_move__move_name
-#: model:ir.model.fields,field_description:account_invoice_force_number.field_account_payment__move_name
 msgid "Force Number"
 msgstr "Forsiraj broj"
 
+# taken from hr.po
 #. module: account_invoice_force_number
 #: model:ir.model.fields,help:account_invoice_force_number.field_account_bank_statement_line__move_name
-#: model:ir.model.fields,help:account_invoice_force_number.field_account_move__move_name
-#: model:ir.model.fields,help:account_invoice_force_number.field_account_payment__move_name
 msgid ""
 "Force invoice number. Use this field if\n"
 "        you don't want to use the default numbering."
 msgstr ""
+"Forsiraj broj računa. Koristi ovo polje\n"
+"        ako ne želite koristiti zadano odbrojavanje."
 
+# taken from hr.po
 #. module: account_invoice_force_number
 #: model:ir.model,name:account_invoice_force_number.model_account_move
 msgid "Journal Entry"
 msgstr "Zapis dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_force_number
 #. odoo-python
-#: code:addons/account_invoice_force_number/models/account_move.py:0
+#: code:addons/account_invoice_force_number/models/account_move.py
 #, python-format
 msgid ""
 "You cannot delete an invoice after it has been validated(and received a "
 "number). You can set it back to \"Draft\"state and modify its content, then "
 "re-confirm it."
 msgstr ""
+"Nije moguće brisanje računa jednom kad je potvrđen (i dobio svoj broj). "
+"Možete ga vratiti u \"Nacrt\" i urediti sadržaj, pa ga ponovo potvrditi."

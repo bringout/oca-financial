@@ -20,21 +20,17 @@ msgstr "Žurnal"
 
 #. module: account_invoice_block_payment
 #: model:ir.model.fields,field_description:account_invoice_block_payment.field_account_bank_statement_line__payment_blocked
-#: model:ir.model.fields,field_description:account_invoice_block_payment.field_account_move__payment_blocked
-#: model:ir.model.fields,field_description:account_invoice_block_payment.field_account_payment__payment_blocked
 msgid "Payment Blocked"
 msgstr "Plaćanje blokirano"
 
 #. module: account_invoice_block_payment
 #. odoo-python
-#: code:addons/account_invoice_block_payment/models/account_move.py:0
+#: code:addons/account_invoice_block_payment/models/account_move.py
 #, python-format
 msgid "The payment on invoice {} is blocked."
 msgstr "Plaćanje fakture {} je blokirano."
 
 #. module: account_invoice_block_payment
 #: model:ir.model.fields,help:account_invoice_block_payment.field_account_bank_statement_line__payment_blocked
-#: model:ir.model.fields,help:account_invoice_block_payment.field_account_move__payment_blocked
-#: model:ir.model.fields,help:account_invoice_block_payment.field_account_payment__payment_blocked
 msgid "if true, the payment of the invoice is blocked."
 msgstr "ako je tačno, plaćanje fakture je blokirano."

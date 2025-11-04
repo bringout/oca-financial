@@ -33,6 +33,8 @@ msgstr "Odbij predujmove"
 msgid ""
 "Define if Invoice should be created from Sale Order or from Stock Picking"
 msgstr ""
+"Odredite da li se račun treba kreirati iz prodajne narudžbe ili iz "
+"skladišnice."
 
 #. module: sale_stock_picking_invoicing
 #: model:ir.model.fields,field_description:sale_stock_picking_invoicing.field_stock_invoice_onshipping__has_down_payments
@@ -41,15 +43,15 @@ msgstr "Ima predujam"
 
 #. module: sale_stock_picking_invoicing
 #: model:ir.model.fields,help:sale_stock_picking_invoicing.field_res_company__sale_invoicing_policy
-#: model:ir.model.fields,help:sale_stock_picking_invoicing.field_res_config_settings__sale_invoicing_policy
 msgid ""
 "If set to Sale Order, keep native Odoo behaviour for creation of invoices from Sale Orders.\n"
 "If set to Stock Picking, disallow creation of Invoices from Sale Orders for the cases where Product Type are 'Product', in case of 'Service' still will be possible create from Sale Order."
 msgstr ""
+"Ako je postavljeno na prodajnu narudžbu, zadržava se izvorno Odoo ponašanje za kreiranje računa iz prodajnih narudžbi.\n"
+"Ako je postavljeno na skladišnicu, onemogućava se kreiranje računa iz prodajnih narudžbi za slučajeve kada je tip proizvoda 'Proizvod'; za 'Uslugu' će i dalje biti moguće kreirati račun iz prodajne narudžbe."
 
 #. module: sale_stock_picking_invoicing
 #: model:ir.model.fields,field_description:sale_stock_picking_invoicing.field_res_company__sale_invoicing_policy
-#: model:ir.model.fields,field_description:sale_stock_picking_invoicing.field_res_config_settings__sale_invoicing_policy
 msgid "Sale Invoicing Policy"
 msgstr "Sale Invoicing Policy"
 
@@ -71,7 +73,7 @@ msgstr "Stavka prodajne narudžbe"
 #. module: sale_stock_picking_invoicing
 #: model:ir.model,name:sale_stock_picking_invoicing.model_stock_invoice_onshipping
 msgid "Stock Invoice Onshipping"
-msgstr "Stock Invoice Onshipping"
+msgstr "Zalihe Invoice Onshipping"
 
 #. module: sale_stock_picking_invoicing
 #: model:ir.model,name:sale_stock_picking_invoicing.model_stock_move
@@ -95,10 +97,13 @@ msgstr "Prijenos"
 
 #. module: sale_stock_picking_invoicing
 #. odoo-python
-#: code:addons/sale_stock_picking_invoicing/models/sale_order.py:0
+#: code:addons/sale_stock_picking_invoicing/models/sale_order.py
 #, python-format
 msgid ""
 "When 'Sale Invoicing Policy' is defined as'Stock Picking' the Invoice can "
 "only be created from the Stock Picking, if necessary you can change in the "
 "Company or Sale Settings."
 msgstr ""
+"Kada je 'Politika fakturisanja prodaje' definisana kao 'Skladišnica', račun "
+"se može kreirati samo iz skladišnice; po potrebi to možete promijeniti u "
+"postavkama kompanije ili prodaje."

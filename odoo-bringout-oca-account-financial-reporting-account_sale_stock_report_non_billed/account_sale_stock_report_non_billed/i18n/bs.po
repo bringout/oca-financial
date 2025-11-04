@@ -64,6 +64,8 @@ msgid ""
 "Date from which stock movements are to be taken into account\n"
 "                            for the non billed movements report."
 msgstr ""
+"Datum od kojeg se uzimaju u obzir kretanja zaliha\n"
+"                            za izvještaj o nefakturisanim kretanjima."
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz__display_name
@@ -107,20 +109,17 @@ msgstr "Zadnje ažurirano"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.actions.act_window,name:account_sale_stock_report_non_billed.action_open_non_billed_stock_move
-#: model:ir.ui.menu,name:account_sale_stock_report_non_billed.menu_non_billed_stock_move
-#: model_terms:ir.ui.view,arch_db:account_sale_stock_report_non_billed.account_sale_stock_report_non_billed_wiz_form
 msgid "Non Billed Stock Moves"
 msgstr "Nefakturisani pokreti zaliha"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_res_company__stock_move_non_billed_threshold
-#: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_res_config_settings__stock_move_non_billed_threshold
 msgid "Non Billed Threshold Date"
 msgstr "Datum praga nefakturisanih"
 
 #. module: account_sale_stock_report_non_billed
 #. odoo-python
-#: code:addons/account_sale_stock_report_non_billed/wizard/account_sale_stock_report_non_billed_wiz.py:0
+#: code:addons/account_sale_stock_report_non_billed/wizard/account_sale_stock_report_non_billed_wiz.py
 #, python-format
 msgid "Non billed moves (%(from)s -> %(to)s)"
 msgstr "Nefakturisani pokreti (%(from)s -> %(to)s)"
@@ -142,7 +141,6 @@ msgstr "Količina za fakturisanje"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz__interval_restrict_invoices
-#: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_res_config_settings__default_interval_restrict_invoices
 msgid "Restrict invoices using the date interval"
 msgstr "Ograniči fakture koristeći vremenski interval"
 
@@ -164,4 +162,5 @@ msgstr "Analiza kretanja zaliha"
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model,name:account_sale_stock_report_non_billed.model_account_sale_stock_report_non_billed_wiz
 msgid "Wizard to open stock moves that have not been invoiced at that time"
-msgstr "Čarobnjak za otvaranje pokreta zaliha koji nisu fakturisani u to vrijeme"
+msgstr ""
+"Čarobnjak za otvaranje pokreta zaliha koji nisu fakturisani u to vrijeme"

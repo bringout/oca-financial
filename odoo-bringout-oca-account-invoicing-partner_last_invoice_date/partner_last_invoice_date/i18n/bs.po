@@ -25,12 +25,10 @@ msgstr "Fakture"
 
 #. module: partner_last_invoice_date
 #: model:ir.model.fields,field_description:partner_last_invoice_date.field_res_partner__last_bill_date
-#: model:ir.model.fields,field_description:partner_last_invoice_date.field_res_users__last_bill_date
 msgid "Last Bill Date"
 msgstr "Datum poslednjeg računa"
 
 #. module: partner_last_invoice_date
 #: model:ir.model.fields,field_description:partner_last_invoice_date.field_res_partner__last_invoice_date
-#: model:ir.model.fields,field_description:partner_last_invoice_date.field_res_users__last_invoice_date
 msgid "Last Invoice Date"
 msgstr "Datum poslednje fakture"

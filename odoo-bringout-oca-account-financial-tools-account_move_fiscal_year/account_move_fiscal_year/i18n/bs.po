@@ -13,16 +13,15 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_move_fiscal_year
 #: model:ir.model,name:account_move_fiscal_year.model_res_company
 msgid "Companies"
 msgstr "Tvrtke"
 
+# taken from hr.po
 #. module: account_move_fiscal_year
 #: model:ir.model.fields,field_description:account_move_fiscal_year.field_account_bank_statement_line__date_range_fy_id
-#: model:ir.model.fields,field_description:account_move_fiscal_year.field_account_move__date_range_fy_id
-#: model:ir.model.fields,field_description:account_move_fiscal_year.field_account_move_line__date_range_fy_id
-#: model:ir.model.fields,field_description:account_move_fiscal_year.field_account_payment__date_range_fy_id
 msgid "Fiscal year"
 msgstr "Fiskalna godina"
 
@@ -31,6 +30,7 @@ msgstr "Fiskalna godina"
 msgid "Journal Entry"
 msgstr "Žurnal"
 
+# taken from hr.po
 #. module: account_move_fiscal_year
 #: model:ir.model,name:account_move_fiscal_year.model_account_move_line
 msgid "Journal Item"

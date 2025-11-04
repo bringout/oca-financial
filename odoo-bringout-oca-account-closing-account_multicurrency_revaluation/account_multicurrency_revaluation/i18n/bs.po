@@ -13,21 +13,25 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_currency_revaluation_wizard
 msgid "%(account)s : Account code for which the revaluation is applied\""
 msgstr "%(account)s : Šifra konta za koju se primjenjue reevaluacija\""
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_currency_revaluation_wizard
 msgid "%(account_name)s : Account name for which the revaluation is applied\""
 msgstr "%(account_name)s : Naziv konta za koje se primjenjuje reevaluacija\""
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_currency_revaluation_wizard
 msgid "%(currency)s : Currency to be revaluated"
 msgstr "%(currency)s : Valuta za reevaluaciju"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_currency_revaluation_wizard
 msgid "%(rate)s : Value of rate applied during revaluation"
@@ -38,23 +42,29 @@ msgstr "%(rate)s : Vrijednost tečaja primjenjenog pri reevaluaciji"
 msgid "0.0"
 msgstr "0.0"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_config_settings
 msgid "<b>Analytic account</b>"
 msgstr "<b>Analitički konto</b>"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_config_settings
 msgid ""
 "<b>Default revaluation journal</b>\n"
 "                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<b>Zadani dnevnik reevaluacije</b>\n"
+"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_config_settings
 msgid "<b>Gain</b>"
 msgstr "<b>Dobit</b>"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_config_settings
 msgid "<b>Loss</b>"
@@ -66,6 +76,8 @@ msgid ""
 "<b>Provision B.S accounts</b>\n"
 "                                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<b>Konta rezervisanja B.S</b>\n"
+"                                        <span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje su specifične za kompaniju.\" groups=\"base.group_multi_company\"/>"
 
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_config_settings
@@ -73,6 +85,8 @@ msgid ""
 "<b>Provision P&amp;L accounts</b>\n"
 "                                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<b>Konta rezervisanja D&amp;G</b>\n"
+"                                        <span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje su specifične za kompaniju.\" groups=\"base.group_multi_company\"/>"
 
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_config_settings
@@ -80,6 +94,8 @@ msgid ""
 "<b>Revaluation accounts</b>\n"
 "                                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<b>Konta revalorizacije</b>\n"
+"                                        <span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje su specifične za kompaniju.\" groups=\"base.group_multi_company\"/>"
 
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.curr_unrealized_report
@@ -92,6 +108,8 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje"
+" su specifične za kompaniju.\" groups=\"base.group_multi_company\"/>"
 
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_reverse_currency_revaluation_wizard
@@ -101,6 +119,10 @@ msgid ""
 "                <span name=\"info-2\" style=\"font-weight: bold;\">The revaluation date of an entry that got revaluated is the date that the process that created the entry run.\n"
 "                </span>"
 msgstr ""
+"<span name=\"info\" style=\"font-weight: bold;\">Za sve revalorizirane stavke kreirane tokom definiranog perioda, stornirajuća stavka će biti kreirana u sistemu. Ove stavke će imati datum fakture kao datum definiran ovdje. Ako nema datuma storniranja, za svaku stavku, datum fakture će biti prvi dan sljedećeg mjeseca od datuma stavke.\n"
+"                </span>\n"
+"                <span name=\"info-2\" style=\"font-weight: bold;\">Datum revalorizacije stavke koja je revalorizirana je datum kada je proces koji je kreirao stavku pokrenut.\n"
+"                </span>"
 
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_currency_revaluation_wizard
@@ -108,17 +130,22 @@ msgid ""
 "<span name=\"info-2\" style=\"font-weight: bold;\">These are all the accounts that will be revaluated upon clicking the Validate button. Initialized as the Accounts having the flag Allow Currency Revaluation set, but then manually changed if needed.\n"
 "                </span>"
 msgstr ""
+"<span name=\"info-2\" style=\"font-weight: bold;\">Ovo su sva konta koja će biti revalorizirana nakon klika na dugme Potvrdi. Inicijalizovana kao konta koja imaju postavljenu oznaku Dozvoli revalorizaciju valute, ali se mogu ručno promijeniti ako je potrebno.\n"
+"                </span>"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_account_account
 msgid "Account"
 msgstr "Konto"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__account_ids
 msgid "Accounts"
 msgstr "Konta"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,help:account_multicurrency_revaluation.field_wizard_currency_revaluation__revaluation_account_ids
 msgid "Accounts that will be revaluated."
@@ -129,36 +156,44 @@ msgstr "Konta koja će biti reevaluirana."
 msgid "Additional provisioning entries posting"
 msgstr "Dodatno knjiženje rezervisanih unosa"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_move_line__gl_balance
 msgid "Aggregated Amount"
 msgstr "Skupljeni iznos"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_move_line__gl_foreign_balance
 msgid "Aggregated Amount currency"
 msgstr "Valuta skupljenog iznosa"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,help:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__revaluation_interval_start_date
 msgid ""
 "All entries revaluated on or after this date will be taken into account."
 msgstr ""
+"Sve stavke koje su reevaluirane nakon ovog datuma će biti uzete u izračun."
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,help:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__revaluation_interval_end_date
 msgid ""
 "All entries revaluated on or before this date will be taken into account."
 msgstr ""
+"Sve stavke koje su reevaluirane na ili prije ovog datuma će biti uzete u "
+"izračun."
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_account__currency_revaluation
 msgid "Allow Currency Revaluation"
 msgstr "Dozvoli reevaluaciju valuta"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__auto_post_entries
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__auto_post_entries
 msgid "Auto Post Created Entries"
 msgstr "Automatski knjiži stvorene stavke"
 
@@ -167,61 +202,65 @@ msgstr "Automatski knjiži stvorene stavke"
 msgid "Balance YTD"
 msgstr "Saldo YTD"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.currency_urealized_report_launcher_wizard
-#: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_currency_revaluation_wizard
-#: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_reverse_currency_revaluation_wizard
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.ui.menu,name:account_multicurrency_revaluation.menu_view_account_currency_revaluation_closing
 msgid "Closing"
 msgstr "Zatvaranje"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.ui.menu,name:account_multicurrency_revaluation.currency_unrealized_report_report_closing_entries_menu
 msgid "Closing Entries"
 msgstr "Stavke zatvaranja"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_res_company
 msgid "Companies"
 msgstr "Tvrtke"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.curr_unrealized_report
 msgid "Company"
 msgstr "Tvrtka"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.curr_unrealized_report
 msgid "Company currency"
 msgstr "Valuta tvrtke"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_res_config_settings
 msgid "Config Settings"
 msgstr "Konfiguracijske postavke"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
 #, python-format
 msgid "Created Revaluation Lines"
 msgstr "Stvorene stavke reevaluacije"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__create_uid
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__create_uid
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__create_date
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__create_date
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -237,8 +276,6 @@ msgstr "Valutni dobitak i gubitak"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.actions.act_window,name:account_multicurrency_revaluation.action_view_account_currency_revaluation_wizard
-#: model:ir.ui.menu,name:account_multicurrency_revaluation.menu_view_account_currency_revaluation_wizard
-#: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_currency_revaluation_wizard
 msgid "Currency Revaluation"
 msgstr "Valutna revalorizacija"
 
@@ -249,7 +286,6 @@ msgstr "Stavke valutne revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.actions.report,name:account_multicurrency_revaluation.action_report_currency_unrealized
-#: model:ir.ui.menu,name:account_multicurrency_revaluation.currency_unrealized_report_wizard_menu
 msgid "Currency Revaluation Report"
 msgstr "Izvještaj valutne revalorizacije"
 
@@ -265,7 +301,6 @@ msgstr "Izvještaj nerealizovane valute"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__currency_reval_journal_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__default_currency_reval_journal_id
 msgid "Currency gain & loss Default Journal"
 msgstr "Zadani dnevnik valutnog dobitka i gubitka"
 
@@ -286,8 +321,6 @@ msgstr "Datum koji će biti dodijeljen reverznim unosima kreiranim."
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__display_name
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__display_name
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
@@ -313,22 +346,18 @@ msgstr "Dobitak(+)/Gubitak(-) YTD"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__id
 msgid "ID"
 msgstr "ID"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,help:account_multicurrency_revaluation.field_res_company__auto_post_entries
-#: model:ir.model.fields,help:account_multicurrency_revaluation.field_res_config_settings__auto_post_entries
-#: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_config_settings
 msgid ""
 "If marked, the entries created in the process will be posted automatically."
 msgstr ""
+"Ako je označeno, stavke kreirane u procesu će biti automats ki proknjižene."
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__journal_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__journal_id
 msgid "Journal"
 msgstr "Vrsta naloga"
 
@@ -337,6 +366,7 @@ msgstr "Vrsta naloga"
 msgid "Journal Entry"
 msgstr "Žurnal"
 
+# taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_account_move_line
 msgid "Journal Item"
@@ -344,22 +374,16 @@ msgstr "Stavka dnevnika"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer____last_update
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation____last_update
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__write_uid
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__write_uid
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__write_date
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__write_date
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -370,38 +394,39 @@ msgstr "Multivalutna revalorizacija"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
 #, python-format
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
 #, python-format
 msgid ""
 "No account to be revaluated found. Please check 'Allow Currency Revaluation'"
 " for at least one account in account form."
 msgstr ""
+"Nije pronađeno konto za revalorizaciju. Molimo označite 'Dozvoli "
+"revalorizaciju valute' za najmanje jedno konto u formi konta."
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_reverse_currency_revaluation.py:0
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
 #, python-format
 msgid "No accounting entry has been posted."
 msgstr "Nijedna računovodstvena stavka nije knjižena."
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
 #, python-format
 msgid ""
 "No revaluation or provision account are defined for your company.\n"
 "You must specify at least one provision account or a couple of provision account in the accounting settings."
 msgstr ""
+"Nema definiranih konta revalorizacije ili rezervisanja za vašu kompaniju.\n"
+"Morate specificirati najmanje jedno konto rezervisanja ili par konta rezervisanja u računovodstvenim postavkama."
 
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_currency_revaluation_wizard
@@ -410,6 +435,9 @@ msgid ""
 "                If the account type is payable or receivable : 1 entry will be generated per account/currency/partner.\n"
 "                For other account types : 1 entry will be generated per account/currency."
 msgstr ""
+"Odoo će generirati stavke razlike kursne razlike za svako konto postavljeno kao 'Dozvoli revalorizaciju valute'.\n"
+"                Ako je tip konta dugovanja ili potraživanja: 1 stavka će biti generirana po kontu/valuti/partneru.\n"
+"                Za ostale tipove konta: 1 stavka će biti generirana po kontu/valuti."
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__only_include_posted_entries
@@ -423,7 +451,7 @@ msgstr "Partner"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/print_currency_unrealized_report.py:0
+#: code:addons/account_multicurrency_revaluation/wizard/print_currency_unrealized_report.py
 #, python-format
 msgid "Please, select the accounts!"
 msgstr "Molimo, odaberite račune!"
@@ -435,31 +463,26 @@ msgstr "Printaj izvještaj valutne revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__provision_bs_gain_account_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__provision_bs_gain_account_id
 msgid "Provision B.S. gain account"
 msgstr "Bilansni račun dobitka rezervisanja"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__provision_bs_loss_account_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__provision_bs_loss_account_id
 msgid "Provision B.S. loss account"
 msgstr "Bilansni račun gubitka rezervisanja"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__provision_pl_analytic_account_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__provision_pl_analytic_account_id
 msgid "Provision P&L Analytic account"
 msgstr "P&L analitički račun rezervisanja"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__provision_pl_gain_account_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__provision_pl_gain_account_id
 msgid "Provision P&L gain account"
 msgstr "P&L račun dobitka rezervisanja"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__provision_pl_loss_account_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__provision_pl_loss_account_id
 msgid "Provision P&L loss account"
 msgstr "P&L račun gubitka rezervisanja"
 
@@ -485,19 +508,16 @@ msgstr "Računi revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__revaluation_analytic_account_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__revaluation_analytic_account_id
 msgid "Revaluation Analytic account"
 msgstr "Analitički račun revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_move_line__revaluation_created_line_id
-#: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_move_line_form
 msgid "Revaluation Created Line"
 msgstr "Kreirana linija revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__revaluation_date
-#: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.curr_unrealized_report
 msgid "Revaluation Date"
 msgstr "Datum revalorizacije"
 
@@ -513,7 +533,6 @@ msgstr "Broj originalnih linija revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_move_line__revaluation_origin_line_ids
-#: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_move_line_form
 msgid "Revaluation Origin Lines"
 msgstr "Originalne linije revalorizacije"
 
@@ -539,34 +558,26 @@ msgstr "Revalorizacija za storniranje"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__revaluation_gain_account_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__revaluation_gain_account_id
 msgid "Revaluation gain account"
 msgstr "Račun dobitka revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_company__revaluation_loss_account_id
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_res_config_settings__revaluation_loss_account_id
 msgid "Revaluation loss account"
 msgstr "Račun gubitka revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_bank_statement_line__revaluation_reversed
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_move__revaluation_reversed
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_payment__revaluation_reversed
 msgid "Revaluation reversed"
 msgstr "Revalorizacija stornirana"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_bank_statement_line__revaluation_to_reverse
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_move__revaluation_to_reverse
-#: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_account_payment__revaluation_to_reverse
 msgid "Revaluation to reverse"
 msgstr "Revalorizacija za storniranje"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.actions.act_window,name:account_multicurrency_revaluation.action_view_account_reverse_currency_revaluation_wizard
-#: model:ir.ui.menu,name:account_multicurrency_revaluation.menu_view_reverse_account_currency_revaluation_wizard
-#: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_reverse_currency_revaluation_wizard
 msgid "Reverse Currency Revaluation"
 msgstr "Storniraj valutnu revalorizaciju"
 
@@ -582,7 +593,7 @@ msgstr "Računovodstveni datum reverznih unosa"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_reverse_currency_revaluation.py:0
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_reverse_currency_revaluation.py
 #, python-format
 msgid "Reverse Revaluation Entries"
 msgstr "Storniraj unose revalorizacije"
@@ -599,7 +610,7 @@ msgstr "Početni period revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/print_currency_unrealized_report.py:0
+#: code:addons/account_multicurrency_revaluation/wizard/print_currency_unrealized_report.py
 #, python-format
 msgid "The Start Date cannot be higher than the End Date."
 msgstr "Početni datum ne može biti veći od krajnjeg datuma."
@@ -610,11 +621,14 @@ msgid ""
 "The report will print from this Date, all the revaluated entries created "
 "from this date. The default value will be the first day of the month"
 msgstr ""
+"Izvještaj će ispisati od ovog datuma, sve revalorizirane stavke kreirane od "
+"ovog datuma. Podrazumijevana vrijednost će biti prvi dan mjeseca"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,help:account_multicurrency_revaluation.field_unrealized_report_printer__end_date
 msgid "The report will print till this Date. The default value will be today."
-msgstr "Izvještaj će se printati do ovog datuma. Zadana vrijednost će biti danas."
+msgstr ""
+"Izvještaj će se printati do ovog datuma. Zadana vrijednost će biti danas."
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,help:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__entries_to_reverse_ids
@@ -623,12 +637,14 @@ msgstr "Revalorizirani unosi koji će biti stornorani."
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/model/account.py:0
+#: code:addons/account_multicurrency_revaluation/model/account.py
 #, python-format
 msgid ""
 "There is an account that you are editing not having the Bring Balance Forward set, the currency revaluation cannot be applied on these accounts: \n"
 "\t - %s"
 msgstr ""
+"Postoji konto koje uređujete koje nema postavljeno Prenesi saldo unaprijed, revalorizacija valute se ne može primijeniti na ova konta: \n"
+"\t - %s"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,help:account_multicurrency_revaluation.field_wizard_currency_revaluation__label
@@ -636,6 +652,8 @@ msgid ""
 "This label will be inserted in entries description.You can use %(account)s, "
 "%(account_name)s, %(currency)s and %(rate)s keywords."
 msgstr ""
+"Ova oznaka će biti unesena u opis stavki. Možete koristiti ključne riječi "
+"%(account)s, %(account_name)s, %(currency)s i %(rate)s."
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_unrealized_report_printer
@@ -644,7 +662,6 @@ msgstr "Printer izvještaja nerealizovane valute"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,help:account_multicurrency_revaluation.field_wizard_currency_revaluation__journal_id
-#: model:ir.model.fields,help:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__journal_id
 msgid "You can set the default journal in company settings."
 msgstr "Možete postaviti zadani dnevnik u podešavanjima kompanije."
 
@@ -655,6 +672,5 @@ msgstr "_Printaj"
 
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_currency_revaluation_wizard
-#: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_reverse_currency_revaluation_wizard
 msgid "_Validate"
 msgstr "_Validiraj"

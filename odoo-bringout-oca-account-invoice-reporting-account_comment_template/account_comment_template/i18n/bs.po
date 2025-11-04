@@ -13,21 +13,25 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_comment_template
 #: model:ir.model.fields,field_description:account_comment_template.field_account_move__comment_template_ids
 msgid "Comment Template"
 msgstr "Predložak komentara"
 
+# taken from hr.po
 #. module: account_comment_template
 #: model_terms:ir.ui.view,arch_db:account_comment_template.move_form_add_comment
 msgid "Comments"
 msgstr "Komentari"
 
+# taken from hr.po
 #. module: account_comment_template
 #: model:ir.ui.menu,name:account_comment_template.menu_base_comment_template_invoice
 msgid "Document Comments"
 msgstr "Komentari dokumenata"
 
+# taken from hr.po
 #. module: account_comment_template
 #: model:ir.model,name:account_comment_template.model_account_move
 msgid "Journal Entry"

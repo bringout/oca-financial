@@ -55,8 +55,6 @@ msgstr "AvaTax konfiguracija"
 
 #. module: account_avatax_exemption
 #: model:ir.actions.act_window,name:account_avatax_exemption.exemption_rule_act_window
-#: model:ir.model,name:account_avatax_exemption.model_exemption_code_rule
-#: model:ir.ui.menu,name:account_avatax_exemption.menu_exemption_rule
 msgid "Avatax Custom Rules"
 msgstr "Avatax prilagođena pravila"
 
@@ -67,19 +65,16 @@ msgstr "Avatax oslobođenje"
 
 #. module: account_avatax_exemption
 #: model:ir.actions.server,name:account_avatax_exemption.ir_cron_download_exemption_ir_actions_server
-#: model:ir.cron,cron_name:account_avatax_exemption.ir_cron_download_exemption
 msgid "Avatax Exemption Download"
 msgstr "Avatax preuzmi oslobođenja"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
-#: code:addons/account_avatax_exemption/models/exemption.py:0
-#: code:addons/account_avatax_exemption/models/exemption.py:0
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "Avatax Exemption Rule export is disabled in Avatax configuration"
-msgstr "Avatax export pravila oslobođenja je onemogućen u Avatax konfiguraciji"
+msgstr ""
+"Avatax export pravila oslobođenja je onemogućen u Avatax konfiguraciji"
 
 #. module: account_avatax_exemption
 #: model:ir.model,name:account_avatax_exemption.model_res_partner_exemption_type
@@ -88,10 +83,7 @@ msgstr "Avatax tip oslobođenja"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/avalara_salestax.py:0
-#: code:addons/account_avatax_exemption/models/exemption.py:0
-#: code:addons/account_avatax_exemption/models/exemption.py:0
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/avalara_salestax.py
 #, python-format
 msgid "Avatax Exemption export is disabled in Avatax configuration"
 msgstr "Avatax export oslobođenja je onemogućen u Avatax konfiguraciji"
@@ -113,13 +105,11 @@ msgstr "Avatax ID pravila"
 
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_product_tax_code__rule_ids
-#: model:ir.model.fields,field_description:account_avatax_exemption.field_res_country_state__rule_ids
 msgid "Avatax Rules"
 msgstr "Avatax pravila"
 
 #. module: account_avatax_exemption
 #: model:ir.actions.server,name:account_avatax_exemption.ir_cron_export_exemption_rule_ir_actions_server
-#: model:ir.cron,cron_name:account_avatax_exemption.ir_cron_export_exemption_rule
 msgid "Avatax Rules: Export New Rules"
 msgstr "Avatax pravila: Exportuj nova pravila"
 
@@ -135,20 +125,18 @@ msgstr "Avatax poreska stavka"
 
 #. module: account_avatax_exemption
 #: model:ir.actions.server,name:account_avatax_exemption.ir_cron_export_new_tax_item_ir_actions_server
-#: model:ir.cron,cron_name:account_avatax_exemption.ir_cron_export_new_tax_item
 msgid "Avatax TaxItem: Export New Items"
 msgstr "Avatax poreska stavka: Exportuj nove stavke"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "Avatax rate range is from 0 to 100"
 msgstr "Avatax raspon stope je od 0 do 100"
 
 #. module: account_avatax_exemption
 #: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_form_view
-#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -224,12 +212,6 @@ msgstr "Omogući oslobođenja"
 
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__exemption_code_id
-#: model:ir.model.fields,field_description:account_avatax_exemption.field_res_partner_exemption__exemption_code_id
-#: model:ir.model.fields,field_description:account_avatax_exemption.field_res_partner_exemption_business_type__exemption_code_id
-#: model:ir.model.fields,field_description:account_avatax_exemption.field_res_partner_exemption_type__exemption_code_id
-#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_code_form_view
-#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_code_tree_view
-#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_table
 msgid "Entity Use Code"
 msgstr "Kod korišćenja entiteta"
 
@@ -260,28 +242,26 @@ msgstr "Pravila oslobođenja"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "Exemption status needs to be in Cancel status to enable"
 msgstr "Status oslobođenja mora biti u Otkaži statusu da se omogući"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "Exemption status needs to be in Done status to cancel"
 msgstr "Status oslobođenja mora biti u Završeno statusu da se otkaže"
 
 #. module: account_avatax_exemption
 #: model_terms:ir.ui.view,arch_db:account_avatax_exemption.portal_layout
-#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.portal_my_home_exemptions
 msgid "Exemptions"
 msgstr "Oslobođenja"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/controller/main.py:0
-#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_table
+#: code:addons/account_avatax_exemption/controller/main.py
 #, python-format
 msgid "Expiry Date"
 msgstr "Datum isteka"
@@ -363,37 +343,33 @@ msgstr "Zadnje ažurirano"
 
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__name
-#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_followup
 msgid "Name"
 msgstr "Naziv:"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
-#: code:addons/account_avatax_exemption/models/exemption.py:0
-#: code:addons/account_avatax_exemption/models/exemption.py:0
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "New"
 msgstr "Novi"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/controller/main.py:0
+#: code:addons/account_avatax_exemption/controller/main.py
 #, python-format
 msgid "Newest"
 msgstr "Najnoviji"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "No Customer code added in Partner"
 msgstr "Nema koda kupca dodanog u partneru"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "No Exemption Lines added"
 msgstr "Nema dodanih linija oslobođenja"
@@ -426,7 +402,7 @@ msgstr "Posao u redu"
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__state_id
 msgid "Region"
-msgstr "Region"
+msgstr "Regija"
 
 #. module: account_avatax_exemption
 #: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
@@ -440,21 +416,22 @@ msgstr "Pravilo"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "Rule is not in Cancelled state to Re-Export Custom Rule"
-msgstr "Pravilo nije u Otkazano stanju da ponovo exportuje prilagođeno pravilo"
+msgstr ""
+"Pravilo nije u Otkazano stanju da ponovo exportuje prilagođeno pravilo"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "Rule is not in Done state to Cancel Custom Rule"
 msgstr "Pravilo nije u Završeno stanju da otkaže prilagođeno pravilo"
 
 #. module: account_avatax_exemption
 #. odoo-python
-#: code:addons/account_avatax_exemption/models/exemption.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py
 #, python-format
 msgid "Rule is not in Draft state to Export Custom Rule"
 msgstr "Pravilo nije u Nacrt stanju da exportuje prilagođeno pravilo"
@@ -471,13 +448,11 @@ msgstr "Prikaži polja oslobođenja na SO i fakturi i kontaktu"
 
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__state
-#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_followup
 msgid "State"
 msgstr "Status"
 
 #. module: account_avatax_exemption
 #: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_followup
-#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_table
 msgid "Status"
 msgstr "Status"
 

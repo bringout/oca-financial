@@ -24,6 +24,8 @@ msgid ""
 "Choose how you want to credit this invoice. You cannot \"modify\" nor "
 "\"cancel\" if the invoice is already reconciled."
 msgstr ""
+"Odaberite način na koji želite proknjižiti ovo knjižno odobrenje. Opcije "
+"\"izmijeni\" i \"otkaži\" nisu dostupne ako je faktura već usklađena."
 
 #. module: account_invoice_refund_line_selection
 #: model:ir.model.fields,field_description:account_invoice_refund_line_selection.field_account_move_reversal__refund_method
@@ -56,3 +58,5 @@ msgid ""
 "Use this option if you want to refund only some specific lines in an "
 "invoice."
 msgstr ""
+"Koristite ovu opciju ako želite vratiti samo neke specifične stavke u "
+"fakturi."

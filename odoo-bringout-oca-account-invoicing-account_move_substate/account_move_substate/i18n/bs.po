@@ -28,6 +28,17 @@ msgid ""
 "    </div>\n"
 "        "
 msgstr ""
+"<div>\n"
+"    Poštovani <t t-out=\"object.user_id.name or 'korisniče računovodstva'\"></t>,<br>\n"
+"    Ovaj email služi da vas obavijesti da je vaše knjiženje <t t-out=\"object.name or ''\"></t> verificirano od strane računovodstvenog menadžera.\n"
+"    <br><br>\n"
+"    Srdačan pozdrav,\n"
+"    <t t-if=\"user.signature\">\n"
+"        <br>\n"
+"        <t t-out=\"user.signature or ''\"></t>\n"
+"    </t>\n"
+"    </div>\n"
+"        "
 
 #. module: account_move_substate
 #: model:ir.model.fields.selection,name:account_move_substate.selection__base_substate_type__model__account_move
@@ -86,7 +97,6 @@ msgstr "Za provjeru"
 
 #. module: account_move_substate
 #: model:base.substate,name:account_move_substate.base_substate_verified_account_move
-#: model:mail.template,name:account_move_substate.mail_template_data_account_move_substate_verified
 msgid "Verified"
 msgstr "Potvrđeno"
 

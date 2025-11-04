@@ -13,26 +13,31 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model_terms:ir.ui.view,arch_db:account_lock_date_update.account_update_lock_date_form_view
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__company_id
 msgid "Company"
 msgstr "Kompanija"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__display_name
 msgid "Display Name"
@@ -43,45 +48,58 @@ msgstr "Prikaži naziv"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__fiscalyear_lock_date
 msgid "Lock Date for All Users"
 msgstr "Datum zaključavanja za sve korisnike"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__period_lock_date
 msgid "Lock Date for Non-Advisers"
 msgstr "Datum zaključavanja za ne savjetnike"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__tax_lock_date
 msgid ""
 "No users can edit journal entries related to a tax prior and inclusive of "
 "this date."
 msgstr ""
+"Nijedan korisnik ne može uređivati knjiženja vezana za porez prije i "
+"uključujući ovaj datum."
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__fiscalyear_lock_date
 msgid ""
 "No users, including Advisers, can edit accounts prior to and inclusive of "
 "this date. Use it for fiscal year locking for example."
 msgstr ""
+"Nijedan korisnik, uključivo Savjetnike, nemože uređivati račune prije i "
+"uključivo ovog datuma. Koristite ga na primjer za zaključavanje fiskalne "
+"godine."
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,help:account_lock_date_update.field_account_update_lock_date__period_lock_date
 msgid ""
@@ -89,20 +107,24 @@ msgid ""
 "of this date. Use it for period locking inside an open fiscal year, for "
 "example."
 msgstr ""
+"Samo korisnici sa rolom 'Savjetnik' mogu uređivati konta preij i uključivo "
+"ovog datuma. Koristiti za zaključavanje perioda unutar fiskalne godine."
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__tax_lock_date
 msgid "Tax Lock Date"
 msgstr "Datum zaključavanja poreza"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model_terms:ir.ui.view,arch_db:account_lock_date_update.account_update_lock_date_form_view
 msgid "Update"
 msgstr "Ažuriraj"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #: model:ir.actions.act_window,name:account_lock_date_update.account_update_lock_date_act_window
-#: model:ir.ui.menu,name:account_lock_date_update.account_update_lock_date_menu
 msgid "Update Lock Dates"
 msgstr "Ažuriraj datume zaključavanja"
 
@@ -111,9 +133,10 @@ msgstr "Ažuriraj datume zaključavanja"
 msgid "Wizard to Update Accounting Lock Dates"
 msgstr "Čarobnjak za ažuriranje datuma zaključavanja računovodstva"
 
+# taken from hr.po
 #. module: account_lock_date_update
 #. odoo-python
-#: code:addons/account_lock_date_update/wizards/account_update_lock_date.py:0
+#: code:addons/account_lock_date_update/wizards/account_update_lock_date.py
 #, python-format
 msgid "You are not allowed to execute this action."
 msgstr "Nije vam odobreno izvršiti ovu radnju."

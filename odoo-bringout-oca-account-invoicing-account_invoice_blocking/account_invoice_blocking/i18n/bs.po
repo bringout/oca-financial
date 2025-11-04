@@ -18,9 +18,8 @@ msgstr ""
 msgid "Journal Entry"
 msgstr "Žurnal"
 
+# taken from hr.po
 #. module: account_invoice_blocking
 #: model:ir.model.fields,field_description:account_invoice_blocking.field_account_bank_statement_line__blocked
-#: model:ir.model.fields,field_description:account_invoice_blocking.field_account_move__blocked
-#: model:ir.model.fields,field_description:account_invoice_blocking.field_account_payment__blocked
 msgid "No Follow-up"
 msgstr "Bez praćenja"

@@ -30,6 +30,9 @@ msgid ""
 "                            <span>Without reference</span>\n"
 "                        </strong>"
 msgstr ""
+"<strong>\n"
+"                            <span>Bez reference</span>\n"
+"                        </strong>"
 
 #. module: account_invoice_report_grouped_by_picking
 #: model_terms:ir.ui.view,arch_db:account_invoice_report_grouped_by_picking.report_invoice_document

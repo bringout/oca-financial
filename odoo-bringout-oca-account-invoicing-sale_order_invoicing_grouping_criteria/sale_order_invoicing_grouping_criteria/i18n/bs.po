@@ -45,7 +45,6 @@ msgstr "Zadani kriterij grupiranja"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_res_company__default_sale_invoicing_grouping_criteria_id
-#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_res_config_settings__res_default_sale_invoicing_grouping_criteria_id
 msgid "Default Sales Invoicing Grouping Criteria"
 msgstr "Zadani kriterij grupiranja fakturisanja prodaje"
 
@@ -60,6 +59,8 @@ msgid ""
 "Fields used for grouping sales orders when invoicing. Invoicing address, "
 "company and currency will always be applied."
 msgstr ""
+"Polja korištena za grupiranje prodajnih naloga prilikom fakturisanja. Adresa"
+" za fakturisanje, kompanija i valuta će uvijek biti primijenjeni."
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__field_ids
@@ -73,14 +74,16 @@ msgstr "ID"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,help:sale_order_invoicing_grouping_criteria.field_res_partner__sale_invoicing_grouping_criteria_id
-#: model:ir.model.fields,help:sale_order_invoicing_grouping_criteria.field_res_users__sale_invoicing_grouping_criteria_id
 msgid "If empty, company default (if any) or default will be applied."
-msgstr "Ako je prazno, zadana vrijednost kompanije (ako postoji) ili zadana će se primijeniti."
+msgstr ""
+"Ako je prazno, zadana vrijednost kompanije (ako postoji) ili zadana će se "
+"primijeniti."
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model_terms:ir.ui.view,arch_db:sale_order_invoicing_grouping_criteria.res_config_settings_view_form
 msgid "If empty, invoicing address, company and currency will be applied."
-msgstr "Ako je prazno, adresa za fakturisanje, kompanija i valuta će se primijeniti."
+msgstr ""
+"Ako je prazno, adresa za fakturisanje, kompanija i valuta će se primijeniti."
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.ui.menu,name:sale_order_invoicing_grouping_criteria.menu_sale_invoice_grouping_criteria
@@ -109,10 +112,6 @@ msgstr "Naziv:"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.actions.act_window,name:sale_order_invoicing_grouping_criteria.action_sale_invoice_grouping_criteria
-#: model:ir.model,name:sale_order_invoicing_grouping_criteria.model_sale_invoicing_grouping_criteria
-#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_res_partner__sale_invoicing_grouping_criteria_id
-#: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_res_users__sale_invoicing_grouping_criteria_id
-#: model_terms:ir.ui.view,arch_db:sale_order_invoicing_grouping_criteria.view_partner_property_form
 msgid "Sales Invoicing Grouping Criteria"
 msgstr "Kriterij grupiranja fakturisanja prodaje"
 

@@ -30,7 +30,6 @@ msgstr "Prodajni nalog"
 
 #. module: account_move_line_sale_info
 #: model:ir.model.fields,field_description:account_move_line_sale_info.field_account_move_line__sale_line_id
-#: model_terms:ir.ui.view,arch_db:account_move_line_sale_info.view_account_move_line_filter
 msgid "Sale Order Line"
 msgstr "Vezana zaključnica"
 

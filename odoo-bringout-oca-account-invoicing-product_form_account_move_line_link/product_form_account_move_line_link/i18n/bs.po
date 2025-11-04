@@ -15,15 +15,11 @@ msgstr ""
 
 #. module: product_form_account_move_line_link
 #: model:ir.model.fields,field_description:product_form_account_move_line_link.field_product_product__account_move_lines_count
-#: model:ir.model.fields,field_description:product_form_account_move_line_link.field_product_template__account_move_lines_count
 msgid "Invoiced"
 msgstr "Fakturisano"
 
 #. module: product_form_account_move_line_link
 #: model:ir.actions.act_window,name:product_form_account_move_line_link.action_account_move_line_product_product_tree
-#: model:ir.actions.act_window,name:product_form_account_move_line_link.action_account_move_line_product_tree
-#: model_terms:ir.ui.view,arch_db:product_form_account_move_line_link.product_normal_form_view_inherit
-#: model_terms:ir.ui.view,arch_db:product_form_account_move_line_link.product_template_only_form_view_inherit
 msgid "Journal Items"
 msgstr "Žurnal (stavke)"
 

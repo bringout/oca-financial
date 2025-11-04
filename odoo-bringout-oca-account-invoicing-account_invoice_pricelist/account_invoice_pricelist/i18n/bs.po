@@ -13,41 +13,45 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_pricelist
 #: model:ir.model,name:account_invoice_pricelist.model_account_move
 msgid "Journal Entry"
 msgstr "Zapis dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_pricelist
 #: model:ir.model,name:account_invoice_pricelist.model_account_move_line
 msgid "Journal Item"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_pricelist
 #: model:ir.model.fields,field_description:account_invoice_pricelist.field_account_bank_statement_line__pricelist_id
-#: model:ir.model.fields,field_description:account_invoice_pricelist.field_account_move__pricelist_id
-#: model:ir.model.fields,field_description:account_invoice_pricelist.field_account_payment__pricelist_id
-#: model_terms:ir.ui.view,arch_db:account_invoice_pricelist.view_account_invoice_filter
 msgid "Pricelist"
 msgstr "Cjenik"
 
+# taken from hr.po
 #. module: account_invoice_pricelist
 #. odoo-python
-#: code:addons/account_invoice_pricelist/models/account_move.py:0
+#: code:addons/account_invoice_pricelist/models/account_move.py
 #, python-format
 msgid "Pricelist and Invoice need to use the same currency."
 msgstr "Cjenik i Račun moraju koristiti istu valutu."
 
+# taken from hr.po
 #. module: account_invoice_pricelist
 #: model:ir.ui.menu,name:account_invoice_pricelist.menu_product_pricelist_main
 msgid "Pricelists"
 msgstr "Cjenici"
 
+# taken from hr.po
 #. module: account_invoice_pricelist
 #: model_terms:ir.ui.view,arch_db:account_invoice_pricelist.view_account_move_customer_form
 msgid "Update price in lines from the pricelist"
 msgstr "Ažuriraj cijene na stavkama iz cjenika"
 
+# taken from hr.po
 #. module: account_invoice_pricelist
 #: model_terms:ir.ui.view,arch_db:account_invoice_pricelist.view_account_move_customer_form
 msgid "Update prices"

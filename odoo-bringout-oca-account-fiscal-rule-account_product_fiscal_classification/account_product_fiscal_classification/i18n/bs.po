@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_account_chart_template
 msgid "Account Chart Template"
@@ -23,9 +24,9 @@ msgstr "Predložak kontnog plana"
 msgid "Action"
 msgstr "Akcija"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__active
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__active
 msgid "Active"
 msgstr "Aktivno"
 
@@ -34,6 +35,7 @@ msgstr "Aktivno"
 msgid "Allow"
 msgstr "Dopusti"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_wizard_change_fiscal_classification
 msgid "Apply"
@@ -44,6 +46,7 @@ msgstr "Primjeni"
 msgid "Archived"
 msgstr "Arhivirano"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_wizard_change_fiscal_classification
 msgid "Cancel"
@@ -54,48 +57,42 @@ msgstr "Otkaži"
 msgid "Category"
 msgstr "Kategorija"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__chart_template_id
 msgid "Chart Template"
 msgstr "Predložak plana"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__company_id
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__company_id
 msgid "Company"
 msgstr "Kompanija"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__create_uid
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__create_uid
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__create_uid
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__create_date
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__create_date
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__create_date
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_product_product__taxes_id
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_product_template__taxes_id
 msgid "Customer Taxes"
 msgstr "Porezi kupca"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,help:account_product_fiscal_classification.field_product_product__supplier_taxes_id
-#: model:ir.model.fields,help:account_product_fiscal_classification.field_product_template__supplier_taxes_id
 msgid "Default taxes used when buying the product."
 msgstr "Tekući porezi pri kupovini."
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,help:account_product_fiscal_classification.field_product_product__taxes_id
-#: model:ir.model.fields,help:account_product_fiscal_classification.field_product_template__taxes_id
 msgid "Default taxes used when selling the product."
 msgstr "Tekući porezi pri prodaji."
 
@@ -109,50 +106,44 @@ msgstr "Demo predložak fiskalne klasifikacije"
 msgid "Demo Product With Fiscal Classification (Your Company)"
 msgstr "Demo proizvod sa fiskalnom klasifikacijom (vaša kompanija)"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__description
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__description
-#: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_form
 msgid "Description"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__display_name
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__display_name
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__display_name
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_account_product_fiscal_classification
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__fiscal_classification_ids
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_product_product__fiscal_classification_id
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_product_template__fiscal_classification_id
 msgid "Fiscal Classification"
 msgstr "Fiskalna klasifikacija"
 
 #. module: account_product_fiscal_classification
 #: model:ir.actions.act_window,name:account_product_fiscal_classification.action_account_product_fiscal_rule
-#: model:ir.ui.menu,name:account_product_fiscal_classification.menu_account_product_fiscal_rule
 msgid "Fiscal Classification Rules"
 msgstr "Pravila fiskalne klasifikacije"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_account_product_fiscal_classification_template
 msgid "Fiscal Classification Template"
 msgstr "Predložak fiskalne klasifikacije"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.actions.act_window,name:account_product_fiscal_classification.action_account_product_fiscal_classification_template
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_chart_template__classification_template_ids
-#: model:ir.ui.menu,name:account_product_fiscal_classification.menu_account_product_fiscal_classification_template
 msgid "Fiscal Classification Templates"
 msgstr "Predlošci Fiskalnih klasifikacija"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.actions.act_window,name:account_product_fiscal_classification.action_account_product_fiscal_classification
-#: model:ir.ui.menu,name:account_product_fiscal_classification.menu_account_product_fiscal_classification
 msgid "Fiscal Classifications"
 msgstr "Fiskalne klasifikacije"
 
@@ -173,9 +164,6 @@ msgstr "Opšte informacije"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__id
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__id
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__id
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__id
 msgid "ID"
 msgstr "ID"
 
@@ -185,6 +173,8 @@ msgid ""
 "If unchecked, it will allow you to hide the Fiscal Classification Template "
 "without removing it."
 msgstr ""
+"Ako nije označeno, omogućit će vam da sakrijete šablon fiskalne "
+"klasifikacije bez uklanjanja."
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,help:account_product_fiscal_classification.field_account_product_fiscal_classification__active
@@ -192,10 +182,12 @@ msgid ""
 "If unchecked, it will allow you to hide the Fiscal Classification without "
 "removing it."
 msgstr ""
+"Ako nije označeno, omogućit će vam da sakrijete fiskalnu klasifikaciju bez "
+"uklanjanja."
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_rule.py:0
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_rule.py
 #, python-format
 msgid ""
 "Incorrect Fiscal Setting :\n"
@@ -204,28 +196,27 @@ msgid ""
 "\n"
 "%(extra_message)s"
 msgstr ""
+"Netačna fiskalna postavka:\n"
+"- Kategorija: %(categ_name)s\n"
+"- Fiskalna klasifikacija: %(fiscal_name)s\n"
+"\n"
+"%(extra_message)s"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification____last_update
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template____last_update
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule____last_update
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__write_uid
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__write_uid
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__write_uid
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__write_date
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__write_date
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__write_date
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -234,20 +225,19 @@ msgstr "Zadnje ažurirano"
 msgid "Message"
 msgstr "Poruka"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.actions.act_window,name:account_product_fiscal_classification.action_wizard_change_fiscal_classification
-#: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_form
 msgid "Move Products into another Fiscal Classification"
 msgstr "Maknite proizvode u drugu fiskalnu klasifikaciju"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__name
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__name
-#: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_form
-#: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_template_form
 msgid "Name"
 msgstr "Ime"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__new_fiscal_classification_id
 msgid "New Classification"
@@ -255,25 +245,27 @@ msgstr "Nova klasifikacija"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
 #, python-format
 msgid "No Purchase Taxes"
 msgstr "Nema poreza nabavke"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
 #, python-format
 msgid "No Sale Taxes"
 msgstr "Nema poreza prodaje"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
 #, python-format
 msgid "No taxes"
 msgstr "Bez poreza"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__old_fiscal_classification_id
 msgid "Old Classification"
@@ -284,13 +276,13 @@ msgstr "Stara klasifikacija"
 msgid "Product"
 msgstr "Artikal"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.actions.act_window,name:account_product_fiscal_classification.action_template_list_by_fiscal_classification
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__product_tmpl_ids
-#: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_form
 msgid "Products"
 msgstr "Proizvodi"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__product_tmpl_qty
 msgid "Products Quantity"
@@ -298,40 +290,41 @@ msgstr "Količina proizvoda"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
 #, python-format
 msgid "Purchase Tax: "
 msgstr "Porez nabavke: "
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__purchase_tax_ids
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__purchase_tax_ids
 msgid "Purchase Taxes"
 msgstr "Porezi nabave"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
 #, python-format
 msgid "Purchase Taxes: "
 msgstr "Porezi nabave: "
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
 #, python-format
 msgid "Sale Tax: "
 msgstr "Porez prodaje: "
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__sale_tax_ids
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification_template__sale_tax_ids
 msgid "Sale Taxes"
 msgstr "Porezi prodaje"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
 #, python-format
 msgid "Sale Taxes: "
 msgstr "Porezi prodaje: "
@@ -348,16 +341,22 @@ msgid ""
 "specific company. Otherwise, this Fiscal Classification will be available "
 "for all companies."
 msgstr ""
+"Specificirajte kompaniju ako želite definirati ovu fiskalnu klasifikaciju "
+"samo za određenu kompaniju. U suprotnom, ova fiskalna klasifikacija će biti "
+"dostupna za sve kompanije."
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,help:account_product_fiscal_classification.field_product_product__fiscal_classification_id
-#: model:ir.model.fields,help:account_product_fiscal_classification.field_product_template__fiscal_classification_id
 msgid ""
 "Specify the combination of taxes for this product. This field is required. "
 "If you dont find the correct Fiscal Classification, Please create a new one "
 "or ask to your account manager if you don't have the access right."
 msgstr ""
+"Specificirajte kombinaciju poreza za ovaj proizvod. Ovo polje je obavezno. "
+"Ako ne pronađete ispravnu fiskalnu klasifikaciju, molimo kreirajte novu ili "
+"pitajte vašeg računovođu ako nemate pravo pristupa."
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_template_form
 msgid "Taxes"
@@ -365,10 +364,10 @@ msgstr "Porezi"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_product_product__supplier_taxes_id
-#: model:ir.model.fields,field_description:account_product_fiscal_classification.field_product_template__supplier_taxes_id
 msgid "Vendor Taxes"
 msgstr "Porezi dobavljača"
 
+# taken from hr.po
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_wizard_change_fiscal_classification
 msgid "Wizard : Change fiscal classification on product"
@@ -376,10 +375,13 @@ msgstr "Čarobnjak: Promjena fiskalne klasifikacije na proizvodu"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
 #, python-format
 msgid ""
 "You cannot delete The Fiscal Classification '%(classification_name)s' "
 "because it contents %(qty)s products. Please move products to another Fiscal"
 " Classification first."
 msgstr ""
+"Ne možete obrisati fiskalnu klasifikaciju '%(classification_name)s' jer "
+"sadrži %(qty)s proizvoda. Molimo prvo premjestite proizvode u drugu fiskalnu"
+" klasifikaciju."

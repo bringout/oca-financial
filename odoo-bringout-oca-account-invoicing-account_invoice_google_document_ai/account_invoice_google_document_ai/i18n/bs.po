@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_invoice_google_document_ai
 #. odoo-python
-#: code:addons/account_invoice_google_document_ai/models/account_move_google_document_ai.py:0
+#: code:addons/account_invoice_google_document_ai/models/account_move_google_document_ai.py
 #, python-format
 msgid "%(field_name)s is not coincident (%(value1)s - %(value2)s)"
 msgstr "%(field_name)s se ne poklapa (%(value1)s - %(value2)s)"
@@ -27,6 +27,10 @@ msgid ""
 "specific.\" aria-label=\"Values set here are company-specific.\" "
 "groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje"
+" su specifične za preduzeće.\" aria-label=\"Vrijednosti postavljene ovdje su"
+" specifične za preduzeće.\" groups=\"base.group_multi_company\" "
+"role=\"img\"/>"
 
 #. module: account_invoice_google_document_ai
 #: model_terms:ir.ui.view,arch_db:account_invoice_google_document_ai.res_config_settings_form_view
@@ -34,6 +38,8 @@ msgid ""
 "Access Google Cloud console, create an App, enable Google Document AI API "
 "and fill the following data"
 msgstr ""
+"Pristupite Google Cloud konzoli, kreirajte aplikaciju, omogućite Google "
+"Document AI API i popunite sljedeće podatke"
 
 #. module: account_invoice_google_document_ai
 #: model:ir.model,name:account_invoice_google_document_ai.model_account_move_google_document_ai
@@ -47,8 +53,6 @@ msgstr "Autentifikacija"
 
 #. module: account_invoice_google_document_ai
 #: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_account_bank_statement_line__can_send_to_ocr
-#: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_account_move__can_send_to_ocr
-#: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_account_payment__can_send_to_ocr
 msgid "Can Send To Ocr"
 msgstr "Može poslati na OCR"
 
@@ -89,37 +93,31 @@ msgstr "Lokacija"
 
 #. module: account_invoice_google_document_ai
 #: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_company__ocr_google_authentication
-#: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_config_settings__ocr_google_authentication
 msgid "Ocr Google Authentication"
 msgstr "OCR Google autentifikacija"
 
 #. module: account_invoice_google_document_ai
 #: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_company__ocr_google_authentication_name
-#: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_config_settings__ocr_google_authentication_name
 msgid "Ocr Google Authentication Name"
 msgstr "Naziv OCR Google autentifikacije"
 
 #. module: account_invoice_google_document_ai
 #: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_company__ocr_google_enabled
-#: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_config_settings__ocr_google_enabled
 msgid "Ocr Google Enabled"
 msgstr "OCR Google omogućen"
 
 #. module: account_invoice_google_document_ai
 #: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_company__ocr_google_location
-#: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_config_settings__ocr_google_location
 msgid "Ocr Google Location"
 msgstr "OCR Google lokacija"
 
 #. module: account_invoice_google_document_ai
 #: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_company__ocr_google_processor
-#: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_config_settings__ocr_google_processor
 msgid "Ocr Google Processor"
 msgstr "OCR Google procesor"
 
 #. module: account_invoice_google_document_ai
 #: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_company__ocr_google_project
-#: model:ir.model.fields,field_description:account_invoice_google_document_ai.field_res_config_settings__ocr_google_project
 msgid "Ocr Google Project"
 msgstr "OCR Google projekt"
 

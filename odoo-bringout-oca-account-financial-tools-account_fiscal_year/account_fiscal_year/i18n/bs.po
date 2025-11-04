@@ -70,7 +70,6 @@ msgstr "Fiskalna godina 2020"
 
 #. module: account_fiscal_year
 #: model:ir.actions.act_window,name:account_fiscal_year.actions_account_fiscal_year
-#: model:ir.ui.menu,name:account_fiscal_year.menu_actions_account_fiscal_year
 msgid "Fiscal Years"
 msgstr "Fiskalne godine"
 
@@ -116,16 +115,18 @@ msgstr "Početni datum, uključen u fiskalnu godinu."
 
 #. module: account_fiscal_year
 #. odoo-python
-#: code:addons/account_fiscal_year/models/account_fiscal_year.py:0
+#: code:addons/account_fiscal_year/models/account_fiscal_year.py
 #, python-format
 msgid "The ending date must not be prior to the starting date."
 msgstr "Završni datum ne sme biti pre početnog datuma."
 
 #. module: account_fiscal_year
 #. odoo-python
-#: code:addons/account_fiscal_year/models/account_fiscal_year.py:0
+#: code:addons/account_fiscal_year/models/account_fiscal_year.py
 #, python-format
 msgid ""
 "This fiscal year '{fy}' overlaps with '{overlapping_fy}'.\n"
 "Please correct the start and/or end dates of your fiscal years."
 msgstr ""
+"Ova fiskalna godina '{fy}' se preklapa sa '{overlapping_fy}'.\n"
+"Molimo ispravite početni i/ili krajnji datum vaših fiskalnih godina."

@@ -25,25 +25,27 @@ msgstr "Masovno slanje e-pošte (red zadataka)"
 
 #. module: account_invoice_mass_sending
 #: model:ir.model.fields,help:account_invoice_mass_sending.field_account_bank_statement_line__sending_in_progress
-#: model:ir.model.fields,help:account_invoice_mass_sending.field_account_move__sending_in_progress
-#: model:ir.model.fields,help:account_invoice_mass_sending.field_account_payment__sending_in_progress
 msgid ""
 "If checked, the invoice is already being processed, and it will prevent the "
 "sending of a duplicated mail."
 msgstr ""
+"Ako je označeno, faktura se već obrađuje i to će spriječiti slanje duplirane"
+" poruke."
 
 #. module: account_invoice_mass_sending
 #. odoo-python
-#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py:0
+#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py
 #, python-format
 msgid ""
 "Invoices %(ineligible_invoices)s were already in processing or do not have "
 "an email address defined."
 msgstr ""
+"Fakture %(ineligible_invoices)s su već u obradi ili nemaju definisanu email "
+"adresu."
 
 #. module: account_invoice_mass_sending
 #. odoo-python
-#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py:0
+#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py
 #, python-format
 msgid "Invoices: Mass sending"
 msgstr "Fakture: masovno slanje"
@@ -55,22 +57,20 @@ msgstr "Žurnal"
 
 #. module: account_invoice_mass_sending
 #. odoo-python
-#: code:addons/account_invoice_mass_sending/models/account_move.py:0
+#: code:addons/account_invoice_mass_sending/models/account_move.py
 #, python-format
 msgid "Send invoice %(name)s by email"
 msgstr "Pošalji fakturu %(name)s e-poštom"
 
 #. module: account_invoice_mass_sending
 #: model:ir.model.fields,field_description:account_invoice_mass_sending.field_account_bank_statement_line__sending_in_progress
-#: model:ir.model.fields,field_description:account_invoice_mass_sending.field_account_move__sending_in_progress
-#: model:ir.model.fields,field_description:account_invoice_mass_sending.field_account_payment__sending_in_progress
 msgid "Sending In Progress"
 msgstr "Slanje u toku"
 
 #. module: account_invoice_mass_sending
 #. odoo-python
-#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py:0
+#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py
 #, python-format
 msgid ""
 "The sending of %(invoices_count)d invoices will be processed in background."
-msgstr ""
+msgstr "Slanje %(invoices_count)d faktura će biti obrađeno u pozadini."

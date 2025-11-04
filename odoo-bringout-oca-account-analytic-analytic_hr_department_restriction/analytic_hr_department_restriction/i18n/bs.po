@@ -30,8 +30,6 @@ msgstr "Analitički plan"
 
 #. module: analytic_hr_department_restriction
 #: model:ir.model.fields,field_description:analytic_hr_department_restriction.field_account_analytic_account__department_ids
-#: model:ir.model.fields,field_description:analytic_hr_department_restriction.field_account_analytic_plan__department_ids
-#: model_terms:ir.ui.view,arch_db:analytic_hr_department_restriction.view_account_analytic_account_search
 msgid "Departments"
 msgstr "Odjeljenja"
 

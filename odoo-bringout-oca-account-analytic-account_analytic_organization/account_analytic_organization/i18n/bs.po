@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: account_analytic_organization
 #: model:ir.actions.act_window,name:account_analytic_organization.account_analytic_organization_action
-#: model:ir.model,name:account_analytic_organization.model_account_analytic_organization
 msgid "Account Analytic Organization"
 msgstr "Analitička organizacija računa"
 
@@ -26,12 +25,6 @@ msgstr "Analitička stavka"
 
 #. module: account_analytic_organization
 #: model:ir.model.fields,field_description:account_analytic_organization.field_account_analytic_line__analytic_org
-#: model:ir.model.fields,field_description:account_analytic_organization.field_account_move_line__analytic_org
-#: model:ir.model.fields,field_description:account_analytic_organization.field_res_partner__analytic_org_id
-#: model:ir.model.fields,field_description:account_analytic_organization.field_res_users__analytic_org_id
-#: model:ir.ui.menu,name:account_analytic_organization.account_analytic_organization
-#: model_terms:ir.ui.view,arch_db:account_analytic_organization.view_account_analytic_line_search_inherit
-#: model_terms:ir.ui.view,arch_db:account_analytic_organization.view_account_move_line_search_inherit
 msgid "Analytic Organization"
 msgstr "Analitička organizacija"
 

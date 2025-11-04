@@ -55,7 +55,6 @@ msgstr "Prilagođeni natpis"
 
 #. module: account_dashboard_banner
 #: model_terms:ir.ui.view,arch_db:account_dashboard_banner.account_dashboard_banner_cell_form
-#: model_terms:ir.ui.view,arch_db:account_dashboard_banner.account_dashboard_banner_cell_list
 msgid "Custom Label (optional)"
 msgstr "Prilagođeni natpis (opciono)"
 
@@ -86,7 +85,6 @@ msgstr "Pregled"
 
 #. module: account_dashboard_banner
 #: model:ir.actions.act_window,name:account_dashboard_banner.account_dashboard_banner_cell_action
-#: model:ir.ui.menu,name:account_dashboard_banner.account_dashboard_banner_cell_menu
 msgid "Dashboard Banner Cells"
 msgstr "Ćelije bannera kontrolne table"
 
@@ -147,12 +145,14 @@ msgstr "Prihod mjeseca do sada"
 
 #. module: account_dashboard_banner
 #. odoo-python
-#: code:addons/account_dashboard_banner/models/account_dashboard_banner_cell.py:0
+#: code:addons/account_dashboard_banner/models/account_dashboard_banner_cell.py
 #, python-format
 msgid ""
 "On cell '%(cell_type)s' with warning enabled, the minimum (%(warn_min)s) "
 "must be under the maximum (%(warn_max)s)."
 msgstr ""
+"Na ćeliji '%(cell_type)s' sa omogućenim upozorenjima, minimum (%(warn_min)s)"
+" mora biti ispod maksimuma (%(warn_max)s)."
 
 #. module: account_dashboard_banner
 #: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__income_quarter
@@ -212,7 +212,9 @@ msgstr "Upozori ako je datum zaključavanja stariji od"
 #. module: account_dashboard_banner
 #: model:ir.model.constraint,message:account_dashboard_banner.constraint_account_dashboard_banner_cell_warn_lock_date_days_positive
 msgid "Warn if lock date is older than N days must be positive or null."
-msgstr "Upozori ako je datum zaključavanja stariji od N dana mora biti pozitivan ili nula."
+msgstr ""
+"Upozori ako je datum zaključavanja stariji od N dana mora biti pozitivan ili"
+" nula."
 
 #. module: account_dashboard_banner
 #: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell__warn
@@ -231,14 +233,14 @@ msgstr "dana"
 
 #. module: account_dashboard_banner
 #. odoo-python
-#: code:addons/account_dashboard_banner/models/account_dashboard_banner_cell.py:0
+#: code:addons/account_dashboard_banner/models/account_dashboard_banner_cell.py
 #, python-format
 msgid "from %s"
 msgstr "od %s"
 
 #. module: account_dashboard_banner
 #. odoo-python
-#: code:addons/account_dashboard_banner/models/account_dashboard_banner_cell.py:0
+#: code:addons/account_dashboard_banner/models/account_dashboard_banner_cell.py
 #, python-format
 msgid "with due date before %s"
 msgstr "sa datumom dospijeća prije %s"

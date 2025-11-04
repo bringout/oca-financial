@@ -20,6 +20,9 @@ msgid ""
 "'!=', 'draft'), ('move_type', 'not in', ('out_invoice', 'out_refund', "
 "'in_invoice', 'in_refund', 'out_receipt', 'in_receipt'))]}\"> from </span>"
 msgstr ""
+"<span class=\"o_form_label mx-3\" attrs=\"{'invisible': ['|', ('state', "
+"'!=', 'draft'), ('move_type', 'not in', ('out_invoice', 'out_refund', "
+"'in_invoice', 'in_refund', 'out_receipt', 'in_receipt'))]}\"> od </span>"
 
 #. module: account_invoice_start_end_dates_move
 #: model_terms:ir.ui.view,arch_db:account_invoice_start_end_dates_move.view_move_form
@@ -28,6 +31,9 @@ msgid ""
 "'!=', 'draft'), ('move_type', 'not in', ('out_invoice', 'out_refund', "
 "'in_invoice', 'in_refund', 'out_receipt', 'in_receipt'))]}\"> to </span>"
 msgstr ""
+"<span class=\"o_form_label mx-3\" attrs=\"{'invisible': ['|', ('state', "
+"'!=', 'draft'), ('move_type', 'not in', ('out_invoice', 'out_refund', "
+"'in_invoice', 'in_refund', 'out_receipt', 'in_receipt'))]}\"> do </span>"
 
 #. module: account_invoice_start_end_dates_move
 #: model_terms:ir.ui.view,arch_db:account_invoice_start_end_dates_move.res_config_settings_view_form
@@ -36,7 +42,6 @@ msgstr "Početi/završiti datumi računa"
 
 #. module: account_invoice_start_end_dates_move
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_res_company__apply_dates_all_lines
-#: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_res_config_settings__apply_dates_all_lines
 msgid "Apply Start/End Dates To All Account Move Lines"
 msgstr "Primijeni početne/završne datume na sve linije knjiženja računa"
 
@@ -52,8 +57,6 @@ msgstr "Postavke"
 
 #. module: account_invoice_start_end_dates_move
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_account_bank_statement_line__end_date
-#: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_account_move__end_date
-#: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_account_payment__end_date
 msgid "End Date"
 msgstr "Datum završetka"
 
@@ -83,11 +86,12 @@ msgid ""
 "Set start and end date to all account move lines, including those without "
 "product or with product not enabled to start/end dates."
 msgstr ""
+"Postavite datum početka i završetka za sve stavke knjiženja, uključujući one"
+" bez proizvoda ili sa proizvodom koji nema omogućene datume "
+"početka/završetka."
 
 #. module: account_invoice_start_end_dates_move
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_account_bank_statement_line__start_date
-#: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_account_move__start_date
-#: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_account_payment__start_date
 msgid "Start Date"
 msgstr "Početni datum"
 

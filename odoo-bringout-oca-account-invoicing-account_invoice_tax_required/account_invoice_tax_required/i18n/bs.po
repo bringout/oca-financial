@@ -15,20 +15,23 @@ msgstr ""
 
 #. module: account_invoice_tax_required
 #. odoo-python
-#: code:addons/account_invoice_tax_required/models/account_move.py:0
+#: code:addons/account_invoice_tax_required/models/account_move.py
 #, python-format
 msgid ""
 "Invoice %(invoice)s for customer %(customer)s has a line with product "
 "%(product)s with no taxes"
 msgstr ""
+"Faktura %(invoice)s za kupca %(customer)s ima stavku sa proizvodom "
+"%(product)s bez poreza"
 
 #. module: account_invoice_tax_required
 #. odoo-python
-#: code:addons/account_invoice_tax_required/models/account_move.py:0
+#: code:addons/account_invoice_tax_required/models/account_move.py
 #, python-format
 msgid "Invoices with Missing Taxes"
 msgstr "Fakture sa nedostajućim porezima"
 
+# taken from hr.po
 #. module: account_invoice_tax_required
 #: model:ir.model,name:account_invoice_tax_required.model_account_move
 msgid "Journal Entry"
@@ -36,14 +39,14 @@ msgstr "Stavka dnevnika"
 
 #. module: account_invoice_tax_required
 #. odoo-python
-#: code:addons/account_invoice_tax_required/models/account_move.py:0
+#: code:addons/account_invoice_tax_required/models/account_move.py
 #, python-format
 msgid "No Taxes Defined!"
 msgstr "Nisu definirani porezi!"
 
 #. module: account_invoice_tax_required
 #. odoo-python
-#: code:addons/account_invoice_tax_required/models/account_move.py:0
+#: code:addons/account_invoice_tax_required/models/account_move.py
 #, python-format
 msgid "Show invoices with lines without taxes"
 msgstr "Prikaži fakture sa linijama bez poreza"

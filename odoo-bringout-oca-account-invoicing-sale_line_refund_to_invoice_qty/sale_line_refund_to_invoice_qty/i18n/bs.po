@@ -31,7 +31,8 @@ msgstr "Stavka žurnala"
 #. module: sale_line_refund_to_invoice_qty
 #: model:ir.model.fields,help:sale_line_refund_to_invoice_qty.field_account_move_line__sale_qty_to_reinvoice
 msgid "Leave it marked if you will reinvoice the same sale order line"
-msgstr "Godišnji odmor it marked if you will reinvoice the same prodajni nalog line"
+msgstr ""
+"Godišnji odmor it marked if you will reinvoice the same prodajni nalog line"
 
 #. module: sale_line_refund_to_invoice_qty
 #: model:ir.model.fields,help:sale_line_refund_to_invoice_qty.field_account_move_reversal__sale_qty_to_reinvoice
@@ -39,6 +40,8 @@ msgid ""
 "Leave it marked if you will reinvoice the same sale order line (standard "
 "behaviour)"
 msgstr ""
+"Godišnji odmor it marked if you will reinvoice the same prodajni nalog line "
+"(standard behaviour)"
 
 #. module: sale_line_refund_to_invoice_qty
 #: model_terms:ir.ui.view,arch_db:sale_line_refund_to_invoice_qty.view_account_move_reversal
@@ -46,6 +49,8 @@ msgid ""
 "Leave it marked when other customer invoices are expected for the quantities"
 " in the credit note."
 msgstr ""
+"Godišnji odmor it marked when other customer invoices are expected for the "
+"quantities in the credit note."
 
 #. module: sale_line_refund_to_invoice_qty
 #: model:ir.model.fields,field_description:sale_line_refund_to_invoice_qty.field_sale_order_line__qty_refunded_not_invoiceable

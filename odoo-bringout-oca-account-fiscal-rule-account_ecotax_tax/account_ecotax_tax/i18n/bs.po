@@ -20,9 +20,8 @@ msgstr "Ecotax klasifikacija računa"
 
 #. module: account_ecotax_tax
 #: model:ir.model.fields,field_description:account_ecotax_tax.field_account_move_line__subtotal_ecotax
-#: model:ir.model.fields,field_description:account_ecotax_tax.field_account_tax__is_ecotax
 msgid "Ecotax"
-msgstr "Ecotax"
+msgstr "Ekotaksa"
 
 #. module: account_ecotax_tax
 #: model:ir.model.fields,field_description:account_ecotax_tax.field_account_move_line__ecotax_amount_unit
@@ -61,3 +60,6 @@ msgid ""
 "1: check  \"included in base amount \"\n"
 "2: The Ecotax sequence must be less then VAT tax (in sale and purchase)"
 msgstr ""
+"Upozorenje: Da biste uključili ekotaksu u PDV poreza provjerite ovo:\n"
+"1: označite \"uključeno u osnovni iznos\"\n"
+"2: Sekvenca ekotakse mora biti manja od PDV poreza (u prodaji i nabavci)"

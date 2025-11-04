@@ -30,14 +30,14 @@ msgstr "Izračunj osnovna sredstva"
 
 #. module: account_asset_batch_compute
 #. odoo-python
-#: code:addons/account_asset_batch_compute/wizards/account_asset_compute.py:0
+#: code:addons/account_asset_batch_compute/wizards/account_asset_compute.py
 #, python-format
 msgid "Creating jobs to create moves for assets to {}"
 msgstr "Kreiranje poslova za kreiranje zapisa za imovinu do {}"
 
 #. module: account_asset_batch_compute
 #. odoo-python
-#: code:addons/account_asset_batch_compute/models/account_asset.py:0
+#: code:addons/account_asset_batch_compute/models/account_asset.py
 #, python-format
 msgid "Creating move for asset with id {rec_id} to {date_end}"
 msgstr "Kreiranje zapisa za imovinu sa id {rec_id} do {date_end}"

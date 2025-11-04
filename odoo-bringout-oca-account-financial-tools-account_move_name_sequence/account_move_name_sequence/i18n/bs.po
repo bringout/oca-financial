@@ -13,30 +13,39 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.constraint,message:account_move_name_sequence.constraint_account_move_name_state_diagonal
 msgid ""
 "A move can not be posted with name \"/\" or empty value\n"
 "Check the journal sequence, please"
 msgstr ""
+"Temeljnicu nije moguće potvrditi sa nazivom \"/\" ili praznim poljem \n"
+"Provjerite sekvencu dnevnika, molimo"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,help:account_move_name_sequence.field_account_journal__refund_sequence
 msgid ""
 "Check this box if you don't want to share the same sequence for invoices and"
 " credit notes made from this journal"
 msgstr ""
+"Označite ovu opciju ako ne želite dijeliti istu numeraciju za fakture i "
+"knjižna odobrenja kreirana iz ovog dnevnika"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__refund_sequence_id
 msgid "Credit Note Entry Sequence"
 msgstr "Ulazna sekvenca za odobrenja"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__refund_sequence
 msgid "Dedicated Credit Note Sequence"
 msgstr "Dedicirana sekvenca za odobrenja"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__sequence_id
 msgid "Entry Sequence"
@@ -47,18 +56,19 @@ msgstr "Ulazna sekvenca"
 msgid "Has Sequence Holes"
 msgstr "Ima rupe u brojevnom sljedu"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_bank_statement_line__highest_name
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__highest_name
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_payment__highest_name
 msgid "Highest Name"
 msgstr "Najviši broj"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model,name:account_move_name_sequence.model_account_journal
 msgid "Journal"
 msgstr "Dnevnik"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model,name:account_move_name_sequence.model_account_move
 msgid "Journal Entry"
@@ -66,81 +76,90 @@ msgstr "Stavka dnevnika"
 
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_bank_statement_line__made_sequence_hole
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__made_sequence_hole
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_payment__made_sequence_hole
 msgid "Made Sequence Hole"
 msgstr "Napravljena rupa u slijedu"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_bank_statement_line__name
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__name
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_payment__name
 msgid "Number"
 msgstr "Broj"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py:0
+#: code:addons/account_move_name_sequence/models/account_journal.py
 #, python-format
 msgid ""
 "On journal '%s', the same sequence is used as Entry Sequence and Credit Note"
 " Entry Sequence."
 msgstr ""
+"Na dnevniku '%s', ista sekvenca se koristi za regularna i storno knjiženja."
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py:0
+#: code:addons/account_move_name_sequence/models/account_journal.py
 #, python-format
 msgid "Refund"
 msgstr "Storno/Odobrenje"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py:0
-#: model:ir.model,name:account_move_name_sequence.model_ir_sequence
+#: code:addons/account_move_name_sequence/models/account_journal.py
 #, python-format
 msgid "Sequence"
 msgstr "Sekvenca"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_bank_statement_line__sequence_number
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__sequence_number
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_payment__sequence_number
 msgid "Sequence Number"
 msgstr "Broj sekvence"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_bank_statement_line__sequence_prefix
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__sequence_prefix
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_payment__sequence_prefix
 msgid "Sequence Prefix"
 msgstr "Prefiks sekvence"
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py:0
+#: code:addons/account_move_name_sequence/models/account_journal.py
 #, python-format
 msgid ""
 "The company is not set on sequence '%(sequence)s' configured as credit note "
 "sequence of journal '%(journal)s'."
 msgstr ""
+"Tvrtka nije postavljena na sekvenci '%(sequence)s' postavljenoj kao sekvenca"
+" za storno/odobrenja na dnevniku '%(journal)s'."
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py:0
+#: code:addons/account_move_name_sequence/models/account_journal.py
 #, python-format
 msgid ""
 "The company is not set on sequence '%(sequence)s' configured on journal "
 "'%(journal)s'."
 msgstr ""
+"Tvrtka nije postavljena na sekvenci '%(sequence)s' postavljenoj na dnevniku "
+"'%(journal)s'."
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,help:account_move_name_sequence.field_account_journal__refund_sequence_id
 msgid ""
 "This sequence will be used to generate the journal entry number for refunds."
 msgstr ""
+"Ova sekvenca će biti korištena za generiranje broja knjiženja za "
+"odobrenja/storno."
 
+# taken from hr.po
 #. module: account_move_name_sequence
 #: model:ir.model.fields,help:account_move_name_sequence.field_account_journal__sequence_id
 msgid "This sequence will be used to generate the journal entry number."
-msgstr "Ova sekvenca će biti korištena za generiranje broja knjiženja dnevnika."
+msgstr ""
+"Ova sekvenca će biti korištena za generiranje broja knjiženja dnevnika."

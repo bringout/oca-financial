@@ -50,7 +50,6 @@ msgstr "Prilagodi nazive sekcija pri fakturisanju iz prodajnih narudžbi"
 
 #. module: account_invoice_section_sale_order
 #: model:ir.model.fields,help:account_invoice_section_sale_order.field_res_company__invoice_section_grouping
-#: model:ir.model.fields,help:account_invoice_section_sale_order.field_res_config_settings__invoice_section_grouping
 msgid "Defines object used to group invoice lines"
 msgstr "Definiše objekat korišten za grupiranje linija fakture"
 
@@ -66,15 +65,11 @@ msgstr "Objekat grupiranja"
 
 #. module: account_invoice_section_sale_order
 #: model:ir.model.fields,field_description:account_invoice_section_sale_order.field_res_company__invoice_section_grouping
-#: model:ir.model.fields,field_description:account_invoice_section_sale_order.field_res_config_settings__invoice_section_grouping
 msgid "Invoice Section Grouping"
 msgstr "Grupiranje sekcije fakture"
 
 #. module: account_invoice_section_sale_order
 #: model:ir.model.fields,field_description:account_invoice_section_sale_order.field_res_company__invoice_section_name_scheme
-#: model:ir.model.fields,field_description:account_invoice_section_sale_order.field_res_config_settings__invoice_section_name_scheme
-#: model:ir.model.fields,field_description:account_invoice_section_sale_order.field_res_partner__invoice_section_name_scheme
-#: model:ir.model.fields,field_description:account_invoice_section_sale_order.field_res_users__invoice_section_name_scheme
 msgid "Invoice Section Name Scheme"
 msgstr "Shema naziva sekcije fakture"
 
@@ -100,18 +95,18 @@ msgstr "Prodajni nalog"
 
 #. module: account_invoice_section_sale_order
 #: model:ir.model.fields,help:account_invoice_section_sale_order.field_res_company__invoice_section_name_scheme
-#: model:ir.model.fields,help:account_invoice_section_sale_order.field_res_config_settings__invoice_section_name_scheme
-#: model:ir.model.fields,help:account_invoice_section_sale_order.field_res_partner__invoice_section_name_scheme
-#: model:ir.model.fields,help:account_invoice_section_sale_order.field_res_users__invoice_section_name_scheme
 msgid ""
 "This is the name of the sections on invoices when generated from sales "
 "orders. Keep empty to use default. You can use a python expression with the "
 "'object' (representing sale order) and 'time' variables."
 msgstr ""
+"Ovo je naziv sekcija na fakturama kada se generišu iz prodajnih naloga. "
+"Ostavite prazno za korištenje zadanog. Možete koristiti python izraz sa "
+"'object' (koji predstavlja prodajni nalog) i 'time' varijablama."
 
 #. module: account_invoice_section_sale_order
 #. odoo-python
-#: code:addons/account_invoice_section_sale_order/models/account_move.py:0
+#: code:addons/account_invoice_section_sale_order/models/account_move.py
 #, python-format
 msgid "Unrecognized invoice_section_grouping"
 msgstr "Neprepoznato grupiranje sekcije fakture"

@@ -13,38 +13,46 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_menu_invoice_refund
 #: model:ir.actions.act_window,name:account_menu_invoice_refund.action_invoice_in_tree
-#: model:ir.ui.menu,name:account_menu_invoice_refund.menu_action_invoice_in_tree
 msgid "Bills / Refunds"
 msgstr "Računi / Povrati"
 
+# taken from hr.po
 #. module: account_menu_invoice_refund
 #: model_terms:ir.actions.act_window,help:account_menu_invoice_refund.action_invoice_out_tree
 msgid "Create a customer invoice"
 msgstr "Kreiraj račun"
 
+# taken from hr.po
 #. module: account_menu_invoice_refund
 #: model_terms:ir.actions.act_window,help:account_menu_invoice_refund.action_invoice_in_tree
 msgid "Create a vendor bill"
 msgstr "Kreiraj ulazni račun"
 
+# taken from hr.po
 #. module: account_menu_invoice_refund
 #: model_terms:ir.actions.act_window,help:account_menu_invoice_refund.action_invoice_out_tree
 msgid ""
 "Create invoices, register payments and keep track of the discussions with "
 "your customers."
 msgstr ""
+"Kreirajte račune, registrirajte plaćanja i vodite evidenciju diskusija sa "
+"vašim kupcima."
 
+# taken from hr.po
 #. module: account_menu_invoice_refund
 #: model_terms:ir.actions.act_window,help:account_menu_invoice_refund.action_invoice_in_tree
 msgid ""
 "Create vendor bills, register payments and keep track of the discussions "
 "with your customers."
 msgstr ""
+"Kreirajte račune, registrirajte plaćanja i vodite evidenciju diskusija sa "
+"vašim dobavljačima."
 
+# taken from hr.po
 #. module: account_menu_invoice_refund
 #: model:ir.actions.act_window,name:account_menu_invoice_refund.action_invoice_out_tree
-#: model:ir.ui.menu,name:account_menu_invoice_refund.menu_action_invoice_out_tree
 msgid "Invoices / Credit Notes"
 msgstr "Računi / Odobrenja"

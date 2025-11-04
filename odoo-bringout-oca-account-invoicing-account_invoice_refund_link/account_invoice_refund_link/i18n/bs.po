@@ -13,13 +13,16 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model:ir.model,name:account_invoice_refund_link.model_account_move_reversal
 msgid "Account Move Reversal"
 msgstr "Storno temeljnice"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_link.view_customer_account_invoice_add_refunds_details_form
+#, fuzzy
 msgid "Invoice reference"
 msgstr "Stavka fakture"
 
@@ -28,38 +31,45 @@ msgstr "Stavka fakture"
 msgid "Journal Entry"
 msgstr "Žurnal"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model:ir.model,name:account_invoice_refund_link.model_account_move_line
 msgid "Journal Item"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_move_line__origin_line_id
 msgid "Original invoice line"
 msgstr "Izvorna stavka računa"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,help:account_invoice_refund_link.field_account_move_line__origin_line_id
 msgid "Original invoice line to which this refund invoice line is referred to"
 msgstr "Izvorna stavka računa na koju se referira ova stavka storna"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_bank_statement_line__refund_invoice_ids
-#: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_move__refund_invoice_ids
-#: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_payment__refund_invoice_ids
+#, fuzzy
 msgid "Refund Invoices"
 msgstr "Faktura"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_move_line__refund_line_ids
+#, fuzzy
 msgid "Refund invoice lines"
 msgstr "Stavka fakture"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,help:account_invoice_refund_link.field_account_move_line__refund_line_ids
 msgid "Refund invoice lines created from this invoice line"
 msgstr "Storno stavke račune kreirane iz ove stavke"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_link.view_customer_account_invoice_add_refunds_details_form
 msgid "Refunds"
@@ -70,6 +80,7 @@ msgstr "Storna"
 msgid "Status"
 msgstr "Status"
 
+# taken from hr.po
 #. module: account_invoice_refund_link
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_link.view_customer_account_invoice_add_refunds_details_form
 msgid "Total"

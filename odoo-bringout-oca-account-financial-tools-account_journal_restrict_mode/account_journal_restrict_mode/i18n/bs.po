@@ -19,6 +19,8 @@ msgid ""
 "If ticked, the accounting entry or invoice receives a hash as soon as it is "
 "posted and cannot be modified anymore."
 msgstr ""
+"Ako je označeno, knjiženje ili faktura dobija hash čim se proknjižuje i ne "
+"može se više mijenjati."
 
 #. module: account_journal_restrict_mode
 #: model:ir.model,name:account_journal_restrict_mode.model_account_journal
@@ -27,7 +29,7 @@ msgstr "Vrsta naloga"
 
 #. module: account_journal_restrict_mode
 #. odoo-python
-#: code:addons/account_journal_restrict_mode/models/account_journal.py:0
+#: code:addons/account_journal_restrict_mode/models/account_journal.py
 #, python-format
 msgid "Journal %s must have Lock Posted Entries enabled."
 msgstr "Dnevnik %s mora imati omogućeno zaključavanje knjiženih stavki."

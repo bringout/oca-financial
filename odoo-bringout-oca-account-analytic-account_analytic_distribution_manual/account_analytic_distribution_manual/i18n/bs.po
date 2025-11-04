@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_analytic_distribution_manual
 #. odoo-python
-#: code:addons/account_analytic_distribution_manual/models/account_analytic_distribution_manual.py:0
+#: code:addons/account_analytic_distribution_manual/models/account_analytic_distribution_manual.py
 #, python-format
 msgid "%s (Copy)"
 msgstr "%s (Kopija)"
@@ -77,17 +77,6 @@ msgstr "Analitički računi računati iz analitičke distribucije."
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_model__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_move_line__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_reconcile_model_line__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_analytic_mixin__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_hr_expense__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_hr_expense_split__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_purchase_order_line__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_sale_order_line__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_stock_move__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_stock_move_line__analytic_distribution_import
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_stock_scrap__analytic_distribution_import
 msgid "Analytic distribution (importable)"
 msgstr "Analitička distribucija (uvozljiva)"
 
@@ -98,7 +87,6 @@ msgstr "Ručna analitička distribucija"
 
 #. module: account_analytic_distribution_manual
 #: model_terms:ir.ui.view,arch_db:account_analytic_distribution_manual.view_account_analytic_distribution_manual_form
-#: model_terms:ir.ui.view,arch_db:account_analytic_distribution_manual.view_account_analytic_distribution_manual_search
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -113,6 +101,8 @@ msgid ""
 "Comma-separated analytic account names, in case it is useful to be included "
 "in the exported data."
 msgstr ""
+"[PREVOD POTREBAN: Comma-separated analytic account names, in case it is "
+"useful...]"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__company_id
@@ -131,22 +121,13 @@ msgstr "Kreirano"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,help:account_analytic_distribution_manual.field_account_analytic_distribution_manual__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_account_analytic_distribution_model__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_account_move_line__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_account_reconcile_model_line__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_analytic_mixin__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_hr_expense__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_hr_expense_split__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_purchase_order_line__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_sale_order_line__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_stock_move__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_stock_move_line__analytic_distribution_import
-#: model:ir.model.fields,help:account_analytic_distribution_manual.field_stock_scrap__analytic_distribution_import
 msgid ""
 "Defining this field, it will set the analytical distribution in JSON format,"
 " but using the analytic accounts names as keys of the dictionary, so it "
 "eases the human input."
 msgstr ""
+"[PREVOD POTREBAN: Defining this field, it will set the analytical "
+"distribution...]"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__display_name
@@ -185,37 +166,24 @@ msgstr "Zadnje ažurirano"
 
 #. module: account_analytic_distribution_manual
 #. odoo-javascript
-#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js:0
+#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js
 #, python-format
 msgid "Loading..."
 msgstr "Učitavanje..."
 
 #. module: account_analytic_distribution_manual
 #: model:ir.actions.act_window,name:account_analytic_distribution_manual.action_account_analytic_distribution_manual
-#: model:ir.ui.menu,name:account_analytic_distribution_manual.account_analytic_distribution_manual_menu
 msgid "Manual Analytic Distributions"
 msgstr "Ručne analitičke distribucije"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_model__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_invoice_report__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_move_line__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_reconcile_model_line__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_analytic_mixin__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_hr_expense__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_hr_expense_split__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_purchase_order_line__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_sale_order_line__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_stock_move__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_stock_move_line__manual_distribution_id
-#: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_stock_scrap__manual_distribution_id
 msgid "Manual Distribution"
 msgstr "Ručna distribucija"
 
 #. module: account_analytic_distribution_manual
 #. odoo-javascript
-#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.xml:0
+#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.xml
 #, python-format
 msgid "Manual distribution"
 msgstr "Ručna distribucija"
@@ -232,7 +200,7 @@ msgstr "Naziv..."
 
 #. module: account_analytic_distribution_manual
 #. odoo-javascript
-#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js:0
+#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js
 #, python-format
 msgid "No Analytic Distribution Manual found"
 msgstr "Nije pronađena ručna analitička distribucija"

@@ -13,57 +13,65 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_check_total
 #: model:ir.model.fields,field_description:account_invoice_check_total.field_res_config_settings__group_supplier_inv_check_total
-#: model:res.groups,name:account_invoice_check_total.group_supplier_inv_check_total
-#: model_terms:ir.ui.view,arch_db:account_invoice_check_total.res_config_settings_form_view
 msgid "Check Total on Vendor Bills"
 msgstr "Provjeri total na ulaznim računima"
 
+# taken from hr.po
 #. module: account_invoice_check_total
 #: model_terms:ir.ui.view,arch_db:account_invoice_check_total.res_config_settings_form_view
 msgid ""
 "Check whether the total computed amount is the same as the verification "
 "total"
 msgstr ""
+"Provjeri odgovara li izračunati ukupni iznos upisanom iznosu za validaciju"
 
+# taken from hr.po
 #. module: account_invoice_check_total
 #: model:ir.model,name:account_invoice_check_total.model_res_config_settings
 msgid "Config Settings"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: account_invoice_check_total
 #: model_terms:ir.ui.view,arch_db:account_invoice_check_total.res_config_settings_form_view
 msgid ""
 "If you check this box, the system verifies that the total computed amount is"
 " the same as the verification total."
 msgstr ""
+"Ukoliko označite ovu kućicu, sustav provjerava da ukupni izračunati iznos "
+"odgovara upisanom iznosu validacije."
 
+# taken from hr.po
 #. module: account_invoice_check_total
 #: model:ir.model,name:account_invoice_check_total.model_account_move
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_check_total
 #. odoo-python
-#: code:addons/account_invoice_check_total/models/account_move.py:0
+#: code:addons/account_invoice_check_total/models/account_move.py
 #, python-format
 msgid ""
 "Please verify the price of the invoice!\n"
 "The total amount (%(amount_total)s) does not match the Verification Total amount (%(check_total)s)!\n"
 "There is a difference of %(diff)s"
 msgstr ""
+"Molimo provjerite iznos na računu!\n"
+"Upisani iznos (%(amount_total)s) ne odgovara izračunatom (%(check_total)s).\n"
+"Postoji razlika od %(diff)s"
 
+# taken from hr.po
 #. module: account_invoice_check_total
 #: model:ir.model.fields,field_description:account_invoice_check_total.field_account_bank_statement_line__check_total_display_difference
-#: model:ir.model.fields,field_description:account_invoice_check_total.field_account_move__check_total_display_difference
-#: model:ir.model.fields,field_description:account_invoice_check_total.field_account_payment__check_total_display_difference
 msgid "Total Difference"
 msgstr "Ukupna razlika"
 
+# taken from hr.po
 #. module: account_invoice_check_total
 #: model:ir.model.fields,field_description:account_invoice_check_total.field_account_bank_statement_line__check_total
-#: model:ir.model.fields,field_description:account_invoice_check_total.field_account_move__check_total
-#: model:ir.model.fields,field_description:account_invoice_check_total.field_account_payment__check_total
 msgid "Verification Total"
 msgstr "Validacija totala"

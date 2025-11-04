@@ -25,10 +25,12 @@ msgid ""
 "warehouse_id, tax_on_shipping_address, SO line's price_unit, discount, "
 "product_uom_qty"
 msgstr ""
+"Automatski pokreće API za izračun poreza ako su napravljene izmjene na "
+"warehouse_id PO-a, tax_on_shipping_address, price_unit reda PO-a, popust, "
+"product_uom_qty"
 
 #. module: account_avatax_sale_oca
 #: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__tax_amount
-#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order_line__tax_amt
 msgid "AvaTax"
 msgstr "AvaTax"
 
@@ -69,17 +71,19 @@ msgstr "Kontakt"
 
 #. module: account_avatax_sale_oca
 #. odoo-python
-#: code:addons/account_avatax_sale_oca/models/partner.py:0
+#: code:addons/account_avatax_sale_oca/models/partner.py
 #, python-format
 msgid ""
 "Enabling the exemption status for all states may have tax compliance risks, and should be carefully considered.\n"
 "\n"
 " Please ensure that your tax advisor was consulted and the necessary tax exemption documentation was obtained for every state this Partner may have transactions."
 msgstr ""
+"Omogućavanje statusa oslobođenja za sve države može imati rizike usklađenosti sa porezima i treba ga pažljivo razmotriti.\n"
+"\n"
+" Molimo osigurajte da je vaš poreski savjetnik konzultovan i da je potrebna dokumentacija o poreskom oslobođenju pribavljena za svaku državu u kojoj ovaj partner može imati transakcije."
 
 #. module: account_avatax_sale_oca
 #: model:ir.model.fields,field_description:account_avatax_sale_oca.field_res_partner__property_exemption_country_wide
-#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_res_users__property_exemption_country_wide
 msgid "Exemption Applies Country Wide"
 msgstr "Oslobođenje se primjenjuje na nivou zemlje"
 
@@ -150,7 +154,7 @@ msgstr "Poreska adresa"
 
 #. module: account_avatax_sale_oca
 #. odoo-python
-#: code:addons/account_avatax_sale_oca/models/partner.py:0
+#: code:addons/account_avatax_sale_oca/models/partner.py
 #, python-format
 msgid "Tax Compliance Risk"
 msgstr "Rizik poreske usklađenosti"
@@ -166,6 +170,8 @@ msgid ""
 "Uncheck the this field to show exemption fields on SO/Invoice form view. "
 "Also, it will show Tax based on shipping address button"
 msgstr ""
+"Odznačite ovo polje da prikažete polja oslobođenja na pregledu formulara "
+"PO/Fakture. Takođe, prikazat će dugme Porez baziran na adresi isporuke"
 
 #. module: account_avatax_sale_oca
 #: model:ir.actions.server,name:account_avatax_sale_oca.action_sale_order_compute_taxes
@@ -185,7 +191,8 @@ msgstr "Koristi kod kupca partner fakture u SO"
 #. module: account_avatax_sale_oca
 #: model:ir.model.fields,help:account_avatax_sale_oca.field_avalara_salestax__use_partner_invoice_id
 msgid "Use Sales Order's Invoice Address field to determine TaxableStatus"
-msgstr "Koristi polje adrese fakture prodajne narudžbe da odredi oporezivi status"
+msgstr ""
+"Koristi polje adrese fakture prodajne narudžbe da odredi oporezivi status"
 
 #. module: account_avatax_sale_oca
 #: model:ir.model.fields,help:account_avatax_sale_oca.field_avalara_salestax__override_line_taxes
@@ -193,12 +200,16 @@ msgid ""
 "When checked, the Avatax computed tax will replace any other taxes that may "
 "exist in the document line."
 msgstr ""
+"Kada je označeno, Avatax izračunati porez će zamijeniti bilo koje druge "
+"poreze koji mogu postojati u redu dokumenta."
 
 #. module: account_avatax_sale_oca
 #: model:ir.model.fields,help:account_avatax_sale_oca.field_res_partner__property_exemption_country_wide
-#: model:ir.model.fields,help:account_avatax_sale_oca.field_res_users__property_exemption_country_wide
 msgid ""
 "When enabled, the delivery address State is irrelevant when looking up the "
 "exemption status, meaning that the exemption is considered applicable for "
 "all states"
 msgstr ""
+"Kada je omogućeno, država adrese isporuke je irelevantna pri pretraživanju "
+"statusa oslobođenja, što znači da se oslobođenje smatra primjenjivim za sve "
+"države"

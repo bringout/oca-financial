@@ -13,19 +13,21 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_fiscal_year_auto_create
 #: model:ir.actions.server,name:account_fiscal_year_auto_create.cron_fiscal_year_auto_create_ir_actions_server
-#: model:ir.cron,cron_name:account_fiscal_year_auto_create.cron_fiscal_year_auto_create
 msgid "Auto Create Fiscal Years"
 msgstr "Automatski kreiraj nove fiskalne godine"
 
+# taken from hr.po
 #. module: account_fiscal_year_auto_create
 #. odoo-python
-#: code:addons/account_fiscal_year_auto_create/models/account_fiscal_year.py:0
+#: code:addons/account_fiscal_year_auto_create/models/account_fiscal_year.py
 #, python-format
 msgid "FY %(date_to)s - %(date_from)s"
 msgstr "FG %(date_to)s - %(date_from)s"
 
+# taken from hr.po
 #. module: account_fiscal_year_auto_create
 #: model:ir.model,name:account_fiscal_year_auto_create.model_account_fiscal_year
 msgid "Fiscal Year"

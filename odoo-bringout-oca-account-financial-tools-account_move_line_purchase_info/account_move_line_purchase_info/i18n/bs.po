@@ -13,17 +13,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_move_line_purchase_info
 #: model:ir.model.fields,field_description:account_move_line_purchase_info.field_purchase_order__journal_entry_ids
-#: model_terms:ir.ui.view,arch_db:account_move_line_purchase_info.view_move_line_journal_entries_form
 msgid "Journal Entries"
 msgstr "Stavke dnevnika"
 
+# taken from hr.po
 #. module: account_move_line_purchase_info
 #: model:ir.model.fields,field_description:account_move_line_purchase_info.field_purchase_order__journal_entries_count
 msgid "Journal Entries Count"
 msgstr "Broj stavaka dnevnika"
 
+# taken from hr.po
 #. module: account_move_line_purchase_info
 #: model:ir.model,name:account_move_line_purchase_info.model_account_move_line
 msgid "Journal Item"
@@ -34,19 +36,19 @@ msgstr "Stavka devnika"
 msgid "OCA Purchase Line"
 msgstr "OCA nabavka linija"
 
+# taken from hr.po
 #. module: account_move_line_purchase_info
 #: model:ir.model,name:account_move_line_purchase_info.model_purchase_order
-#: model:ir.model.fields,field_description:account_move_line_purchase_info.field_account_move_line__purchase_order_id
-#: model_terms:ir.ui.view,arch_db:account_move_line_purchase_info.view_account_move_line_filter
 msgid "Purchase Order"
 msgstr "Nalog za nabavu"
 
+# taken from hr.po
 #. module: account_move_line_purchase_info
 #: model:ir.model,name:account_move_line_purchase_info.model_purchase_order_line
-#: model_terms:ir.ui.view,arch_db:account_move_line_purchase_info.view_account_move_line_filter
 msgid "Purchase Order Line"
 msgstr "Stavka naloga za nabavu"
 
+# taken from hr.po
 #. module: account_move_line_purchase_info
 #: model:res.groups,name:account_move_line_purchase_info.group_account_move_purchase_info
 msgid "Purchase info in Journal Items"
@@ -57,6 +59,7 @@ msgstr "Informacije o nabavi u stavkama dnevnika"
 msgid "Stock Invoice Lines"
 msgstr "Linije fakturisanja zaliha"
 
+# taken from hr.po
 #. module: account_move_line_purchase_info
 #: model:ir.model,name:account_move_line_purchase_info.model_stock_move
 msgid "Stock Move"

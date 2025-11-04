@@ -29,6 +29,18 @@ msgid ""
 "            <p style=\"font-family: arial, sans-serif; font-size: 12.8px;\">Support Team.</p>\n"
 "        "
 msgstr ""
+"<p>Zdravo.</p>\n"
+"            <br>\n"
+"            <p>\n"
+"                Broj Avatax API poziva je bio iznad limita jučer.\n"
+"            </p>\n"
+"            <p style=\"font-family: arial, sans-serif; font-size: 12.8px;\">Prodajne transakcije : <t t-out=\"ctx.get('sales_call_count')\"></t></p>\n"
+"            <p style=\"font-family: arial, sans-serif; font-size: 12.8px;\">Fakturne transakcije : <t t-out=\"ctx.get('invoices_call_count')\"></t></p>\n"
+"            <br>\n"
+"            <p style=\"font-family: arial, sans-serif; font-size: 12.8px;\">Hvala na saradnji.</p>\n"
+"            <p style=\"font-family: arial, sans-serif; font-size: 12.8px;\">Srdačan pozdrav,</p>\n"
+"            <p style=\"font-family: arial, sans-serif; font-size: 12.8px;\">Tim podrške.</p>\n"
+"        "
 
 #. module: account_avatax_oca_log
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.res_config_settings_view_form
@@ -42,13 +54,11 @@ msgstr "AvaTax konfiguracija"
 
 #. module: account_avatax_oca_log
 #: model:ir.actions.server,name:account_avatax_oca_log.ir_cron_avatax_api_call_counter_ir_actions_server
-#: model:ir.cron,cron_name:account_avatax_oca_log.ir_cron_avatax_api_call_counter
 msgid "Avatax API Call Counter"
 msgstr "Avatax brojač API poziva"
 
 #. module: account_avatax_oca_log
 #: model:mail.template,name:account_avatax_oca_log.reaching_limit_avatax_api_call_email
-#: model:mail.template,subject:account_avatax_oca_log.reaching_limit_avatax_api_call_email
 msgid "Avatax API Call Reaching Limit"
 msgstr "Avatax API poziv dostiže limit"
 
@@ -84,19 +94,16 @@ msgstr "Avatax odgovor"
 
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__avatax_type
-#: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.avatax_log_form_view
 msgid "Avatax Type"
 msgstr "Avatax tip"
 
 #. module: account_avatax_oca_log
 #: model:ir.actions.act_window,name:account_avatax_oca_log.avatax_log_act_window
-#: model:ir.ui.menu,name:account_avatax_oca_log.menu_avatax_log
 msgid "Avatax log"
-msgstr "Avatax log"
+msgstr "Avatax dnevnik"
 
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_res_config_settings__call_counter_limit
-#: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.res_config_settings_view_form
 msgid "Call Counter Limit"
 msgstr "Limit brojača poziva"
 

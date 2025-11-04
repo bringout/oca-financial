@@ -15,8 +15,6 @@ msgstr ""
 
 #. module: account_analytic_document_date
 #: model:ir.model.fields,field_description:account_analytic_document_date.field_account_bank_statement_line__analytic_document_date
-#: model:ir.model.fields,field_description:account_analytic_document_date.field_account_move__analytic_document_date
-#: model:ir.model.fields,field_description:account_analytic_document_date.field_account_payment__analytic_document_date
 msgid "Analytic Document Date"
 msgstr "Analitički datum dokumenta"
 

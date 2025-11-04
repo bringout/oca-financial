@@ -45,7 +45,6 @@ msgstr "Fiskalna pozicija"
 
 #. module: account_fiscal_position_partner_type
 #: model:ir.model.fields,field_description:account_fiscal_position_partner_type.field_res_partner__fiscal_position_type
-#: model:ir.model.fields,field_description:account_fiscal_position_partner_type.field_res_users__fiscal_position_type
 msgid "Fiscal Position Type"
 msgstr "Tip fiskalne pozicije"
 

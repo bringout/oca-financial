@@ -25,7 +25,6 @@ msgstr "Otkaži"
 
 #. module: account_asset_low_value
 #: model:ir.model.fields,field_description:account_asset_low_value.field_account_asset__low_value
-#: model_terms:ir.ui.view,arch_db:account_asset_low_value.account_asset_view_search
 msgid "Low Value Asset"
 msgstr "Imovina niske vrijednosti"
 
@@ -37,6 +36,10 @@ msgid ""
 "2. Number of Years = 0 years\n"
 "In essense, the low value asset is not really and asset but an expense tracked as asset, as such, it has no residual value. And when removed, only status is changed (no accounting entry)."
 msgstr ""
+"Sredstvo male vrijednosti (LVA) je tačno kada je profil sredstva postavljen:\n"
+"1. Konto sredstva = Rashod (sredstvo male vrijednosti)\n"
+"2. Broj godina = 0 godina\n"
+"U suštini, sredstvo male vrijednosti nije stvarno sredstvo već rashod praćen kao sredstvo, kao takvo, nema rezidualne vrijednosti. I kada se ukloni, mijenja se samo status (bez računovodstvenog unosa)."
 
 #. module: account_asset_low_value
 #: model_terms:ir.ui.view,arch_db:account_asset_low_value.account_asset_view_search
@@ -45,13 +48,12 @@ msgstr "Normalna imovina"
 
 #. module: account_asset_low_value
 #: model:ir.model,name:account_asset_low_value.model_account_asset_remove
-#: model_terms:ir.ui.view,arch_db:account_asset_low_value.asset_low_value_remove_form
 msgid "Remove Asset"
 msgstr "Otpiši sredstvo"
 
 #. module: account_asset_low_value
 #. odoo-python
-#: code:addons/account_asset_low_value/models/account_asset.py:0
+#: code:addons/account_asset_low_value/models/account_asset.py
 #, python-format
 msgid "Remove Low Value Asset"
 msgstr "Ukloni imovinu niske vrijednosti"

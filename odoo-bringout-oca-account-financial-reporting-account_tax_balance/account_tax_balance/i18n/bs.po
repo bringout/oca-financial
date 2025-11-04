@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_tax_balance
 #. odoo-python
-#: code:addons/account_tax_balance/wizard/open_tax_balances.py:0
+#: code:addons/account_tax_balance/wizard/open_tax_balances.py
 #, python-format
 msgid "%(name)s: %(target)s from %(from)s to %(to)s"
 msgstr "%(name)s: %(target)s od %(from)s do %(to)s"
@@ -92,8 +92,6 @@ msgstr "Prikazani naziv"
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_account_bank_statement_line__financial_type
-#: model:ir.model.fields,field_description:account_tax_balance.field_account_move__financial_type
-#: model:ir.model.fields,field_description:account_tax_balance.field_account_payment__financial_type
 msgid "Financial Type"
 msgstr "Finansijski tip"
 
@@ -144,7 +142,7 @@ msgstr "Zadnje ažurirano"
 
 #. module: account_tax_balance
 #. odoo-python
-#: code:addons/account_tax_balance/models/account_move.py:0
+#: code:addons/account_tax_balance/models/account_move.py
 #, python-format
 msgid "Liquidity"
 msgstr "Likvidnost"
@@ -161,42 +159,41 @@ msgstr "Otvoreni porezi"
 
 #. module: account_tax_balance
 #. odoo-python
-#: code:addons/account_tax_balance/models/account_move.py:0
+#: code:addons/account_tax_balance/models/account_move.py
 #, python-format
 msgid "Other"
 msgstr "Ostalo"
 
 #. module: account_tax_balance
 #. odoo-python
-#: code:addons/account_tax_balance/models/account_move.py:0
+#: code:addons/account_tax_balance/models/account_move.py
 #, python-format
 msgid "Payable"
 msgstr "Potražni saldo-konto"
 
 #. module: account_tax_balance
 #. odoo-python
-#: code:addons/account_tax_balance/models/account_move.py:0
+#: code:addons/account_tax_balance/models/account_move.py
 #, python-format
 msgid "Payable refund"
 msgstr "Povraćaj platnih obaveza"
 
 #. module: account_tax_balance
 #. odoo-python
-#: code:addons/account_tax_balance/models/account_move.py:0
+#: code:addons/account_tax_balance/models/account_move.py
 #, python-format
 msgid "Receivable"
 msgstr "Dugovni saldo-konto"
 
 #. module: account_tax_balance
 #. odoo-python
-#: code:addons/account_tax_balance/models/account_move.py:0
+#: code:addons/account_tax_balance/models/account_move.py
 #, python-format
 msgid "Receivable refund"
 msgstr "Povraćaj potraživanja"
 
 #. module: account_tax_balance
 #: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_search_balance
-#: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
 msgid "Short Name"
 msgstr "Kratki naziv"
 
@@ -222,10 +219,6 @@ msgstr "Područje poreza"
 
 #. module: account_tax_balance
 #: model:ir.actions.act_window,name:account_tax_balance.action_open_tax_balances
-#: model:ir.actions.act_window,name:account_tax_balance.action_tax_balances_tree
-#: model:ir.ui.menu,name:account_tax_balance.menu_action_open_tax_balances
-#: model:ir.ui.menu,name:account_tax_balance.menu_tax_balances
-#: model_terms:ir.ui.view,arch_db:account_tax_balance.wizard_open_tax_balances
 msgid "Taxes Balance"
 msgstr "Stanje poreza"
 
@@ -251,7 +244,7 @@ msgstr "Ukupno osnovno stanje"
 
 #. module: account_tax_balance
 #. odoo-python
-#: code:addons/account_tax_balance/models/account_tax.py:0
+#: code:addons/account_tax_balance/models/account_tax.py
 #, python-format
 msgid "Unsupported search operator"
 msgstr "Nepodržan operator pretrage"

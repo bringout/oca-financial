@@ -13,51 +13,60 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_fiscal_position_update
 #: model:ir.model.fields,field_description:account_invoice_fiscal_position_update.field_account_bank_statement_line__fiscal_position_id
-#: model:ir.model.fields,field_description:account_invoice_fiscal_position_update.field_account_move__fiscal_position_id
-#: model:ir.model.fields,field_description:account_invoice_fiscal_position_update.field_account_payment__fiscal_position_id
 msgid "Fiscal Position"
 msgstr "Fiskalna pozicija"
 
+# taken from hr.po
 #. module: account_invoice_fiscal_position_update
 #: model:ir.model.fields,help:account_invoice_fiscal_position_update.field_account_bank_statement_line__fiscal_position_id
-#: model:ir.model.fields,help:account_invoice_fiscal_position_update.field_account_move__fiscal_position_id
-#: model:ir.model.fields,help:account_invoice_fiscal_position_update.field_account_payment__fiscal_position_id
 msgid ""
 "Fiscal positions are used to adapt taxes and accounts for particular "
 "customers or sales orders/invoices. The default value comes from the "
 "customer."
 msgstr ""
+"Poreske pozicije se koriste za prilagođavanje poreza i konta za određene "
+"kupce ili prodajne narudžbe/fakture. Zadana vrijednost preuzima se od kupca."
 
+# taken from hr.po
 #. module: account_invoice_fiscal_position_update
 #: model:ir.model,name:account_invoice_fiscal_position_update.model_account_move
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_fiscal_position_update
 #. odoo-python
-#: code:addons/account_invoice_fiscal_position_update/models/account_move.py:0
+#: code:addons/account_invoice_fiscal_position_update/models/account_move.py
 #, python-format
 msgid ""
 "The following invoice lines were not updated to the new Fiscal Position because they don't have a Product:\n"
 " - %s\n"
 "You should update the Account and the Taxes of these invoice lines manually."
 msgstr ""
+"Sljedeće stavke računa nisu ažurirane na novu fiskalnu poziciju, jer ne sadrže proizvod:\n"
+" - %s\n"
+"Portebno je ručno ažurirati poreze na tim stavkama."
 
+# taken from hr.po
 #. module: account_invoice_fiscal_position_update
 #. odoo-python
-#: code:addons/account_invoice_fiscal_position_update/models/account_move.py:0
+#: code:addons/account_invoice_fiscal_position_update/models/account_move.py
 #, python-format
 msgid ""
 "The invoice lines were not updated to the new Fiscal Position because they "
 "don't have products. You should update the Account and the Taxes of each "
 "invoice line manually."
 msgstr ""
+"Stavke računa nisu ažurirane u skladu sa novom fiskalnom pozicijom jer ne "
+"sadrže proizvod. Potrebno je ručno ažurirati poreze i konta na stavkama."
 
+# taken from hr.po
 #. module: account_invoice_fiscal_position_update
 #. odoo-python
-#: code:addons/account_invoice_fiscal_position_update/models/account_move.py:0
+#: code:addons/account_invoice_fiscal_position_update/models/account_move.py
 #, python-format
 msgid "Warning"
 msgstr "Upozorenje"

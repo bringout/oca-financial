@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: stock_account_move_reset_to_draft
 #. odoo-python
-#: code:addons/stock_account_move_reset_to_draft/models/account_move.py:0
+#: code:addons/stock_account_move_reset_to_draft/models/account_move.py
 #, python-format
 msgid "Inventory valuation records are intertwined for %(line_name)s."
 msgstr "Zapisi vrednovanja inventara su međusobno povezani za %(line_name)s."
@@ -27,7 +27,7 @@ msgstr "Žurnal"
 
 #. module: stock_account_move_reset_to_draft
 #. odoo-python
-#: code:addons/stock_account_move_reset_to_draft/models/account_move.py:0
+#: code:addons/stock_account_move_reset_to_draft/models/account_move.py
 #, python-format
 msgid "The inventory has already been (partially) consumed for %(line_name)s."
 msgstr "Inventar je već (djelomično) potrošen za %(line_name)s."

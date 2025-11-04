@@ -13,16 +13,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_default_code_column
 #: model_terms:ir.ui.view,arch_db:account_invoice_default_code_column.report_invoice_document
 msgid "<span>Code</span>"
 msgstr "<span>Šifra</span>"
 
+# taken from hr.po
 #. module: account_invoice_default_code_column
 #: model:ir.model,name:account_invoice_default_code_column.model_account_move_line
 msgid "Journal Item"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_default_code_column
 #: model:ir.model.fields,field_description:account_invoice_default_code_column.field_account_move_line__name_without_default_code
 msgid "Name Without Default Code"

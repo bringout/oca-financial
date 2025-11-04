@@ -13,312 +13,340 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #. odoo-python
-#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py
 #, python-format
 msgid "%s has already been credited/debited on the bank account."
 msgstr "%s je već zadužen/razdužen na bankovnom računu."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.actions.report,print_report_name:account_cash_deposit.report_account_cash_deposit
 msgid ""
 "'%s%s' % (object.display_name.replace(' ', '_'), object.state == 'draft' and"
 " '-draft' or '')"
 msgstr ""
+"'%s%s' % (object.display_name.replace(' ', '_'), object.state == 'draft' and"
+" '-nacrt' or '')"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "<strong>Currency:</strong>"
 msgstr "<strong>Valuta:</strong>"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "<strong>Date:</strong>"
 msgstr "<strong>Datum:</strong>"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "<strong>Loose Coins:</strong>"
 msgstr "<strong>Kovanice:</strong>"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "<strong>Order Date:</strong>"
 msgstr "<strong>Datum naloga:</strong>"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "<strong>Total:</strong>"
 msgstr "<strong>Ukupno:</strong>"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.constraint,message:account_cash_deposit.constraint_account_cash_deposit_name_company_unique
 msgid ""
 "A cash deposit/order with this reference already exists in this company."
-msgstr ""
+msgstr "Gotovinska stavka sa ovom referencom već postoji unutar ove tvrke."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.constraint,message:account_cash_deposit.constraint_account_cash_deposit_line_cash_unit_unique
 msgid "A line already exists for this cash unit."
 msgstr "Stavka već postoji za ovu gotovinsku jedinicu."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_needaction
 msgid "Action Needed"
 msgstr "Potrebna radnja"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__active
 msgid "Active"
 msgstr "Aktivan"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_ids
 msgid "Activities"
 msgstr "Aktivnosti"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_exception_decoration
 msgid "Activity Exception Decoration"
 msgstr "Dekoracija izuzetka aktivnosti"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_state
 msgid "Activity State"
 msgstr "Status aktivnosti"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_type_icon
 msgid "Activity Type Icon"
 msgstr "Ikona tipa aktivnosti"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.cash_unit_form
 msgid "Archived"
 msgstr "Arhivirano"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_attachment_count
 msgid "Attachment Count"
 msgstr "Broj priloga"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__auto_create
 msgid "Auto Create"
 msgstr "Automatski kreiraj"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_form
 msgid "Back to Draft"
 msgstr "Nazad u nacrt"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__bank_journal_id
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
 msgid "Bank Account"
 msgstr "Bankovni račun"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "Bank Account Number to Credit:"
 msgstr "Broj bankovnog računa za potraživanje:"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "Bank Account Number to Debit:"
 msgstr "Broj bankovnog računa za dugovanje:"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "Bank:"
 msgstr "Banka:"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__cash_unit__auto_create__both
 msgid "Both"
 msgstr "Oboje"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_order_reception_form
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__cash_journal_id
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
 msgid "Cash Box"
 msgstr "Gotovinska blagajna"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__account_cash_deposit__operation_type__deposit
 msgid "Cash Deposit"
 msgstr "Polog gotovine"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model,name:account_cash_deposit.model_account_cash_deposit_line
 msgid "Cash Deposit Lines"
 msgstr "Stavke pologa gotovine"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.actions.report,name:account_cash_deposit.report_account_cash_deposit
-#: model:ir.model,name:account_cash_deposit.model_account_cash_deposit
 msgid "Cash Deposit/Order"
 msgstr "Nalog za gotovinsku Uplatu/Isplatu"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.actions.act_window,name:account_cash_deposit.account_cash_deposit_action
-#: model:ir.ui.menu,name:account_cash_deposit.account_cash_deposit_menu
 msgid "Cash Deposits"
 msgstr "Gotovinske uplate"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__order_id
-#: model:ir.model.fields.selection,name:account_cash_deposit.selection__account_cash_deposit__operation_type__order
 msgid "Cash Order"
 msgstr "Gotovinski nalog"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.actions.act_window,name:account_cash_deposit.account_cash_order_reception_action
-#: model:ir.model,name:account_cash_deposit.model_account_cash_order_reception
 msgid "Cash Order Reception"
 msgstr "Zaprimanje gotovine"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.actions.act_window,name:account_cash_deposit.account_cash_order_action
-#: model:ir.ui.menu,name:account_cash_deposit.account_cash_order_menu
 msgid "Cash Orders"
 msgstr "Gotovinski nalozi"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_form
 msgid "Cash Received"
 msgstr "Gotovina zaprimljena"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__date
 msgid "Cash Reception Date"
 msgstr "Datum zaprimanja gotovine"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.actions.act_window,name:account_cash_deposit.cash_unit_action
-#: model:ir.model,name:account_cash_deposit.model_cash_unit
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__cash_unit_id
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "Cash Unit"
 msgstr "Gotovinska jedinica"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_res_currency__cash_unit_ids
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.view_currency_form
 msgid "Cash Units"
 msgstr "Gotovinske jedinice"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #. odoo-python
-#: code:addons/account_cash_deposit/wizards/account_cash_order_reception.py:0
+#: code:addons/account_cash_deposit/wizards/account_cash_order_reception.py
 #, python-format
 msgid "Cash reception confirmed on %s."
 msgstr "Zaprimanje gotovine potvrđeno %s."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__cash_unit__cash_type__coin
 msgid "Coin"
 msgstr "Kovanica"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__coinroll_qty
 msgid "Coin Quantity"
 msgstr "Količina kovanica"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__cash_unit__cash_type__coinroll
 msgid "Coin Roll"
 msgstr "Rola kovanica"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__company_id
 msgid "Company"
 msgstr "Tvrtka"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_order_reception_form
 msgid "Confirm Cash Reception"
 msgstr "Potvrdi zaprimanje gotovine"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_form
 msgid "Confirm Order"
 msgstr "Potvrdi nalog"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__account_cash_deposit__state__confirmed
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
 msgid "Confirmed"
 msgstr "Potvrđeno"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__create_uid
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__create_uid
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__create_uid
-#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__create_date
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__create_date
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__create_date
-#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model,name:account_cash_deposit.model_res_currency
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__currency_id
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__currency_id
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__currency_id
-#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__currency_id
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
 msgid "Currency"
 msgstr "Valuta"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__date
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
 msgid "Date"
 msgstr "Datum"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__cash_unit__auto_create__deposit
 msgid "Deposit"
 msgstr "Polog"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__display_name
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__display_name
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__display_name
-#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__account_cash_deposit__state__done
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
 msgid "Done"
 msgstr "Gotovo"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__account_cash_deposit__state__draft
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
 msgid "Draft"
 msgstr "Nacrt"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_follower_ids
 msgid "Followers"
 msgstr "Pratitelji"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_partner_ids
 msgid "Followers (Partners)"
@@ -329,18 +357,21 @@ msgstr "Pratitelji (Partneri)"
 msgid "Font awesome icon e.g. fa-tasks"
 msgstr "Font awesome ikona npr. fa-tasks"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #. odoo-python
-#: code:addons/account_cash_deposit/models/cash_unit.py:0
+#: code:addons/account_cash_deposit/models/cash_unit.py
 #, python-format
 msgid "For a coin roll, the coin quantity must be strictly positive."
 msgstr "Za rolu kovanica količina mora biti striktno pozitivna."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_search
 msgid "Group By"
 msgstr "Grupiraj po"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__has_message
 msgid "Has Message"
@@ -348,141 +379,156 @@ msgstr "Ima poruka"
 
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__id
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__id
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__id
-#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__id
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_exception_icon
 msgid "Icon"
 msgstr "Ikona"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_account_cash_deposit__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 msgstr "Ikona za označavanje izuzetka pri aktivnosti."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_account_cash_deposit__message_needaction
 msgid "If checked, new messages require your attention."
 msgstr "Ukoliko je označeno nove poruke traže vašu pozornost."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_account_cash_deposit__message_has_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Ukoliko je označeno, neke poruke imaju greške pri isporuci."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_cash_unit__auto_create
 msgid ""
 "If set, a line for this cash unit will be created by default on a new cash "
 "deposit or a new cash order or both."
 msgstr ""
+"Ako je označeno, stavka za ovu gotovinsku jedinicu će biti kreirana pri "
+"novom polaganju ili podizanju gotovine."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_account_cash_deposit__coin_amount
 msgid ""
 "If your bank has a coin counting machine, enter the total amount of coins "
 "counted by the machine instead of creating a line for each type of coin."
 msgstr ""
+"Ako vaša banka ima automat za brojenje kovanica, unesite ukupni iznos "
+"kovanica izbrojen na automatu umjesto kreiranja stavke za svaki kovanice."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_is_follower
 msgid "Is Follower"
 msgstr "Je pratitelj"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__move_id
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit____last_update
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line____last_update
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception____last_update
-#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit____last_update
 msgid "Last Modified on"
 msgstr "Zadnje modificirano"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__write_uid
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__write_uid
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__write_uid
-#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__write_uid
 msgid "Last Updated by"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__write_date
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__write_date
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__write_date
-#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažuriranje"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__line_ids
 msgid "Lines"
 msgstr "Stavke"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__coin_amount
 msgid "Loose Coin Amount"
 msgstr "Iznos gubitka kovanica"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Glavni prilog"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_has_error
 msgid "Message Delivery error"
 msgstr "Greška pri isporuci poruke"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_ids
 msgid "Messages"
 msgstr "Poruke"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__my_activity_date_deadline
 msgid "My Activity Deadline"
 msgstr "Krajnji rok moje aktivnosti"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr "Krajnji rok sljedeće aktivnosti"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_summary
 msgid "Next Activity Summary"
 msgstr "Sažetak sljedeće aktivnosti"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_type_id
 msgid "Next Activity Type"
 msgstr "Tip sljedeće aktivnosti"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__cash_unit__cash_type__note
 msgid "Note"
 msgstr "Napomena"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__notes
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_form
 msgid "Notes"
 msgstr "Napomene"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_needaction_counter
 msgid "Number of Actions"
 msgstr "Broj radnji"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__message_has_error_counter
 msgid "Number of errors"
@@ -493,6 +539,7 @@ msgstr "Broj grešaka"
 msgid "Number of messages requiring action"
 msgstr "Broj poruka koje zahtijevaju aktivnost"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_account_cash_deposit__message_has_error_counter
 msgid "Number of messages with delivery error"
@@ -500,54 +547,64 @@ msgstr "Broj poruka sa greškom pri isporuci"
 
 #. module: account_cash_deposit
 #. odoo-python
-#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py
 #, python-format
 msgid ""
 "On %(deposit)s, the cash journal %(cash_journal)s is not in the selected "
 "currency %(currency)s."
 msgstr ""
+"Na %(deposit)s, dnevnik gotovine %(cash_journal)s nije u odabranoj valuti "
+"%(currency)s."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__operation_type
 msgid "Operation Type"
 msgstr "Tip operacije"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields.selection,name:account_cash_deposit.selection__cash_unit__auto_create__order
 msgid "Order"
 msgstr "Nalog"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__order_date
 msgid "Order Date"
 msgstr "Datum naloga"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__parent_id
 msgid "Parent"
 msgstr "Nadređeni"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_form
 msgid "Print"
 msgstr "Ispis"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__qty
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "Quantity"
 msgstr "Količina"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__is_reconcile
 msgid "Reconciled"
 msgstr "Zatvoreno"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__name
 msgid "Reference"
 msgstr "Referenca"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__activity_user_id
 msgid "Responsible User"
@@ -563,6 +620,7 @@ msgstr "Status"
 msgid "Status"
 msgstr "Status"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_account_cash_deposit__activity_state
 msgid ""
@@ -571,73 +629,86 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__subtotal
-#: model_terms:ir.ui.view,arch_db:account_cash_deposit.report_cashdeposit
 msgid "Subtotal"
 msgstr "Podzbroj"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #. odoo-python
-#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py
 #, python-format
 msgid "The %s is not in draft state, so you cannot delete it."
 msgstr "%s nije u stanju Nacrta, dakle nije moguće brisanje."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #. odoo-python
-#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py
 #, python-format
 msgid "The Inter-Banks Transfer Account is not configured."
 msgstr "Prelazni bankovni konto nije definiran."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.constraint,message:account_cash_deposit.constraint_cash_unit_coinroll_qty_positive
 msgid "The coin quantity must be positive."
 msgstr "Količina kovanica mora biti pozitivna."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.constraint,message:account_cash_deposit.constraint_account_cash_deposit_coin_amount_positive
 msgid "The loose coin amount must be positive or null."
 msgstr "Količina izgubljenih kovanica mora biti pozitivna ili nula."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.constraint,message:account_cash_deposit.constraint_account_cash_deposit_line_qty_positive
 msgid "The quantity must be positive or null."
 msgstr "Količina mora biti pozitivna ili nula."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #. odoo-python
-#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py
 #, python-format
 msgid "The total amount of %s is zero."
 msgstr "Ukupni iznos %s je nula."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.constraint,message:account_cash_deposit.constraint_cash_unit_value_positive
 msgid "The value must be strictly positive."
 msgstr "Vrijednost mora striktno biti pozitina."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_cash_unit__cash_type
-#: model:ir.model.fields,help:account_cash_deposit.field_cash_unit__coinroll_qty
 msgid "This field should never be modified."
 msgstr "Ovo polje nikada nebi smjelo biti uređivano."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_cash_unit__value
 msgid ""
 "This field should never be modified. For a coin roll, you must enter the "
 "value of the coin."
-msgstr ""
+msgstr "biti uređivano. Za rolu kovanica, morate upisati vrijednost kovanice."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit__total_amount
-#: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_order_reception__total_amount
 msgid "Total Amount"
 msgstr "Ukupni iznos"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__total_value
 msgid "Total Value"
@@ -645,30 +716,34 @@ msgstr "Ukupna vrijednost"
 
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_account_cash_deposit_line__tree_order
-#: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__tree_order
 msgid "Tree Order"
 msgstr "Redoslijed stabla"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__cash_type
 msgid "Type"
 msgstr "Tip"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_account_cash_deposit__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr "Tip izuzetka aktivnosti na zapisu."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,help:account_cash_deposit.field_account_cash_deposit__date
 msgid "Used as date for the journal entry."
 msgstr "Korišteno kao datum za stavku dnevnika."
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model_terms:ir.ui.view,arch_db:account_cash_deposit.account_cash_deposit_form
 msgid "Validate"
 msgstr "Ovjeri"
 
+# taken from hr.po
 #. module: account_cash_deposit
 #: model:ir.model.fields,field_description:account_cash_deposit.field_cash_unit__value
 msgid "Value"
@@ -686,8 +761,10 @@ msgstr "Povijest komunikacije Web stranice"
 
 #. module: account_cash_deposit
 #. odoo-python
-#: code:addons/account_cash_deposit/models/account_cash_deposit.py:0
+#: code:addons/account_cash_deposit/models/account_cash_deposit.py
 #, python-format
 msgid ""
 "You must delete cash lines that are linked to a currency other than %s."
 msgstr ""
+"Morate obrisati redove gotovine koji su povezani sa valutom različitom od "
+"%s."

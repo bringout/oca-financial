@@ -15,31 +15,11 @@ msgstr ""
 
 #. module: analytic_mixin_analytic_account
 #: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_account_analytic_distribution_model__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_account_move_line__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_account_reconcile_model_line__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_analytic_mixin__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_hr_expense__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_hr_expense_split__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_purchase_order_line__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_sale_order_line__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_stock_move__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_stock_move_line__analytic_account_names
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_stock_scrap__analytic_account_names
 msgid "Analytic Account Names"
 msgstr "Nazivi analitičkih računa"
 
 #. module: analytic_mixin_analytic_account
 #: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_account_analytic_distribution_model__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_account_move_line__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_account_reconcile_model_line__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_analytic_mixin__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_hr_expense__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_hr_expense_split__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_purchase_order_line__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_sale_order_line__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_stock_move__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_stock_move_line__analytic_account_ids
-#: model:ir.model.fields,field_description:analytic_mixin_analytic_account.field_stock_scrap__analytic_account_ids
 msgid "Analytic Accounts"
 msgstr "Analitički računi"
 
@@ -50,32 +30,14 @@ msgstr "Mixin Analitike"
 
 #. module: analytic_mixin_analytic_account
 #: model:ir.model.fields,help:analytic_mixin_analytic_account.field_account_analytic_distribution_model__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_account_move_line__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_account_reconcile_model_line__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_analytic_mixin__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_hr_expense__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_hr_expense_split__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_purchase_order_line__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_sale_order_line__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_stock_move__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_stock_move_line__analytic_account_ids
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_stock_scrap__analytic_account_ids
 msgid "Analytic accounts computed from analytic distribution."
 msgstr "Analitički računi izračunati iz analitičke distribucije."
 
 #. module: analytic_mixin_analytic_account
 #: model:ir.model.fields,help:analytic_mixin_analytic_account.field_account_analytic_distribution_model__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_account_move_line__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_account_reconcile_model_line__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_analytic_mixin__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_hr_expense__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_hr_expense_split__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_purchase_order_line__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_sale_order_line__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_stock_move__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_stock_move_line__analytic_account_names
-#: model:ir.model.fields,help:analytic_mixin_analytic_account.field_stock_scrap__analytic_account_names
 msgid ""
 "Comma-separated analytic account names, in case it is useful to be included "
 "in the exported data."
 msgstr ""
+"[PREVOD POTREBAN: Comma-separated analytic account names, in case it is "
+"useful...]"

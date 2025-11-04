@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: purchase_analytic
 #: model:ir.model.fields,field_description:purchase_analytic.field_purchase_order__analytic_distribution
 msgid "Analytic"
@@ -33,6 +34,7 @@ msgstr "Analitički računi"
 msgid "Analytic Distribution Search"
 msgstr "Pretraga analitičkih distribucija"
 
+# taken from hr.po
 #. module: purchase_analytic
 #: model:ir.model.fields,field_description:purchase_analytic.field_purchase_order__analytic_precision
 msgid "Analytic Precision"
@@ -54,6 +56,8 @@ msgid ""
 "Comma-separated analytic account names, in case it is useful to be included "
 "in the exported data."
 msgstr ""
+"[PREVOD POTREBAN: Comma-separated analytic account names, in case it is "
+"useful...]"
 
 #. module: purchase_analytic
 #: model:ir.model.fields,help:purchase_analytic.field_purchase_order__analytic_distribution_import
@@ -62,12 +66,15 @@ msgid ""
 " but using the analytic accounts names as keys of the dictionary, so it "
 "eases the human input."
 msgstr ""
+"[PREVOD POTREBAN: Defining this field, it will set the analytical "
+"distribution...]"
 
 #. module: purchase_analytic
 #: model:ir.model.fields,field_description:purchase_analytic.field_purchase_order__manual_distribution_id
 msgid "Manual Distribution"
 msgstr "Posao"
 
+# taken from hr.po
 #. module: purchase_analytic
 #: model:ir.model,name:purchase_analytic.model_purchase_order
 msgid "Purchase Order"

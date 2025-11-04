@@ -13,45 +13,53 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #. odoo-python
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py
 #, python-format
 msgid "All invoices must have the same: \n"
 msgstr "Svi računi moraju imati iste: \n"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
 msgid "Are you sure you want to merge these invoices?"
 msgstr "Jeste li sigurni da želite spojiti ove račune?"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #. odoo-python
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py
 #, python-format
 msgid "Draft"
 msgstr "Nacrt"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__error_message
 msgid "Error Message"
@@ -62,55 +70,63 @@ msgstr "Poruka greške"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__date_invoice
 msgid "Invoice Date"
 msgstr "Datum računa"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model,name:account_invoice_merge.model_account_move
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__keep_references
 msgid "Keep references from original invoices"
 msgstr "Zadrži reference iz originalnih računa"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
 msgid "Merge Invoices"
 msgstr "Spoji račune"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model:ir.actions.act_window,name:account_invoice_merge.action_view_invoice_merge
-#: model:ir.model,name:account_invoice_merge.model_invoice_merge
-#: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
 msgid "Merge Partner Invoice"
 msgstr "Spoji račune partnera"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #. odoo-python
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py
 #, python-format
 msgid "Merge-able State (ex : %s)"
 msgstr "Spojivi status (npr: %s)"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
 msgid ""
@@ -124,10 +140,20 @@ msgid ""
 "                        * Invoice lines are exactly the same except for the\n"
 "                        product, quantity and unit.<br/>"
 msgstr ""
+"Primite na znanje:<br/><br/>\n"
+"                        Računi će biti spojeni jedino ako:<br/>\n"
+"                        * su u statusu 'Nacrt'.<br/>\n"
+"                        * su naslovljeni na istog partnera.<br/>\n"
+"                        * pripadaju istoj tvrtci, galse na istog partnera, adresu,\n"
+"                        valutu, dnevnik, prodavača, konto i tip.<br/><br/>\n"
+"                        Stavke će biti spojene jedino ako:<br/>\n"
+"                        * su apsolutno identične osim količine i jedinice\n"
+"                        proizvoida.<br/>"
 
+# taken from hr.po
 #. module: account_invoice_merge
 #. odoo-python
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py
 #, python-format
 msgid "Please select multiple invoices to merge in the list view."
 msgstr "Molimo odaberite nekoliko računa za spajanje u popisnom prikazu."

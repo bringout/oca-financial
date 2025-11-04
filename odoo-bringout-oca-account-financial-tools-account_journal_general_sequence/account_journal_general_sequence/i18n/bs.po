@@ -15,59 +15,62 @@ msgstr ""
 
 #. module: account_journal_general_sequence
 #. odoo-python
-#: code:addons/account_journal_general_sequence/models/account_journal.py:0
+#: code:addons/account_journal_general_sequence/models/account_journal.py
 #, python-format
 msgid "Account entry default numbering (%s)"
 msgstr "Zadano numeriranje stavke računa (%s)"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_journal__entry_number_sequence_id
 msgid "Account entry number sequence"
 msgstr "Brojeni krug stavke"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model,name:account_journal_general_sequence.model_account_move_renumber_wizard
 msgid "Account move entry renumbering wizard"
 msgstr "Čarobnjak za renumeraciju stavaka"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,help:account_journal_general_sequence.field_account_bank_statement_line__entry_number
-#: model:ir.model.fields,help:account_journal_general_sequence.field_account_move__entry_number
-#: model:ir.model.fields,help:account_journal_general_sequence.field_account_move_line__entry_number
-#: model:ir.model.fields,help:account_journal_general_sequence.field_account_payment__entry_number
 msgid "Automatic numbering, based on journal configuration."
 msgstr "Automatska renumeracija, bazirana na postavkama dnevnika."
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__available_sequence_ids
 msgid "Available sequences"
 msgstr "Raspoložive sekvence"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model_terms:ir.ui.view,arch_db:account_journal_general_sequence.account_move_renumber_wizard_view_form
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_bank_statement_line__entry_number
-#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move__entry_number
-#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_line__entry_number
-#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_payment__entry_number
 msgid "Entry Number"
 msgstr "Broj stavke"
 
@@ -81,50 +84,61 @@ msgstr "Broj stavke mora biti jedinstven po dnevniku."
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model_terms:ir.ui.view,arch_db:account_journal_general_sequence.account_move_renumber_wizard_view_form
 msgid ""
 "If you have already filed and legalized your journals with the competent "
 "authority, this action could change it. Continue?"
 msgstr ""
+"Ukoliko ste već podnesli porezni izvještaj, ova radnja bi moga izmjeniti "
+"negove vrijednosti. Nastaviti?"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model,name:account_journal_general_sequence.model_account_journal
 msgid "Journal"
 msgstr "Dnevnik"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model,name:account_journal_general_sequence.model_account_move
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model,name:account_journal_general_sequence.model_account_move_line
 msgid "Journal Item"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje modificirano"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #. odoo-python
-#: code:addons/account_journal_general_sequence/wizards/account_move_renumber_wizard.py:0
+#: code:addons/account_journal_general_sequence/wizards/account_move_renumber_wizard.py
 #, python-format
 msgid "No account moves found."
 msgstr "Nisu pronađene temeljnice."
 
+# taken from hr.po
 #. module: account_journal_general_sequence
 #: model_terms:ir.ui.view,arch_db:account_journal_general_sequence.account_move_renumber_wizard_view_form
 msgid "Renumber"
@@ -142,7 +156,6 @@ msgstr "Prenumeriši zapise računa počevši od ovog dana."
 
 #. module: account_journal_general_sequence
 #: model:ir.actions.act_window,name:account_journal_general_sequence.account_move_renumber_wizard_action
-#: model:ir.ui.menu,name:account_journal_general_sequence.account_move_renumber_wizard_menu
 msgid "Renumber journal entries"
 msgstr "Prenumeriši stavke dnevnika"
 
@@ -167,6 +180,8 @@ msgid ""
 "Sequence to use for renumbering. Affects all journals that use this "
 "sequence."
 msgstr ""
+"Sekvenca za korištenje kod prebroja vanja. Utiče na sve dnevnike koji "
+"koriste ovu sekvencu."
 
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,help:account_journal_general_sequence.field_account_journal__entry_number_sequence_id

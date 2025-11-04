@@ -13,102 +13,111 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_account_group
 msgid "Account Group"
 msgstr "Grupa konta"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.account_group_action
-#: model:ir.ui.menu,name:account_usability.account_group_menu
 msgid "Account Groups"
 msgstr "Grupe konta"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_account_account_tag
 msgid "Account Tag"
 msgstr "Oznaka konta"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.account_account_tag_action
-#: model:ir.ui.menu,name:account_usability.account_tag_menu
 msgid "Account Tags"
 msgstr "Oznake konta"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_search
-#: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Account Template"
 msgstr "Predložak konta"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.account_account_template_action
-#: model:ir.ui.menu,name:account_usability.menu_account_account_template
 msgid "Account Templates"
 msgstr "Predlošci konta"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_search
 msgid "Account Type"
 msgstr "Vrsta konta"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.model.fields,field_description:account_usability.field_account_account_tag__account_ids
-#: model:ir.model.fields,field_description:account_usability.field_account_group__account_ids
-#: model_terms:ir.ui.view,arch_db:account_usability.view_account_group_form
 msgid "Accounts"
 msgstr "Konta"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.res_config_settings_view_form
 msgid "Anglo-Saxon Accounting"
 msgstr "Anglo-saxonsko računovodstvo"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_accounting_statement_bank
 msgid "Bank Statements"
 msgstr "Bankovni izvodi"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_accounting_bank_and_cash
 msgid "Bank and Cash"
 msgstr "Banka i Gotovina"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_accounting_statement_cash
 msgid "Cash Registers"
 msgstr "Blagajne"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.action_account_chart_template_form
-#: model:ir.ui.menu,name:account_usability.menu_account_chart_template
 msgid "Chart of Accounts Templates"
 msgstr "Predlošci kontnih planova"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_res_config_settings
 msgid "Config Settings"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_form
-#: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_form
 msgid "Default Taxes"
 msgstr "Zadani porezi"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Expense Account"
 msgstr "Konto troška"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_fiscal_position_template_form
 msgid "Extra configuration"
 msgstr "Dodatne postavke"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.actions.act_window,name:account_usability.account_fiscal_position_template_action
-#: model:ir.ui.menu,name:account_usability.menu_account_fiscal_position_template
 msgid "Fiscal Position Templates"
 msgstr "Predlošci fiskalnih pozicija"
 
@@ -127,42 +136,49 @@ msgstr "Zadnji datum fiskalne godine"
 msgid "Fiscalyear Last Month"
 msgstr "Zadnji mjesec fiskalne godine"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_search
-#: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Group By"
 msgstr "Grupiraj po"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Income Account"
 msgstr "Konto dobiti"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_form
 msgid "Internal notes..."
 msgstr "Interne bilješke..."
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_fiscal_position_template_form
 msgid "Note"
 msgstr "Bilješka"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_form
 msgid "Notes"
 msgstr "Bilješke"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Payable Account"
 msgstr "Potražni konto"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_form
 msgid "Properties"
 msgstr "Svojstva"
 
+# taken from hr.po
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_chart_template_seacrh
 msgid "Receivable Account"
@@ -175,6 +191,9 @@ msgid ""
 "                                invoiced to a final customer (instead of recording the cost as soon\n"
 "                                as the product is received in stock)."
 msgstr ""
+"Evidentirati trošak robe kao rashod kada se ova roba\n"
+"                                fakturiše krajnjem kupcu (umjesto evidentiranja troška odmah\n"
+"                                nakon prijema proizvoda na zalihe)."
 
 #. module: account_usability
 #: model:ir.model.fields,help:account_usability.field_res_config_settings__anglo_saxon_accounting
@@ -182,22 +201,28 @@ msgid ""
 "Record the cost of a good as an expense when this good is invoiced to a "
 "final customer."
 msgstr ""
+"Evidentirati trošak robe kao rashod kada se ova roba fakturiše krajnjem "
+"kupcu."
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_account_tax_group
 msgid "Tax Group"
 msgstr "Grupa poreza"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_account_tax_template
 msgid "Tax Templates"
 msgstr "Predlošci poreza"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.model.fields,field_description:account_usability.field_account_tax_group__tax_ids
 msgid "Taxes"
 msgstr "Porezi"
 
+# taken from hr.po
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_account_coa_settings
 msgid "Templates"
@@ -209,6 +234,7 @@ msgid ""
 "Type the day and select the month of the last day of the company's fiscal "
 "year."
 msgstr ""
+"Unesite dan i odaberite mjesec posljednjeg dana fiskalne godine kompanije."
 
 #. module: account_usability
 #: model:ir.model.fields,field_description:account_usability.field_res_config_settings__anglo_saxon_accounting

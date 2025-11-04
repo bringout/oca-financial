@@ -26,7 +26,9 @@ msgstr "Dodaj novu oznaku"
 #. module: account_analytic_tag
 #: model_terms:ir.ui.view,arch_db:account_analytic_tag.res_config_settings_view_form
 msgid "Allows to tag analytic entries and to manage analytic distributions"
-msgstr "Omogućava označavanje analitičkih zapisa i upravljanje analitičkim distribucijama"
+msgstr ""
+"Omogućava označavanje analitičkih zapisa i upravljanje analitičkim "
+"distribucijama"
 
 #. module: account_analytic_tag
 #: model:ir.model.fields,field_description:account_analytic_tag.field_account_analytic_tag__account_analytic_id
@@ -50,17 +52,11 @@ msgstr "Analitička oznaka"
 
 #. module: account_analytic_tag
 #: model:ir.actions.act_window,name:account_analytic_tag.account_analytic_tag_action
-#: model:ir.model,name:account_analytic_tag.model_account_analytic_tag
-#: model:ir.model.fields,field_description:account_analytic_tag.field_account_move_line__analytic_tag_ids
-#: model:ir.model.fields,field_description:account_analytic_tag.field_res_config_settings__group_analytic_tags
-#: model:ir.ui.menu,name:account_analytic_tag.account_analytic_tag_menu
-#: model_terms:ir.ui.view,arch_db:account_analytic_tag.account_analytic_tag_form_view
 msgid "Analytic Tags"
 msgstr "Analitičke oznake"
 
 #. module: account_analytic_tag
 #: model_terms:ir.ui.view,arch_db:account_analytic_tag.account_analytic_tag_form_view
-#: model_terms:ir.ui.view,arch_db:account_analytic_tag.account_analytic_tag_view_search
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -127,7 +123,9 @@ msgstr "Pretraži analitičke oznake"
 #. module: account_analytic_tag
 #: model:ir.model.fields,help:account_analytic_tag.field_account_analytic_tag__active
 msgid "Set active to false to hide the Analytic Tag without removing it."
-msgstr "Postavite aktivno na netačno da sakrijete analitičku oznaku bez njenog uklanjanja."
+msgstr ""
+"Postavite aktivno na netačno da sakrijete analitičku oznaku bez njenog "
+"uklanjanja."
 
 #. module: account_analytic_tag
 #: model:ir.model.fields,field_description:account_analytic_tag.field_account_analytic_line__tag_ids
@@ -140,3 +138,5 @@ msgid ""
 "Without analytical account: This label will be set for all the analytical items generated.\n"
 " With analytical account: This label will be set only to the analytical items that have the same analytical account."
 msgstr ""
+"Bez analitičkog računa: Ova oznaka će biti postavljena za sve generirane analitičke stavke.\n"
+" Sa analitičkim računom: Ova oznaka će biti postavljena samo na analitičke stavke koje imaju isti analitički račun."

@@ -25,7 +25,6 @@ msgstr "Stavi fakturisanje u red"
 
 #. module: sale_order_invoicing_queued
 #: model:ir.model.fields,field_description:sale_order_invoicing_queued.field_sale_order__invoicing_job_ids
-#: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_order_form_invoicing_queued
 msgid "Invoicing Jobs"
 msgstr "Poslovi fakturisanja"
 
@@ -46,9 +45,11 @@ msgstr "Prodajni nalog"
 
 #. module: sale_order_invoicing_queued
 #. odoo-python
-#: code:addons/sale_order_invoicing_queued/wizards/sale_advance_payment_inv.py:0
+#: code:addons/sale_order_invoicing_queued/wizards/sale_advance_payment_inv.py
 #, python-format
 msgid ""
 "There's already an enqueued job for invoicing the sales order %s. Please "
 "wait until it's finished or remove it from the selection."
 msgstr ""
+"Već postoji posao u redu za fakturisanje prodajnog naloga %s. Molimo "
+"sačekajte da se završi ili ga uklonite iz odabira."

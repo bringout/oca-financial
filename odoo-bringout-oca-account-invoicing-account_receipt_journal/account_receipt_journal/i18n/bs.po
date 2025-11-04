@@ -13,70 +13,88 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_journal.py:0
+#: code:addons/account_receipt_journal/models/account_journal.py
 #, python-format
 msgid "Create receipt"
 msgstr "Kreiraj primitak"
 
+# taken from hr.po
 #. module: account_receipt_journal
 #: model:ir.model.fields,field_description:account_receipt_journal.field_account_journal__receipts
 msgid "Exclusive to Receipts"
 msgstr "Samo za primitke"
 
+# taken from hr.po
 #. module: account_receipt_journal
 #: model:ir.model.fields,help:account_receipt_journal.field_account_journal__receipts
 msgid ""
 "If checked, this journal will be used by default for receipts and only can "
 "be used for receipts."
 msgstr ""
+"Ako je označeno, ovaj dnevnik će biti korišten kao zadani za primitke i može"
+" biti korišten samo za primitke."
 
+# taken from hr.po
 #. module: account_receipt_journal
 #: model:ir.model,name:account_receipt_journal.model_account_journal
 msgid "Journal"
 msgstr "Dnevnik"
 
+# taken from hr.po
 #. module: account_receipt_journal
 #: model:ir.model,name:account_receipt_journal.model_account_move
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_move.py:0
+#: code:addons/account_receipt_journal/models/account_move.py
 #, python-format
 msgid ""
 "Purchase Receipt must use a Receipt Journal because there is already a "
 "Receipt Journal for Purchases"
 msgstr ""
+"Primitak u nabavi mora koristiti Dnevnik primitaka jer već postoji Dnevnik "
+"primitaka za nabavu"
 
+# taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_move.py:0
+#: code:addons/account_receipt_journal/models/account_move.py
 #, python-format
 msgid "Receipt Journal is restricted to Receipts"
 msgstr "Dnevnik primitaka je ograničen za primitke"
 
+# taken from hr.po
 #. module: account_receipt_journal
 #: model_terms:ir.ui.view,arch_db:account_receipt_journal.view_account_journal_form_receipts
 msgid "Receipts"
 msgstr "Primitci"
 
+# taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_move.py:0
+#: code:addons/account_receipt_journal/models/account_move.py
 #, python-format
 msgid ""
 "Sale Receipt must use a Receipt Journal because there is already a Receipt "
 "Journal for Sales"
 msgstr ""
+"Potvrda prodaje mora koristiti Dnevnik potvrda jer je već definiran Dnevnik "
+"potvrda za prodaju"
 
+# taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_journal.py:0
+#: code:addons/account_receipt_journal/models/account_journal.py
 #, python-format
 msgid ""
 "The sequence of the journal '%s' must be higher than the sequence of the "
 "other journals of the same type."
 msgstr ""
+"Sekvenca dnevnika '%s' mora biti viša od sekvence ostalih dnevnika ove "
+"vrste."

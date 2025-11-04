@@ -20,6 +20,5 @@ msgstr "Nije poslano"
 
 #. module: account_move_sent_usability
 #: model_terms:ir.ui.view,arch_db:account_move_sent_usability.view_account_invoice_filter
-#: model_terms:ir.ui.view,arch_db:account_move_sent_usability.view_account_invoice_form
 msgid "Sent"
 msgstr "Poslano"

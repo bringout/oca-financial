@@ -24,6 +24,8 @@ msgid ""
 "Account for accrual of prepaid stock expenses. For instance, goods invoiced "
 "and not yet received."
 msgstr ""
+"Račun za obračun unaprijed plaćenih troškova zaliha. Na primjer, roba "
+"fakturisana ali još nije primljena."
 
 #. module: account_cutoff_accrual_order_stock_base
 #: model:ir.model.fields,field_description:account_cutoff_accrual_order_stock_base.field_account_cutoff__cutoff_account_prepaid_stock_id

@@ -13,16 +13,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "<strong>Accounting Date:</strong>"
 msgstr "<strong>Knjigovodstveni datum:</strong>"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "<strong>Company:</strong>"
 msgstr "<strong>Tvrtka:</strong>"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "<strong>Journal:</strong>"
@@ -33,41 +36,49 @@ msgstr "<strong>Dnevnik:</strong>"
 msgid "<strong>Partner:</strong>"
 msgstr "<strong>Partner:</strong>"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "<strong>Reference:</strong>"
 msgstr "<strong>Referenca:</strong>"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Account"
 msgstr "Konto"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Amount in Currency"
 msgstr "Iznos u valuti"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Credit"
 msgstr "Potražno"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Debit"
 msgstr "Dugovno"
 
+# taken from hr.po
 #. module: account_move_print
 #: model:ir.actions.report,name:account_move_print.action_report_journal_entries
 msgid "Journal Entries"
 msgstr "Stavke dnevnika"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Label"
 msgstr "Labela"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Originator Tax"
@@ -78,6 +89,7 @@ msgstr "Izvorni porez"
 msgid "Partner"
 msgstr "Partner"
 
+# taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Taxes"

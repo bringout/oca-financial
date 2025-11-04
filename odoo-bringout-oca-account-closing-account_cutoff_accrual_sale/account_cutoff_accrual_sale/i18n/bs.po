@@ -30,7 +30,6 @@ msgstr "Linije računovodstvenog presjecanja"
 
 #. module: account_cutoff_accrual_sale
 #: model:ir.actions.act_window,name:account_cutoff_accrual_sale.account_accrual_action
-#: model:ir.ui.menu,name:account_cutoff_accrual_sale.account_accrual_menu
 msgid "Accrued Revenue on Sales Orders"
 msgstr "Akruelni prihod na prodajnim narudžbama"
 
@@ -51,7 +50,6 @@ msgstr "Žurnal"
 
 #. module: account_cutoff_accrual_sale
 #: model:ir.actions.server,name:account_cutoff_accrual_sale.ir_cron_cutoff_revenue_ir_actions_server
-#: model:ir.cron,cron_name:account_cutoff_accrual_sale.ir_cron_cutoff_revenue
 msgid "Make cutoff at end of period - sales order lines"
 msgstr "Napravi presjecanje na kraju perioda - linije prodajnih narudžbi"
 
@@ -72,7 +70,6 @@ msgstr "Prodajni nalog"
 
 #. module: account_cutoff_accrual_sale
 #: model:ir.model,name:account_cutoff_accrual_sale.model_sale_order_line
-#: model:ir.model.fields,field_description:account_cutoff_accrual_sale.field_account_cutoff_line__sale_line_id
 msgid "Sales Order Line"
 msgstr "Stavka prodajne narudžbe"
 
@@ -88,3 +85,6 @@ msgid ""
 "accrued expenses. It then allows to generate the corresponding cut-off "
 "journal entry in one click."
 msgstr ""
+"Ovaj pregled mogu koristiti računovođe za prikupljanje informacija o "
+"obračunatim troškovima. Zatim omogućava generisanje odgovarajućeg unosa u "
+"dnevnik presječenog perioda jednim klikom."

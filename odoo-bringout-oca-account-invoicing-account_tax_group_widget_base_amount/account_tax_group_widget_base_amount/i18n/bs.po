@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_tax_group_widget_base_amount
 #. odoo-javascript
-#: code:addons/account_tax_group_widget_base_amount/static/src/xml/tax_group.xml:0
+#: code:addons/account_tax_group_widget_base_amount/static/src/xml/tax_group.xml
 #, python-format
 msgid "on"
 msgstr "na"

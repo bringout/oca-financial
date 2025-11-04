@@ -13,16 +13,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_analytic_sequence
 #: model:ir.model,name:account_analytic_sequence.model_account_analytic_account
 msgid "Analytic Account"
 msgstr "Analitički konto"
 
+# taken from hr.po
 #. module: account_analytic_sequence
 #: model:ir.model.fields,field_description:account_analytic_sequence.field_account_analytic_account__code
 msgid "Reference"
 msgstr "Referenca"
 
+# taken from hr.po
 #. module: account_analytic_sequence
 #: model:ir.model.constraint,message:account_analytic_sequence.constraint_account_analytic_account_code_uniq
 msgid "Reference must be unique per Company!"

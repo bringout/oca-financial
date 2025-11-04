@@ -30,8 +30,6 @@ msgstr "Stavka žurnala"
 
 #. module: account_move_line_repair_info
 #: model:ir.model,name:account_move_line_repair_info.model_repair_order
-#: model:ir.model.fields,field_description:account_move_line_repair_info.field_account_move_line__repair_order_id
-#: model_terms:ir.ui.view,arch_db:account_move_line_repair_info.view_account_move_line_filter
 msgid "Repair Order"
 msgstr "Nalog za popravak"
 

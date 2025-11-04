@@ -13,21 +13,21 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_report_due_list
 #: model_terms:ir.ui.view,arch_db:account_invoice_report_due_list.report_invoice_document
 msgid "Amount"
 msgstr "Iznos"
 
+# taken from hr.po
 #. module: account_invoice_report_due_list
 #: model_terms:ir.ui.view,arch_db:account_invoice_report_due_list.report_invoice_document
 msgid "Date Due"
 msgstr "Datum dospijeća"
 
+# taken from hr.po
 #. module: account_invoice_report_due_list
 #: model:ir.model.fields,field_description:account_invoice_report_due_list.field_account_bank_statement_line__multi_date_due
-#: model:ir.model.fields,field_description:account_invoice_report_due_list.field_account_move__multi_date_due
-#: model:ir.model.fields,field_description:account_invoice_report_due_list.field_account_payment__multi_date_due
-#: model_terms:ir.ui.view,arch_db:account_invoice_report_due_list.view_move_form
 msgid "Due Dates"
 msgstr "Datumi dospijeća"
 
@@ -36,10 +36,9 @@ msgstr "Datumi dospijeća"
 msgid "Journal Entry"
 msgstr "Žurnal"
 
+# taken from hr.po
 #. module: account_invoice_report_due_list
 #: model:ir.model.fields,field_description:account_invoice_report_due_list.field_account_bank_statement_line__multi_due
-#: model:ir.model.fields,field_description:account_invoice_report_due_list.field_account_move__multi_due
-#: model:ir.model.fields,field_description:account_invoice_report_due_list.field_account_payment__multi_due
 msgid "Multiple date due"
 msgstr "Višestruki datumi dospijeća"
 

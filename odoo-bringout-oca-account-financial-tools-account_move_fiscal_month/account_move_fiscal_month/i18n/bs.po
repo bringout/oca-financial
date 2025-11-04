@@ -13,19 +13,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_move_fiscal_month
 #: model:ir.model.fields,field_description:account_move_fiscal_month.field_account_bank_statement_line__date_range_fm_id
-#: model:ir.model.fields,field_description:account_move_fiscal_month.field_account_move__date_range_fm_id
-#: model:ir.model.fields,field_description:account_move_fiscal_month.field_account_move_line__date_range_fm_id
-#: model:ir.model.fields,field_description:account_move_fiscal_month.field_account_payment__date_range_fm_id
 msgid "Fiscal month"
 msgstr "Fiskalni mjesec"
 
+# taken from hr.po
 #. module: account_move_fiscal_month
 #: model:ir.model,name:account_move_fiscal_month.model_account_move
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_move_fiscal_month
 #: model:ir.model,name:account_move_fiscal_month.model_account_move_line
 msgid "Journal Item"

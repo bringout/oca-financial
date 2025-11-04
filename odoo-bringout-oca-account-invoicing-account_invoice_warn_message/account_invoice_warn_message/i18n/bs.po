@@ -19,11 +19,11 @@ msgid ""
 "<i class=\"fa fa-info-circle\" style=\"margin-right:0.5%;\"/>\n"
 "                        &amp;nbsp;"
 msgstr ""
+"<i class=\"fa fa-info-circle\" style=\"margin-right:0.5%;\"/>\n"
+"                        &amp;nbsp;"
 
 #. module: account_invoice_warn_message
 #: model:ir.model.fields,field_description:account_invoice_warn_message.field_account_bank_statement_line__invoice_warn_msg
-#: model:ir.model.fields,field_description:account_invoice_warn_message.field_account_move__invoice_warn_msg
-#: model:ir.model.fields,field_description:account_invoice_warn_message.field_account_payment__invoice_warn_msg
 msgid "Invoice Warn Msg"
 msgstr "Poruka upozorenja fakture"
 

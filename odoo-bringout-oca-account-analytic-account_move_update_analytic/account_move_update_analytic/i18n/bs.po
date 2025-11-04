@@ -16,43 +16,51 @@ msgstr ""
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__account_id
 msgid "Account"
-msgstr "Account"
+msgstr "Konto"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model,name:account_move_update_analytic.model_account_move_update_analytic_wizard
 msgid "Account Move Update Analytic Account Wizard"
 msgstr "Stavka dnevnika ažuriraj Analitički konto"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__analytic_precision
 msgid "Analytic Precision"
 msgstr "Preciznost analitike"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
 msgid "Cancel"
 msgstr "Odustani"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__company_id
 msgid "Company"
 msgstr "Tvrtka"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__current_analytic_distribution
 msgid "Current Analytic Distribution"
 msgstr "Trenutna Analitička distribucija"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__display_name
 msgid "Display Name"
@@ -63,57 +71,67 @@ msgstr "Naziv za prikaz"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__line_id
 msgid "Invoice line"
 msgstr "Stavka računa"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnje ažurirao"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirao"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__analytic_distribution
 msgid "New Analytic Distribution"
 msgstr "Nova Analitička distribucija"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__product_id
 msgid "Product"
 msgstr "Proizvod"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__move_type
 msgid "Type"
 msgstr "Vrsta"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
 msgid "Update Analytic Distribution"
 msgstr "Ažuriraj Analitičku distribuciju"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.actions.act_window,name:account_move_update_analytic.action_view_account_move_update_analytic
 msgid "Update Analytic for selected Account Moves"
 msgstr "Ažuriraj analitiku za odabranu stavku računa"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.account_move_form_view
-#: model_terms:ir.ui.view,arch_db:account_move_update_analytic.account_move_line_tree_view
 msgid "Update analytic distribution"
 msgstr "Ažuriraj analitičku distibuciju"
 
+# taken from hr.po
 #. module: account_move_update_analytic
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
 msgid "Update analytic lines"

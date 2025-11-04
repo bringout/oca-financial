@@ -20,16 +20,11 @@ msgstr "Dozvoli promenu datuma dospeća"
 
 #. module: account_invoice_date_due
 #: model:ir.model.fields,field_description:account_invoice_date_due.field_account_bank_statement_line__invoice_date_due
-#: model:ir.model.fields,field_description:account_invoice_date_due.field_account_move__invoice_date_due
-#: model:ir.model.fields,field_description:account_invoice_date_due.field_account_payment__invoice_date_due
-#: model_terms:ir.ui.view,arch_db:account_invoice_date_due.view_move_form
 msgid "Due Date"
 msgstr "Datum dospijeća"
 
 #. module: account_invoice_date_due
 #: model:ir.model.fields,field_description:account_invoice_date_due.field_account_bank_statement_line__invoice_date_due_payment_term
-#: model:ir.model.fields,field_description:account_invoice_date_due.field_account_move__invoice_date_due_payment_term
-#: model:ir.model.fields,field_description:account_invoice_date_due.field_account_payment__invoice_date_due_payment_term
 msgid "Due Date Payment Term"
 msgstr "Uslovi plaćanja datuma dospeća"
 
@@ -40,7 +35,7 @@ msgstr "Žurnal"
 
 #. module: account_invoice_date_due
 #. odoo-python
-#: code:addons/account_invoice_date_due/models/account_move.py:0
+#: code:addons/account_invoice_date_due/models/account_move.py
 #, python-format
 msgid "You are not allowed to change the due date."
 msgstr "Nije vam dozvoljeno da menjate datum dospeća."

@@ -20,6 +20,9 @@ msgid ""
 "                                  This account in deprecated! The reconciliation will be NOT possible.\n"
 "                            </span>"
 msgstr ""
+"<span class=\"help-block text-danger\" colspan=\"2\" attrs=\"{'invisible':[('is_credit_account_deprecated','!=',True)]}\">\n"
+"                                  Ovo konto je zastarjelo! Zatvaranje NEĆE biti moguće.\n"
+"                            </span>"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
@@ -28,6 +31,9 @@ msgid ""
 "                                  This account in deprecated! The reconciliation will be NOT possible.\n"
 "                            </span>"
 msgstr ""
+"<span class=\"help-block text-danger\" colspan=\"2\" attrs=\"{'invisible':[('is_debit_account_deprecated','!=',True)]}\">\n"
+"                                  Ovo konto je zastarjelo! Zatvaranje NEĆE biti moguće.\n"
+"                            </span>"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
@@ -39,6 +45,12 @@ msgid ""
 "                                      The Expense account in the vendor bill line.<br/>Usually the same account of the vendor bill line.\n"
 "                                </span>"
 msgstr ""
+"<span class=\"help-block\" colspan=\"2\" attrs=\"{'invisible':[('invoice_type','not in',('out_invoice','in_refund'))]}\">\n"
+"                                      Bilansno konto korišteno za raspoređivanje.<br/>Ovo konto je protukonto konta u stavci fakture.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" attrs=\"{'invisible':[('invoice_type','not in',('in_invoice','out_refund'))]}\">\n"
+"                                      Konto troškova u stavci ulaznog računa.<br/>Obično isto konto kao u stavci ulaznog računa.\n"
+"                                </span>"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
@@ -50,6 +62,12 @@ msgid ""
 "                                      The Expense account used for the spreading.<br/>This account is the counterpart of the account of the vendor bill line.\n"
 "                                </span>"
 msgstr ""
+"<span class=\"help-block\" colspan=\"2\" attrs=\"{'invisible':[('invoice_type','not in',('out_invoice','in_refund'))]}\">\n"
+"                                      Bilansno konto.<br/>Ovo je konto u stavci fakture.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" attrs=\"{'invisible':[('invoice_type','not in',('in_invoice','out_refund'))]}\">\n"
+"                                      Konto troškova korišteno za raspoređivanje.<br/>Ovo konto je protukonto konta u stavci ulaznog računa.\n"
+"                                </span>"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
@@ -61,6 +79,12 @@ msgid ""
 "                                      The Balance Sheet account used for the spreading.<br/>This account is the counterpart of the account in the vendor bill line.\n"
 "                                </span>"
 msgstr ""
+"<span class=\"help-block\" colspan=\"2\" attrs=\"{'invisible':[('invoice_type','not in',('out_invoice','in_refund'))]}\">\n"
+"                                      Konto prihoda u stavci fakture.<br/>Obično isto konto kao u stavci fakture.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" attrs=\"{'invisible':[('invoice_type','not in',('in_invoice','out_refund'))]}\">\n"
+"                                      Bilansno konto korišteno za raspoređivanje.<br/>Ovo konto je protukonto konta u stavci ulaznog računa.\n"
+"                                </span>"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
@@ -72,6 +96,12 @@ msgid ""
 "                                      The Balance Sheet account.<br/>This is the account in the vendor bill line.\n"
 "                                </span>"
 msgstr ""
+"<span class=\"help-block\" colspan=\"2\" attrs=\"{'invisible':[('invoice_type','not in',('out_invoice','in_refund'))]}\">\n"
+"                                      Konto prihoda korišteno za raspoređivanje.<br/>Ovo konto je protukonto konta u stavci fakture.\n"
+"                                </span>\n"
+"                                <span class=\"help-block\" colspan=\"2\" attrs=\"{'invisible':[('invoice_type','not in',('in_invoice','out_refund'))]}\">\n"
+"                                      Bilansno konto.<br/>Ovo je konto u stavci ulaznog računa.\n"
+"                                </span>"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__account_id
@@ -80,7 +110,6 @@ msgstr "Konto"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model,name:account_spread_cost_revenue.model_account_spread
-#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_company_form
 msgid "Account Spread"
 msgstr "Računovodstveno raspoređivanje"
 
@@ -126,28 +155,21 @@ msgstr "Iznos"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__analytic_distribution
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__analytic_distribution
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__analytic_distribution
 msgid "Analytic"
 msgstr "Analitika"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__analytic_distribution_search
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__analytic_distribution_search
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__analytic_distribution_search
 msgid "Analytic Distribution Search"
 msgstr "Pretraga analitičkih distribucija"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__analytic_precision
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__analytic_precision
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__analytic_precision
 msgid "Analytic Precision"
 msgstr "Preciznost analitike"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
-#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_search
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -169,7 +191,8 @@ msgstr "Automatski dodijeli predložak pri validaciji fakture"
 #. module: account_spread_cost_revenue
 #: model:ir.model,name:account_spread_cost_revenue.model_account_spread_template_auto
 msgid "Auto create spread, based on product/account/analytic"
-msgstr "Automatski kreiraj raspoređivanje, bazirano na proizvodu/računu/analitici"
+msgstr ""
+"Automatski kreiraj raspoređivanje, bazirano na proizvodu/računu/analitici"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_res_company__auto_archive_spread
@@ -192,16 +215,17 @@ msgid ""
 "Automatically use this spread template on invoice validation for invoice "
 "lines using below product and/or account and/or analytic,"
 msgstr ""
+"Automatski koristite ovaj šablon raspoređivanja pri validaciji fakture za "
+"stavke fakture koje koriste dolje navedeni proizvod i/ili konto i/ili "
+"analitiku,"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__spread_account_id
-#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
 msgid "Balance sheet account / Spread account"
 msgstr "Bilansni račun / račun raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__days_calc
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__days_calc
 msgid "Calculate by days"
 msgstr "Izračunaj po danima"
 
@@ -212,28 +236,28 @@ msgstr "Otkaži"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "Cannot delete spread(s) that are linked to an invoice line."
 msgstr "Ne mogu obrisati raspoređivanja koja su povezana sa linijom fakture."
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "Cannot delete spread(s): there are posted Journal Entries."
 msgstr "Ne mogu obrisati raspoređivanja: postoje knjiženi zapisi dnevnika."
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py
 #, python-format
 msgid "Cannot reconcile entries that are already reconciled:\n"
 msgstr "Ne mogu uskladiti zapise koji su već usklađeni:\\\n"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "Cannot unlink invoice lines if the invoice is validated"
 msgstr "Ne mogu odlinkirati linije fakture ako je faktura validirana"
@@ -245,9 +269,6 @@ msgstr "Kompanije"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__company_id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__company_id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__company_id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__company_id
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -258,7 +279,6 @@ msgstr "Potvrdi"
 
 #. module: account_spread_cost_revenue
 #: model:ir.actions.server,name:account_spread_cost_revenue.ir_cron_spread_create_entries_ir_actions_server
-#: model:ir.cron,cron_name:account_spread_cost_revenue.ir_cron_spread_create_entries
 msgid "Cost/revenue Spread: Create Entries"
 msgstr "Raspoređivanje troškova/prihoda: Kreiraj zapise"
 
@@ -274,40 +294,32 @@ msgstr "Kreiraj kretanje"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py
 #, python-format
 msgid "Create from spread template"
 msgstr "Kreiraj iz predloška raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py
 #, python-format
 msgid "Create new spread board"
 msgstr "Kreiraj novu tablu raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__create_uid
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__create_uid
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__create_uid
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__create_uid
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread_line.py
 #, python-format
 msgid "Created move(s) "
 msgstr "Kreirani pokret(i) "
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__create_date
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__create_date
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__create_date
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__create_date
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -323,20 +335,16 @@ msgstr "Valuta"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__spread_type__sale
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_invoice_line_link_wizard__spread_type__sale
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_template__spread_type__sale
 msgid "Customer"
 msgstr "Kupac"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__invoice_type__out_refund
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_invoice_line_link_wizard__invoice_type__out_refund
 msgid "Customer Credit Note"
 msgstr "Knjižno odobrenje kupca"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__invoice_type__out_invoice
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_invoice_line_link_wizard__invoice_type__out_invoice
 msgid "Customer Invoice"
 msgstr "Faktura kupcu"
 
@@ -362,7 +370,6 @@ msgstr "Zadani dnevnici raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__period_number
-#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__period_number
 msgid "Define the number of spread lines"
 msgstr "Definiši broj linija raspoređivanja"
 
@@ -373,7 +380,7 @@ msgstr "Obriši pokret"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread_line.py
 #, python-format
 msgid "Deleted move %s"
 msgstr "Obrisan pokret %s"
@@ -394,6 +401,8 @@ msgid ""
 "Disable this option if you do not want to allow the spreading before the "
 "invoice is validated."
 msgstr ""
+"Onemogućite ovu opciju ako ne želite dozvoliti raspoređivanje prije nego što"
+" se faktura validira."
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__display_move_line_auto_post
@@ -407,10 +416,6 @@ msgstr "Prikaži kreiranje svih pokreta"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__display_name
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__display_name
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__display_name
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__display_name
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -425,6 +430,8 @@ msgid ""
 "Enable this option if you want the cron job to automatically archive the "
 "spreads when all lines are posted."
 msgstr ""
+"Omogućite ovu opciju ako želite da cron posao automatski arhivira "
+"raspoređivanja kada su sve stavke proknjižene."
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,help:account_spread_cost_revenue.field_res_company__force_move_auto_post
@@ -432,6 +439,8 @@ msgid ""
 "Enable this option if you want to post automatically the accounting moves of"
 " all the spreads."
 msgstr ""
+"Omogućite ovu opciju ako želite automatski proknjižiti računovodstvene "
+"promjene svih raspoređivanja."
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__estimated_amount
@@ -480,10 +489,6 @@ msgstr "Ima poruku"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__id
 msgid "ID"
 msgstr "ID"
 
@@ -498,6 +503,8 @@ msgid ""
 "If checked, provide option to auto create spread during invoice validation, "
 "based on product/account/analytic in invoice line."
 msgstr ""
+"Ako je označeno, omogućava opciju automatskog kreiranja raspoređivanja tokom"
+" validacije fakture, na osnovu proizvoda/konta/analitike u stavci fakture."
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__message_has_error
@@ -506,7 +513,7 @@ msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "Invoice"
 msgstr "Faktura"
@@ -523,7 +530,6 @@ msgstr "Stavke fakture"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__invoice_type
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__invoice_type
 msgid "Invoice Type"
 msgstr "Tip fakture"
 
@@ -554,17 +560,12 @@ msgstr "Pratilac"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__journal_id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__spread_journal_id
 msgid "Journal"
 msgstr "Vrsta naloga"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread_line.py:0
-#: model:ir.model,name:account_spread_cost_revenue.model_account_move
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__invoice_id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__invoice_id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__move_id
+#: code:addons/account_spread_cost_revenue/models/account_spread_line.py
 #, python-format
 msgid "Journal Entry"
 msgstr "Žurnal"
@@ -581,41 +582,29 @@ msgstr "Žurnal (stavke)"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread____last_update
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard____last_update
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line____last_update
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template____last_update
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__write_uid
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__write_uid
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__write_uid
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__write_uid
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__write_date
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__write_date
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__write_date
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__write_date
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py
 #, python-format
 msgid "Link Invoice Line with Spread Board"
 msgstr "Povezivanje linije fakture sa tablom raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py
 #, python-format
 msgid "Link to existing spread board"
 msgstr "Poveži sa postojećom tablom raspoređivanja"
@@ -647,27 +636,26 @@ msgstr "Poruke"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__period_type__month
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_template__period_type__month
 msgid "Month"
 msgstr "Mjesec"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py
 #, python-format
 msgid "Move line: %(line_id)s (%(line_name)s), account code: %(account_code)s\n"
-msgstr "Linija pokreta: %(line_id)s (%(line_name)s), kod računa: %(account_code)s\\\n"
+msgstr ""
+"Linija pokreta: %(line_id)s (%(line_name)s), kod računa: "
+"%(account_code)s\\\n"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__name
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__name
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__name
 msgid "Name"
 msgstr "Naziv:"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py
 #, python-format
 msgid "New Spread Board"
 msgstr "Nova tabla raspoređivanja"
@@ -684,7 +672,6 @@ msgstr "Broj akcija"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__period_number
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__period_number
 msgid "Number of Repetitions"
 msgstr "Broj ponavljanja"
 
@@ -705,28 +692,26 @@ msgstr "Broj poruka sa greškama pri isporuci"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__exp_rev_account_id
-#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__exp_rev_account_id
 msgid "Optional account to overwrite the existing expense/revenue account"
 msgstr "Opcionalni račun za prepisivanje postojećeg računa troška/prihoda"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__period_type
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__period_type
 msgid "Period Type"
 msgstr "Tip perioda"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__period_type
-#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__period_type
 msgid "Period length for the entries"
 msgstr "Dužina perioda za zapise"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread_template.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread_template.py
 #, python-format
 msgid "Please select product and/or account on auto spread options"
-msgstr "Molimo odaberite proizvod i/ili račun na opcijama automatskog raspoređivanja"
+msgstr ""
+"Molimo odaberite proizvod i/ili račun na opcijama automatskog raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__posted_amount
@@ -745,7 +730,6 @@ msgstr "Artikal"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__period_type__quarter
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_template__period_type__quarter
 msgid "Quarter"
 msgstr "Kvartal"
 
@@ -776,16 +760,14 @@ msgstr "Račun prihoda"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py
 #, python-format
 msgid "Some entries are not from the same account:\n"
 msgstr "Neki zapisi nisu sa istog računa:\\\n"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_line__spread_id
-#: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_search
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "Spread"
 msgstr "Raspoređivanje"
@@ -802,7 +784,6 @@ msgstr "Bilansni račun raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_move_line__spread_id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__spread_id
 msgid "Spread Board"
 msgstr "Tabla raspoređivanja"
 
@@ -818,15 +799,12 @@ msgstr "Provjera raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.actions.act_window,name:account_spread_cost_revenue.action_account_spread_form
-#: model:ir.ui.menu,name:account_spread_cost_revenue.menu_action_account_spread_form
 msgid "Spread Costs/Revenues"
 msgstr "Raspoređivanje troškova/prihoda"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
-#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
-#: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py
 #, python-format
 msgid "Spread Details"
 msgstr "Detalji raspoređivanja"
@@ -848,8 +826,6 @@ msgstr "Linije raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__template_id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__template_id
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__template_id
 msgid "Spread Template"
 msgstr "Predložak raspoređivanja"
 
@@ -860,14 +836,11 @@ msgstr "Naziv predloška raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.actions.act_window,name:account_spread_cost_revenue.action_account_spread_template_form
-#: model:ir.ui.menu,name:account_spread_cost_revenue.menu_action_account_spread_template_form
 msgid "Spread Templates"
 msgstr "Predlošci raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__spread_type
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__spread_type
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__spread_type
 msgid "Spread Type"
 msgstr "Tip raspoređivanja"
 
@@ -878,14 +851,13 @@ msgstr "Linije raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "Spread table '%s' created."
 msgstr "Tabla raspoređivanja '%s' kreirana."
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__spread_date
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__start_date
 msgid "Start Date"
 msgstr "Početni datum"
 
@@ -896,67 +868,73 @@ msgstr "Odgovarajući dnevnik"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__spread_type__purchase
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_invoice_line_link_wizard__spread_type__purchase
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_template__spread_type__purchase
 msgid "Supplier"
 msgstr "Dobavljač"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "The Invoice Type does not correspond to the Invoice"
 msgstr "Tip fakture ne odgovara fakturi"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "The Journal is not consistent with the account moves."
 msgstr "Dnevnik nije konzistentan sa pokretima računa."
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid ""
 "The Spread Template (Purchases) is not compatible with selected invoice type"
 msgstr ""
+"Šablon raspoređivanja (Nabavke) nije kompatibilan sa odabranim tipom fakture"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid ""
 "The Spread Template (Sales) is not compatible with selected invoice type"
 msgstr ""
+"Šablon raspoređivanja (Prodaja) nije kompatibilan sa odabranim tipom fakture"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py
 #, python-format
 msgid ""
 "The account of the invoice line does not correspond to the Balance Sheet "
 "(credit account) of the spread"
 msgstr ""
+"Konto stavke fakture ne odgovara bilansnom (duguje konto) kontu "
+"raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py
 #, python-format
 msgid ""
 "The account of the invoice line does not correspond to the Balance Sheet "
 "(debit account) of the spread"
 msgstr ""
+"Konto stavke fakture ne odgovara bilansnom (potražuje konto) kontu "
+"raspoređivanja"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread_line.py
 #, python-format
 msgid ""
 "This spread line is already linked to a journal entry! Please post or delete"
 " it."
 msgstr ""
+"Ova stavka raspoređivanja je već povezana sa stavkom dnevnika! Molimo "
+"proknjižite je ili obrišite."
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
@@ -965,12 +943,14 @@ msgstr "Ovo će obrisati pokret. Jeste li sigurni?"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_move_line.py:0
+#: code:addons/account_spread_cost_revenue/models/account_move_line.py
 #, python-format
 msgid ""
 "Too many auto spread templates (%(len_template)s) matched with the invoice "
 "line, %(line_name)s"
 msgstr ""
+"Previše šablona automatskog raspoređivanja (%(len_template)s) odgovara "
+"stavci fakture, %(line_name)s"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
@@ -1004,17 +984,18 @@ msgstr "Nepovezano"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "Unlinked '%(spread_link)s' (invoice line %(inv_line)s)."
 msgstr "Odlinkiran '%(spread_link)s' (linija fakture %(inv_line)s)."
 
 #. module: account_spread_cost_revenue
 #. odoo-python
-#: code:addons/account_spread_cost_revenue/models/account_spread.py:0
+#: code:addons/account_spread_cost_revenue/models/account_spread.py
 #, python-format
 msgid "Unlinked invoice line '%(spread_line_name)s' (view %(inv_link)s)."
-msgstr "Odlinkirana linija fakture '%(spread_line_name)s' (pogled %(inv_link)s)."
+msgstr ""
+"Odlinkirana linija fakture '%(spread_line_name)s' (pogled %(inv_link)s)."
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__unposted_amount
@@ -1028,33 +1009,30 @@ msgstr "Neraspoređeni iznos"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__use_invoice_line_account
-#: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__use_invoice_line_account
 msgid "Use Invoice Line Account"
 msgstr "Koristi račun linije fakture"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__use_invoice_line_account
-#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__use_invoice_line_account
 msgid ""
 "Use invoice line's account as Balance sheet / spread account.\n"
 "In this case, user need to select expense/revenue account too."
 msgstr ""
+"Koristite konto stavke fakture kao bilansno / konto raspoređivanja.\n"
+"U ovom slučaju, korisnik treba izabrati i konto troškova/prihoda."
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__days_calc
-#: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread_template__days_calc
 msgid "Use number of days to calculate amount"
 msgstr "Koristi broj dana za izračun iznosa"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__invoice_type__in_invoice
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_invoice_line_link_wizard__invoice_type__in_invoice
 msgid "Vendor Bill"
 msgstr "Ulazni račun"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__invoice_type__in_refund
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_invoice_line_link_wizard__invoice_type__in_refund
 msgid "Vendor Credit Note"
 msgstr "Knjižno odobrenje dobavljača"
 
@@ -1075,7 +1053,6 @@ msgstr "Povijest komunikacije Web stranice"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__period_type__year
-#: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread_template__period_type__year
 msgid "Year"
 msgstr "Godina"
 

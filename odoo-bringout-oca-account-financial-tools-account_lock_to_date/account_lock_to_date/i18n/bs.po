@@ -75,13 +75,11 @@ msgstr "Zadnje ažurirano"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__fiscalyear_lock_to_date
-#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__fiscalyear_lock_to_date
 msgid "Lock To Date"
 msgstr "Datum zaključavanja do"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__period_lock_to_date
-#: model:ir.model.fields,field_description:account_lock_to_date.field_res_company__period_lock_to_date
 msgid "Lock To Date for Non-Advisers"
 msgstr "Datum zaključavanja do za ne-savjetnike"
 
@@ -91,6 +89,9 @@ msgid ""
 "No users, including Advisers, can edit accounts after and inclusive of this "
 "date. Use it for fiscal year locking for example."
 msgstr ""
+"Nijedan korisnik, uključujući savjetnike, ne može uređivati konta poslije i "
+"uključujući ovaj datum. Koristite ga za zaključavanje fiskalne godine na "
+"primjer."
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,help:account_lock_to_date.field_res_company__fiscalyear_lock_to_date
@@ -98,6 +99,8 @@ msgid ""
 "No users, including Advisers, can edit accounts after this date. Use it for "
 "fiscal year locking for example."
 msgstr ""
+"Nijedan korisnik, uključujući savjetnike, ne može uređivati konta poslije "
+"ovog datuma. Koristite ga za zaključavanje fiskalne godine na primjer."
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,help:account_lock_to_date.field_account_update_lock_to_date__period_lock_to_date
@@ -106,6 +109,9 @@ msgid ""
 "this date. Use it for period locking inside an open fiscal year, for "
 "example."
 msgstr ""
+"Samo korisnici sa ulogom 'Savjetnik' mogu uređivati konta poslije i "
+"uključujući ovaj datum. Koristite ga za zaključavanje perioda unutar "
+"otvorene fiskalne godine, na primjer."
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,help:account_lock_to_date.field_res_company__period_lock_to_date
@@ -113,31 +119,39 @@ msgid ""
 "Only users with the 'Adviser' role can edit accounts after this date. Use it"
 " for period locking inside an open fiscal year, for example."
 msgstr ""
+"Samo korisnici sa ulogom 'Savjetnik' mogu uređivati konta poslije ovog "
+"datuma. Koristite ga za zaključavanje perioda unutar otvorene fiskalne "
+"godine, na primjer."
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py:0
+#: code:addons/account_lock_to_date/models/res_company.py
 #, python-format
 msgid "The lock date for advisors is irreversible and can't be removed."
-msgstr "Datum zaključavanja za savjetnike je nepovratan i ne može se ukloniti."
+msgstr ""
+"Datum zaključavanja za savjetnike je nepovratan i ne može se ukloniti."
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py:0
+#: code:addons/account_lock_to_date/models/res_company.py
 #, python-format
 msgid ""
 "The new lock to date for advisors must be set after the previous lock to "
 "date."
 msgstr ""
+"Novi datum zaključavanja za savjetnike mora biti postavljen poslije "
+"prethodnog datuma zaključavanja."
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py:0
+#: code:addons/account_lock_to_date/models/res_company.py
 #, python-format
 msgid ""
 "There are still unposted entries in the period to date you want to lock. You"
 " should either post or delete them."
 msgstr ""
+"Još uvijek postoje neproknjižene stavke u periodu do datuma koji želite "
+"zaključati. Trebate ih ili proknjižiti ili obrisati."
 
 #. module: account_lock_to_date
 #: model_terms:ir.ui.view,arch_db:account_lock_to_date.account_update_lock_to_date_form_view
@@ -146,48 +160,57 @@ msgstr "Ažuriraj"
 
 #. module: account_lock_to_date
 #: model:ir.actions.act_window,name:account_lock_to_date.account_update_lock_to_date_act_window
-#: model:ir.ui.menu,name:account_lock_to_date.account_update_lock_to_date_menu
 msgid "Update accounting lock to dates"
 msgstr "Ažuriraj datume zaključavanja računovodstva"
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/wizards/account_update_lock_to_date.py:0
+#: code:addons/account_lock_to_date/wizards/account_update_lock_to_date.py
 #, python-format
 msgid "You are not allowed to execute this action."
 msgstr "Nije vam odobreno izvršiti ovu radnju."
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/account_move.py:0
+#: code:addons/account_lock_to_date/models/account_move.py
 #, python-format
 msgid ""
 "You cannot add/modify entries after and inclusive of the lock to date %s"
 msgstr ""
+"Ne možete dodati/mijenjati stavke poslije i uključujući datum zaključavanja "
+"%s"
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/account_move.py:0
+#: code:addons/account_lock_to_date/models/account_move.py
 #, python-format
 msgid ""
 "You cannot add/modify entries after and inclusive of the lock to date %s. "
 "Check the company settings or ask someone with the 'Adviser' role"
 msgstr ""
+"Ne možete dodati/mijenjati stavke poslije i uključujući datum zaključavanja "
+"%s. Provjerite postavke preduzeća ili pitajte nekog sa ulogom 'Savjetnik'"
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py:0
+#: code:addons/account_lock_to_date/models/res_company.py
 #, python-format
 msgid ""
 "You cannot define stricter conditions on advisors than on users. Please make"
 " sure that the lock date on advisor is set after the lock date for users."
 msgstr ""
+"Ne možete definisati strože uslove za savjetnike nego za korisnike. Molimo  "
+"osigurajte da je datum zaključavanja za savjetnika postavljen poslije datuma"
+" zaključavanja za korisnike."
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py:0
+#: code:addons/account_lock_to_date/models/res_company.py
 #, python-format
 msgid ""
 "You cannot lock a period that is not finished yet. Please make sure that the"
 " lock date for advisors is set at or after the last day of the next month."
 msgstr ""
+"Ne možete zaključati period koji još nije završen. Molimo osigurajte da je "
+"datum zaključavanja za savjetnike postavljen na ili poslije posljednjeg dana"
+" sljedećeg mjeseca."

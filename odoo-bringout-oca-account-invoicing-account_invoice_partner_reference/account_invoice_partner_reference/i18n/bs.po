@@ -15,8 +15,6 @@ msgstr ""
 
 #. module: account_invoice_partner_reference
 #: model:ir.model.fields,field_description:account_invoice_partner_reference.field_account_bank_statement_line__partner_reference
-#: model:ir.model.fields,field_description:account_invoice_partner_reference.field_account_move__partner_reference
-#: model:ir.model.fields,field_description:account_invoice_partner_reference.field_account_payment__partner_reference
 msgid "Customer reference"
 msgstr "Referenca kupca"
 

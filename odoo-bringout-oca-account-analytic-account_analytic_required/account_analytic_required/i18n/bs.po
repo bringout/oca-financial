@@ -13,64 +13,82 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_analytic_required
 #: model:ir.model,name:account_analytic_required.model_account_account
 msgid "Account"
 msgstr "Konto"
 
+# taken from hr.po
 #. module: account_analytic_required
 #: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__analytic_policy__always
 msgid "Always"
 msgstr "Uvijek"
 
+# taken from hr.po
 #. module: account_analytic_required
 #. odoo-python
-#: code:addons/account_analytic_required/models/account.py:0
+#: code:addons/account_analytic_required/models/account.py
 #, python-format
 msgid ""
 "Analytic policy is set to 'Always' with account '%(account)s' but the "
 "analytic account is missing in the account move line with label '%(move)s'."
 msgstr ""
+"Analitičko pravilo je postavljeno na 'Uvijek' za konto '%(account)s' ali "
+"analitički konto nedostaje u stavci temeljnice sa naslovom '%(move)s'."
 
+# taken from hr.po
 #. module: account_analytic_required
 #. odoo-python
-#: code:addons/account_analytic_required/models/account.py:0
+#: code:addons/account_analytic_required/models/account.py
 #, python-format
 msgid ""
 "Analytic policy is set to 'Never' with account '%(account)s' but the account"
 " move line with label '%(move)s' has an analytic account "
 "'%(analytic_account)s'."
 msgstr ""
+"Analitičko pravilo je postavljeno na 'Nikada' za konto '%(account)s' ali na "
+"stavci temeljnice sa oznakom '%(move)s' postoji analitički konto "
+"'%(analytic_account)s'."
 
+# taken from hr.po
 #. module: account_analytic_required
 #. odoo-python
-#: code:addons/account_analytic_required/models/account.py:0
+#: code:addons/account_analytic_required/models/account.py
 #, python-format
 msgid ""
 "Analytic policy is set to 'Posted moves' with account '%(account)s' but the "
 "analytic account is missing in the account move line with label '%(move)s'."
 msgstr ""
+"Analitičko pravilo je postavljeno na \"Proknjiženo\" na kontima "
+"'%(account)s' ali analitičkikonto nedostaje na stavci knjiženja pod nazivom "
+"'%(move)s'."
 
+# taken from hr.po
 #. module: account_analytic_required
 #: model:ir.model,name:account_analytic_required.model_account_move
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_analytic_required
 #: model:ir.model,name:account_analytic_required.model_account_move_line
 msgid "Journal Item"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_analytic_required
 #: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__analytic_policy__never
 msgid "Never"
 msgstr "Nikad"
 
+# taken from hr.po
 #. module: account_analytic_required
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_account__analytic_policy
 msgid "Policy for analytic account"
 msgstr "Pravila za analitička konta"
 
+# taken from hr.po
 #. module: account_analytic_required
 #: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__analytic_policy__posted
 msgid "Posted moves"
@@ -86,3 +104,9 @@ msgid ""
 "- Posted moves: The accountant will get an error message if no analytic account is defined when the move is posted.\n"
 "- Never: The accountant will get an error message if an analytic account is present."
 msgstr ""
+"Postavlja politiku za analitičke račune.\n"
+"Ako odaberete:\n"
+"- Prazno: Računovođa je slobodan da stavi analitički račun na stavku knjiženja sa ovom vrstom konta.\n"
+"- Uvijek: Računovođa će dobiti poruku greške ako nema analitičkog računa.\n"
+"- Proknjižena knjiženja: Računovođa će dobiti poruku greške ako analitički račun nije definiran kada se knjiženje proknjižuje.\n"
+"- Nikad: Računovođa će dobiti poruku greške ako je analitički račun prisutan."

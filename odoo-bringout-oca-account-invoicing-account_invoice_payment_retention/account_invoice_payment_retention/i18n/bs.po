@@ -19,10 +19,11 @@ msgid ""
 "<span class=\"oe_edit_only\" attrs=\"{'invisible': [('payment_retention', "
 "'=', False)]}\"> = </span>"
 msgstr ""
+"<span class=\"oe_edit_only\" attrs=\"{'invisible': [('payment_retention', "
+"'=', False)]}\"> = </span>"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields.selection,name:account_invoice_payment_retention.selection__account_move__payment_retention__amount
-#: model_terms:ir.ui.view,arch_db:account_invoice_payment_retention.view_move_form
 msgid "Amount"
 msgstr "Iznos"
 
@@ -33,8 +34,6 @@ msgstr "Primijeni zadržavanje"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,help:account_invoice_payment_retention.field_account_bank_statement_line__retention_amount_currency
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_account_move__retention_amount_currency
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_account_payment__retention_amount_currency
 msgid "Based on retention type, this field show the amount to retain."
 msgstr "Na osnovu tipa zadržavanja, ovo polje prikazuje iznos za zadržavanje."
 
@@ -55,8 +54,6 @@ msgstr "Zadati vaš metod zadržavanja"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_bank_statement_line__domain_retained_move_ids
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_move__domain_retained_move_ids
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_payment__domain_retained_move_ids
 msgid "Domain Retained Move"
 msgstr "Domen zadržanog zapisa"
 
@@ -81,6 +78,8 @@ msgid ""
 "Enforce retention amount as suggested, otherwise, user can ignore the "
 "retention."
 msgstr ""
+"Nametni iznos zadržavanja kao što je predloženo, u suprotnom, korisnik može "
+"zanemariti zadržavanje."
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,help:account_invoice_payment_retention.field_account_payment_register__retention_amount_currency
@@ -99,20 +98,17 @@ msgstr "Stavka žurnala"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,help:account_invoice_payment_retention.field_account_bank_statement_line__retention_method
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_account_move__retention_method
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_account_payment__retention_method
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_res_company__retention_method
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_res_config_settings__retention_method
 msgid ""
 "Method for computing the retention\n"
 "- Untaxed Amount: The retention compute from the untaxed amount\n"
 "- Total: The retention compute from the total amount"
 msgstr ""
+"Metoda za izračunavanje zadržavanja\n"
+"- Iznos bez poreza: Zadržavanje se računa od iznosa bez poreza\n"
+"- Ukupno: Zadržavanje se računa od ukupnog iznosa"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_bank_statement_line__payment_retention
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_move__payment_retention
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_payment__payment_retention
 msgid "Payment Retention"
 msgstr "Zadržavanje plaćanja"
 
@@ -128,31 +124,21 @@ msgstr "Registracija uplate"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_bank_statement_line__amount_retention
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_move__amount_retention
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_payment__amount_retention
 msgid "Retention"
 msgstr "Zadržavanje"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_res_company__retention_account_id
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_res_config_settings__retention_account_id
 msgid "Retention Account"
 msgstr "Račun zadržavanja"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_bank_statement_line__retention_amount_currency
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_move__retention_amount_currency
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_payment__retention_amount_currency
 msgid "Retention Amount"
 msgstr "Iznos zadržavanja"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_bank_statement_line__retention_method
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_move__retention_method
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_payment__retention_method
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_res_company__retention_method
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_res_config_settings__retention_method
-#: model_terms:ir.ui.view,arch_db:account_invoice_payment_retention.res_config_settings_view_form
 msgid "Retention Method"
 msgstr "Metoda zadržavanja"
 
@@ -163,73 +149,70 @@ msgstr "Račun zadržavanja obveza"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_res_company__retention_receivable_account_id
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_res_config_settings__retention_receivable_account_id
-#: model_terms:ir.ui.view,arch_db:account_invoice_payment_retention.res_config_settings_view_form
 msgid "Retention Receivable Account"
 msgstr "Račun potraživanja zadržavanja"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_bank_statement_line__retention_residual_currency
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_move__retention_residual_currency
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_payment__retention_residual_currency
 msgid "Retention Residual"
 msgstr "Ostatak zadržavanja"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,help:account_invoice_payment_retention.field_res_company__retention_account_id
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_res_company__retention_receivable_account_id
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_res_config_settings__retention_account_id
 msgid "Retention account used for case payment retention"
 msgstr "Račun zadržavanja korišten za slučaj zadržavanja plaćanja"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,help:account_invoice_payment_retention.field_account_bank_statement_line__amount_retention
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_account_move__amount_retention
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_account_payment__amount_retention
 msgid "Retention in percent of this invoice, or by amount"
 msgstr "Zadržavanje u postotku ove fakture, ili po iznosu"
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/models/account_move.py:0
+#: code:addons/account_invoice_payment_retention/models/account_move.py
 #, python-format
 msgid "Retention must not exceed the total untaxed amount"
 msgstr "Zadržavanje ne smije prelaziti ukupan iznos bez poreza"
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/models/res_company.py:0
+#: code:addons/account_invoice_payment_retention/models/res_company.py
 #, python-format
 msgid "Retention payable account should be set to allow Reconciliation"
-msgstr "Račun obveza zadržavanja trebao bi biti postavljen da dozvoljava usklađivanje"
+msgstr ""
+"Račun obveza zadržavanja trebao bi biti postavljen da dozvoljava "
+"usklađivanje"
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/models/res_company.py:0
+#: code:addons/account_invoice_payment_retention/models/res_company.py
 #, python-format
 msgid "Retention receivable account should be set to allow Reconciliation"
-msgstr "Račun potraživanja zadržavanja trebao bi biti postavljen da dozvoljava usklađivanje"
+msgstr ""
+"Račun potraživanja zadržavanja trebao bi biti postavljen da dozvoljava "
+"usklađivanje"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,help:account_invoice_payment_retention.field_res_config_settings__retention_receivable_account_id
 msgid "Retention receivable account used for case payment retention"
-msgstr "Račun potraživanja zadržavanja korišten za slučaj zadržavanja plaćanja"
+msgstr ""
+"Račun potraživanja zadržavanja korišten za slučaj zadržavanja plaćanja"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_bank_statement_line__retained_move_ids
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_move__retained_move_ids
-#: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_payment__retained_move_ids
 msgid "Return Retention"
 msgstr "Povrat zadržavanja"
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/wizard/account_payment_register.py:0
+#: code:addons/account_invoice_payment_retention/wizard/account_payment_register.py
 #, python-format
 msgid ""
 "Selected invoice(s) require payment retentions, multi invoices payment is "
 "not allowed."
 msgstr ""
+"Odabrane fakture zahtijevaju zadržavanje plaćanja, plaćanje više faktura "
+"nije dozvoljeno."
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,field_description:account_invoice_payment_retention.field_account_payment_register__retention_amount_currency
@@ -238,36 +221,38 @@ msgstr "Predloženo zadržavanje"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields,help:account_invoice_payment_retention.field_account_bank_statement_line__payment_retention
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_account_move__payment_retention
-#: model:ir.model.fields,help:account_invoice_payment_retention.field_account_payment__payment_retention
 msgid ""
 "Suggested retention amount to be withheld on payment.\n"
 "Note: as a suggestiong, during payment, user can ignore it."
 msgstr ""
+"Predloženi iznos zadržavanja koji treba zadržati prilikom plaćanja.\n"
+"Napomena: kao prijedlog, tokom plaćanja, korisnik ga može zanemariti."
 
 #. module: account_invoice_payment_retention
 #: model_terms:ir.ui.view,arch_db:account_invoice_payment_retention.res_config_settings_view_form
 msgid ""
 "This enable retention option in invoice, to be retained on its payment."
 msgstr ""
+"Ovo omogućava opciju zadržavanja u fakturi, koja će biti zadržana prilikom "
+"plaćanja."
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/wizard/account_payment_register.py:0
+#: code:addons/account_invoice_payment_retention/wizard/account_payment_register.py
 #, python-format
 msgid ""
 "This payment has retention, please make sure you fill in valid retaintion "
 "amount and retention account"
 msgstr ""
+"Ovo plaćanje ima zadržavanje, molimo osigurajte da popunite valjan iznos "
+"zadržavanja i konto zadržavanja"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields.selection,name:account_invoice_payment_retention.selection__account_move__retention_method__total
-#: model:ir.model.fields.selection,name:account_invoice_payment_retention.selection__res_company__retention_method__total
 msgid "Total"
 msgstr "Ukupno"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields.selection,name:account_invoice_payment_retention.selection__account_move__retention_method__untax
-#: model:ir.model.fields.selection,name:account_invoice_payment_retention.selection__res_company__retention_method__untax
 msgid "Untaxed Amount"
 msgstr "Iznos bez PDV"

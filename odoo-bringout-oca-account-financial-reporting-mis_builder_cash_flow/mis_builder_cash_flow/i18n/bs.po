@@ -55,10 +55,6 @@ msgstr "+8s"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model,name:mis_builder_cash_flow.model_account_account
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__account_id
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__account_id
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_search
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
 msgid "Account"
 msgstr "Konto"
 
@@ -69,6 +65,9 @@ msgid ""
 "legal reports, and set the rules to close a fiscal year and generate opening"
 " entries."
 msgstr ""
+"Account Type is used for information purpose, to generate country-specific "
+"legal reports, and set the rules to close a fiscal year and generate opening"
+" entries."
 
 #. module: mis_builder_cash_flow
 #: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_balance
@@ -82,21 +81,16 @@ msgstr "Saldo"
 
 #. module: mis_builder_cash_flow
 #: model:mis.report,name:mis_builder_cash_flow.mis_report_cash_flow
-#: model:mis.report.instance,name:mis_builder_cash_flow.mis_instance_cash_flow
 msgid "Cash Flow"
 msgstr "Novčani tok"
 
 #. module: mis_builder_cash_flow
 #: model:ir.actions.act_window,name:mis_builder_cash_flow.action_mis_cash_flow_forecast_line
-#: model:ir.ui.menu,name:mis_builder_cash_flow.menu_mis_cash_flow_forecast_line
 msgid "Cash Flow Forecast Line"
 msgstr "Linija prognoze novčanog toka"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__company_id
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__company_id
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_search
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -122,9 +116,6 @@ msgstr "Tekući"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__date
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__date
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_search
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
 msgid "Date"
 msgstr "Datum"
 
@@ -135,13 +126,11 @@ msgstr "Duguje"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__display_name
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields.selection,name:mis_builder_cash_flow.selection__mis_cash_flow__line_type__forecast_line
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
 msgid "Forecast Line"
 msgstr "Linija prognoze"
 
@@ -152,7 +141,6 @@ msgstr "Sakrij u novčanom toku?"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__id
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__id
 msgid "ID"
 msgstr "ID"
 
@@ -173,8 +161,6 @@ msgstr "U potraživanjima"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__move_line_id
-#: model:ir.model.fields.selection,name:mis_builder_cash_flow.selection__mis_cash_flow__line_type__move_line
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
 msgid "Journal Item"
 msgstr "Stavka žurnala"
 
@@ -190,7 +176,6 @@ msgstr "LIKVIDNOST"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow____last_update
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
@@ -206,7 +191,6 @@ msgstr "Zadnje ažurirano"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__line_type
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
 msgid "Line Type"
 msgstr "Tip linije"
 
@@ -217,7 +201,6 @@ msgstr "MIS novčani tok"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model,name:mis_builder_cash_flow.model_mis_cash_flow_forecast_line
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_form
 msgid "MIS Cash Flow Forecast Line"
 msgstr "Linija prognoze MIS novčanog toka"
 
@@ -228,7 +211,6 @@ msgstr "Broj poklapanja"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__name
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -259,8 +241,6 @@ msgstr "SALDO PERIODA"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__partner_id
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__partner_id
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_search
 msgid "Partner"
 msgstr "Partner"
 
@@ -276,7 +256,7 @@ msgstr "Status"
 
 #. module: mis_builder_cash_flow
 #. odoo-python
-#: code:addons/mis_builder_cash_flow/models/mis_cash_flow_forecast_line.py:0
+#: code:addons/mis_builder_cash_flow/models/mis_cash_flow_forecast_line.py
 #, python-format
 msgid "The Company and the Company of the Account must be the same."
 msgstr "Kompanija i kompanija računa moraju biti iste."
@@ -288,7 +268,6 @@ msgstr "Račun linije prognoze je samo u informativne svrhe"
 
 #. module: mis_builder_cash_flow
 #: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_form_view
-#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_tree_view
 msgid "Total"
 msgstr "Ukupno"
 

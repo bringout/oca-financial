@@ -25,8 +25,6 @@ msgstr "Žurnal"
 
 #. module: account_sequence_option
 #: model:ir.model.fields,field_description:account_sequence_option.field_account_bank_statement_line__sequence_option
-#: model:ir.model.fields,field_description:account_sequence_option.field_account_move__sequence_option
-#: model:ir.model.fields,field_description:account_sequence_option.field_account_payment__sequence_option
 msgid "Sequence Option"
 msgstr "Opcija sekvence"
 

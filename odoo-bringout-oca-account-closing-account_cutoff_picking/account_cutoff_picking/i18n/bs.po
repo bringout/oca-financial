@@ -15,12 +15,14 @@ msgstr ""
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid ""
 " • %(qty)s %(uom)s (picking %(picking)s transfered on %(date)s from "
 "%(src_location)s to %(dest_location)s)"
 msgstr ""
+" • %(qty)s %(uom)s (otpremnica %(picking)s prenijeta na %(date)s sa "
+"%(src_location)s u %(dest_location)s)"
 
 #. module: account_cutoff_picking
 #: model:ir.model,name:account_cutoff_picking.model_account_cutoff
@@ -29,8 +31,6 @@ msgstr "Računovodstveno presjecanje"
 
 #. module: account_cutoff_picking
 #: model:ir.model.fields,field_description:account_cutoff_picking.field_account_cutoff__picking_interval_days
-#: model:ir.model.fields,field_description:account_cutoff_picking.field_res_company__default_cutoff_picking_interval_days
-#: model:ir.model.fields,field_description:account_cutoff_picking.field_res_config_settings__dft_cutoff_picking_interval_days
 msgid "Analysis Interval"
 msgstr "Interval analize"
 
@@ -46,91 +46,97 @@ msgstr "Postavke"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid ""
 "Missing expense account on product '%(product)s' or on its related product "
 "category '%(categ)s'."
 msgstr ""
+"Nedostaje konto rashoda na proizvodu '%(product)s' ili na povezanoj "
+"kategoriji proizvoda '%(categ)s'."
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid ""
 "Missing income account on product '%(product)s' or on its related product "
 "category '%(categ)s'."
 msgstr ""
+"Nedostaje konto prihoda na proizvodu '%(product)s' ili na povezanoj "
+"kategoriji proizvoda '%(categ)s'."
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid "Pre-cutoff delivered quantity details:"
 msgstr "Detalji pred-presjecanje isporučene količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid "Pre-cutoff delivered quantity minus invoiced quantity:"
 msgstr "Pred-presjecanje isporučene količine minus fakturisane količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid "Pre-cutoff delivered quantity:"
 msgstr "Pred-presjecanje isporučene količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid "Pre-cutoff invoiced quantity details:"
 msgstr "Detalji pred-presjecanje fakturisane količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid "Pre-cutoff invoiced quantity minus delivered quantity:"
 msgstr "Pred-presjecanje fakturisane količine minus isporučene količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid "Pre-cutoff invoiced quantity:"
 msgstr "Pred-presjecanje fakturisane količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid ""
 "Purchase order %(order)s confirmed on %(confirm_date)s\n"
 "Purchase Order Line: %(order_line)s (ordered qty: %(qty)s %(uom)s)"
 msgstr ""
+"Nalog nabavke %(order)s potvrđen na %(confirm_date)s\n"
+"Stavka naloga nabavke: %(order_line)s (naručena kol: %(qty)s %(uom)s)"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+#: code:addons/account_cutoff_picking/models/account_cutoff.py
 #, python-format
 msgid ""
 "Sale order %(order)s confirmed on %(confirm_date)s\n"
 "Sale Order Line: %(order_line)s (ordered qty: %(qty)s %(uom)s)"
 msgstr ""
+"Nalog prodaje %(order)s potvrđen na %(confirm_date)s\n"
+"Stavka naloga prodaje: %(order_line)s (naručena kol: %(qty)s %(uom)s)"
 
 #. module: account_cutoff_picking
 #: model:ir.model.constraint,message:account_cutoff_picking.constraint_account_cutoff_picking_interval_days_positive
-#: model:ir.model.constraint,message:account_cutoff_picking.constraint_res_company_cutoff_picking_interval_days_positive
 msgid "The value of the field 'Analysis Interval' must be strictly positive."
 msgstr "Vrijednost polja 'Interval analize' mora biti striktno pozitivna."
 
 #. module: account_cutoff_picking
 #: model:ir.model.fields,help:account_cutoff_picking.field_res_company__default_cutoff_picking_interval_days
-#: model:ir.model.fields,help:account_cutoff_picking.field_res_config_settings__dft_cutoff_picking_interval_days
 msgid ""
 "To generate the accrual/prepaid revenue/expenses based on picking dates vs "
 "invoice dates, Odoo will analyse all the pickings/invoices from N days "
@@ -138,6 +144,11 @@ msgid ""
 " you increase the analysis interval, Odoo will take more time to generate "
 "the cutoff lines."
 msgstr ""
+"Za generisanje obračunatih/unaprijed plaćenih prihoda/rashoda na osnovu "
+"datuma otpremnica u odnosu na datume faktura, Odoo će analizirati sve "
+"otpremnice/fakture od N dana prije datuma prekida do datuma prekida. N je "
+"interval analize. Ako povećate interval analize, Odoo će trebati više "
+"vremena za generisanje stavki prekida."
 
 #. module: account_cutoff_picking
 #: model:ir.model.fields,help:account_cutoff_picking.field_account_cutoff__picking_interval_days
@@ -147,9 +158,12 @@ msgid ""
 "the cutoff date. N is the Analysis Interval. If you increase the analysis "
 "interval, Odoo will take more time to generate the cutoff lines."
 msgstr ""
+"Za generisanje prekida na osnovu datuma otpremnica u odnosu na datume "
+"faktura, Odoo će analizirati sve otpremnice/fakture od N dana prije datuma "
+"prekida do datuma prekida. N je interval analize. Ako povećate interval "
+"analize, Odoo će trebati više vremena za generisanje stavki prekida."
 
 #. module: account_cutoff_picking
 #: model_terms:ir.ui.view,arch_db:account_cutoff_picking.account_cutoff_form
-#: model_terms:ir.ui.view,arch_db:account_cutoff_picking.res_config_settings_view_form
 msgid "days"
 msgstr "dana"

@@ -25,7 +25,6 @@ msgstr "Iznos"
 
 #. module: crm_claim_analytic
 #: model:ir.model,name:crm_claim_analytic.model_account_analytic_account
-#: model:ir.model.fields,field_description:crm_claim_analytic.field_crm_claim__analytic_account_id
 msgid "Analytic Account"
 msgstr "Analitički konto"
 
@@ -36,9 +35,6 @@ msgstr "Analitička stavka"
 
 #. module: crm_claim_analytic
 #: model:ir.model,name:crm_claim_analytic.model_crm_claim
-#: model:ir.model.fields,field_description:crm_claim_analytic.field_account_analytic_line__claim_id
-#: model_terms:ir.ui.view,arch_db:crm_claim_analytic.account_analytic_line_view_form
-#: model_terms:ir.ui.view,arch_db:crm_claim_analytic.account_analytic_line_view_search
 msgid "Claim"
 msgstr "Potraživanje"
 

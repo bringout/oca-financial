@@ -25,6 +25,14 @@ msgid ""
 "            * The 'Cancelled' status is used when user billing is cancelled\n"
 "        "
 msgstr ""
+"\n"
+"            * Status 'Nacrt' se koristi kada korisnik kreira novu naplatu\n"
+"\n"
+"            * Status 'Naplaćeno' se koristi kada korisnik potvrdi naplatu,\n"
+"                broj naplate je generisan\n"
+"\n"
+"            * Status 'Otkazano' se koristi kada je naplata korisnika otkazana\n"
+"        "
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__invoice_related_count
@@ -36,6 +44,7 @@ msgstr "# Faktura"
 msgid ""
 "'BILL-%s%s' % (object.name, object.state == 'draft' and '-draft' or '')"
 msgstr ""
+"'BILL-%s%s' % (object.name, object.state == 'draft' and '-draft' or '')"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
@@ -99,11 +108,12 @@ msgstr "Potrebna akcija"
 
 #. module: account_billing
 #: model:ir.model.fields,help:account_billing.field_account_billing__threshold_date
-#: model:ir.model.fields,help:account_billing.field_account_billing__threshold_date_type
 msgid ""
 "All invoices with date (threshold date type) before and equal to threshold "
 "date will be listed in billing lines"
 msgstr ""
+"Sve fakture sa datumom (tip graničnog datuma) prije i jednako graničnom "
+"datumu će biti navedene u redovima naplate"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing_line__amount_residual
@@ -132,7 +142,6 @@ msgstr "Tip računa"
 
 #. module: account_billing
 #: model:ir.model.fields.selection,name:account_billing.selection__account_billing__state__billed
-#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Billed"
 msgstr "Fakturisano"
 
@@ -143,21 +152,14 @@ msgstr "Naplaćena naplata"
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_move.py:0
-#: model:ir.actions.act_window,name:account_billing.action_customer_billing
-#: model:ir.actions.act_window,name:account_billing.action_supplier_billing
-#: model:ir.actions.report,name:account_billing.report_account_billing
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__billing_id
-#: model:ir.ui.menu,name:account_billing.menu_action_customer_billing
-#: model:ir.ui.menu,name:account_billing.menu_action_supplier_billing
-#: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
+#: code:addons/account_billing/models/account_move.py
 #, python-format
 msgid "Billing"
 msgstr "Ulazni računi"
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_billing.py:0
+#: code:addons/account_billing/models/account_billing.py
 #, python-format
 msgid "Billing %s is cancelled"
 msgstr "Naplata %s je otkazana"
@@ -179,31 +181,31 @@ msgstr "Linije naplate"
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_move.py:0
+#: code:addons/account_billing/models/account_move.py
 #, python-format
 msgid ""
 "Billing cannot be processed because some invoices are not in the 'Posted' or"
 " 'Paid' state already."
 msgstr ""
+"Naplata ne može biti obrađena jer neke fakture već nisu u statusu "
+"'Proknjiženo' ili 'Plaćeno'."
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_billing.py:0
+#: code:addons/account_billing/models/account_billing.py
 #, python-format
 msgid "Billing is billed."
 msgstr "Naplata je naplaćena."
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_billing.py:0
+#: code:addons/account_billing/models/account_billing.py
 #, python-format
 msgid "Billing is reset to draft"
 msgstr "Naplata je vraćena na nacrt"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_bank_statement_line__billing_ids
-#: model:ir.model.fields,field_description:account_billing.field_account_move__billing_ids
-#: model:ir.model.fields,field_description:account_billing.field_account_payment__billing_ids
 msgid "Billings"
 msgstr "Naplate"
 
@@ -224,7 +226,6 @@ msgstr "Otkazana naplata"
 
 #. module: account_billing
 #: model_terms:ir.actions.act_window,help:account_billing.action_customer_billing
-#: model_terms:ir.actions.act_window,help:account_billing.action_supplier_billing
 msgid "Click to register a new billing."
 msgstr "Kliknite da registrujete novu naplatu."
 
@@ -250,26 +251,21 @@ msgstr "Kreiraj naplatu"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__create_uid
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__create_date
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__currency_id
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__currency_id
-#: model:ir.model.fields,help:account_billing.field_account_billing__currency_id
 msgid "Currency"
 msgstr "Valuta"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_tree
-#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Customer"
 msgstr "Kupac"
 
@@ -280,26 +276,21 @@ msgstr "Faktura kupcu"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__display_name
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: account_billing
 #: model:ir.model.fields.selection,name:account_billing.selection__account_billing__state__draft
-#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Draft"
 msgstr "U pripremi"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
-#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
-#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Draft Billing"
 msgstr "Nacrt naplate"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing_line__threshold_date
-#: model:ir.model.fields.selection,name:account_billing.selection__account_billing__threshold_date_type__invoice_date_due
 msgid "Due Date"
 msgstr "Datum dospijeća"
 
@@ -314,6 +305,8 @@ msgid ""
 "Enter the customer the invoices expect to be paid by the customer for this\n"
 "            bill period. By default the pending invoices will be listed, automatically."
 msgstr ""
+"Unesite kupca čije se fakture očekuje da budu plaćene za ovaj\n"
+"            period naplate. Prema zadanim postavkama, fakture na čekanju će biti navedene automatski."
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__message_follower_ids
@@ -337,7 +330,6 @@ msgstr "Ima poruku"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__id
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__id
 msgid "ID"
 msgstr "ID"
 
@@ -358,7 +350,7 @@ msgstr "Datum Fakture"
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_billing.py:0
+#: code:addons/account_billing/models/account_billing.py
 #, python-format
 msgid "Invoice paid already."
 msgstr "Faktura već plaćena."
@@ -385,19 +377,16 @@ msgstr "Žurnal"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing____last_update
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__write_uid
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__write_date
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -407,6 +396,8 @@ msgid ""
 "Leave this field empty if this route is shared             between all "
 "companies"
 msgstr ""
+"Ostavite ovo polje prazno ako je ova ruta dijeljena             između svih "
+"kompanija"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__message_main_attachment_id
@@ -435,14 +426,11 @@ msgstr "Kretanje"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__name
-#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Name"
 msgstr "Naziv:"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__narration
-#: model:ir.model.fields,help:account_billing.field_account_billing__narration
-#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
 msgid "Notes"
 msgstr "Zabilješke"
 
@@ -503,28 +491,25 @@ msgstr "Status pl."
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_move.py:0
+#: code:addons/account_billing/models/account_move.py
 #, python-format
 msgid "Please select invoices with same currency"
 msgstr "Molimo izaberite fakture sa istom valutom"
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_move.py:0
+#: code:addons/account_billing/models/account_move.py
 #, python-format
 msgid "Please select invoices with same partner"
 msgstr "Molimo izaberite fakture sa istim partnerom"
 
 #. module: account_billing
 #: model:ir.actions.server,name:account_billing.action_account_billing_from_list
-#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
 msgid "Register Payment"
 msgstr "Registracija uplate"
 
 #. module: account_billing
 #: model:ir.model.fields,help:account_billing.field_account_bank_statement_line__billing_ids
-#: model:ir.model.fields,help:account_billing.field_account_move__billing_ids
-#: model:ir.model.fields,help:account_billing.field_account_payment__billing_ids
 msgid "Relationship between invoice and billing"
 msgstr "Veza između fakture i naplacije"
 
@@ -540,8 +525,6 @@ msgstr "Postavi u pripremu"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__state
-#: model:ir.model.fields,field_description:account_billing.field_account_billing_line__state
-#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Status"
 msgstr "Status"
 
@@ -552,7 +535,6 @@ msgstr "Dokument(i) koji su generirali ovaj račun."
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__threshold_date
-#: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
 msgid "Threshold Date"
 msgstr "Granični datum"
 
@@ -563,7 +545,7 @@ msgstr "Tip graničnog datuma"
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_billing.py:0
+#: code:addons/account_billing/models/account_billing.py
 #, python-format
 msgid "Threshold Date cannot be later than the %s in lines"
 msgstr "Granični datum ne može biti kasniji od %s u linijama"
@@ -595,7 +577,6 @@ msgstr "Ovjeri"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.view_account_supplier_billing_tree
-#: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Vendor"
 msgstr "Dobavljač"
 
@@ -616,7 +597,7 @@ msgstr "Povijest komunikacije Web stranice"
 
 #. module: account_billing
 #. odoo-python
-#: code:addons/account_billing/models/account_billing.py:0
+#: code:addons/account_billing/models/account_billing.py
 #, python-format
 msgid "You need to add a line before validate."
 msgstr "Morate dodati liniju prije validacije."

@@ -33,15 +33,15 @@ msgstr "Dani presjecanja"
 msgid "Enable Forecast Mode"
 msgstr "Omogući mode prognoze"
 
+# taken from hr.po
 #. module: account_cutoff_start_end_dates
 #: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff__end_date
-#: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff_line__end_date
 msgid "End Date"
 msgstr "Završni datum"
 
+# taken from hr.po
 #. module: account_cutoff_start_end_dates
 #: model:ir.model.fields.selection,name:account_cutoff_start_end_dates.selection__account_cutoff__state__forecast
-#: model_terms:ir.ui.view,arch_db:account_cutoff_start_end_dates.account_cutoff_filter
 msgid "Forecast"
 msgstr "Predviđanje"
 
@@ -52,26 +52,29 @@ msgid ""
 "forecast mode, this is the number of days between the start date and the end"
 " date."
 msgstr ""
+"U regularnom modu, ovo je broj dana nakon datuma prekida. U modu prognoza, "
+"ovo je broj dana između početnog i krajnjeg datuma."
 
 #. module: account_cutoff_start_end_dates
 #: model_terms:ir.ui.view,arch_db:account_cutoff_start_end_dates.account_cutoff_form
 msgid "Leave Forecast Mode"
 msgstr "Napusti mode prognoze"
 
+# taken from hr.po
 #. module: account_cutoff_start_end_dates
 #: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff__source_journal_ids
 msgid "Source Journals"
 msgstr "Izvorni dnevnici"
 
+# taken from hr.po
 #. module: account_cutoff_start_end_dates
 #: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff__start_date
-#: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff_line__start_date
 msgid "Start Date"
 msgstr "Početni datum"
 
 #. module: account_cutoff_start_end_dates
 #. odoo-python
-#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py:0
+#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py
 #, python-format
 msgid "Start date and end date are required for forecast mode."
 msgstr "Početni datum i završni datum su obavezni za mode prognoze."
@@ -87,26 +90,30 @@ msgid ""
 "State of the cutoff. When the Journal Entry is created, the state is set to "
 "'Done' and the fields become read-only."
 msgstr ""
+"Status prekida. Kada je kreirana temeljnica, status se postavlja na 'Gotovo'"
+" i polja postaju samo za čitanje."
 
+# taken from hr.po
 #. module: account_cutoff_start_end_dates
 #. odoo-python
-#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py:0
+#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py
 #, python-format
 msgid "The start date is after the end date!"
 msgstr "Početni datum je nakon završnog!"
 
 #. module: account_cutoff_start_end_dates
 #. odoo-python
-#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py:0
+#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py
 #, python-format
 msgid ""
 "This cutoff is linked to a journal entry. You must delete it before entering"
 " forecast mode."
 msgstr ""
+"Ovaj prekid je povezan sa temeljnicom. Morate je izbrisati prije ulaska u "
+"mod prognoza."
 
 #. module: account_cutoff_start_end_dates
 #: model:ir.model.fields,help:account_cutoff_start_end_dates.field_account_cutoff__end_date
-#: model:ir.model.fields,help:account_cutoff_start_end_dates.field_account_cutoff__start_date
 msgid "This field is only for the forecast mode"
 msgstr "Ovo polje je samo za mode prognoze"
 
@@ -117,7 +124,7 @@ msgstr "Ukupno dana"
 
 #. module: account_cutoff_start_end_dates
 #. odoo-python
-#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py:0
+#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py
 #, python-format
 msgid "You should set at least one Source Journal."
 msgstr "Trebali biste postaviti najmanje jedan izvorni dnevnik."

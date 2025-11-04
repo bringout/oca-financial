@@ -25,7 +25,7 @@ msgstr "Grupirano po"
 
 #. module: account_financial_report_sale
 #. odoo-python
-#: code:addons/account_financial_report_sale/report/open_items.py:0
+#: code:addons/account_financial_report_sale/report/open_items.py
 #, python-format
 msgid "Missing Delivery Address"
 msgstr "Nedostaje adresa dostave"

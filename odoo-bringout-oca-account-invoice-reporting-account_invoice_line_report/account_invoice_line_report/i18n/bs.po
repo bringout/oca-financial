@@ -20,18 +20,23 @@ msgid ""
 "customers. The search tool can also be used to personalise your Invoices "
 "reports and so, match this analysis to your needs."
 msgstr ""
+"Iz ovog izvještaja možete imati pregled iznosa fakturisanog vašim kupcima. "
+"Alat za pretragu se također može koristiti za personalizaciju vaših "
+"izvještaja o fakturama i tako prilagoditi ovu analizu vašim potrebama."
 
+# taken from hr.po
 #. module: account_invoice_line_report
 #: model:ir.actions.act_window,name:account_invoice_line_report.action_account_invoice_line_report
-#: model:ir.ui.menu,name:account_invoice_line_report.menu_action_account_invoice_line_report
 msgid "Invoice Lines"
 msgstr "Stavke računa"
 
+# taken from hr.po
 #. module: account_invoice_line_report
 #: model_terms:ir.ui.view,arch_db:account_invoice_line_report.view_account_invoice_report_search
 msgid "With Price"
 msgstr "Sa cijenom"
 
+# taken from hr.po
 #. module: account_invoice_line_report
 #: model_terms:ir.ui.view,arch_db:account_invoice_line_report.view_account_invoice_report_search
 msgid "Without Price"

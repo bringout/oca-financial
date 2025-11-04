@@ -24,6 +24,8 @@ msgid ""
 "If this option is checked, the purchase invoices in this journal will have "
 "no lines with zero quantity"
 msgstr ""
+"If this option is checked, the purchase invoices in this journal will have "
+"no lines with zero quantity"
 
 #. module: purchase_invoicing_no_zero_line
 #: model:ir.model,name:purchase_invoicing_no_zero_line.model_account_journal

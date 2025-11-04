@@ -13,20 +13,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: l10n_fr_ecotaxe_sale
-#: model:ir.model.fields,field_description:l10n_fr_ecotaxe_sale.field_sale_order__amount_ecotaxe
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order__amount_ecotax
 msgid "Included Ecotaxe"
 msgstr "Uključena ekonaknada"
 
-#. module: l10n_fr_ecotaxe_sale
-#: model:ir.model,name:l10n_fr_ecotaxe_sale.model_sale_order
+#. module: account_ecotax_sale
+#: model:ir.model,name:account_ecotax_sale.model_sale_order
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
-#. module: l10n_fr_ecotaxe_sale
-#: model:ir.model,name:l10n_fr_ecotaxe_sale.model_sale_order_line
+#. module: account_ecotax_sale
+#: model:ir.model,name:account_ecotax_sale.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Red prodajnog naloga"
 
 #. module: l10n_fr_ecotaxe_sale
 #: model:ir.model.fields,field_description:l10n_fr_ecotaxe_sale.field_sale_order_line__subtotal_ecotaxe
@@ -37,3 +37,160 @@ msgstr "Podzbroj ekonaknada"
 #: model:ir.model.fields,field_description:l10n_fr_ecotaxe_sale.field_sale_order_line__unit_ecotaxe_amount
 msgid "ecotaxe Unit."
 msgstr "Jedinica ekonaknada"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__amount_total
+msgid "Amount Total"
+msgstr "Ukupan iznos"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__amount_unit
+msgid "Amount Unit"
+msgstr "Jedinični iznos"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__classification_id
+msgid "Classification"
+msgstr "Klasifikacija"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Delivered"
+msgstr "Isporučeno"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Description"
+msgstr "Opis"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line__subtotal_ecotax
+msgid "Ecotax"
+msgstr "Ekotaksa"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,help:account_ecotax_sale.field_sale_order_line_ecotax__amount_unit
+msgid "Ecotax Amount computed from Classification or Manual ecotax"
+msgstr "Iznos ekotakse obračunat iz klasifikacije ili manualne ekotakse"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,help:account_ecotax_sale.field_sale_order_line_ecotax__amount_total
+msgid ""
+"Ecotax Amount total computed from Classification or forced ecotax amount"
+msgstr ""
+"Ukupan iznos ekotakse obračunat iz klasifikacije ili forsirani iznos "
+"ekotakse"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line__ecotax_amount_unit
+msgid "Ecotax Unit"
+msgstr "Jedinica ekotakse"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line__ecotax_line_ids
+msgid "Ecotax lines"
+msgstr "Stavke ekotakse"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__force_amount_unit
+msgid "Force Amount Unit"
+msgstr "Forsiraj jedinični iznos"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,help:account_ecotax_sale.field_sale_order_line_ecotax__force_amount_unit
+msgid ""
+"Force ecotax.\n"
+"Allow to add a subtitle to the default Ecotax Classification"
+msgstr ""
+"Forsiraj ekotaksu.\n"
+"Omogućava dodavanje podnaslov zadanoj klasifikaciji ekotakse"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Invoiced"
+msgstr "Fakturisano"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax____last_update
+msgid "Last Modified on"
+msgstr "Zadnja izmjena"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__write_uid
+msgid "Last Updated by"
+msgstr "Zadnje ažurirao"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Note"
+msgstr "Napomena"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__product_id
+msgid "Product"
+msgstr "Proizvod"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__quantity
+msgid "Quantity"
+msgstr "Količina"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__sale_order_line_id
+msgid "Sale line"
+msgstr "Stavka prodaje"
+
+#. module: account_ecotax_sale
+#: model:ir.model,name:account_ecotax_sale.model_sale_order_line_ecotax
+msgid "Sale order line ecotax"
+msgstr "Ekotaksa stavke naloga prodaje"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Section Name (eg. Products, Services)"
+msgstr "Naziv sekcije (npr. Proizvodi, Usluge)"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Subtotal"
+msgstr "Međuzbir"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Total"
+msgstr "Ukupno"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Total Ecotax"
+msgstr "Ukupna ekotaksa"

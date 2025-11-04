@@ -25,9 +25,6 @@ msgstr "CRM oznake fakture"
 
 #. module: account_invoice_crm_tag
 #: model:ir.model.fields,field_description:account_invoice_crm_tag.field_account_bank_statement_line__crm_tag_ids
-#: model:ir.model.fields,field_description:account_invoice_crm_tag.field_account_move__crm_tag_ids
-#: model:ir.model.fields,field_description:account_invoice_crm_tag.field_account_move_line__crm_tag_ids
-#: model:ir.model.fields,field_description:account_invoice_crm_tag.field_account_payment__crm_tag_ids
 msgid "Invoice CRM tags"
 msgstr "CRM oznake fakture"
 

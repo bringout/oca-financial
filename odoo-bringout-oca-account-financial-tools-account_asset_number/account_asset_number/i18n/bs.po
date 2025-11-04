@@ -13,36 +13,43 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_asset_number
 #: model:ir.actions.report,print_report_name:account_asset_number.report_account_asset_number
 msgid "'Asset Number - %s' % (object.name)"
 msgstr "'Broj sredstva - %s' % (object.name)"
 
+# taken from hr.po
 #. module: account_asset_number
 #: model_terms:ir.ui.view,arch_db:account_asset_number.report_simple_asset_number
 msgid "<span class=\"text-muted\">No number available</span>"
 msgstr "<span class=\"text-muted\">Nema raspoloživih brojeva</span>"
 
+# taken from hr.po
 #. module: account_asset_number
 #: model:ir.model,name:account_asset_number.model_account_asset
 msgid "Asset"
 msgstr "Sredstvo"
 
+# taken from hr.po
 #. module: account_asset_number
 #: model:ir.model.fields,field_description:account_asset_number.field_account_asset__number
 msgid "Asset Number"
 msgstr "Broj sredstva"
 
+# taken from hr.po
 #. module: account_asset_number
 #: model:ir.actions.report,name:account_asset_number.report_account_asset_number
 msgid "Asset Number (PDF)"
 msgstr "Broj sredstva (PDF)"
 
+# taken from hr.po
 #. module: account_asset_number
 #: model:ir.model.fields,field_description:account_asset_number.field_account_asset_profile__sequence_id
 msgid "Asset Number Sequence"
 msgstr "Brojevni krug sredstava"
 
+# taken from hr.po
 #. module: account_asset_number
 #: model:ir.model,name:account_asset_number.model_account_asset_profile
 msgid "Asset profile"
@@ -50,13 +57,12 @@ msgstr "Profil sredstva"
 
 #. module: account_asset_number
 #: model:ir.model.fields,field_description:account_asset_number.field_account_asset__use_sequence
-#: model:ir.model.fields,field_description:account_asset_number.field_account_asset_profile__use_sequence
 msgid "Auto Asset Number by Sequence"
 msgstr "Automatski broj imovine po sekvenci"
 
+# taken from hr.po
 #. module: account_asset_number
 #: model:ir.model.fields.selection,name:account_asset_number.selection__account_asset_profile__barcode_type__barcode
-#: model_terms:ir.ui.view,arch_db:account_asset_number.report_simple_asset_number
 msgid "Barcode"
 msgstr "Barkod"
 
@@ -87,13 +93,13 @@ msgstr "Visina (u px) barkoda ili QR koda"
 
 #. module: account_asset_number
 #: model:ir.model.fields,help:account_asset_number.field_account_asset__use_sequence
-#: model:ir.model.fields,help:account_asset_number.field_account_asset_profile__use_sequence
 msgid "If check, asset number auto run by sequence."
 msgstr "Ako je označeno, broj imovine automatski radi po sekvenci."
 
+# taken from hr.po
 #. module: account_asset_number
 #. odoo-python
-#: code:addons/account_asset_number/report/account_asset_report_xls.py:0
+#: code:addons/account_asset_number/report/account_asset_report_xls.py
 #, python-format
 msgid "Number"
 msgstr "Broj"

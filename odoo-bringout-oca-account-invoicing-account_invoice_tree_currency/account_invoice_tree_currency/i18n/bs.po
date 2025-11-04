@@ -13,31 +13,37 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_tree_currency
 #: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
 msgid "Amount Due"
 msgstr "Dospjeli iznos"
 
+# taken from hr.po
 #. module: account_invoice_tree_currency
 #: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
 msgid "Amount Due (Currency)"
 msgstr "Dospljei iznos ( Valuta)"
 
+# taken from hr.po
 #. module: account_invoice_tree_currency
 #: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
 msgid "Tax (Currency)"
 msgstr "Porez (Valuta)"
 
+# taken from hr.po
 #. module: account_invoice_tree_currency
 #: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
 msgid "Tax Excluded (Currency)"
 msgstr "Izuzeto od poreza (Valuta)"
 
+# taken from hr.po
 #. module: account_invoice_tree_currency
 #: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
 msgid "Total"
 msgstr "Ukupno"
 
+# taken from hr.po
 #. module: account_invoice_tree_currency
 #: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
 msgid "Total (Currency)"

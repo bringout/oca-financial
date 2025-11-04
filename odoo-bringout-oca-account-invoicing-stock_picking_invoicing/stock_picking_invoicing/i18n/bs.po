@@ -13,68 +13,81 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #. odoo-python
-#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
+#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py
 #, python-format
 msgid "All pickings are not related to your company!"
 msgstr "Nisu sva skladišna kretanja iz vaše Tvrtke!"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_stock_invoice_onshipping
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_picking_type__count_picking_2binvoiced
 msgid "Count Picking 2Binvoiced"
 msgstr "Broj otpremnica za izdavanje računa"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_stock_invoice_onshipping
 msgid "Create"
 msgstr "Kreiraj"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__journal_type__sale
 msgid "Create Customer Invoice"
 msgstr "Kreiraj izlazni račun"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.actions.act_window,name:stock_picking_invoicing.action_stock_invoice_onshipping
 msgid "Create Draft Invoices"
 msgstr "Kreiraj nacrt računa"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "Create Invoice"
 msgstr "Kreiraj račun"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__journal_type__purchase
 msgid "Create Supplier Invoice"
 msgstr "Kreiraj ulazni račun"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_stock_invoice_onshipping
 msgid "Create invoice"
 msgstr "Kreiraj račun"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__display_name
 msgid "Display Name"
 msgstr "Naziv za prikaz"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__group
 msgid "Group"
@@ -88,63 +101,69 @@ msgid ""
 "Partner: One invoice for each picking's partner;\n"
 "Partner/Product: One invoice per picking's partner and group product into a single invoice line."
 msgstr ""
+"Grupišite skladišnice/kretanja za kreiranje računa:\n"
+"Skladišnica: jedan račun po skladišnici;\n"
+"Partner: jedan račun za partnera skladišnice;\n"
+"Partner/Proizvod: jedan račun po partneru skladišnice i grupisanje proizvoda u jednu stavku računa."
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__id
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__invoice_date
 msgid "Invoice Date"
 msgstr "Datum računa"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_state_mixin__invoice_state
-#: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_move__invoice_state
-#: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_picking__invoice_state
 msgid "Invoice Status"
 msgstr "Status računa"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_state_mixin__invoice_state__invoiced
-#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_move__invoice_state__invoiced
-#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_picking__invoice_state__invoiced
 msgid "Invoiced"
 msgstr "Izdani računi"
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,help:stock_picking_invoicing.field_stock_invoice_state_mixin__invoice_state
-#: model:ir.model.fields,help:stock_picking_invoicing.field_stock_move__invoice_state
-#: model:ir.model.fields,help:stock_picking_invoicing.field_stock_picking__invoice_state
 msgid ""
 "Invoiced: an invoice already exists\n"
 "To Be Invoiced: need to be invoiced\n"
 "Not Applicable: no invoice to create"
 msgstr ""
+"Fakturisano: račun već postoji\n"
+"Za fakturisanje: potrebno je fakturisati\n"
+"Neprimjenjivo: nema računa za kreiranje"
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_return_picking__invoice_state
-#: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_move_picking_form
-#: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "Invoicing"
 msgstr "Računovodstvo"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_account_move
 msgid "Journal Entry"
 msgstr "Zapis dnevnika"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__journal_type
 msgid "Journal Type"
 msgstr "Tip dnevnika"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping____last_update
 msgid "Last Modified on"
 msgstr "Zadnje modificirano"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__write_uid
 msgid "Last Updated by"
@@ -155,22 +174,23 @@ msgstr "Zadnje ažurirao"
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #. odoo-python
-#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
+#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py
 #, python-format
 msgid "No invoice created!"
 msgstr "Račun nije kreiran!"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_return_picking__invoice_state__none
 msgid "No invoicing"
 msgstr "Nema računa"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_state_mixin__invoice_state__none
-#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_move__invoice_state__none
-#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_picking__invoice_state__none
 msgid "Not Applicable"
 msgstr "Nije primjenjivo"
 
@@ -179,6 +199,7 @@ msgstr "Nije primjenjivo"
 msgid "Partner"
 msgstr "Partner"
 
+# taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__group__partner_product
 msgid "Partner/Product"
@@ -266,8 +287,6 @@ msgstr "Skladišno pravilo"
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_state_mixin__invoice_state__2binvoiced
-#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_move__invoice_state__2binvoiced
-#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_picking__invoice_state__2binvoiced
 msgid "To Be Invoiced"
 msgstr "To Be Invoiced"
 

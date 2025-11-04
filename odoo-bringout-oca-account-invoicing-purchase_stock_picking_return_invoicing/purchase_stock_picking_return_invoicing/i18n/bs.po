@@ -18,8 +18,10 @@ msgstr ""
 msgid "# of Invoice Refunds"
 msgstr "Broj povrata po fakturi"
 
+# taken from hr.po
 #. module: purchase_stock_picking_return_invoicing
 #: model_terms:ir.ui.view,arch_db:purchase_stock_picking_return_invoicing.purchase_order_view_form_inherit
+#, fuzzy
 msgid "Create Refund"
 msgstr "Povrat"
 
@@ -43,6 +45,7 @@ msgstr "Stavka naloga za nabavu"
 msgid "Refunded Qty"
 msgstr "Refundirana kol."
 
+# taken from hr.po
 #. module: purchase_stock_picking_return_invoicing
 #: model_terms:ir.ui.view,arch_db:purchase_stock_picking_return_invoicing.purchase_order_view_form_inherit
 msgid "Refunds"
@@ -60,12 +63,15 @@ msgstr "Odaberi narudžbu ili stari račun"
 
 #. module: purchase_stock_picking_return_invoicing
 #. odoo-python
-#: code:addons/purchase_stock_picking_return_invoicing/models/purchase_order.py:0
+#: code:addons/purchase_stock_picking_return_invoicing/models/purchase_order.py
 #, python-format
 msgid ""
 "There is no invoiceable line. If a product has a control policy based on "
 "received quantity, please make sure that a quantity has been received."
 msgstr ""
+"Nema stavke koja se može staviti u ulazni račun. Ako artikal ima pravilo "
+"pravljenja ulaznog računa na osnovu primljene količine, obezbjedite da je "
+"količina primljena."
 
 #. module: purchase_stock_picking_return_invoicing
 #: model:ir.model.fields,help:purchase_stock_picking_return_invoicing.field_purchase_order_line__qty_returned

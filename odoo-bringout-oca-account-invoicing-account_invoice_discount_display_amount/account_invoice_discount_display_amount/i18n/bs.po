@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_discount_display_amount
 #: model_terms:ir.ui.view,arch_db:account_invoice_discount_display_amount.invoice_discount_display_amount_document
 msgid "<strong>Discount</strong>"
@@ -23,28 +24,26 @@ msgstr "<strong>Popust</strong>"
 msgid "<strong>Without Discount</strong>"
 msgstr "<strong>Bez popusta</strong>"
 
+# taken from hr.po
 #. module: account_invoice_discount_display_amount
 #: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_bank_statement_line__discount_total
-#: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_move__discount_total
-#: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_move_line__discount_total
-#: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_payment__discount_total
 msgid "Discount Total"
 msgstr "Ukupni popust"
 
+# taken from hr.po
 #. module: account_invoice_discount_display_amount
 #: model:ir.model,name:account_invoice_discount_display_amount.model_account_move
 msgid "Journal Entry"
 msgstr "Zapis dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_discount_display_amount
 #: model:ir.model,name:account_invoice_discount_display_amount.model_account_move_line
 msgid "Journal Item"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_discount_display_amount
 #: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_bank_statement_line__price_total_no_discount
-#: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_move__price_total_no_discount
-#: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_move_line__price_total_no_discount
-#: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_payment__price_total_no_discount
 msgid "Total Without Discount"
 msgstr "Ukupno bez popusta"

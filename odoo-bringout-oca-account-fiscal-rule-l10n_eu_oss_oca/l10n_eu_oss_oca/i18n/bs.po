@@ -55,19 +55,16 @@ msgstr "Kreiraj fiskalne pozicije i poreze"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__create_uid
-#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__create_date
-#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__display_name
-#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -88,42 +85,38 @@ msgstr "Opći porez"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__id
-#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__id
 msgid "ID"
 msgstr "ID"
 
 #. module: l10n_eu_oss_oca
-#: code:addons/l10n_eu_oss/wizard/l10n_eu_oss_wizard.py:0
+#: code:addons/l10n_eu_oss_oca/wizard/l10n_eu_oss_wizard.py
 #, python-format
 msgid "Intra-EU B2C in %(country_name)s"
 msgstr "Intra-EU B2C u %(country_name)s"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard____last_update
-#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__write_uid
-#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__write_date
-#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: l10n_eu_oss_oca
-#: code:addons/l10n_eu_oss/wizard/l10n_eu_oss_wizard.py:0
+#: code:addons/l10n_eu_oss_oca/wizard/l10n_eu_oss_wizard.py
 #, python-format
 msgid "OSS VAT %s%%"
 msgstr "OSS PDV %s%%"
 
 #. module: l10n_eu_oss_oca
-#: code:addons/l10n_eu_oss/wizard/l10n_eu_oss_wizard.py:0
+#: code:addons/l10n_eu_oss_oca/wizard/l10n_eu_oss_wizard.py
 #, python-format
 msgid "OSS for EU to %(country_name)s: %(rate)s"
 msgstr "OSS za EU u %(country_name)s: %(rate)s"
@@ -160,7 +153,6 @@ msgstr "Drugi super smanjeni porez"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.actions.act_window,name:l10n_eu_oss_oca.l10n_eu_oss_wizard_action
-#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_oca.l10n_eu_oss_oca_wizard_form_view
 msgid "Setup EU OSS Taxes"
 msgstr "Podesi EU OSS poreze"
 
@@ -185,11 +177,12 @@ msgid "The Country must be unique !"
 msgstr "Zemlja mora biti jedinstvena !"
 
 #. module: l10n_eu_oss_oca
-#: code:addons/l10n_eu_oss/wizard/l10n_eu_oss_wizard.py:0
+#: code:addons/l10n_eu_oss/wizard/l10n_eu_oss_wizard.py
 #, python-format
 msgid ""
 "The Europe country group cannot be found. Please update the base module."
 msgstr ""
+"Evropska grupa zemalja se ne može pronaći. Molimo ažuriraj osnovni modul."
 
 #. module: l10n_eu_oss_oca
 #: model_terms:ir.ui.view,arch_db:l10n_eu_oss_oca.l10n_eu_oss_oca_wizard_form_view
@@ -197,6 +190,8 @@ msgid ""
 "You should only choose the taxes of the current accounting plan,\n"
 "                if you don't have the type of tax, do not configure it."
 msgstr ""
+"Trebao bi birati samo poreze trenutnog računovodstvenog plana,\n"
+"                ako nemaš tip poreza, ne konfiguriši ga."
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model,name:l10n_eu_oss_oca.model_l10n_eu_oss_wizard
@@ -207,3 +202,28 @@ msgstr "l10n.eu.oss.wizard"
 #: model:ir.model,name:l10n_eu_oss_oca.model_oss_tax_rate
 msgid "oss tax rate"
 msgstr "oss stopa poreza"
+
+#. module: l10n_eu_oss_oca
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_oca.res_config_settings_view_form_l10n_eu_oss_oca
+msgid "<span class=\"o_form_label\">EU OSS OCA</span>"
+msgstr "<span class=\"o_form_label\">EU OSS OCA</span>"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.model,name:l10n_eu_oss_oca.model_account_fiscal_position
+msgid "Fiscal Position"
+msgstr "Fiskalna pozicija"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_account_fiscal_position__oss_oca
+msgid "OSS OCA"
+msgstr "OSS OCA"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.actions.act_window,name:l10n_eu_oss_oca.l10n_eu_oss_oca_wizard_action
+msgid "Setup EU OSS OCA Taxes"
+msgstr "Podesi EU OSS OCA poreze"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__oss_state_ids
+msgid "States"
+msgstr "States"

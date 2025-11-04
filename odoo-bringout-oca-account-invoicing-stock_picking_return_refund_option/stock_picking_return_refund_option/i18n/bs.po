@@ -25,7 +25,6 @@ msgstr "Bez refundiranja"
 
 #. module: stock_picking_return_refund_option
 #: model:ir.model.fields,field_description:stock_picking_return_refund_option.field_stock_picking__to_refund_lines
-#: model_terms:ir.ui.view,arch_db:stock_picking_return_refund_option.view_picking_form
 msgid "Refund Options"
 msgstr "Opcije refundiranja"
 
@@ -40,6 +39,9 @@ msgid ""
 "This field allow modify 'to_refund' field value in all stock moves from this picking after it has been confirmed.to_refund: set all stock moves to True value and recompute delivered quantities in sale order.\n"
 "no_refund: set all stock moves to False value and recompute delivered quantities in sale/purchase order."
 msgstr ""
+"Ovo polje omogućava mijenjanje vrijednosti polja 'to_refund' u svim premiještajima zaliha iz ovog preuzimanja nakon što je potvrđeno.\n"
+"to_refund: postavlja sve premiještaje zaliha na True vrijednost i preračunava isporučene količine u narudžbi prodaje.\n"
+"no_refund: postavlja sve premiještaje zaliha na False vrijednost i preračunava isporučene količine u narudžbi prodaje/nabavke."
 
 #. module: stock_picking_return_refund_option
 #: model:ir.model.fields.selection,name:stock_picking_return_refund_option.selection__stock_picking__to_refund_lines__to_refund

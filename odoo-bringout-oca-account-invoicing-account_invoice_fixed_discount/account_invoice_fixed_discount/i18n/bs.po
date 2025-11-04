@@ -34,6 +34,8 @@ msgid ""
 "Apply a fixed amount discount to this line. The amount is multiplied by the "
 "quantity of the product."
 msgstr ""
+"Primijeni fiksni iznos popusta na ovu stavku. Iznos se množi sa količinom "
+"proizvoda."
 
 #. module: account_invoice_fixed_discount
 #: model:ir.model.fields,field_description:account_invoice_fixed_discount.field_account_move_line__discount_fixed

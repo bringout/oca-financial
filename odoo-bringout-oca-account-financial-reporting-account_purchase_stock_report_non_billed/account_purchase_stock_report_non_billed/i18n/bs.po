@@ -21,4 +21,5 @@ msgstr "Skladišno kretanje"
 #. module: account_purchase_stock_report_non_billed
 #: model:ir.model,name:account_purchase_stock_report_non_billed.model_account_sale_stock_report_non_billed_wiz
 msgid "Wizard to open stock moves that have not been invoiced at that time"
-msgstr "Čarobnjak za otvaranje pokreta zaliha koji nisu fakturisani u to vrijeme"
+msgstr ""
+"Čarobnjak za otvaranje pokreta zaliha koji nisu fakturisani u to vrijeme"

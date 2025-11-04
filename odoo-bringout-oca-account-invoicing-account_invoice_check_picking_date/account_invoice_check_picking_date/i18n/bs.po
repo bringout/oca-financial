@@ -15,15 +15,14 @@ msgstr ""
 
 #. module: account_invoice_check_picking_date
 #. odoo-python
-#: code:addons/account_invoice_check_picking_date/wizards/invoice_stock_picking_date_wiz.py:0
-#: model_terms:ir.ui.view,arch_db:account_invoice_check_picking_date.invoice_stock_picking_date_wizard
+#: code:addons/account_invoice_check_picking_date/wizards/invoice_stock_picking_date_wiz.py
 #, python-format
 msgid "Accounting date does not match with stock move dates"
 msgstr "Računovodstveni datum se ne poklapa sa datumima premestanja zaliha"
 
 #. module: account_invoice_check_picking_date
 #. odoo-python
-#: code:addons/account_invoice_check_picking_date/models/account_move.py:0
+#: code:addons/account_invoice_check_picking_date/models/account_move.py
 #, python-format
 msgid ""
 "Accounting date: %(accounting_date)s\n"
@@ -31,6 +30,10 @@ msgid ""
 "\n"
 "If dates are right and you have manager permissions you can use special action to post this invoice."
 msgstr ""
+"Računovodstveni datum: %(accounting_date)s\n"
+"Prvi skladišni promet: %(min_date)s   Posljednji skladišni promet: %(max_date)s\n"
+"\n"
+"Ako su datumi ispravni i imate ovlaštenja menadžera možete koristiti specijalnu akciju da proknjižite ovu fakturu."
 
 #. module: account_invoice_check_picking_date
 #: model_terms:ir.ui.view,arch_db:account_invoice_check_picking_date.invoice_stock_picking_date_wizard

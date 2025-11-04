@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_reporting_weight
 #: model:ir.model,name:account_reporting_weight.model_account_invoice_report
 msgid "Invoices Statistics"
 msgstr "Statistika računa"
 
+# taken from hr.po
 #. module: account_reporting_weight
 #: model:ir.model.fields,field_description:account_reporting_weight.field_account_invoice_report__weight
 msgid "Weight"

@@ -13,30 +13,34 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_fiscal_position_vat_check
 #: model_terms:ir.ui.view,arch_db:account_fiscal_position_vat_check.view_partner_property_form
 msgid "<b>Missing VAT number</b>: this partner has the fiscal position"
 msgstr "<b>Nedostaje porezni broj</b>: ovaj partner ima fiskalnu poziciju"
 
+# taken from hr.po
 #. module: account_fiscal_position_vat_check
 #: model:ir.model,name:account_fiscal_position_vat_check.model_res_partner
 msgid "Contact"
 msgstr "Kontakt"
 
+# taken from hr.po
 #. module: account_fiscal_position_vat_check
 #: model:ir.model,name:account_fiscal_position_vat_check.model_account_move
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_fiscal_position_vat_check
 #: model:ir.model.fields,field_description:account_fiscal_position_vat_check.field_res_partner__show_warning_vat_required
-#: model:ir.model.fields,field_description:account_fiscal_position_vat_check.field_res_users__show_warning_vat_required
 msgid "Show Warning Vat Required"
 msgstr "Prikaži upozorenje za Obavezni porezni broj"
 
+# taken from hr.po
 #. module: account_fiscal_position_vat_check
 #. odoo-python
-#: code:addons/account_fiscal_position_vat_check/models/account_move.py:0
+#: code:addons/account_fiscal_position_vat_check/models/account_move.py
 #, python-format
 msgid ""
 "You are trying to validate a customer invoice/refund with the fiscal "
@@ -44,7 +48,12 @@ msgid ""
 "Customer '%(rp)s' doesn't have a VAT number in Odoo. Please add the VAT "
 "number of this Customer in Odoo and try to validate again."
 msgstr ""
+"Pokušavate potvrditi račun ili odobrenje sa fiskalnom pozicijom '%(fp)s' "
+"koja zahtijeva da partner ima unešen porezni broj, ali partner '%(rp)s' nema"
+" porezni broj upisan u odoo. Molimo dodajte porezni broj ovog partnera i "
+"pokušajte ponoviti potvrđivanje."
 
+# taken from hr.po
 #. module: account_fiscal_position_vat_check
 #: model_terms:ir.ui.view,arch_db:account_fiscal_position_vat_check.view_partner_property_form
 msgid "that require to know the VAT number of the partner."

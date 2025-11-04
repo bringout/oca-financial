@@ -27,7 +27,7 @@ msgstr "Postavke"
 #: model_terms:ir.ui.view,arch_db:account_invoice_customer_no_autofollow.res_config_settings_view_form
 msgid ""
 "Customer/vendor will not be added as follower automatically on invoices"
-msgstr ""
+msgstr "Kupac/dobavljač neće biti automatski dodan kao pratilac na fakturama"
 
 #. module: account_invoice_customer_no_autofollow
 #: model:ir.model.fields,field_description:account_invoice_customer_no_autofollow.field_res_config_settings__invoice_partner_no_autofollow

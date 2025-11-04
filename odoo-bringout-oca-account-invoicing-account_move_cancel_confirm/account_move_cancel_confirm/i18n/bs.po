@@ -15,25 +15,21 @@ msgstr ""
 
 #. module: account_move_cancel_confirm
 #: model:ir.model.fields,help:account_move_cancel_confirm.field_account_move__cancel_confirm
-#: model:ir.model.fields,help:account_move_cancel_confirm.field_account_payment__cancel_confirm
 msgid "A flag signify that this document is confirmed for cancellation"
 msgstr "Oznaka koja označava da je ovaj dokument potvrđen za otkazivanje"
 
 #. module: account_move_cancel_confirm
 #: model:ir.model.fields,help:account_move_cancel_confirm.field_account_move__cancel_reason
-#: model:ir.model.fields,help:account_move_cancel_confirm.field_account_payment__cancel_reason
 msgid "An optional cancel reason"
 msgstr "Opcionalni razlog otkazivanja"
 
 #. module: account_move_cancel_confirm
 #: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_move__cancel_confirm
-#: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_payment__cancel_confirm
 msgid "Cancel Confirmed"
 msgstr "Otkazano potvrđeno"
 
 #. module: account_move_cancel_confirm
 #: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_move__cancel_reason
-#: model:ir.model.fields,field_description:account_move_cancel_confirm.field_account_payment__cancel_reason
 msgid "Cancel Reason"
 msgstr "Razlog otkazivanja"
 

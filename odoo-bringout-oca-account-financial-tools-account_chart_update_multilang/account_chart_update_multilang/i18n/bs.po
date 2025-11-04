@@ -19,6 +19,8 @@ msgid ""
 "For records searched by name (taxes, fiscal positions), the template name "
 "will be matched against the record name on this language."
 msgstr ""
+"Za zapise pretražene po imenu (porezi, fiskalne pozicije), naziv predloška "
+"će biti usklađen sa nazivom zapisa na ovom jeziku."
 
 #. module: account_chart_update_multilang
 #: model:ir.model.fields,field_description:account_chart_update_multilang.field_wizard_update_charts_accounts__lang

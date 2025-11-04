@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_invoice_production_lot
 #: model_terms:ir.ui.view,arch_db:account_invoice_production_lot.account_invoice_production_lot_report
 msgid "<b class=\"font-italic\">Serial numbers</b>"
 msgstr "<b class=\"font-italic\">Serijski brojevi</b>"
 
+# taken from hr.po
 #. module: account_invoice_production_lot
 #: model:product.template,name:account_invoice_production_lot.product_icecream_b_product_template
 msgid "Ice Cream B"
@@ -32,18 +34,25 @@ msgid ""
 "ice cream shops, convenience stores, and milk bars, and in individual "
 "servings from small carts or vans at public events."
 msgstr ""
+"Sladoled se može masovno proizvoditi i stoga je široko dostupan u razvijenim"
+" dijelovima svijeta. Sladoled se može kupiti u velikim kartonima (posudama i"
+" okruglim kutijama) u supermarketima i trgovinama, u manjim količinama u "
+"slastičarnicama, trgovinama i mljekarnama, te u pojedinačnim porcijama iz "
+"malih kolica ili vozila na javnim događanjima."
 
+# taken from hr.po
 #. module: account_invoice_production_lot
 #: model:ir.model,name:account_invoice_production_lot.model_account_move_line
 msgid "Journal Item"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_invoice_production_lot
 #: model:ir.model.fields,field_description:account_invoice_production_lot.field_account_move_line__prod_lot_ids
-#: model_terms:ir.ui.view,arch_db:account_invoice_production_lot.view_move_form
 msgid "Production Lots"
 msgstr "Lotovi proizvodnje"
 
+# taken from hr.po
 #. module: account_invoice_production_lot
 #: model_terms:ir.ui.view,arch_db:account_invoice_production_lot.account_invoice_production_lot_report
 msgid "S/N:"

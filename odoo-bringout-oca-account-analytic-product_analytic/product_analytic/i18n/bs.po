@@ -18,30 +18,31 @@ msgstr ""
 msgid "Analytic Distribution Model"
 msgstr "Model analitičke distribucije"
 
+# taken from hr.po
 #. module: product_analytic
 #: model:ir.model.fields,field_description:product_analytic.field_product_category__expense_analytic_account_id
-#: model:ir.model.fields,field_description:product_analytic.field_product_product__expense_analytic_account_id
-#: model:ir.model.fields,field_description:product_analytic.field_product_template__expense_analytic_account_id
 msgid "Expense Analytic Account"
 msgstr "Analitički konto troška"
 
+# taken from hr.po
 #. module: product_analytic
 #: model:ir.model.fields,field_description:product_analytic.field_product_category__income_analytic_account_id
-#: model:ir.model.fields,field_description:product_analytic.field_product_product__income_analytic_account_id
-#: model:ir.model.fields,field_description:product_analytic.field_product_template__income_analytic_account_id
 msgid "Income Analytic Account"
 msgstr "Analitički konto prihoda"
 
+# taken from hr.po
 #. module: product_analytic
 #: model:ir.model,name:product_analytic.model_account_move_line
 msgid "Journal Item"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: product_analytic
 #: model:ir.model,name:product_analytic.model_product_template
 msgid "Product"
 msgstr "Proizvod"
 
+# taken from hr.po
 #. module: product_analytic
 #: model:ir.model,name:product_analytic.model_product_category
 msgid "Product Category"

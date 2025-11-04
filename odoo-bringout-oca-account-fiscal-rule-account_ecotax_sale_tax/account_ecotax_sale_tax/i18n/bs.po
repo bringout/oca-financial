@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_ecotax_sale_tax
 #: model:ir.model.fields,field_description:account_ecotax_sale_tax.field_sale_order_line__subtotal_ecotax
 msgid "Ecotax"
-msgstr "Ecotax"
+msgstr "Ekotaksa"
 
 #. module: account_ecotax_sale_tax
 #: model:ir.model.fields,field_description:account_ecotax_sale_tax.field_sale_order_line__ecotax_amount_unit

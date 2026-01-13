@@ -42,7 +42,7 @@ msgstr "Kompanije"
 #. module: account_cutoff_picking
 #: model:ir.model,name:account_cutoff_picking.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: account_cutoff_picking
 #. odoo-python

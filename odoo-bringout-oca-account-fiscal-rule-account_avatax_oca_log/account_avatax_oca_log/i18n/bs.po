@@ -115,7 +115,7 @@ msgstr "Otkaži / Poništi"
 #. module: account_avatax_oca_log
 #: model:ir.model,name:account_avatax_oca_log.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__create_uid
@@ -145,17 +145,17 @@ msgstr "Faktura transakcija"
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_avatax_oca_log
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.res_config_settings_view_form

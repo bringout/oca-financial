@@ -116,7 +116,7 @@ msgstr "Šifra"
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: account_ecotax
 #: model:ir.model.fields,help:account_ecotax.field_product_product__all_ecotax_line_product_ids
@@ -346,7 +346,7 @@ msgstr ""
 #. module: account_ecotax
 #: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_classification_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__id
@@ -402,17 +402,17 @@ msgstr "Stavka žurnala"
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_ecotax
 #: model:ir.model.fields,help:account_ecotax.field_account_ecotax_classification__supplier_status
@@ -469,7 +469,7 @@ msgstr "Partner"
 #. module: account_ecotax
 #: model:ir.model,name:account_ecotax.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__product_status

@@ -36,7 +36,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: stock_landed_costs_analytic
 #: model:ir.model.fields,field_description:stock_landed_costs_analytic.field_stock_landed_cost_lines__analytic_precision
 msgid "Analytic Precision"
-msgstr "Analitička preciznost"
+msgstr "Preciznost analitike"
 
 #. module: stock_landed_costs_analytic
 #: model:ir.model.fields,help:stock_landed_costs_analytic.field_stock_landed_cost_lines__analytic_account_ids

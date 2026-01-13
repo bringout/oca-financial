@@ -31,7 +31,7 @@ msgstr "Analitička organizacija"
 #. module: account_analytic_organization
 #: model:ir.model.fields,field_description:account_analytic_organization.field_account_analytic_organization__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: account_analytic_organization
 #: model:ir.model,name:account_analytic_organization.model_res_partner
@@ -66,17 +66,17 @@ msgstr "Stavka žurnala"
 #. module: account_analytic_organization
 #: model:ir.model.fields,field_description:account_analytic_organization.field_account_analytic_organization____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: account_analytic_organization
 #: model:ir.model.fields,field_description:account_analytic_organization.field_account_analytic_organization__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: account_analytic_organization
 #: model:ir.model.fields,field_description:account_analytic_organization.field_account_analytic_organization__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_analytic_organization
 #: model:ir.model.fields,field_description:account_analytic_organization.field_account_analytic_organization__name

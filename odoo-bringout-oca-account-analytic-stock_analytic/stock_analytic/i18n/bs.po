@@ -35,7 +35,7 @@ msgstr "Primjenjivost Analitičkog plana"
 #. module: stock_analytic
 #: model:ir.model.fields,field_description:stock_analytic.field_stock_move__analytic_precision
 msgid "Analytic Precision"
-msgstr "Analitička preciznost"
+msgstr "Preciznost analitike"
 
 # taken from hr.po
 #. module: stock_analytic
@@ -52,7 +52,7 @@ msgstr "Tip operacije"
 #. module: stock_analytic
 #: model:ir.model,name:stock_analytic.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "Skladišna kretanja proizvoda(stavke)"
+msgstr "Kretanja proizvoda (stavke skladišta)"
 
 # taken from hr.po
 #. module: stock_analytic
@@ -64,7 +64,7 @@ msgstr "Otpis"
 #. module: stock_analytic
 #: model:ir.model,name:stock_analytic.model_stock_move
 msgid "Stock Move"
-msgstr "Skladišno kretanje"
+msgstr "Skladišni prijenos"
 
 #. module: stock_analytic
 #: model:ir.model,name:stock_analytic.model_stock_rule

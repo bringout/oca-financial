@@ -104,7 +104,7 @@ msgstr "Računovodstvena naplata"
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna radnja"
+msgstr "Potrebna akcija"
 
 #. module: account_billing
 #: model:ir.model.fields,help:account_billing.field_account_billing__threshold_date
@@ -217,7 +217,7 @@ msgstr "Otkaži"
 #. module: account_billing
 #: model:ir.model.fields.selection,name:account_billing.selection__account_billing__state__cancel
 msgid "Cancelled"
-msgstr "Otkazano"
+msgstr "Otkazan"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
@@ -232,7 +232,7 @@ msgstr "Kliknite da registrujete novu naplatu."
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
@@ -311,17 +311,17 @@ msgstr ""
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__message_follower_ids
 msgid "Followers"
-msgstr "Pratitelji"
+msgstr "Pratioci"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratitelji (partneri)"
+msgstr "Pratioci (Partneri)"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__has_message
@@ -378,17 +378,17 @@ msgstr "Žurnal"
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_billing
 #: model:ir.model.fields,help:account_billing.field_account_billing__company_id
@@ -417,7 +417,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__message_ids
 msgid "Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing_line__move_id
@@ -588,7 +588,7 @@ msgstr "Ulazni račun"
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__website_message_ids
 msgid "Website Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke sa website-a"
 
 #. module: account_billing
 #: model:ir.model.fields,help:account_billing.field_account_billing__website_message_ids

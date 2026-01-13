@@ -23,7 +23,7 @@ msgstr "Izračunaj VIES provjeru"
 #. module: base_vat_optional_vies
 #: model:ir.model,name:base_vat_optional_vies.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Konfiguracijske postavke"
 
 # taken from hr.po
 #. module: base_vat_optional_vies

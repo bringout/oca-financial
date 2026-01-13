@@ -148,7 +148,7 @@ msgstr "Otkaži neuspješan posao"
 #. module: account_avatax_exemption
 #: model:ir.model.fields.selection,name:account_avatax_exemption.selection__exemption_code_rule__state__cancel
 msgid "Cancelled"
-msgstr "Otkazano"
+msgstr "Otkazan"
 
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_avalara_salestax__avatax_company_id
@@ -188,7 +188,7 @@ msgstr "Prikazani naziv"
 #. module: account_avatax_exemption
 #: model:ir.model.fields.selection,name:account_avatax_exemption.selection__exemption_code_rule__state__done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: account_avatax_exemption
 #: model:ir.model.fields.selection,name:account_avatax_exemption.selection__exemption_code_rule__state__draft
@@ -329,17 +329,17 @@ msgstr "Je sva jurisdikcija"
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_avatax_exemption
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__name
@@ -382,7 +382,7 @@ msgstr "Nema pronađenih oslobođenja."
 #. module: account_avatax_exemption
 #: model:ir.model,name:account_avatax_exemption.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: account_avatax_exemption
 #: model:ir.model,name:account_avatax_exemption.model_product_category

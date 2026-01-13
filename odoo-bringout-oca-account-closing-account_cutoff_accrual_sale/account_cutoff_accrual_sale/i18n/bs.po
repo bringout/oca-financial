@@ -61,7 +61,7 @@ msgstr "Model linije narudžbe"
 #. module: account_cutoff_accrual_sale
 #: model:ir.model.fields,field_description:account_cutoff_accrual_sale.field_account_cutoff_line__sale_order_id
 msgid "Order Reference"
-msgstr "Referenca zahtjeva"
+msgstr "Referenca narudžbe"
 
 #. module: account_cutoff_accrual_sale
 #: model:ir.model,name:account_cutoff_accrual_sale.model_sale_order

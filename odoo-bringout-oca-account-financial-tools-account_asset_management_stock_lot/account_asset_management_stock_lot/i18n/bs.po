@@ -38,4 +38,4 @@ msgstr "Lot/Serijski broj"
 #. module: account_asset_management_stock_lot
 #: model:ir.model.fields,field_description:account_asset_management_stock_lot.field_account_asset__product_id
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"

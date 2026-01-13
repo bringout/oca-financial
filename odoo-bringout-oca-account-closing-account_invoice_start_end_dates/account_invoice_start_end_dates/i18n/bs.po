@@ -96,7 +96,7 @@ msgstr "Proizvod"
 #. module: account_invoice_start_end_dates
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates.field_account_move_line__start_date
 msgid "Start Date"
-msgstr "Datum početka"
+msgstr "Početni datum"
 
 # taken from hr.po
 #. module: account_invoice_start_end_dates

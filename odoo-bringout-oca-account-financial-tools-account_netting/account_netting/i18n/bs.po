@@ -41,7 +41,7 @@ msgstr "Otkaži"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 # taken from hr.po
 #. module: account_netting
@@ -70,7 +70,7 @@ msgstr "Valuta"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__id
@@ -92,19 +92,19 @@ msgstr "Stavke dnevnika za kompenzaciju"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_netting
 #. odoo-python

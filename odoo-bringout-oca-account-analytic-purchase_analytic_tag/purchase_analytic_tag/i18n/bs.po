@@ -21,4 +21,4 @@ msgstr "Analitičke oznake"
 #. module: purchase_analytic_tag
 #: model:ir.model,name:purchase_analytic_tag.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"

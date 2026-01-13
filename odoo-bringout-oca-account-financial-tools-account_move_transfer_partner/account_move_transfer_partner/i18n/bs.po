@@ -111,17 +111,17 @@ msgstr "Vrsta naloga"
 #. module: account_move_transfer_partner
 #: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: account_move_transfer_partner
 #: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: account_move_transfer_partner
 #: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_move_transfer_partner
 #: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__move_ids

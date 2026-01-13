@@ -99,7 +99,7 @@ msgstr "Model linije narudžbe"
 #. module: account_cutoff_accrual_order_base
 #: model:ir.model.fields,field_description:account_cutoff_accrual_order_base.field_account_cutoff_line__product_id
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: account_cutoff_accrual_order_base
 #: model:ir.model.fields,field_description:account_cutoff_accrual_order_base.field_account_cutoff_line__quantity

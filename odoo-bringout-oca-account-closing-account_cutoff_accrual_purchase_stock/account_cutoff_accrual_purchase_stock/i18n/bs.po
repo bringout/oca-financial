@@ -16,4 +16,4 @@ msgstr ""
 #. module: account_cutoff_accrual_purchase_stock
 #: model:ir.model,name:account_cutoff_accrual_purchase_stock.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"

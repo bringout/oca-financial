@@ -95,7 +95,7 @@ msgstr "Predlošci kontnih planova"
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 # taken from hr.po
 #. module: account_usability
@@ -140,7 +140,7 @@ msgstr "Zadnji mjesec fiskalne godine"
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiraj po"
 
 # taken from hr.po
 #. module: account_usability

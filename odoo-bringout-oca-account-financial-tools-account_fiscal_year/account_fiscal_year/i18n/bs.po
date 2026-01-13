@@ -26,7 +26,7 @@ msgstr "Kompanije"
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__create_uid
@@ -81,17 +81,17 @@ msgstr "ID"
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__name
@@ -101,7 +101,7 @@ msgstr "Naziv:"
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__date_from
 msgid "Start Date"
-msgstr "Datum početka"
+msgstr "Početni datum"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_res_company__fiscal_year_date_from

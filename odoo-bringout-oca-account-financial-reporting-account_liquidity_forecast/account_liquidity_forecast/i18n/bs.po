@@ -72,7 +72,7 @@ msgstr "Otkaži"
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_group__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_item__company_currency_id
@@ -180,17 +180,17 @@ msgstr "Stavke"
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_group____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_group__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_group__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_liquidity_forecast
 #. odoo-python

@@ -31,7 +31,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__analytic_precision
 msgid "Analytic Precision"
-msgstr "Analitička preciznost"
+msgstr "Preciznost analitike"
 
 #. module: account_asset_transfer
 #: model:ir.model,name:account_asset_transfer.model_account_asset
@@ -105,7 +105,7 @@ msgstr "Otkaži"
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__create_uid
@@ -160,17 +160,17 @@ msgstr "Je transfer"
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__note

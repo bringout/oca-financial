@@ -41,7 +41,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: account_analytic_tag_distribution
 #: model:ir.model.fields,field_description:account_analytic_tag_distribution.field_account_analytic_tag__analytic_precision
 msgid "Analytic Precision"
-msgstr "Analitička preciznost"
+msgstr "Preciznost analitike"
 
 #. module: account_analytic_tag_distribution
 #: model:ir.model,name:account_analytic_tag_distribution.model_account_analytic_tag

@@ -33,12 +33,12 @@ msgstr "Žurnal"
 #. module: purchase_stock_picking_return_invoicing
 #: model:ir.model,name:purchase_stock_picking_return_invoicing.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_stock_picking_return_invoicing
 #: model:ir.model,name:purchase_stock_picking_return_invoicing.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_stock_picking_return_invoicing
 #: model:ir.model.fields,field_description:purchase_stock_picking_return_invoicing.field_purchase_order_line__qty_refunded

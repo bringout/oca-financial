@@ -104,7 +104,7 @@ msgstr "Komercijalni partner"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_wizard__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__company_currency_id
@@ -255,17 +255,17 @@ msgstr "Opis"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_wizard__line_ids
@@ -352,7 +352,7 @@ msgstr "Pregled premestanja poravnanja vezanog za %s"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: account_invoice_clearing
 #: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view

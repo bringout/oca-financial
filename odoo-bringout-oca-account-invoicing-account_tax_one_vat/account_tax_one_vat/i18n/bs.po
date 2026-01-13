@@ -43,7 +43,7 @@ msgstr "Kompanije"
 #. module: account_tax_one_vat
 #: model:ir.model,name:account_tax_one_vat.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: account_tax_one_vat
 #. odoo-python
@@ -89,7 +89,7 @@ msgstr "Samo jedan PDV porez"
 #. module: account_tax_one_vat
 #: model:ir.model,name:account_tax_one_vat.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: account_tax_one_vat
 #: model:ir.model,name:account_tax_one_vat.model_account_tax

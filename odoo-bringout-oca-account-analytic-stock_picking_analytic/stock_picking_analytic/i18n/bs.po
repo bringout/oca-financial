@@ -36,7 +36,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: stock_picking_analytic
 #: model:ir.model.fields,field_description:stock_picking_analytic.field_stock_picking__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 #. module: stock_picking_analytic
 #: model:ir.model.fields,help:stock_picking_analytic.field_stock_picking__analytic_account_ids

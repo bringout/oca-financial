@@ -28,19 +28,19 @@ msgstr "Stavka dnevnika ažuriraj Analitički konto"
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 # taken from hr.po
 #. module: account_move_update_analytic
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
 msgid "Cancel"
-msgstr "Odustani"
+msgstr "Otkaži"
 
 # taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: account_move_update_analytic
@@ -64,7 +64,7 @@ msgstr "Trenutna Analitička distribucija"
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Prikazani naziv"
 
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__id
@@ -81,19 +81,19 @@ msgstr "Stavka računa"
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnja izmjena na"
 
 # taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 # taken from hr.po
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnje ažuriranje na"
 
 # taken from hr.po
 #. module: account_move_update_analytic

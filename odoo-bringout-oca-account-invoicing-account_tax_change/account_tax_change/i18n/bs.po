@@ -46,7 +46,7 @@ msgstr "Otkaži"
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change__create_uid
@@ -97,17 +97,17 @@ msgstr "Fakture"
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_tax_change__change_line_ids

@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna akcija"
+msgstr "Potrebna radnja"
 
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__activity_ids
@@ -26,7 +26,7 @@ msgstr "Aktivnosti"
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__activity_state
@@ -51,12 +51,12 @@ msgstr "Izvod banke"
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__message_follower_ids
 msgid "Followers"
-msgstr "Pratioci"
+msgstr "Pratitelji"
 
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratitelji (partneri)"
 
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,help:account_bank_statement_chatter.field_account_bank_statement__activity_type_icon
@@ -106,7 +106,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr "Nepročitane poruke"
 
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__my_activity_date_deadline
@@ -174,7 +174,7 @@ msgstr "Vrsta aktivnosti iznimke na zapisu."
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Nepročitane poruke"
 
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,help:account_bank_statement_chatter.field_account_bank_statement__website_message_ids

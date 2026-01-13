@@ -21,7 +21,7 @@ msgstr "Kompanije"
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model,name:sale_order_invoicing_grouping_criteria.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model,name:sale_order_invoicing_grouping_criteria.model_res_partner
@@ -93,17 +93,17 @@ msgstr "Kriterij grupiranja fakturisanja"
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__name

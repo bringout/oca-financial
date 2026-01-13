@@ -32,7 +32,7 @@ msgstr ""
 #. module: account_invoice_check_total
 #: model:ir.model,name:account_invoice_check_total.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: account_invoice_check_total

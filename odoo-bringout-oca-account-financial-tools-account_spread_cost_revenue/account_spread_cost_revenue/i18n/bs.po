@@ -131,7 +131,7 @@ msgstr "Predložak računovodstvenog raspoređivanja"
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna akcija"
+msgstr "Potrebna radnja"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__active
@@ -166,7 +166,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread
@@ -270,7 +270,7 @@ msgstr "Kompanije"
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_invoice_line_link_wizard
@@ -475,12 +475,12 @@ msgstr "Račun troška/prihoda"
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__message_follower_ids
 msgid "Followers"
-msgstr "Pratioci"
+msgstr "Pratitelji"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratitelji (partneri)"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__has_message
@@ -583,17 +583,17 @@ msgstr "Žurnal (stavke)"
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_spread_cost_revenue
 #. odoo-python
@@ -632,7 +632,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr "Nepročitane poruke"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__period_type__month
@@ -726,7 +726,7 @@ msgstr "Knjiženi zapisi"
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields.selection,name:account_spread_cost_revenue.selection__account_spread__period_type__quarter
@@ -859,7 +859,7 @@ msgstr "Tabla raspoređivanja '%s' kreirana."
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__spread_date
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__suitable_journal_ids
@@ -1044,7 +1044,7 @@ msgstr "Vidi knjiženje"
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Nepročitane poruke"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,help:account_spread_cost_revenue.field_account_spread__website_message_ids

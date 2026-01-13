@@ -432,7 +432,7 @@ msgstr "Šifra"
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py
 #, python-format
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: account_financial_report
@@ -443,7 +443,7 @@ msgstr "Izračunaj konta"
 #. module: account_financial_report
 #: model:ir.model,name:account_financial_report.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.res_config_settings_view_form
@@ -614,7 +614,7 @@ msgstr "Pojedinosti poreza"
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Prikazani naziv"
 
 #. module: account_financial_report
 #: model:ir.model.fields,help:account_financial_report.field_general_ledger_report_wizard__foreign_currency
@@ -1033,17 +1033,17 @@ msgstr "Žurnali"
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_group__level
@@ -1454,7 +1454,7 @@ msgstr "Sortiraj stavke po"
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_vat_report_wizard__date_from
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 # taken from hr.po
 #. module: account_financial_report

@@ -71,7 +71,7 @@ msgstr "Opis"
 #. module: account_invoice_refund_reason
 #: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move_refund_reason__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Prikazani naziv"
 
 #. module: account_invoice_refund_reason
 #: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move_refund_reason__id
@@ -93,19 +93,19 @@ msgstr "Žurnal"
 #. module: account_invoice_refund_reason
 #: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move_refund_reason____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena na"
 
 # taken from hr.po
 #. module: account_invoice_refund_reason
 #: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move_refund_reason__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 # taken from hr.po
 #. module: account_invoice_refund_reason
 #: model:ir.model.fields,field_description:account_invoice_refund_reason.field_account_move_refund_reason__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_invoice_refund_reason
 #: model:account.move.refund.reason,name:account_invoice_refund_reason.refund_reason_error

@@ -207,7 +207,7 @@ msgstr "Šifra mora biti jedinstvena za zatvaranje fiskale godine!"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing_config__inverse
@@ -295,7 +295,7 @@ msgstr "Odredišni račun"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Prikazani naziv"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing__state__draft
@@ -470,17 +470,17 @@ msgstr "Žurnal"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_template__move_date__last_ending

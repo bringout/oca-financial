@@ -230,7 +230,7 @@ msgstr "Tvrtke"
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.curr_unrealized_report
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: account_multicurrency_revaluation
@@ -242,7 +242,7 @@ msgstr "Valuta tvrtke"
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguracijske postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: account_multicurrency_revaluation
@@ -322,7 +322,7 @@ msgstr "Datum koji će biti dodijeljen reverznim unosima kreiranim."
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Prikazani naziv"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__end_date
@@ -375,17 +375,17 @@ msgstr "Stavka dnevnika"
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.view_account_config_settings
@@ -601,7 +601,7 @@ msgstr "Storniraj unose revalorizacije"
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__start_date
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__start_date

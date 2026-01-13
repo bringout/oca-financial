@@ -61,22 +61,22 @@ msgstr "Model linije narudžbe"
 #. module: account_cutoff_accrual_purchase
 #: model:ir.model.fields,field_description:account_cutoff_accrual_purchase.field_account_cutoff_line__purchase_order_id
 msgid "Order Reference"
-msgstr "Referenca narudžbe"
+msgstr "Referenca zahtjeva"
 
 #. module: account_cutoff_accrual_purchase
 #: model:ir.model,name:account_cutoff_accrual_purchase.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: account_cutoff_accrual_purchase
 #: model:ir.model,name:account_cutoff_accrual_purchase.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: account_cutoff_accrual_purchase
 #: model:ir.model.fields.selection,name:account_cutoff_accrual_purchase.selection__account_cutoff__order_line_model__purchase_order_line
 msgid "Purchase Orders"
-msgstr "Nalozi u nabavi"
+msgstr "Zahtjevi za nabavom"
 
 #. module: account_cutoff_accrual_purchase
 #: model_terms:ir.actions.act_window,help:account_cutoff_accrual_purchase.account_accrual_action

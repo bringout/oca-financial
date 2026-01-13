@@ -26,7 +26,7 @@ msgstr "Žurnal (stavke)"
 #. module: product_form_account_move_line_link
 #: model:ir.model,name:product_form_account_move_line_link.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: product_form_account_move_line_link
 #: model:ir.model,name:product_form_account_move_line_link.model_product_product

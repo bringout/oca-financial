@@ -261,7 +261,7 @@ msgstr "Kompanije"
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_avatax_oca
 #. odoo-python
@@ -553,17 +553,17 @@ msgstr "Stavka žurnala"
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__date_validation
@@ -720,7 +720,7 @@ msgstr "Molimo validirajte adresu dostave za partnera %(partner.name)s."
 #. module: account_avatax_oca
 #: model:ir.model,name:account_avatax_oca.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_product_product__tax_code_id

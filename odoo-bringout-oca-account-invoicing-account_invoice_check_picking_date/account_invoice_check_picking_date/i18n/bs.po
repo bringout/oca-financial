@@ -93,14 +93,14 @@ msgstr "Žurnal"
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"

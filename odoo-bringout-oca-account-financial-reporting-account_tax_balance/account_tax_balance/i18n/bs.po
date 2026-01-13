@@ -103,7 +103,7 @@ msgstr "Od datuma"
 #. module: account_tax_balance
 #: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_search_balance
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr "Grupiši po..."
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_account_tax__has_moves
@@ -128,17 +128,17 @@ msgstr "Stavka žurnala"
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_tax_balance
 #. odoo-python

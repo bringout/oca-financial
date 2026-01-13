@@ -70,7 +70,7 @@ msgstr "Izvorni dnevnici"
 #. module: account_cutoff_start_end_dates
 #: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff__start_date
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: account_cutoff_start_end_dates
 #. odoo-python

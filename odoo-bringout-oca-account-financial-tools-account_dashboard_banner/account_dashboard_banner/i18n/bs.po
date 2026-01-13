@@ -111,17 +111,17 @@ msgstr "Datum zaključavanja stavaka dnevnika"
 #. module: account_dashboard_banner
 #: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_dashboard_banner
 #: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_dashboard_banner
 #: model:ir.model.fields,field_description:account_dashboard_banner.field_account_dashboard_banner_cell__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_dashboard_banner
 #: model:ir.model.fields.selection,name:account_dashboard_banner.selection__account_dashboard_banner_cell__cell_type__liquidity

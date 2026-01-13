@@ -31,7 +31,7 @@ msgstr "Kompanije"
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__create_uid
@@ -61,17 +61,17 @@ msgstr "Žurnal"
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__fiscalyear_lock_to_date

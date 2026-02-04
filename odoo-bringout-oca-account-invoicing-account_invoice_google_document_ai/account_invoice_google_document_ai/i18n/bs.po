@@ -44,7 +44,7 @@ msgstr ""
 #. module: account_invoice_google_document_ai
 #: model:ir.model,name:account_invoice_google_document_ai.model_account_move_google_document_ai
 msgid "Account Move Google Document Ai Functions"
-msgstr "Funkcije Google Document AI za premestanje računa"
+msgstr "Funkcije Google Document AI za knjiženje računa"
 
 #. module: account_invoice_google_document_ai
 #: model_terms:ir.ui.view,arch_db:account_invoice_google_document_ai.res_config_settings_form_view

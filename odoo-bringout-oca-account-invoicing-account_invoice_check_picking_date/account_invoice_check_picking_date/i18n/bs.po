@@ -18,7 +18,7 @@ msgstr ""
 #: code:addons/account_invoice_check_picking_date/wizards/invoice_stock_picking_date_wiz.py
 #, python-format
 msgid "Accounting date does not match with stock move dates"
-msgstr "Računovodstveni datum se ne poklapa sa datumima premestanja zaliha"
+msgstr "Računovodstveni datum se ne poklapa sa datumima knjiženja zaliha"
 
 #. module: account_invoice_check_picking_date
 #. odoo-python

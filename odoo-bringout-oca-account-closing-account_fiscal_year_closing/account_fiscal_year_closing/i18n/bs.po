@@ -64,12 +64,12 @@ msgstr "Tipovi zatvaranja"
 #. module: account_fiscal_year_closing
 #: model:ir.model,name:account_fiscal_year_closing.model_account_fiscalyear_closing_unbalanced_move
 msgid "Account fiscalyear closing unbalanced move"
-msgstr "Nebalansirano premestanje zatvaranja fiskalne godine računa"
+msgstr "Nebalansirano knjiženje zatvaranja fiskalne godine računa"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model,name:account_fiscal_year_closing.model_account_fiscalyear_closing_unbalanced_move_line
 msgid "Account fiscalyear closing unbalanced move line"
-msgstr "Nebalansirana linija premestanja zatvaranja fiskalne godine računa"
+msgstr "Nebalansirana linija knjiženja zatvaranja fiskalne godine računa"
 
 # taken from hr.po
 #. module: account_fiscal_year_closing
@@ -212,12 +212,12 @@ msgstr "Tvrtka"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing_config__inverse
 msgid "Configuration code to inverse its move"
-msgstr "Kod konfiguracije za inverzno premestanje"
+msgstr "Kod konfiguracije za inverzno knjiženje"
 
 #. module: account_fiscal_year_closing
 #: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
 msgid "Confirm and post moves"
-msgstr "Potvrdi i knjiži premestanja"
+msgstr "Potvrdi i knjiži knjiženja"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__expense_direct_cost
@@ -342,14 +342,14 @@ msgstr "Fiskalno zatvaranje"
 #: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
 #, python-format
 msgid "Fiscal closing move lines"
-msgstr "Linije premestanja fiskalnog zatvaranja"
+msgstr "Linije knjiženja fiskalnog zatvaranja"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
 #: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
 #, python-format
 msgid "Fiscal closing moves"
-msgstr "Premestanja fiskalnog zatvaranja"
+msgstr "Knjiženja fiskalnog zatvaranja"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model,name:account_fiscal_year_closing.model_account_fiscalyear_closing
@@ -500,12 +500,12 @@ msgstr "Kretanje"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__date
 msgid "Move date"
-msgstr "Datum premestanja"
+msgstr "Datum knjiženja"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__move_type
 msgid "Move type"
-msgstr "Tip premestanja"
+msgstr "Tip knjiženja"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__move_ids
@@ -515,7 +515,7 @@ msgstr "Kretanja"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__move_config_ids
 msgid "Moves configuration"
-msgstr "Konfiguracija premestanja"
+msgstr "Konfiguracija knjiženja"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move_line__name
@@ -556,7 +556,7 @@ msgstr "Vanbilansna evidencija"
 #: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
 #, python-format
 msgid "One or more draft moves found: \n"
-msgstr "Pronađeno jedno ili više premestanja u nacrtu: \\ \n"
+msgstr "Pronađeno jedno ili više knjiženja u nacrtu: \\ \n"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config__move_type__opening
@@ -633,12 +633,12 @@ msgstr "Sekvenca"
 #. module: account_fiscal_year_closing
 #: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
 msgid "Show move lines"
-msgstr "Prikaži linije premestanja"
+msgstr "Prikaži linije knjiženja"
 
 #. module: account_fiscal_year_closing
 #: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
 msgid "Show moves"
-msgstr "Prikaži premestanja"
+msgstr "Prikaži knjiženja"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping__src_accounts
@@ -717,12 +717,12 @@ msgstr "Pronađen nebalansiran zapis dnevnika"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move_line__move_id
 msgid "Unbalanced move"
-msgstr "Nebalansirano premestanje"
+msgstr "Nebalansirano knjiženje"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move__line_ids
 msgid "Unbalanced move lines"
-msgstr "Nebalansirane linije premestanja"
+msgstr "Nebalansirane linije knjiženja"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__code

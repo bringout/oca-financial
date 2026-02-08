@@ -101,8 +101,6 @@ msgid ""
 "Comma-separated analytic account names, in case it is useful to be included "
 "in the exported data."
 msgstr ""
-"[PREVOD POTREBAN: Comma-separated analytic account names, in case it is "
-"useful...]"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__company_id
@@ -126,8 +124,6 @@ msgid ""
 " but using the analytic accounts names as keys of the dictionary, so it "
 "eases the human input."
 msgstr ""
-"[PREVOD POTREBAN: Defining this field, it will set the analytical "
-"distribution...]"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__display_name

@@ -15,63 +15,63 @@ msgstr ""
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "1 - 30 Days"
 msgstr "1 - 30 dana"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "1 Month"
 msgstr "1 mjesec"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "121 Days +"
 msgstr "121 dana +"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "2 Months"
 msgstr "2 mjeseca"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "3 Months"
 msgstr "3 mjeseca"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "31 - 60 Days"
 msgstr "31 - 60 dana"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "4 Months"
 msgstr "4 mjeseca"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "61 - 90 Days"
 msgstr "61 - 90 dana"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "91 - 120 Days"
 msgstr "91 - 120 dana"
@@ -169,7 +169,7 @@ msgstr "Računi za isključivanje"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Activity Statement"
 msgstr "Izvještaj o aktivnostima"
@@ -211,35 +211,35 @@ msgstr "Metod starenja"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Aging Report at %(end)s in %(currency)s"
 msgstr "Izvještaj o starenju na %(end)s u %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "Aging Report at %(ending_date)s in %(currency)s"
 msgstr "Izvještaj o starenju na %(ending_date)s u %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Applied Amount"
 msgstr "Primijenjeni iznos"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
 #, python-format
 msgid "Balance"
 msgstr "Saldo"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Balance Forward"
 msgstr "Prenos salda"
@@ -252,7 +252,7 @@ msgstr "Otkaži"
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: partner_statement
 #: model:ir.model,name:partner_statement.model_res_config_settings
@@ -271,14 +271,14 @@ msgstr "Kreirano"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "Current"
 msgstr "Tekući"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Date"
 msgstr "Datum"
@@ -295,21 +295,21 @@ msgstr "Datum početka"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Date:"
 msgstr "Datum:"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Description"
 msgstr "Opis"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
 #, python-format
 msgid "Detailed Activity Statement"
 msgstr "Detaljni izvještaj o aktivnostima"
@@ -331,7 +331,7 @@ msgstr "Detaljni izvještaj o aktivnostima XLSX"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement.py
+#: code:addons/partner_statement/report/activity_statement.py:0
 #, python-format
 msgid ""
 "Detailed Statement between %(starting_date)s and %(ending_date)s in "
@@ -341,7 +341,7 @@ msgstr ""
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement.py
+#: code:addons/partner_statement/report/activity_statement.py:0
 #, python-format
 msgid ""
 "Detailed Supplier Statement between %(starting_date)s and %(ending_date)s in"
@@ -353,7 +353,7 @@ msgstr ""
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__filter_partners_non_due
@@ -362,7 +362,7 @@ msgstr "Ne prikazuj partnere bez dospjelih stavki"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
 #, python-format
 msgid "Due Date"
 msgstr "Datum dospijeća"
@@ -379,14 +379,14 @@ msgstr "Omogući OCA izvještaje o nepodmirenim obavezama"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Ending Balance"
 msgstr "Završni saldo"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/detailed_activity_statement.py
+#: code:addons/partner_statement/report/detailed_activity_statement.py:0
 #, python-format
 msgid "Ending Balance up to %(ending_date)s in %(currency)s"
 msgstr "Završni saldo do %(ending_date)s u %(currency)s"
@@ -418,15 +418,15 @@ msgstr "ID"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
 #, python-format
 msgid "Initial Balance"
-msgstr "Početni saldo"
+msgstr "Početno stanje"
 
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__write_uid
@@ -441,7 +441,7 @@ msgstr "Zadnje ažurirano"
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__number_partner_ids
@@ -450,35 +450,35 @@ msgstr "Broj partnera"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "Older"
 msgstr "Starije"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Open Amount"
 msgstr "Otvoreni iznos"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
 #, python-format
 msgid "Original"
 msgstr "Originalni"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Original Amount"
 msgstr "Originalni iznos"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
 #, python-format
 msgid "Outstanding Statement"
 msgstr "Izvještaj o nepodmirenim obavezama"
@@ -527,11 +527,11 @@ msgstr "Izvještaji partnera"
 #. module: partner_statement
 #: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__account_type__liability_payable
 msgid "Payable"
-msgstr "Potražni saldo-konto"
+msgstr "Za naplatu"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement.py
+#: code:addons/partner_statement/report/activity_statement.py:0
 #, python-format
 msgid "Payment"
 msgstr "Plaćanje"
@@ -543,7 +543,7 @@ msgstr "Molimo postavite zadane vrijednosti pod Izvještajima o aktivnostima"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/detailed_activity_statement.py
+#: code:addons/partner_statement/report/detailed_activity_statement.py:0
 #, python-format
 msgid "Prior Balance up to %(ending_date)s in %(currency)s"
 msgstr "Prethodni saldo do %(ending_date)s u %(currency)s"
@@ -551,11 +551,11 @@ msgstr "Prethodni saldo do %(ending_date)s u %(currency)s"
 #. module: partner_statement
 #: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__account_type__asset_receivable
 msgid "Receivable"
-msgstr "Dugovni saldo-konto"
+msgstr "Kupci"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Reference Number"
 msgstr "Referentni broj"
@@ -606,7 +606,7 @@ msgstr "Zajednički čarobnjak za izvještaje"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement.py
+#: code:addons/partner_statement/report/activity_statement.py:0
 #, python-format
 msgid ""
 "Statement between %(starting_date)s and %(ending_date)s in %(currency)s"
@@ -614,7 +614,7 @@ msgstr "Izvještaj između %(starting_date)s i %(ending_date)s u %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Statement from:"
 msgstr "Izvještaj od:"
@@ -626,42 +626,42 @@ msgstr "Izvod računa"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Statement of Account from %s"
 msgstr "Izvod računa od %s"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "Statement to:"
 msgstr "Izvještaj do:"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/outstanding_statement.py
+#: code:addons/partner_statement/report/outstanding_statement.py:0
 #, python-format
 msgid "Statement up to %(ending_date)s in %(currency)s"
 msgstr "Izvještaj do %(ending_date)s u %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/detailed_activity_statement.py
+#: code:addons/partner_statement/report/detailed_activity_statement.py:0
 #, python-format
 msgid "Supplier Ending Balance up to %(ending_date)s in %(currency)s"
 msgstr "Završni saldo dobavljača do %(ending_date)s u %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/detailed_activity_statement.py
+#: code:addons/partner_statement/report/detailed_activity_statement.py:0
 #, python-format
 msgid "Supplier Prior Balance up to %(ending_date)s in %(currency)s"
 msgstr "Prethodni saldo dobavljača do %(ending_date)s u %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement.py
+#: code:addons/partner_statement/report/activity_statement.py:0
 #, python-format
 msgid ""
 "Supplier Statement between %(starting_date)s and %(ending_date)s in "
@@ -672,14 +672,14 @@ msgstr ""
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/outstanding_statement.py
+#: code:addons/partner_statement/report/outstanding_statement.py:0
 #, python-format
 msgid "Supplier Statement up to %(ending_date)s in %(currency)s"
 msgstr "Izvještaj dobavljača do %(ending_date)s u %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/report_statement_common.py
+#: code:addons/partner_statement/report/report_statement_common.py:0
 #, python-format
 msgid "Total"
 msgstr "Ukupno"
@@ -696,7 +696,7 @@ msgstr "Koristi izvještaje o nepodmirenim obavezama"
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/activity_statement_xlsx.py
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #, python-format
 msgid "VAT:"
 msgstr "PDV:"

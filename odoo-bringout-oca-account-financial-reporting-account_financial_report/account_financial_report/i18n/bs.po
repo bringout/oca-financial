@@ -91,10 +91,10 @@ msgstr "Apstraktni XLSX Financijski izvještaj"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration_line__account_age_report_config_id
@@ -123,7 +123,7 @@ msgstr "Grupa konta"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Account Name"
 msgstr "Naziv konta"
@@ -131,7 +131,7 @@ msgstr "Naziv konta"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance_xlsx.py
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
 msgid "Account at 0 filter"
 msgstr "Konto na 0 filteru"
@@ -139,7 +139,7 @@ msgstr "Konto na 0 filteru"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Account balance at 0 filter"
 msgstr "Saldo konta na 0 filteru"
@@ -179,7 +179,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Age ≤ 120 d."
 msgstr "Dosp. ≤ 120 d."
@@ -196,7 +196,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Age ≤ 30 d."
 msgstr "Dosp. ≤ 30 d."
@@ -213,7 +213,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Age ≤ 60 d."
 msgstr "Dosp. ≤ 60 d."
@@ -230,7 +230,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Age ≤ 90 d."
 msgstr "Dosp. ≤ 90 d."
@@ -238,7 +238,7 @@ msgstr "Dosp. ≤ 90 d."
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Aged Partner Balance"
 msgstr "Dospjela dugovanja kupca"
@@ -273,10 +273,10 @@ msgstr "Balansna lista partnera po godištu XLSX"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py
+#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "All"
-msgstr "Sve"
+msgstr "Svi"
 
 # taken from hr.po
 #. module: account_financial_report
@@ -293,7 +293,7 @@ msgstr "Sve proknjižene stavke"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "All entries"
 msgstr "Sve stavke"
@@ -301,7 +301,7 @@ msgstr "Sve stavke"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "All posted entries"
 msgstr "Sve proknjižene stavke"
@@ -315,7 +315,7 @@ msgstr "Iznos u val."
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Amount Currency"
 msgstr "Iznos u valuti"
@@ -323,7 +323,7 @@ msgstr "Iznos u valuti"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Amount cur."
 msgstr "Iznos u val."
@@ -332,12 +332,12 @@ msgstr "Iznos u val."
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_move_line__analytic_account_ids
 msgid "Analytic Account"
-msgstr "Analitički Konto"
+msgstr "Analitički konto"
 
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Analytic Distribution"
 msgstr "Analitička distribucija"
@@ -357,7 +357,7 @@ msgstr "Osnovica"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Base Balance"
 msgstr "Saldo osnovica"
@@ -365,7 +365,7 @@ msgstr "Saldo osnovica"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Base Credit"
 msgstr "Osnovica Duguje"
@@ -373,7 +373,7 @@ msgstr "Osnovica Duguje"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Base Debit"
 msgstr "Osnovica potražuje"
@@ -387,7 +387,7 @@ msgstr "Bazirano na"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/vat_report_xlsx.py
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Based on"
 msgstr "Bazirano na"
@@ -401,7 +401,7 @@ msgstr "Otkaži"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Centralize filter"
 msgstr "Centraliziraj filter"
@@ -421,7 +421,7 @@ msgstr "Podređene grupe"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance_xlsx.py
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
 msgid "Code"
 msgstr "Šifra"
@@ -429,10 +429,10 @@ msgstr "Šifra"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: account_financial_report
@@ -465,15 +465,15 @@ msgstr "Kreirano"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Credit"
-msgstr "Duguje"
+msgstr "Potražuje"
 
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Cumul cur."
 msgstr "Ukupno val."
@@ -481,7 +481,7 @@ msgstr "Ukupno val."
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Cumul. Bal."
 msgstr "Ukupno Sal."
@@ -489,7 +489,7 @@ msgstr "Ukupno Sal."
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/open_items_xlsx.py
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #, python-format
 msgid "Cur."
 msgstr "Val."
@@ -497,14 +497,14 @@ msgstr "Val."
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/open_items_xlsx.py
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #, python-format
 msgid "Cur. Original"
 msgstr "Orig. Val."
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/open_items_xlsx.py
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #, python-format
 msgid "Cur. Residual"
 msgstr "Trenutni ostatak"
@@ -512,14 +512,14 @@ msgstr "Trenutni ostatak"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Currency"
 msgstr "Valuta"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Current"
 msgstr "Tekući"
@@ -527,7 +527,7 @@ msgstr "Tekući"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Date"
 msgstr "Datum"
@@ -553,7 +553,7 @@ msgstr "Datum do"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Date at filter"
 msgstr "Datum na filteru"
@@ -561,7 +561,7 @@ msgstr "Datum na filteru"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/vat_report_xlsx.py
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Date from"
 msgstr "Datum od"
@@ -575,7 +575,7 @@ msgstr "Raspon datuma"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Date range filter"
 msgstr "Filter raspona datuma"
@@ -583,7 +583,7 @@ msgstr "Filter raspona datuma"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/vat_report_xlsx.py
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Date to"
 msgstr "Datum do"
@@ -591,7 +591,7 @@ msgstr "Datum do"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Debit"
 msgstr "Duguje"
@@ -599,7 +599,7 @@ msgstr "Duguje"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Description"
 msgstr "Opis"
@@ -614,7 +614,7 @@ msgstr "Pojedinosti poreza"
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_financial_report
 #: model:ir.model.fields,help:account_financial_report.field_general_ledger_report_wizard__foreign_currency
@@ -656,7 +656,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Due date"
 msgstr "Datum dospijeća"
@@ -692,7 +692,7 @@ msgstr "Završni konto u rasponu"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Ending balance"
 msgstr "Završni saldo"
@@ -710,7 +710,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Entries sorted by"
 msgstr "Stavke sortirane po"
@@ -718,7 +718,7 @@ msgstr "Stavke sortirane po"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Entry"
 msgstr "Stavka"
@@ -726,7 +726,7 @@ msgstr "Stavka"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py
+#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "Entry number"
 msgstr "Broj stavke"
@@ -734,7 +734,7 @@ msgstr "Broj stavke"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-javascript
-#: code:addons/account_financial_report/static/src/xml/report.xml
+#: code:addons/account_financial_report/static/src/xml/report.xml:0
 #, python-format
 msgid "Export"
 msgstr "Izvoz"
@@ -802,7 +802,7 @@ msgstr "Od:"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "From: %(date_from)s To: %(date_to)s"
 msgstr "Od: %(date_from)s do: %(date_to)s"
@@ -827,7 +827,7 @@ msgstr "Početni dan Fisk god"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:1
 #, python-format
 msgid "General Ledger"
 msgstr "Glavna knjiga"
@@ -889,7 +889,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Hide"
 msgstr "Sakrij"
@@ -933,7 +933,7 @@ msgstr "Donja granica"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/models/account_age_report_configuration.py
+#: code:addons/account_financial_report/models/account_age_report_configuration.py:0
 #, python-format
 msgid "Inferior Limit must be greather than zero"
 msgstr "Donja granica mora biti veća od nule"
@@ -961,7 +961,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Initial balance"
 msgstr "Početni saldo"
@@ -974,7 +974,7 @@ msgstr "Konfiguracija intervala"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Journal"
 msgstr "Dnevnik"
@@ -983,7 +983,7 @@ msgstr "Dnevnik"
 #. module: account_financial_report
 #: model:ir.model,name:account_financial_report.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka dnevnika"
+msgstr "Stavka žurnala"
 
 # taken from hr.po
 #. module: account_financial_report
@@ -993,7 +993,7 @@ msgstr "Domena stavaka dnevnika"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Journal Ledger"
 msgstr "Knjiga dnevnika"
@@ -1025,7 +1025,7 @@ msgstr "Izveštaj knjige dnevnika XLSX"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Journals"
 msgstr "Žurnali"
@@ -1033,7 +1033,7 @@ msgstr "Žurnali"
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__write_uid
@@ -1052,14 +1052,14 @@ msgstr "Nivo"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance_xlsx.py
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
 msgid "Level %s"
 msgstr "Nivo %s"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance_xlsx.py
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
 msgid "Limit hierarchy levels"
 msgstr "Ograniči hijerarhijske nivoe"
@@ -1071,14 +1071,14 @@ msgstr "Linija"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger.py
+#: code:addons/account_financial_report/report/general_ledger.py:0
 #, python-format
 msgid "Missing Partner"
 msgstr "Nedostaje partner"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/open_items.py
+#: code:addons/account_financial_report/report/open_items.py:0
 #, python-format
 msgid "Missing Salesperson"
 msgstr "Nedostaje prodavac"
@@ -1109,7 +1109,7 @@ msgstr "Kretanja"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/models/account_age_report_configuration.py
+#: code:addons/account_financial_report/models/account_age_report_configuration.py:0
 #, python-format
 msgid "Must complete Configuration Lines"
 msgstr "Mora završiti konfiguracije linija"
@@ -1117,14 +1117,14 @@ msgstr "Mora završiti konfiguracije linija"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Name"
 msgstr "Naziv"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/models/account_age_report_configuration.py
+#: code:addons/account_financial_report/models/account_age_report_configuration.py:0
 #, python-format
 msgid "Name must be unique per report configuration"
 msgstr "Naziv mora biti jedinstven po konfiguraciji izveštaja"
@@ -1132,7 +1132,7 @@ msgstr "Naziv mora biti jedinstven po konfiguraciji izveštaja"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/vat_report_xlsx.py
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Net"
 msgstr "Neto"
@@ -1140,7 +1140,7 @@ msgstr "Neto"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "No"
 msgstr "Ne"
@@ -1148,14 +1148,14 @@ msgstr "Ne"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py
+#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "No group"
 msgstr "Nema grupu"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance_xlsx.py
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
 msgid "No limit"
 msgstr "Nema ograničenja"
@@ -1173,7 +1173,7 @@ msgstr "Ne samo jedan račun neraspoređene dobiti"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py
+#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "Not Posted"
 msgstr "Nije proknjiženo"
@@ -1198,7 +1198,7 @@ msgstr "OCA računovodstveni izvještaji"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Older"
 msgstr "Starije"
@@ -1206,7 +1206,7 @@ msgstr "Starije"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/open_items_xlsx.py
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #, python-format
 msgid "Open Items"
 msgstr "Otvorene stavke"
@@ -1251,14 +1251,14 @@ msgstr "Opcije"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/open_items_xlsx.py
+#: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #, python-format
 msgid "Original"
 msgstr "Originalno"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:1
 #, python-format
 msgid "Partner"
 msgstr "Partner"
@@ -1274,7 +1274,7 @@ msgstr ""
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Partner Initial balance"
 msgstr "Početni saldo partnera"
@@ -1286,14 +1286,14 @@ msgstr "Partner prodavac"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Partner cumul aged balance"
 msgstr "Partner kumulativni saldo po godištu"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Partner ending balance"
 msgstr "Završni saldo partnera"
@@ -1322,7 +1322,7 @@ msgstr "Procenti"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance_xlsx.py
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
 msgid "Period balance"
 msgstr "Saldo perioda"
@@ -1336,14 +1336,14 @@ msgstr "Periodi"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py
+#: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "Posted"
 msgstr "Proknjiženo"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Rec."
 msgstr "Pok."
@@ -1373,7 +1373,7 @@ msgstr ""
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Ref - Label"
 msgstr "Ref - Oznaka"
@@ -1385,7 +1385,7 @@ msgstr "Akcija izvještaja"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Residual"
 msgstr "Ostatak"
@@ -1393,15 +1393,15 @@ msgstr "Ostatak"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Show"
 msgstr "Prikaži"
@@ -1433,7 +1433,7 @@ msgstr "Prikaži detalje partnera"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Show foreign currency"
 msgstr "Prikaži stranu valutu"
@@ -1454,13 +1454,13 @@ msgstr "Sortiraj stavke po"
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_vat_report_wizard__date_from
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 # taken from hr.po
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__date_from
 msgid "Start date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 # taken from hr.po
 #. module: account_financial_report
@@ -1470,7 +1470,7 @@ msgstr "Početni konto u rasponu"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance.py
+#: code:addons/account_financial_report/report/trial_balance.py:0
 #, python-format
 msgid "TOTAL"
 msgstr "UKUPNO"
@@ -1485,12 +1485,12 @@ msgstr "Oznake"
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__target_move
 msgid "Target Moves"
-msgstr "Ciljane stavke"
+msgstr "Transakcije"
 
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py
+#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Target moves filter"
 msgstr "Filter ciljanih stavaka"
@@ -1498,7 +1498,7 @@ msgstr "Filter ciljanih stavaka"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/vat_report_xlsx.py
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Tax"
 msgstr "Porez"
@@ -1512,7 +1512,7 @@ msgstr "Iznos poreza"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Tax Balance"
 msgstr "Saldo poreza"
@@ -1520,7 +1520,7 @@ msgstr "Saldo poreza"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Tax Credit"
 msgstr "Potražuje porez"
@@ -1528,7 +1528,7 @@ msgstr "Potražuje porez"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/journal_ledger_xlsx.py
+#: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Tax Debit"
 msgstr "Duguje porez"
@@ -1536,7 +1536,7 @@ msgstr "Duguje porez"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/vat_report_xlsx.py
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Tax Groups"
 msgstr "Porezne grupe"
@@ -1544,7 +1544,7 @@ msgstr "Porezne grupe"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Tax Initial balance"
 msgstr "Početni saldo poreza"
@@ -1552,7 +1552,7 @@ msgstr "Početni saldo poreza"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/vat_report_xlsx.py
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Tax Tags"
 msgstr "Oznake poreza"
@@ -1560,7 +1560,7 @@ msgstr "Oznake poreza"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Tax ending balance"
 msgstr "Završni saldo poreza"
@@ -1574,14 +1574,14 @@ msgstr "Početni saldo poreza"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Taxes"
 msgstr "Porezi"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/wizard/general_ledger_wizard.py
+#: code:addons/account_financial_report/wizard/general_ledger_wizard.py:0
 #, python-format
 msgid ""
 "The Company in the General Ledger Report Wizard and in Date Range must be "
@@ -1592,7 +1592,7 @@ msgstr ""
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/wizard/trial_balance_wizard.py
+#: code:addons/account_financial_report/wizard/trial_balance_wizard.py:0
 #, python-format
 msgid ""
 "The Company in the Trial Balance Report Wizard and in Date Range must be the"
@@ -1603,7 +1603,7 @@ msgstr ""
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/wizard/vat_report_wizard.py
+#: code:addons/account_financial_report/wizard/vat_report_wizard.py:0
 #, python-format
 msgid ""
 "The Company in the Vat Report Wizard and in Date Range must be the same."
@@ -1613,14 +1613,14 @@ msgstr ""
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/wizard/trial_balance_wizard.py
+#: code:addons/account_financial_report/wizard/trial_balance_wizard.py:0
 #, python-format
 msgid "The hierarchy level to filter on must be greater than 0."
 msgstr "Razina strukture za filtriranje mora biti veća od 0."
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance.py
+#: code:addons/account_financial_report/report/trial_balance.py:0
 #, python-format
 msgid ""
 "There is a problem in the structure of the account groups. You may need to "
@@ -1650,14 +1650,14 @@ msgstr "Do:"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance_xlsx.py
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
 msgid "Total"
 msgstr "Ukupno"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance_xlsx.py
+#: code:addons/account_financial_report/report/trial_balance_xlsx.py:1
 #, python-format
 msgid "Trial Balance"
 msgstr "Bilans stanja"
@@ -1746,7 +1746,7 @@ msgstr "PDV izveštaj XLSX"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/vat_report_xlsx.py
+#: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Vat Report"
 msgstr "PDV izveštaj"
@@ -1765,7 +1765,7 @@ msgstr "Izveštaj PDV XLSX"
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.aged_partner_balance_wizard
 msgid "View"
-msgstr "Pogled"
+msgstr "Pregled"
 
 #. module: account_financial_report
 #: model:ir.model.fields,help:account_financial_report.field_trial_balance_report_wizard__hide_account_at_0
@@ -1784,7 +1784,7 @@ msgstr "Sa nazivom konta"
 
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/trial_balance.py
+#: code:addons/account_financial_report/report/trial_balance.py:0
 #, python-format
 msgid "Without analytic account"
 msgstr "Bez analitičkog računa"
@@ -1792,7 +1792,7 @@ msgstr "Bez analitičkog računa"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Yes"
 msgstr "Da"
@@ -1800,7 +1800,7 @@ msgstr "Da"
 # taken from hr.po
 #. module: account_financial_report
 #. odoo-python
-#: code:addons/account_financial_report/report/general_ledger.py
+#: code:addons/account_financial_report/report/general_ledger.py:0
 #, python-format
 msgid "future"
 msgstr "buduće"

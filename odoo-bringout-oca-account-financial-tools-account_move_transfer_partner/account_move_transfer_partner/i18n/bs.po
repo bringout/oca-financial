@@ -47,7 +47,7 @@ msgstr "Iznos za prenos"
 
 #. module: account_move_transfer_partner
 #. odoo-python
-#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py
+#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py:0
 #, python-format
 msgid ""
 "Amount to transfer %(amount_to_transfer)s should be equal or lower than "
@@ -58,7 +58,7 @@ msgstr ""
 
 #. module: account_move_transfer_partner
 #. odoo-python
-#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py
+#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py:0
 #, python-format
 msgid "Amount to transfer should be bigger than zero"
 msgstr "Iznos za prenos treba biti veći od nule"
@@ -96,7 +96,7 @@ msgstr "Odredišni partner"
 #. module: account_move_transfer_partner
 #: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_move_transfer_partner
 #: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__id
@@ -106,12 +106,12 @@ msgstr "ID"
 #. module: account_move_transfer_partner
 #: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__journal_id
 msgid "Journal"
-msgstr "Vrsta naloga"
+msgstr "Dnevnik"
 
 #. module: account_move_transfer_partner
 #: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_move_transfer_partner
 #: model:ir.model.fields,field_description:account_move_transfer_partner.field_wizard_account_move_transfer_partner__write_uid
@@ -130,7 +130,7 @@ msgstr "Zapisi odabrani"
 
 #. module: account_move_transfer_partner
 #. odoo-python
-#: code:addons/account_move_transfer_partner/tests/test_account_move_transfer_partner.py
+#: code:addons/account_move_transfer_partner/tests/test_account_move_transfer_partner.py:0
 #, python-format
 msgid "No Chart of Account Template has been defined !"
 msgstr "Nije definiran template kontnog plana!"
@@ -152,7 +152,7 @@ msgstr "Ukupno dospjeli iznos"
 
 #. module: account_move_transfer_partner
 #. odoo-python
-#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py
+#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py:0
 #, python-format
 msgid "Transfer amount due from %s"
 msgstr "Prenos dospjelog iznosa iz %s"
@@ -164,7 +164,7 @@ msgstr "Prenos dospjelog iznosa drugom partneru"
 
 #. module: account_move_transfer_partner
 #. odoo-python
-#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py
+#: code:addons/account_move_transfer_partner/wizard/wizard_account_move_transfer_partner.py:0
 #, python-format
 msgid "Transfer due amount from %s"
 msgstr "Prenos dospjelog iznosa iz %s"
@@ -177,4 +177,4 @@ msgstr "Čarobnjak za prenos dospjelog iznosa drugom partneru"
 #. module: account_move_transfer_partner
 #: model_terms:ir.ui.view,arch_db:account_move_transfer_partner.wizard_account_move_transfer_partner_view_form
 msgid "wizard_account_move_transfer_partner_form"
-msgstr "wizard_account_move_transfer_partner_form"
+msgstr ""

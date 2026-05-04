@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_invoice_fixed_discount
 #: model_terms:ir.ui.view,arch_db:account_invoice_fixed_discount.report_invoice_document
 msgid "<span class=\"text-nowrap\"> %)</span>"
-msgstr "<span class=\"text-nowrap\"> %)</span>"
+msgstr ""
 
 #. module: account_invoice_fixed_discount
 #: model_terms:ir.ui.view,arch_db:account_invoice_fixed_discount.report_invoice_document

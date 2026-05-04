@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_netting
 #. odoo-python
-#: code:addons/account_netting/wizards/account_move_make_netting.py
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "AR/AP netting"
 msgstr "AR/AP kompenzacija"
@@ -41,7 +41,7 @@ msgstr "Otkaži"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: account_netting
@@ -70,7 +70,7 @@ msgstr "Valuta"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__id
@@ -92,7 +92,7 @@ msgstr "Stavke dnevnika za kompenzaciju"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: account_netting
@@ -108,7 +108,7 @@ msgstr "Zadnje ažurirano"
 
 #. module: account_netting
 #. odoo-python
-#: code:addons/account_netting/wizards/account_move_make_netting.py
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid ""
 "Line '%(line)s' has account '%(account)s' which is not a payable nor a "
@@ -119,21 +119,21 @@ msgstr ""
 
 #. module: account_netting
 #. odoo-python
-#: code:addons/account_netting/wizards/account_move_make_netting.py
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "Line '%s' doesn't have a partner."
 msgstr "Linija '%s' nema partnera."
 
 #. module: account_netting
 #. odoo-python
-#: code:addons/account_netting/wizards/account_move_make_netting.py
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "Line '%s' is already reconciled."
 msgstr "Linija '%s' je već usklađena."
 
 #. module: account_netting
 #. odoo-python
-#: code:addons/account_netting/wizards/account_move_make_netting.py
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "Line '%s' is not posted."
 msgstr "Linija '%s' nije knjižena."
@@ -145,7 +145,7 @@ msgstr "Partner"
 
 #. module: account_netting
 #. odoo-python
-#: code:addons/account_netting/wizards/account_move_make_netting.py
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid ""
 "The 'Compensate' function is intended to balance operations on different "
@@ -158,7 +158,7 @@ msgstr ""
 
 #. module: account_netting
 #. odoo-python
-#: code:addons/account_netting/wizards/account_move_make_netting.py
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid ""
 "The selected journal items have different partners: %s. All the selected "
@@ -198,7 +198,7 @@ msgstr "Čarobnjak za kreiranje temeljnice kompenzacije"
 
 #. module: account_netting
 #. odoo-python
-#: code:addons/account_netting/wizards/account_move_make_netting.py
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
 #, python-format
 msgid "You should select at least 2 journal items."
 msgstr "Trebate odabrati najmanje 2 stavke dnevnika."

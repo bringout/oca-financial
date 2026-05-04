@@ -53,7 +53,7 @@ msgstr "Predlošci konta"
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_search
 msgid "Account Type"
-msgstr "Vrsta konta"
+msgstr "Tip konta"
 
 # taken from hr.po
 #. module: account_usability
@@ -77,7 +77,7 @@ msgstr "Bankovni izvodi"
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_accounting_bank_and_cash
 msgid "Bank and Cash"
-msgstr "Banka i Gotovina"
+msgstr "Banka i gotovina"
 
 # taken from hr.po
 #. module: account_usability
@@ -140,7 +140,7 @@ msgstr "Zadnji mjesec fiskalne godine"
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.view_account_account_template_search
 msgid "Group By"
-msgstr "Grupiraj po"
+msgstr "Grupiši po"
 
 # taken from hr.po
 #. module: account_usability

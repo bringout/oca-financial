@@ -15,17 +15,17 @@ msgstr ""
 
 #. module: account_analytic_parent
 #. odoo-python
-#: code:addons/account_analytic_parent/models/account_analytic_account.py
+#: code:addons/account_analytic_parent/models/account_analytic_account.py:0
 #, python-format
 msgid "%(name)s - %(partner)s"
-msgstr "%(name)s - %(partner)s"
+msgstr ""
 
 #. module: account_analytic_parent
 #. odoo-python
-#: code:addons/account_analytic_parent/models/account_analytic_account.py
+#: code:addons/account_analytic_parent/models/account_analytic_account.py:0
 #, python-format
 msgid "%(parent)s / %(own)s"
-msgstr "%(parent)s / %(own)s"
+msgstr ""
 
 # taken from hr.po
 #. module: account_analytic_parent
@@ -66,7 +66,7 @@ msgstr "Putanja nadređenog"
 # taken from hr.po
 #. module: account_analytic_parent
 #. odoo-python
-#: code:addons/account_analytic_parent/models/account_analytic_account.py
+#: code:addons/account_analytic_parent/models/account_analytic_account.py:0
 #, python-format
 msgid "Please activate first parent account %s"
 msgstr "Molimo aktivirajte nadređeni konto %s"
@@ -74,7 +74,7 @@ msgstr "Molimo aktivirajte nadređeni konto %s"
 # taken from hr.po
 #. module: account_analytic_parent
 #. odoo-python
-#: code:addons/account_analytic_parent/models/account_analytic_account.py
+#: code:addons/account_analytic_parent/models/account_analytic_account.py:0
 #, python-format
 msgid "You can not create recursive analytic accounts."
 msgstr "Nije moguće kreiranje rekurzivnih analitičkih konta."

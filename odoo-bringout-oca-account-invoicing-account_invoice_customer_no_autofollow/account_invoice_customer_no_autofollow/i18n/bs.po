@@ -37,4 +37,4 @@ msgstr "Onemogući automatsko praćenje kupca/dobavljača"
 #. module: account_invoice_customer_no_autofollow
 #: model:ir.model,name:account_invoice_customer_no_autofollow.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"

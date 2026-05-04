@@ -70,7 +70,7 @@ msgstr ""
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_stock_move__date_done
@@ -95,7 +95,7 @@ msgstr "Stavka žurnala"
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz__write_uid
@@ -119,7 +119,7 @@ msgstr "Datum praga nefakturisanih"
 
 #. module: account_sale_stock_report_non_billed
 #. odoo-python
-#: code:addons/account_sale_stock_report_non_billed/wizard/account_sale_stock_report_non_billed_wiz.py
+#: code:addons/account_sale_stock_report_non_billed/wizard/account_sale_stock_report_non_billed_wiz.py:0
 #, python-format
 msgid "Non billed moves (%(from)s -> %(to)s)"
 msgstr "Nefakturisani pokreti (%(from)s -> %(to)s)"

@@ -44,7 +44,7 @@ msgstr "Stavka dnevnika"
 #. module: account_invoice_start_end_dates
 #: model:ir.model,name:account_invoice_start_end_dates.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka dnevnika"
+msgstr "Stavka žurnala"
 
 # taken from hr.po
 #. module: account_invoice_start_end_dates
@@ -55,7 +55,7 @@ msgstr "Ugovor o održavanju"
 # taken from hr.po
 #. module: account_invoice_start_end_dates
 #. odoo-python
-#: code:addons/account_invoice_start_end_dates/models/account_move_line.py
+#: code:addons/account_invoice_start_end_dates/models/account_move_line.py:0
 #, python-format
 msgid "Missing End Date for line '%s'."
 msgstr "Nedostaje završni datum za stavku '%s'."
@@ -63,7 +63,7 @@ msgstr "Nedostaje završni datum za stavku '%s'."
 # taken from hr.po
 #. module: account_invoice_start_end_dates
 #. odoo-python
-#: code:addons/account_invoice_start_end_dates/models/account_move.py
+#: code:addons/account_invoice_start_end_dates/models/account_move.py:0
 #, python-format
 msgid ""
 "Missing Start Date and End Date for invoice line with Product '%s' which has"
@@ -75,7 +75,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_invoice_start_end_dates
 #. odoo-python
-#: code:addons/account_invoice_start_end_dates/models/account_move_line.py
+#: code:addons/account_invoice_start_end_dates/models/account_move_line.py:0
 #, python-format
 msgid "Missing Start Date for line '%s'."
 msgstr "Nedostaje početni datum za stavku '%s'."
@@ -96,12 +96,12 @@ msgstr "Proizvod"
 #. module: account_invoice_start_end_dates
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates.field_account_move_line__start_date
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 # taken from hr.po
 #. module: account_invoice_start_end_dates
 #. odoo-python
-#: code:addons/account_invoice_start_end_dates/models/account_move_line.py
+#: code:addons/account_invoice_start_end_dates/models/account_move_line.py:0
 #, python-format
 msgid ""
 "Start Date (%(start_date)s) should be before End Date (%(end_date)s) for "

@@ -20,14 +20,11 @@ msgid ""
 "invoicing,according to their invoicing policy (based on ordered or delivered"
 " quantity)."
 msgstr ""
-"A standard invoice is issued with all the order lines ready for "
-"invoicing,according to their invoicing policy (based on ordered or delivered"
-" quantity)."
 
 #. module: sale_order_invoicing_qty_percentage
 #: model:ir.model.fields,field_description:sale_order_invoicing_qty_percentage.field_sale_advance_payment_inv__advance_payment_method
 msgid "Create Invoice"
-msgstr "Kreiraj račun"
+msgstr "Kreiraj fakturu"
 
 #. module: sale_order_invoicing_qty_percentage
 #: model:ir.model.fields.selection,name:sale_order_invoicing_qty_percentage.selection__sale_advance_payment_inv__advance_payment_method__qty_percentage
@@ -47,4 +44,4 @@ msgstr "Avansna faktura prodaje"
 #. module: sale_order_invoicing_qty_percentage
 #: model:ir.model,name:sale_order_invoicing_qty_percentage.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

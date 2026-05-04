@@ -192,7 +192,7 @@ msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #. odoo-python
-#: code:addons/account_invoice_supplier_self_invoice/models/res_partner.py
+#: code:addons/account_invoice_supplier_self_invoice/models/res_partner.py:0
 #, python-format
 msgid "Invoiced by the recipent"
 msgstr "Fakturisano od strane primaoca"
@@ -200,12 +200,12 @@ msgstr "Fakturisano od strane primaoca"
 #. module: account_invoice_supplier_self_invoice
 #: model:ir.model,name:account_invoice_supplier_self_invoice.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.external_layout_striped_self_invoice
 msgid "Logo"
-msgstr "Logo"
+msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #: model:mail.template,name:account_invoice_supplier_self_invoice.email_template_self_invoice
@@ -307,7 +307,7 @@ msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #. odoo-python
-#: code:addons/account_invoice_supplier_self_invoice/models/res_partner.py
+#: code:addons/account_invoice_supplier_self_invoice/models/res_partner.py:0
 #, python-format
 msgid "You must set a Self Billing prefix in Account Settings."
 msgstr "Morate postaviti prefiks samonaplate u podešavanjima računa."

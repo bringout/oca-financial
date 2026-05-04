@@ -23,7 +23,7 @@ msgstr "<span>Šifra</span>"
 #. module: account_invoice_default_code_column
 #: model:ir.model,name:account_invoice_default_code_column.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka dnevnika"
+msgstr "Stavka žurnala"
 
 # taken from hr.po
 #. module: account_invoice_default_code_column

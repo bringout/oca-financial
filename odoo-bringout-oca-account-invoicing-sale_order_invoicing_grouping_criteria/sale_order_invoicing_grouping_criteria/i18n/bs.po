@@ -51,7 +51,7 @@ msgstr "Zadani kriterij grupiranja fakturisanja prodaje"
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,help:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__field_ids
@@ -93,7 +93,7 @@ msgstr "Kriterij grupiranja fakturisanja"
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__write_uid
@@ -108,7 +108,7 @@ msgstr "Zadnje ažurirano"
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.actions.act_window,name:sale_order_invoicing_grouping_criteria.action_sale_invoice_grouping_criteria
@@ -118,7 +118,7 @@ msgstr "Kriterij grupiranja fakturisanja prodaje"
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model,name:sale_order_invoicing_grouping_criteria.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model_terms:ir.ui.view,arch_db:sale_order_invoicing_grouping_criteria.res_config_settings_view_form

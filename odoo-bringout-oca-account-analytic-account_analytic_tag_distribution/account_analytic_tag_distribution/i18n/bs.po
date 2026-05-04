@@ -26,7 +26,7 @@ msgstr "Nazivi analitičkih računa"
 #. module: account_analytic_tag_distribution
 #: model:ir.model.fields,field_description:account_analytic_tag_distribution.field_account_analytic_tag__analytic_account_ids
 msgid "Analytic Accounts"
-msgstr "Analitički računi"
+msgstr "Analitička konta"
 
 #. module: account_analytic_tag_distribution
 #: model:ir.model.fields,field_description:account_analytic_tag_distribution.field_account_analytic_tag__active_analytic_distribution

@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_liquidity_forecast
 #: model:ir.model,name:account_liquidity_forecast.model_account_account
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: account_liquidity_forecast
 #: model:ir.model.fields.selection,name:account_liquidity_forecast.selection__account_liquidity_forecast_report_wizard__target_move__all
@@ -45,21 +45,21 @@ msgstr "Iznos"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py:0
 #, python-format
 msgid "BEGINNING BALANCE"
 msgstr "POČETNI SALDO"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py:0
 #, python-format
 msgid "CASH INFLOWS"
 msgstr "PRILIV GOTOVINE"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py:0
 #, python-format
 msgid "CASH OUTFLOWS"
 msgstr "ODLIV GOTOVINE"
@@ -72,7 +72,7 @@ msgstr "Otkaži"
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_group__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_item__company_currency_id
@@ -91,7 +91,7 @@ msgstr "Kreirano"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py:0
 #, python-format
 msgid "Current %s"
 msgstr "Trenutni %s"
@@ -108,7 +108,7 @@ msgstr "Datum do"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast_xlsx.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast_xlsx.py:0
 #, python-format
 msgid "Date range filter"
 msgstr "Filter raspona datuma"
@@ -126,11 +126,11 @@ msgstr "Smjer"
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_group__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py:0
 #, python-format
 msgid "ENDING BALANCE"
 msgstr "ZAVRŠNI SALDO"
@@ -152,7 +152,7 @@ msgstr "Izvoz XLSX"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py:0
 #, python-format
 msgid "Forecast Planning Items"
 msgstr "Stavke planiranja prognoze"
@@ -180,7 +180,7 @@ msgstr "Stavke"
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_group____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_group__write_uid
@@ -194,7 +194,7 @@ msgstr "Zadnje ažurirano"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast_xlsx.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast_xlsx.py:0
 #, python-format
 msgid "Liquidity Forecast"
 msgstr "Prognoza likvidnosti"
@@ -206,7 +206,7 @@ msgstr "Prognoza likvidnosti -"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast_xlsx.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast_xlsx.py:0
 #, python-format
 msgid "Liquidity Forecast - %(company_name)s - %(currency_name)s"
 msgstr "Prognoza likvidnosti - %(company_name)s - %(currency_name)s"
@@ -248,7 +248,7 @@ msgstr "Mjeseci"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py:0
 #, python-format
 msgid "NET CASH FLOW"
 msgstr "NETO TOK GOTOVINE"
@@ -256,7 +256,7 @@ msgstr "NETO TOK GOTOVINE"
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_planning_group__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: account_liquidity_forecast
 #: model:ir.model.fields.selection,name:account_liquidity_forecast.selection__account_liquidity_forecast_planning_item__direction__out
@@ -281,11 +281,11 @@ msgstr "Akcija izvještaja"
 #. module: account_liquidity_forecast
 #: model:ir.model.fields,field_description:account_liquidity_forecast.field_account_liquidity_forecast_report_wizard__target_move
 msgid "Target Moves"
-msgstr "Ciljane stavke"
+msgstr "Transakcije"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast_xlsx.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast_xlsx.py:0
 #, python-format
 msgid "Target moves filter"
 msgstr "Filter ciljanih stavaka"
@@ -297,14 +297,14 @@ msgstr "Za"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py:0
 #, python-format
 msgid "Total Cash Inflows"
 msgstr "Ukupni priliv gotovine"
 
 #. module: account_liquidity_forecast
 #. odoo-python
-#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py
+#: code:addons/account_liquidity_forecast/report/liquidity_forecast.py:0
 #, python-format
 msgid "Total Cash Outflows"
 msgstr "Ukupni odliv gotovine"

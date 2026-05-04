@@ -25,14 +25,14 @@ msgstr "Postavke"
 
 #. module: sale_timesheet_invoice_description
 #. odoo-python
-#: code:addons/sale_timesheet_invoice_description/models/sale.py
+#: code:addons/sale_timesheet_invoice_description/models/sale.py:0
 #, python-format
 msgid "Date - Description"
 msgstr "Datum - Opis"
 
 #. module: sale_timesheet_invoice_description
 #. odoo-python
-#: code:addons/sale_timesheet_invoice_description/models/sale.py
+#: code:addons/sale_timesheet_invoice_description/models/sale.py:0
 #, python-format
 msgid "Date - Time spent - Description"
 msgstr "Datum - Utrošeno vrijeme - Opis"
@@ -45,7 +45,7 @@ msgstr "Zadni detalji evidencije radnog vremena na linijama fakture"
 # taken from hr.po
 #. module: sale_timesheet_invoice_description
 #. odoo-python
-#: code:addons/sale_timesheet_invoice_description/models/sale.py
+#: code:addons/sale_timesheet_invoice_description/models/sale.py:0
 #, python-format
 msgid "Description"
 msgstr "Opis"
@@ -63,7 +63,7 @@ msgstr "Linija fakture kreirana iz evidencije radnog vremena"
 #. module: sale_timesheet_invoice_description
 #: model:ir.model,name:sale_timesheet_invoice_description.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: sale_timesheet_invoice_description
 #: model:ir.model,name:sale_timesheet_invoice_description.model_account_move_line
@@ -72,7 +72,7 @@ msgstr "Stavka žurnala"
 
 #. module: sale_timesheet_invoice_description
 #. odoo-python
-#: code:addons/sale_timesheet_invoice_description/models/sale.py
+#: code:addons/sale_timesheet_invoice_description/models/sale.py:0
 #, python-format
 msgid "None"
 msgstr "Ništa"
@@ -80,12 +80,12 @@ msgstr "Ništa"
 #. module: sale_timesheet_invoice_description
 #: model:ir.model,name:sale_timesheet_invoice_description.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_timesheet_invoice_description
 #: model:ir.model,name:sale_timesheet_invoice_description.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_timesheet_invoice_description
 #: model:ir.model.fields,field_description:sale_timesheet_invoice_description.field_account_move_line__timesheet_invoice_split
@@ -94,7 +94,7 @@ msgstr "Podijeli linije naloga po evidencijama radnog vremena"
 
 #. module: sale_timesheet_invoice_description
 #. odoo-python
-#: code:addons/sale_timesheet_invoice_description/models/sale.py
+#: code:addons/sale_timesheet_invoice_description/models/sale.py:0
 #, python-format
 msgid "Time spent - Description"
 msgstr "Utrošeno vrijeme - Opis"

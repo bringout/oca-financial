@@ -26,4 +26,4 @@ msgstr "Avansna faktura prodaje"
 #. module: sale_invoicing_date_selection
 #: model:ir.model,name:sale_invoicing_date_selection.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

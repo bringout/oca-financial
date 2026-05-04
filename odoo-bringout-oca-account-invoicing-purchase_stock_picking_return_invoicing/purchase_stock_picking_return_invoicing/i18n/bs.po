@@ -28,7 +28,7 @@ msgstr "Povrat"
 #. module: purchase_stock_picking_return_invoicing
 #: model:ir.model,name:purchase_stock_picking_return_invoicing.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: purchase_stock_picking_return_invoicing
 #: model:ir.model,name:purchase_stock_picking_return_invoicing.model_purchase_order
@@ -38,7 +38,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_stock_picking_return_invoicing
 #: model:ir.model,name:purchase_stock_picking_return_invoicing.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_stock_picking_return_invoicing
 #: model:ir.model.fields,field_description:purchase_stock_picking_return_invoicing.field_purchase_order_line__qty_refunded
@@ -63,7 +63,7 @@ msgstr "Odaberi narudžbu ili stari račun"
 
 #. module: purchase_stock_picking_return_invoicing
 #. odoo-python
-#: code:addons/purchase_stock_picking_return_invoicing/models/purchase_order.py
+#: code:addons/purchase_stock_picking_return_invoicing/models/purchase_order.py:0
 #, python-format
 msgid ""
 "There is no invoiceable line. If a product has a control policy based on "

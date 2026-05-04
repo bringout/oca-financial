@@ -34,7 +34,7 @@ msgstr ""
 
 #. module: account_invoice_mass_sending
 #. odoo-python
-#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py
+#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py:0
 #, python-format
 msgid ""
 "Invoices %(ineligible_invoices)s were already in processing or do not have "
@@ -45,7 +45,7 @@ msgstr ""
 
 #. module: account_invoice_mass_sending
 #. odoo-python
-#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py
+#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py:0
 #, python-format
 msgid "Invoices: Mass sending"
 msgstr "Fakture: masovno slanje"
@@ -53,11 +53,11 @@ msgstr "Fakture: masovno slanje"
 #. module: account_invoice_mass_sending
 #: model:ir.model,name:account_invoice_mass_sending.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_mass_sending
 #. odoo-python
-#: code:addons/account_invoice_mass_sending/models/account_move.py
+#: code:addons/account_invoice_mass_sending/models/account_move.py:0
 #, python-format
 msgid "Send invoice %(name)s by email"
 msgstr "Pošalji fakturu %(name)s e-poštom"
@@ -69,7 +69,7 @@ msgstr "Slanje u toku"
 
 #. module: account_invoice_mass_sending
 #. odoo-python
-#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py
+#: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py:0
 #, python-format
 msgid ""
 "The sending of %(invoices_count)d invoices will be processed in background."

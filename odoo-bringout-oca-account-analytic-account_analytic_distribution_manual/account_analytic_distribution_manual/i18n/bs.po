@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_analytic_distribution_manual
 #. odoo-python
-#: code:addons/account_analytic_distribution_manual/models/account_analytic_distribution_manual.py
+#: code:addons/account_analytic_distribution_manual/models/account_analytic_distribution_manual.py:0
 #, python-format
 msgid "%s (Copy)"
 msgstr "%s (Kopija)"
@@ -28,7 +28,7 @@ msgstr "Ručna analitička distribucija računa"
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: account_analytic_distribution_manual
 #: model_terms:ir.actions.act_window,help:account_analytic_distribution_manual.action_account_analytic_distribution_manual
@@ -48,7 +48,7 @@ msgstr "Nazivi analitičkih računa"
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__analytic_account_ids
 msgid "Analytic Accounts"
-msgstr "Analitički računi"
+msgstr "Analitička konta"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__analytic_distribution_search
@@ -105,7 +105,7 @@ msgstr ""
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__create_uid
@@ -128,7 +128,7 @@ msgstr ""
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__id
@@ -148,7 +148,7 @@ msgstr "Stavka žurnala"
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__write_uid
@@ -162,7 +162,7 @@ msgstr "Zadnje ažurirano"
 
 #. module: account_analytic_distribution_manual
 #. odoo-javascript
-#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js
+#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js:0
 #, python-format
 msgid "Loading..."
 msgstr "Učitavanje..."
@@ -179,7 +179,7 @@ msgstr "Ručna distribucija"
 
 #. module: account_analytic_distribution_manual
 #. odoo-javascript
-#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.xml
+#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.xml:0
 #, python-format
 msgid "Manual distribution"
 msgstr "Ručna distribucija"
@@ -187,7 +187,7 @@ msgstr "Ručna distribucija"
 #. module: account_analytic_distribution_manual
 #: model:ir.model.fields,field_description:account_analytic_distribution_manual.field_account_analytic_distribution_manual__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: account_analytic_distribution_manual
 #: model_terms:ir.ui.view,arch_db:account_analytic_distribution_manual.view_account_analytic_distribution_manual_form
@@ -196,7 +196,7 @@ msgstr "Naziv..."
 
 #. module: account_analytic_distribution_manual
 #. odoo-javascript
-#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js
+#: code:addons/account_analytic_distribution_manual/static/src/components/analytic_distribution/analytic_distribution.esm.js:0
 #, python-format
 msgid "No Analytic Distribution Manual found"
 msgstr "Nije pronađena ručna analitička distribucija"

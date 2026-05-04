@@ -87,7 +87,7 @@ msgstr ""
 #. module: account_receipt_send
 #: model:ir.model,name:account_receipt_send.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_receipt_send
 #: model:mail.template,name:account_receipt_send.email_template_edi_receipt

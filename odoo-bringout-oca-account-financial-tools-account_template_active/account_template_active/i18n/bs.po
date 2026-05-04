@@ -23,7 +23,7 @@ msgstr "Mapiranje konta na predlošku fiskalne pozicije"
 #. module: account_template_active
 #: model:ir.model.fields,field_description:account_template_active.field_account_account_template__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 # taken from hr.po
 #. module: account_template_active

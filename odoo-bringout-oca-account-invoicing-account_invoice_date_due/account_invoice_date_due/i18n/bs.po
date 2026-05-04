@@ -31,11 +31,11 @@ msgstr "Uslovi plaćanja datuma dospeća"
 #. module: account_invoice_date_due
 #: model:ir.model,name:account_invoice_date_due.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_date_due
 #. odoo-python
-#: code:addons/account_invoice_date_due/models/account_move.py
+#: code:addons/account_invoice_date_due/models/account_move.py:0
 #, python-format
 msgid "You are not allowed to change the due date."
 msgstr "Nije vam dozvoljeno da menjate datum dospeća."

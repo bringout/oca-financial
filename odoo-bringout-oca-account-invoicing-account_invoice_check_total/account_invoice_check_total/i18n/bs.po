@@ -53,7 +53,7 @@ msgstr "Stavka dnevnika"
 # taken from hr.po
 #. module: account_invoice_check_total
 #. odoo-python
-#: code:addons/account_invoice_check_total/models/account_move.py
+#: code:addons/account_invoice_check_total/models/account_move.py:0
 #, python-format
 msgid ""
 "Please verify the price of the invoice!\n"

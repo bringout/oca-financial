@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_invoice_blocking
 #: model:ir.model,name:account_invoice_blocking.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: account_invoice_blocking

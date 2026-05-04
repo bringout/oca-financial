@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid ""
 "\n"
@@ -31,8 +31,6 @@ msgid ""
 "<span class=\"o_form_label oe_inline\" "
 "attrs=\"{'invisible':[('salvage_type','!=','percent')]}\">%</span>"
 msgstr ""
-"<span class=\"o_form_label oe_inline\" "
-"attrs=\"{'invisible':[('salvage_type','!=','percent')]}\">%</span>"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -43,10 +41,10 @@ msgstr "<span class=\"o_stat_text\"> Sredstvo(a)</span>"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -64,7 +62,7 @@ msgstr "Akumuliraj ranije amortizacije"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__message_needaction
 msgid "Action Needed"
-msgstr "Potreba radnja"
+msgstr "Potrebna akcija"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -75,7 +73,7 @@ msgstr "Aktivno"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Active Assets"
 msgstr "Aktivna sredstva"
@@ -179,7 +177,7 @@ msgstr "Sredstvo"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/wizard/account_asset_remove.py
+#: code:addons/account_asset_management/wizard/account_asset_remove.py:0
 #, python-format
 msgid "Asset '%s' Removal Journal Entry"
 msgstr "Sredstvo '%s' Fin. nalog za uklanjanje (otpis)"
@@ -251,7 +249,7 @@ msgstr "Uklanjanje (otpis) sredstva"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Asset Removal Date"
 msgstr "Datum uklanjanja"
@@ -265,7 +263,7 @@ msgstr "Datum prodaje"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Asset Start Date"
 msgstr "Datum aktivacije"
@@ -280,7 +278,7 @@ msgstr "Stavka amortizacije osnovnog sredstva"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_move.py
+#: code:addons/account_asset_management/models/account_move.py:0
 #, python-format
 msgid "Asset name must be set in the label of the line."
 msgstr "Ime sredstva mora biti postavljeno u liniji opisa."
@@ -308,12 +306,12 @@ msgstr "Način aktivacije obračuna amortizacije"
 #. module: account_asset_management
 #: model:ir.actions.act_window,name:account_asset_management.account_asset_action
 msgid "Assets"
-msgstr "Sredstva"
+msgstr "Stalna sredstva"
 
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Assets to be corrected"
 msgstr "Sredstva za ispravku"
@@ -429,7 +427,7 @@ msgstr "Datum kompletiranja"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Comput. Method"
 msgstr "Metoda obračuna"
@@ -461,7 +459,7 @@ msgstr "Obračun amortizacije za sredstva"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/wizard/account_asset_compute.py
+#: code:addons/account_asset_management/wizard/account_asset_compute.py:0
 #, python-format
 msgid "Compute Assets errors"
 msgstr "Obračunaj greške"
@@ -469,7 +467,7 @@ msgstr "Obračunaj greške"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/wizard/account_asset_compute.py
+#: code:addons/account_asset_management/wizard/account_asset_compute.py:0
 #, python-format
 msgid "Compute Assets result"
 msgstr "Obračunaj rezultat za sredstva"
@@ -508,7 +506,7 @@ msgstr "Kreiraj jedno sredstvo za jedan artikal"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/wizard/account_asset_compute.py
+#: code:addons/account_asset_management/wizard/account_asset_compute.py:0
 #, python-format
 msgid "Created Asset Moves"
 msgstr "Kreirani Fin. nalozi za sredstvo"
@@ -554,7 +552,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Degressive"
 msgstr "Degresivno (silazno)"
@@ -562,7 +560,7 @@ msgstr "Degresivno (silazno)"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Degressive  up to Salvage Value"
 msgstr "Degresivno u odnosu na rezervnu vrijednost"
@@ -576,7 +574,7 @@ msgstr "Faktor degresije"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Degressive-Linear"
 msgstr "Linearna degresija"
@@ -584,7 +582,7 @@ msgstr "Linearna degresija"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid "Degressive-Linear is only supported for Time Method = Year."
 msgstr "Linearna degresija je podržana samo za vremenski metod = Godina."
@@ -611,7 +609,7 @@ msgstr "Ispravka vrijednosti"
 #. module: account_asset_management
 #: model:ir.model.fields.selection,name:account_asset_management.selection__account_asset_line__type__depreciate
 msgid "Depreciation"
-msgstr "Ispravka"
+msgstr "Amortizacija"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -622,7 +620,7 @@ msgstr "Konto Ispravke vrijednosti"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Depreciation Base"
 msgstr "Osnovica"
@@ -667,7 +665,7 @@ msgstr "Naziv amortizacije"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -679,12 +677,12 @@ msgstr "Dovršeno"
 #. module: account_asset_management
 #: model:ir.model.fields.selection,name:account_asset_management.selection__account_asset__state__draft
 msgid "Draft"
-msgstr "U pripremi"
+msgstr "Nacrt"
 
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Duplicate reporting entries"
 msgstr "Dupliciraj izvještajne stavke"
@@ -699,7 +697,7 @@ msgstr "Dinamički XLS generator izvještaja imovine"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_account_asset_report__date_to
 msgid "End Date"
-msgstr "Krajnji datum"
+msgstr "Završni datum"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -716,7 +714,7 @@ msgstr "Stavke"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid ""
 "Error while processing asset '{ref}': \n"
@@ -748,13 +746,13 @@ msgstr "Fiksirano"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__message_follower_ids
 msgid "Followers"
-msgstr "Pratitelji"
+msgstr "Pratioci"
 
 # taken from hr.po
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratitelji (partneri)"
+msgstr "Pratioci (partneri)"
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__activity_type_icon
@@ -770,7 +768,7 @@ msgstr "Forsiraj knjigovodstveni datum"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/wizard/account_asset_remove.py
+#: code:addons/account_asset_management/wizard/account_asset_remove.py:0
 #, python-format
 msgid "Gain/Loss on Sale"
 msgstr "Dobit/gubitak pri prodaji"
@@ -784,7 +782,7 @@ msgstr "Opšte"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid "Generate Asset Removal entries"
 msgstr "Generiši stavke za otpis sredstva"
@@ -834,19 +832,19 @@ msgstr "Ikona"
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ikona koja ukazuje na izuzetak aktivnosti."
+msgstr "Ikona za označavanje izuzetne aktivnosti."
 
 # taken from hr.po
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je označeno, nove poruke traže vašu pozornost."
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 # taken from hr.po
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno, neke poruke imaju greške pri isporuci."
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__carry_forward_missed_depreciations
@@ -891,7 +889,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid "Illegal value %s in asset.method."
 msgstr "Neispravna vrijednost %s na metodi sredstva."
@@ -905,7 +903,7 @@ msgstr "Uključiti sredstva u pripremi"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid ""
 "Inconsistent reporting structure.\n"
@@ -941,7 +939,7 @@ msgstr "Inicijalna vrijednost"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__message_is_follower
 msgid "Is Follower"
-msgstr "Je pratitelj"
+msgstr "Je pratilac"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -952,7 +950,7 @@ msgstr "Dnevnik"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid "Journal Entries"
 msgstr "Stavke dnevnika"
@@ -960,7 +958,7 @@ msgstr "Stavke dnevnika"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_line.py
+#: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
@@ -969,7 +967,7 @@ msgstr "Stavka dnevnika"
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_move_line
 msgid "Journal Item"
-msgstr "Temeljnica dnevnika"
+msgstr "Stavka žurnala"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -981,7 +979,7 @@ msgstr "Knjiženja"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -998,7 +996,7 @@ msgstr "Zadnje ažurirano"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Linear"
 msgstr "Linearno"
@@ -1006,7 +1004,7 @@ msgstr "Linearno"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Linear up to Salvage Value"
 msgstr "Linearno prema rezervnoj vrijednosti"
@@ -1021,7 +1019,7 @@ msgstr "Glavni prilog"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr "Greška dostave poruke"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -1038,7 +1036,7 @@ msgstr "Konto za 'minus' (-) vrijednost"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Missing depreciation table"
 msgstr "Nedostaje tabela ispravki "
@@ -1046,7 +1044,7 @@ msgstr "Nedostaje tabela ispravki "
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Month"
 msgstr "Mjesec"
@@ -1055,12 +1053,12 @@ msgstr "Mjesec"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Krajnji rok za moje aktivnosti"
+msgstr "Rok moje aktivnosti"
 
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Name"
 msgstr "Naziv"
@@ -1068,7 +1066,7 @@ msgstr "Naziv"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "New Acquisitions"
 msgstr "Nove nabavke"
@@ -1077,7 +1075,7 @@ msgstr "Nove nabavke"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Krajnji rok sljedeće aktivnosti"
+msgstr "Rok sljedeće aktivnosti"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -1100,7 +1098,7 @@ msgstr "Sljedeći period ispravke vrijednosti"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "No"
 msgstr "Ne"
@@ -1121,12 +1119,12 @@ msgstr "Zabilješke"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Broj radnji"
+msgstr "Broj akcija"
 
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Number of Depreciations"
 msgstr "Broj ispravki vrijednosti"
@@ -1134,7 +1132,7 @@ msgstr "Broj ispravki vrijednosti"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Number of Years"
 msgstr "Broj godina/mjeseci"
@@ -1142,7 +1140,7 @@ msgstr "Broj godina/mjeseci"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Number of Years or end date"
 msgstr "Broj godina ili krajnji datum"
@@ -1162,7 +1160,7 @@ msgstr "Broj poruka koje traže akciju"
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr "Broj poruka sa greškom pri dostavi"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -1203,7 +1201,7 @@ msgstr "Procenat cijene"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Period Depreciation"
 msgstr "Period ispravki"
@@ -1211,7 +1209,7 @@ msgstr "Period ispravki"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Period End Value"
 msgstr "Sadašnja vrijednost"
@@ -1225,7 +1223,7 @@ msgstr "Trajanje perioda"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Period Start Value"
 msgstr "Početna vrijednost perioda"
@@ -1262,7 +1260,7 @@ msgstr "Profil"
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:1
 #, python-format
 msgid "Prorata Temporis"
 msgstr "Proporcionalno"
@@ -1270,7 +1268,7 @@ msgstr "Proporcionalno"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Purchase Value"
 msgstr "Nabavna vrijednost"
@@ -1278,7 +1276,7 @@ msgstr "Nabavna vrijednost"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Quarter"
 msgstr "Kvartal"
@@ -1286,7 +1284,7 @@ msgstr "Kvartal"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Reason"
 msgstr "Razlog"
@@ -1294,7 +1292,7 @@ msgstr "Razlog"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Reference"
 msgstr "Referenca"
@@ -1346,7 +1344,7 @@ msgstr "Otpisano"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Removed Assets"
 msgstr "Uklonjena sredstva"
@@ -1354,7 +1352,7 @@ msgstr "Uklonjena sredstva"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/wizard/account_asset_remove.py
+#: code:addons/account_asset_management/wizard/account_asset_remove.py:0
 #, python-format
 msgid "Residual Value"
 msgstr "Sadašnja vrijednost"
@@ -1392,7 +1390,7 @@ msgstr "Unos storno knjiženja"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_line.py
+#: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid "Reverse Move"
 msgstr "Storno knjiženje"
@@ -1423,7 +1421,7 @@ msgstr "Tip rezerve"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Salvage Value"
 msgstr "Rezervna vrijednost"
@@ -1467,7 +1465,7 @@ msgstr "Preskoči status u pripremi"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_wiz_account_asset_report__date_from
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -1483,7 +1481,7 @@ msgstr "Stanje osnovnog sredstva"
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:1
 #, python-format
 msgid "Status"
 msgstr "Status"
@@ -1497,15 +1495,15 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baziran na aktivnostima\n"
-"Zakašnjelo: Rok je već prošao\n"
+"Status na osnovu aktivnosti\n"
+"Isteklo: Rok je već prošao\n"
 "Danas: Datum aktivnosti je danas\n"
 "Planirano: Buduće aktivnosti."
 
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid ""
 "The '_compute_year_amount' method is only intended for Time Method 'Number "
@@ -1517,7 +1515,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid ""
 "The 'account' field is a mandatory entry of the '_xls_%s_fields' list !"
@@ -1526,7 +1524,7 @@ msgstr "Polje 'konto' je obavezno za '_xls_%s_fileds' listu!"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_account.py
+#: code:addons/account_asset_management/models/account_account.py:0
 #, python-format
 msgid ""
 "The Asset Account defined in the Asset Profile must be equal to the account."
@@ -1536,7 +1534,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/wizard/account_asset_remove.py
+#: code:addons/account_asset_management/wizard/account_asset_remove.py:0
 #, python-format
 msgid "The Sale Value must be positive!"
 msgstr "Prodajna vrijednost mora biti pozitivna!"
@@ -1544,7 +1542,7 @@ msgstr "Prodajna vrijednost mora biti pozitivna!"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid "The Start Date must precede the Ending Date."
 msgstr "Datum početka mora biti prije datuma završetka."
@@ -1552,7 +1550,7 @@ msgstr "Datum početka mora biti prije datuma završetka."
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid ""
 "The duration of the asset conflicts with the posted depreciation table entry"
@@ -1578,7 +1576,7 @@ msgstr "Broj godina potrebnih za amortizaciju vašeg sredstva"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/wizard/account_asset_remove.py
+#: code:addons/account_asset_management/wizard/account_asset_remove.py:0
 #, python-format
 msgid "The removal date must be after the last depreciation date."
 msgstr "Datum otpisa mora biti nakon datuma amortizacije."
@@ -1608,7 +1606,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_move.py
+#: code:addons/account_asset_management/models/account_move.py:0
 #, python-format
 msgid "This invoice created the asset(s): %s"
 msgstr "Ovaj račun je kreirano sredstvo: %s"
@@ -1622,7 +1620,7 @@ msgstr "Vremenska metoda"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Tot. Depreciation"
 msgstr "Ukupno ispravka"
@@ -1636,7 +1634,7 @@ msgstr "Ukupno dana"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Totals"
 msgstr "Ukupno"
@@ -1651,18 +1649,18 @@ msgstr "Datum okidača"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_line__type
 msgid "Type"
-msgstr "Vrsta"
+msgstr "Tip"
 
 # taken from hr.po
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Tip izuzetka aktivnosti na zapisu."
+msgstr "Tip izuzetne aktivnosti na zapisu."
 
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/report/account_asset_report_xls.py
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Undetermined error"
 msgstr "Nedefinirana greška"
@@ -1702,12 +1700,12 @@ msgstr "Pogledaj knjiženje"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__website_message_ids
 msgid "Website Messages"
-msgstr "Website poruke"
+msgstr "Poruke web stranice"
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije Web stranice"
+msgstr "Historija komunikacije web stranice"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -1726,7 +1724,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_profile.py
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
 #, python-format
 msgid "Year"
 msgstr "Godina"
@@ -1734,7 +1732,7 @@ msgstr "Godina"
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_move.py
+#: code:addons/account_asset_management/models/account_move.py:0
 #, python-format
 msgid ""
 "You are not allowed to link an accounting entry to an asset.\n"
@@ -1746,7 +1744,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_line.py
+#: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid ""
 "You are not allowed to remove an accounting entry linked to an asset.\n"
@@ -1758,14 +1756,14 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid "You can only delete assets in draft state."
 msgstr "Možete obrisati samo sredstvo u pripremi."
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/wizard/account_asset_remove.py
+#: code:addons/account_asset_management/wizard/account_asset_remove.py:0
 #, python-format
 msgid ""
 "You can't make an early removal if all the depreciation lines for previous "
@@ -1777,7 +1775,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_line.py
+#: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid ""
 "You cannot change a depreciation line with an associated accounting entry."
@@ -1787,7 +1785,7 @@ msgstr ""
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_move.py
+#: code:addons/account_asset_management/models/account_move.py:0
 #, python-format
 msgid ""
 "You cannot change an accounting entry linked to an asset depreciation line."
@@ -1797,7 +1795,7 @@ msgstr ""
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_move.py
+#: code:addons/account_asset_management/models/account_move.py:0
 #, python-format
 msgid ""
 "You cannot change an accounting item linked to an asset depreciation line."
@@ -1807,14 +1805,14 @@ msgstr ""
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid "You cannot change the profile of an asset with accounting entries."
 msgstr "Ne možete promijeniti profil imovine sa računovodstvenim zapisima."
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_line.py
+#: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid ""
 "You cannot delete a depreciation line with an associated accounting entry."
@@ -1823,14 +1821,14 @@ msgstr ""
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset.py
+#: code:addons/account_asset_management/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete an asset that contains posted depreciation lines."
 msgstr "Ne možete obrisati imovinu koja sadrži knjižene linije amortizacije."
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_line.py
+#: code:addons/account_asset_management/models/account_asset_line.py:1
 #, python-format
 msgid "You cannot remove an asset line of type 'Depreciation Base'."
 msgstr ""
@@ -1839,7 +1837,7 @@ msgstr ""
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_line.py
+#: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid ""
 "You cannot set the 'Initial Balance Entry' flag on a depreciation line with "
@@ -1850,14 +1848,14 @@ msgstr ""
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_line.py
+#: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid "You cannot set the Asset Start Date after already posted entries."
 msgstr "Ne možete postaviti početni datum imovine nakon već knjiženih stavki."
 
 #. module: account_asset_management
 #. odoo-python
-#: code:addons/account_asset_management/models/account_asset_line.py
+#: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid ""
 "You cannot set the date on a depreciation line prior to already posted "

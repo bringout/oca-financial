@@ -19,8 +19,6 @@ msgid ""
 "<span class=\"oe_edit_only\" attrs=\"{'invisible': [('payment_retention', "
 "'=', False)]}\"> = </span>"
 msgstr ""
-"<span class=\"oe_edit_only\" attrs=\"{'invisible': [('payment_retention', "
-"'=', False)]}\"> = </span>"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model.fields.selection,name:account_invoice_payment_retention.selection__account_move__payment_retention__amount
@@ -89,7 +87,7 @@ msgstr "Očekivani iznos za zadržavanje u valuti plaćanja"
 #. module: account_invoice_payment_retention
 #: model:ir.model,name:account_invoice_payment_retention.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_payment_retention
 #: model:ir.model,name:account_invoice_payment_retention.model_account_move_line
@@ -169,14 +167,14 @@ msgstr "Zadržavanje u postotku ove fakture, ili po iznosu"
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/models/account_move.py
+#: code:addons/account_invoice_payment_retention/models/account_move.py:0
 #, python-format
 msgid "Retention must not exceed the total untaxed amount"
 msgstr "Zadržavanje ne smije prelaziti ukupan iznos bez poreza"
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/models/res_company.py
+#: code:addons/account_invoice_payment_retention/models/res_company.py:0
 #, python-format
 msgid "Retention payable account should be set to allow Reconciliation"
 msgstr ""
@@ -185,7 +183,7 @@ msgstr ""
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/models/res_company.py
+#: code:addons/account_invoice_payment_retention/models/res_company.py:0
 #, python-format
 msgid "Retention receivable account should be set to allow Reconciliation"
 msgstr ""
@@ -205,7 +203,7 @@ msgstr "Povrat zadržavanja"
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/wizard/account_payment_register.py
+#: code:addons/account_invoice_payment_retention/wizard/account_payment_register.py:0
 #, python-format
 msgid ""
 "Selected invoice(s) require payment retentions, multi invoices payment is "
@@ -238,7 +236,7 @@ msgstr ""
 
 #. module: account_invoice_payment_retention
 #. odoo-python
-#: code:addons/account_invoice_payment_retention/wizard/account_payment_register.py
+#: code:addons/account_invoice_payment_retention/wizard/account_payment_register.py:0
 #, python-format
 msgid ""
 "This payment has retention, please make sure you fill in valid retaintion "

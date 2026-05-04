@@ -58,7 +58,7 @@ msgstr "Postavke"
 #. module: account_invoice_start_end_dates_move
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_account_bank_statement_line__end_date
 msgid "End Date"
-msgstr "Datum završetka"
+msgstr "Završni datum"
 
 #. module: account_invoice_start_end_dates_move
 #: model_terms:ir.ui.view,arch_db:account_invoice_start_end_dates_move.view_move_form
@@ -68,7 +68,7 @@ msgstr "Završni datum"
 #. module: account_invoice_start_end_dates_move
 #: model:ir.model,name:account_invoice_start_end_dates_move.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_start_end_dates_move
 #: model:ir.model,name:account_invoice_start_end_dates_move.model_account_move_line
@@ -93,9 +93,9 @@ msgstr ""
 #. module: account_invoice_start_end_dates_move
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates_move.field_account_bank_statement_line__start_date
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: account_invoice_start_end_dates_move
 #: model_terms:ir.ui.view,arch_db:account_invoice_start_end_dates_move.view_move_form
 msgid "Start date"
-msgstr "Početni datum"
+msgstr "Datum početka"

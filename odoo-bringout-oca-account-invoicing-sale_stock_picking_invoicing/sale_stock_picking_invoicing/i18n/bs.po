@@ -53,7 +53,7 @@ msgstr ""
 #. module: sale_stock_picking_invoicing
 #: model:ir.model.fields,field_description:sale_stock_picking_invoicing.field_res_company__sale_invoicing_policy
 msgid "Sale Invoicing Policy"
-msgstr "Sale Invoicing Policy"
+msgstr ""
 
 #. module: sale_stock_picking_invoicing
 #: model:ir.model.fields.selection,name:sale_stock_picking_invoicing.selection__res_company__sale_invoicing_policy__sale_order
@@ -63,12 +63,12 @@ msgstr "Prodajni nalog"
 #. module: sale_stock_picking_invoicing
 #: model:ir.model,name:sale_stock_picking_invoicing.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_stock_picking_invoicing
 #: model:ir.model,name:sale_stock_picking_invoicing.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_stock_picking_invoicing
 #: model:ir.model,name:sale_stock_picking_invoicing.model_stock_invoice_onshipping
@@ -88,7 +88,7 @@ msgstr "Preuzimanje u skladištu"
 #. module: sale_stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:sale_stock_picking_invoicing.sale_stock_picking_invoicing_res_config_settings_form
 msgid "This default value is applied to creation of Invoice."
-msgstr "This default value is applied to creation of Invoice."
+msgstr ""
 
 #. module: sale_stock_picking_invoicing
 #: model:ir.model,name:sale_stock_picking_invoicing.model_stock_picking
@@ -97,7 +97,7 @@ msgstr "Prijenos"
 
 #. module: sale_stock_picking_invoicing
 #. odoo-python
-#: code:addons/sale_stock_picking_invoicing/models/sale_order.py
+#: code:addons/sale_stock_picking_invoicing/models/sale_order.py:0
 #, python-format
 msgid ""
 "When 'Sale Invoicing Policy' is defined as'Stock Picking' the Invoice can "

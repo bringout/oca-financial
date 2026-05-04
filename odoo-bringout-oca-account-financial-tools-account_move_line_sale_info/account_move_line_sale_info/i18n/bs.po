@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_move_line_sale_info
 #: model:ir.model,name:account_move_line_sale_info.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_move_line_sale_info
 #: model:ir.model,name:account_move_line_sale_info.model_account_move_line
@@ -41,12 +41,12 @@ msgstr "Informacije o prodaji u stavkama dnevnika"
 #. module: account_move_line_sale_info
 #: model:ir.model.fields,field_description:account_move_line_sale_info.field_account_move_line__sale_order_id
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: account_move_line_sale_info
 #: model:ir.model,name:account_move_line_sale_info.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: account_move_line_sale_info
 #: model:ir.model,name:account_move_line_sale_info.model_stock_move

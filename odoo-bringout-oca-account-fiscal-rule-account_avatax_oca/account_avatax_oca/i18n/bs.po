@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/hooks.py
+#: code:addons/account_avatax_oca/hooks.py:0
 #, python-format
 msgid "(Discount)"
 msgstr "(Popust)"
@@ -23,7 +23,7 @@ msgstr "(Popust)"
 #. module: account_avatax_oca
 #: model:ir.model.fields.selection,name:account_avatax_oca.selection__res_partner__validation_method__avatax
 msgid "AVALARA"
-msgstr "AVALARA"
+msgstr ""
 
 #. module: account_avatax_oca
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_address_validate
@@ -43,7 +43,7 @@ msgstr "Broj računa obezbijeđen od strane AvaTax"
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: account_avatax_oca
 #: model:ir.actions.act_window,name:account_avatax_oca.action_avalara_salestax_address_validate
@@ -113,12 +113,12 @@ msgstr "Automatski validira adrese kada su kreirane ili modificirane"
 #. module: account_avatax_oca
 #: model:account.tax.group,name:account_avatax_oca.avatax_tax_group
 msgid "AvaTax"
-msgstr "AvaTax"
+msgstr ""
 
 #. module: account_avatax_oca
 #: model:ir.actions.act_window,name:account_avatax_oca.action_avalara_salestax
 msgid "AvaTax API"
-msgstr "AvaTax API"
+msgstr ""
 
 #. module: account_avatax_oca
 #: model:ir.model,name:account_avatax_oca.model_product_tax_code
@@ -147,7 +147,7 @@ msgstr "AvaTax svojstva"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avatax_rest_api.py
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
 #, python-format
 msgid ""
 "AvaTax: Notice\n"
@@ -160,7 +160,7 @@ msgstr ""
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avatax_rest_api.py
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
 #, python-format
 msgid ""
 "AvaTax: Warning AvaTax could not validate the address:\n"
@@ -204,14 +204,14 @@ msgstr "Avatax log"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/account_move.py
+#: code:addons/account_avatax_oca/models/account_move.py:0
 #, python-format
 msgid "Avatax address is not validated!"
 msgstr "Avatax adresa nije validirana!"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avalara_salestax.py
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
 #, python-format
 msgid "Avatax commiting document %s, but it tax reporting is disabled."
 msgstr ""
@@ -219,7 +219,7 @@ msgstr ""
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avatax_rest_api.py
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
 #, python-format
 msgid ""
 "AvataxClient is not available in your system. Please contact your system "
@@ -261,18 +261,18 @@ msgstr "Kompanije"
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/res_company.py
+#: code:addons/account_avatax_oca/models/res_company.py:0
 #, python-format
 msgid "Company %s has no Avatax configuration."
 msgstr "Kompanija %s nema Avatax konfiguraciju."
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/res_company.py
+#: code:addons/account_avatax_oca/models/res_company.py:0
 #, python-format
 msgid "Company %s has too many Avatax configurations!"
 msgstr "Kompanija %s ima previše Avatax konfiguracija!"
@@ -349,7 +349,7 @@ msgstr "Kod kupca"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avalara_salestax.py
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
 #, python-format
 msgid ""
 "Customer Code for customer %(partner.name)s not defined.\n"
@@ -412,7 +412,7 @@ msgstr "Onemogućava mogućnost izvršavanja validacije adrese"
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__upc_enable
@@ -490,7 +490,7 @@ msgstr "ID"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/account_tax.py
+#: code:addons/account_avatax_oca/models/account_tax.py:0
 #, python-format
 msgid ""
 "Incorrect retrieval of Avatax amount for Invoice %(avatax_invoice)s: product"
@@ -543,7 +543,7 @@ msgstr "Prikazuje broj oslobođenja kupca"
 #. module: account_avatax_oca
 #: model:ir.model,name:account_avatax_oca.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_avatax_oca
 #: model:ir.model,name:account_avatax_oca.model_account_move_line
@@ -553,7 +553,7 @@ msgstr "Stavka žurnala"
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__write_uid
@@ -603,7 +603,7 @@ msgstr "Geografska dužina"
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_ping__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__disable_tax_calculation
@@ -674,14 +674,14 @@ msgstr "Ping servis"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/account_tax.py
+#: code:addons/account_avatax_oca/models/account_tax.py:0
 #, python-format
 msgid "Please configure Avatax Tax for Company %s:"
 msgstr "Molimo konfiguriši Avatax porez za kompaniju %s:"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/partner.py
+#: code:addons/account_avatax_oca/models/partner.py:0
 #, python-format
 msgid ""
 "Please enter either Exemption Number or Exemption Code for marking customer "
@@ -692,7 +692,7 @@ msgstr ""
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avatax_rest_api.py
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
 #, python-format
 msgid ""
 "Please set the Company Address in the partner information and validate.  We are checking against the first line of the address and it's empty.  \n"
@@ -705,14 +705,14 @@ msgstr ""
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avalara_salestax.py
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
 #, python-format
 msgid "Please validate the origin warehouse address."
 msgstr "Molimo validirajte adresu originalnog skladišta."
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avalara_salestax.py
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
 #, python-format
 msgid "Please validate the shipping address for the partner %(partner.name)s."
 msgstr "Molimo validirajte adresu dostave za partnera %(partner.name)s."
@@ -720,7 +720,7 @@ msgstr "Molimo validirajte adresu dostave za partnera %(partner.name)s."
 #. module: account_avatax_oca
 #: model:ir.model,name:account_avatax_oca.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_product_product__tax_code_id
@@ -780,7 +780,7 @@ msgstr "SO partner"
 #. module: account_avatax_oca
 #: model:ir.model.fields.selection,name:account_avatax_oca.selection__avalara_salestax__service_url__https://sandbox-rest_avatax_com/api/v2
 msgid "Sandbox (REST API)"
-msgstr "Sandbox (REST API)"
+msgstr ""
 
 #. module: account_avatax_oca
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_getcompany
@@ -874,7 +874,7 @@ msgstr "Test stavka P0000000"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avatax_rest_api.py
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
 #, python-format
 msgid ""
 "The AvaTax Address Validation Service does not support this country in the "
@@ -885,7 +885,7 @@ msgstr ""
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avatax_rest_api.py
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
 #, python-format
 msgid ""
 "The AvaTax Address Validation Service is disabled by the administrator. "
@@ -931,21 +931,21 @@ msgstr "URL za povezivanje"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avatax_rest_api.py
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
 #, python-format
 msgid "The user or account could not be authenticated"
 msgstr "Korisnik ili račun nije mogao biti autentifikovan"
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avalara_salestax.py
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
 #, python-format
 msgid "There is no Company address defined."
 msgstr "Nema definirane adrese kompanije."
 
 #. module: account_avatax_oca
 #. odoo-python
-#: code:addons/account_avatax_oca/models/avalara_salestax.py
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
 #, python-format
 msgid "There is no source shipping address defined for partner %s."
 msgstr "Nema definirane adrese izvora dostave za partnera %s."
@@ -982,7 +982,7 @@ msgstr "Tip poreskog koda kako je definisan u AvaTax"
 #. module: account_avatax_oca
 #: model:ir.model.fields.selection,name:account_avatax_oca.selection__res_partner__validation_method__usps
 msgid "USPS"
-msgstr "USPS"
+msgstr ""
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__active

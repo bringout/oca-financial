@@ -39,12 +39,12 @@ msgstr ""
 #. module: account_invoice_force_number
 #: model:ir.model,name:account_invoice_force_number.model_account_move
 msgid "Journal Entry"
-msgstr "Zapis dnevnika"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: account_invoice_force_number
 #. odoo-python
-#: code:addons/account_invoice_force_number/models/account_move.py
+#: code:addons/account_invoice_force_number/models/account_move.py:0
 #, python-format
 msgid ""
 "You cannot delete an invoice after it has been validated(and received a "

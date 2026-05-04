@@ -33,10 +33,10 @@ msgstr ""
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: account_invoice_clearing
 #: model:ir.model,name:account_invoice_clearing.model_account_invoice_clearing_lines_wizard
@@ -60,7 +60,7 @@ msgstr "Iznos ostatka (silazno)"
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Amount to clear cannot be greater than residual amount."
 msgstr "Iznos za poravnanje ne može biti veći od ostatka."
@@ -104,7 +104,7 @@ msgstr "Komercijalni partner"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_wizard__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__company_currency_id
@@ -128,7 +128,7 @@ msgstr "Kreirano"
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Credit"
 msgstr "Potražuje"
@@ -150,7 +150,7 @@ msgstr "Datum dospeća (silazno)"
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Debit"
 msgstr "Duguje"
@@ -158,7 +158,7 @@ msgstr "Duguje"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__date_maturity
@@ -201,21 +201,21 @@ msgstr "Poravnanje faktura"
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Invoices must be from the same commercial partner."
 msgstr "Fakture moraju biti od istog komercijalnog partnera."
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Invoices must be of the same type."
 msgstr "Fakture moraju biti istog tipa."
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Invoices must belong to the same company."
 msgstr "Fakture moraju pripadati istoj kompaniji."
@@ -238,24 +238,24 @@ msgstr "JSON vrednost knjiženja koja treba da se kreira"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_wizard__journal_id
 msgid "Journal"
-msgstr "Vrsta naloga"
+msgstr "Dnevnik"
 
 #. module: account_invoice_clearing
 #: model:ir.model,name:account_invoice_clearing.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Label"
-msgstr "Opis"
+msgstr "Oznaka"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__write_uid
@@ -319,7 +319,7 @@ msgstr "Naziv knjiženja generisanog ovim čarobnjakom"
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Partner"
 msgstr "Partner"
@@ -344,7 +344,7 @@ msgstr "Pregled podataka knjiženja"
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Preview of the clearing move related to %s"
 msgstr "Pregled knjiženja poravnanja vezanog za %s"
@@ -352,7 +352,7 @@ msgstr "Pregled knjiženja poravnanja vezanog za %s"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: account_invoice_clearing
 #: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
@@ -381,7 +381,7 @@ msgstr "Iznos ostatka za poravnanje (sa predznakom)"
 
 #. module: account_invoice_clearing
 #. odoo-python
-#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py
+#: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Resulting Clearing Move"
 msgstr "Rezultujuće knjiženje poravnanja"
@@ -394,7 +394,7 @@ msgstr "Rezultujuće knjiženje neće biti potpuno usklađeno."
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: account_invoice_clearing
 #: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view

@@ -21,4 +21,4 @@ msgstr "<span>Datum isteka</span>"
 #. module: account_invoice_report_lot_expiration_date
 #: model:ir.model,name:account_invoice_report_lot_expiration_date.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"

@@ -36,7 +36,7 @@ msgstr "Statistika faktura"
 #. module: account_invoice_crm_tag
 #: model:ir.model,name:account_invoice_crm_tag.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_crm_tag
 #: model:ir.model,name:account_invoice_crm_tag.model_account_move_line
@@ -46,9 +46,9 @@ msgstr "Stavka žurnala"
 #. module: account_invoice_crm_tag
 #: model:ir.model,name:account_invoice_crm_tag.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: account_invoice_crm_tag
 #: model:ir.model,name:account_invoice_crm_tag.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

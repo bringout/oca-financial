@@ -31,7 +31,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/models/account_move_template.py
+#: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (kopija)"
@@ -50,7 +50,7 @@ msgstr "1250"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__account_id
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__opt_account_id
@@ -60,7 +60,7 @@ msgstr "Račun (ako je negativno)"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 # taken from hr.po
 #. module: account_move_template
@@ -99,7 +99,7 @@ msgstr "Otkaži"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: account_move_template
@@ -159,7 +159,7 @@ msgstr "Duguje"
 # taken from hr.po
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/wizard/account_move_template_run.py
+#: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Debit and credit of all lines are null."
 msgstr "Duguje i potražuje svih stavaka je nula."
@@ -174,12 +174,12 @@ msgstr "Smjer"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/wizard/account_move_template_run.py
+#: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Entry from template %s"
 msgstr "Stavka iz predloška %s"
@@ -202,7 +202,7 @@ msgstr "ID"
 
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/models/account_move_template.py
+#: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid ""
 "Impossible to compute the formula of line with sequence %(sequence)s "
@@ -215,7 +215,7 @@ msgstr ""
 
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/models/account_move_template.py
+#: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid ""
 "Impossible to compute the formula of line with sequence %(sequence)s "
@@ -226,7 +226,7 @@ msgstr ""
 
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/wizard/account_move_template_run.py
+#: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid ""
 "Invalid dictionary: %(exception)s\n"
@@ -272,7 +272,7 @@ msgstr "Predložak temeljnice"
 
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/wizard/account_move_template_run.py
+#: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Keys must be line sequence i.e. L1, L2, ..."
 msgstr "Ključevi moraju biti sekvenca linije tj. L1, L2, ..."
@@ -296,13 +296,13 @@ msgstr "L2 - L1"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__name
 msgid "Label"
-msgstr "Natpis"
+msgstr "Oznaka"
 
 # taken from hr.po
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: account_move_template
@@ -366,7 +366,7 @@ msgstr "Prepiši"
 
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/wizard/account_move_template_run.py
+#: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Overwrite value must be a valid python dict"
 msgstr "Vrijednost za prepisivanje mora biti valjan python rječnik"
@@ -384,7 +384,7 @@ msgstr "Uvjeti plaćanja"
 
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/models/account_move_template.py
+#: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid "Python Code must be set for computed line with sequence %d."
 msgstr "Python kod mora biti postavljen za izračunatu liniju sa sekvencom %d."
@@ -405,7 +405,7 @@ msgstr "Odaberi predložak"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 # taken from hr.po
 #. module: account_move_template
@@ -452,7 +452,7 @@ msgstr "Ovaj naziv se već koristi za drugi predložak!"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__type
 msgid "Type"
-msgstr "Vrsta"
+msgstr "Tip"
 
 # taken from hr.po
 #. module: account_move_template
@@ -468,7 +468,7 @@ msgstr "Ručni unos"
 
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/wizard/account_move_template_run.py
+#: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Valid fields to overwrite are %s"
 msgstr "Važeća polja za prepisivanje su %s"
@@ -498,7 +498,7 @@ msgstr "Čarobnjak za kreiranje temeljnice iz predloška"
 
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/models/account_move_template.py
+#: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid ""
 "You added a line in the wizard. This is not allowed: you should either "
@@ -520,7 +520,7 @@ msgstr ""
 
 #. module: account_move_template
 #. odoo-python
-#: code:addons/account_move_template/models/account_move_template.py
+#: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid ""
 "You deleted a line in the wizard. This is not allowed: you should either "

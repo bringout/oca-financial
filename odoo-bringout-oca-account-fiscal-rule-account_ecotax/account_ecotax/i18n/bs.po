@@ -41,7 +41,7 @@ msgstr "Ecotax linije pokreta računa"
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: account_ecotax
 #: model_terms:ir.ui.view,arch_db:account_ecotax.product_normal_form_view
@@ -66,7 +66,7 @@ msgstr "Iznos"
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__amount_total
 msgid "Amount Total"
-msgstr "Ukupni iznos"
+msgstr "Ukupan iznos"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__amount_unit
@@ -116,7 +116,7 @@ msgstr "Šifra"
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_ecotax
 #: model:ir.model.fields,help:account_ecotax.field_product_product__all_ecotax_line_product_ids
@@ -165,7 +165,7 @@ msgstr "Pop.%"
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_move_line__subtotal_ecotax
@@ -303,7 +303,7 @@ msgstr "Ecotax podešavanja"
 #. module: account_ecotax
 #: model:ir.model.fields.selection,name:account_ecotax.selection__account_ecotax_classification__ecotax_type__fixed
 msgid "Fixed"
-msgstr "Fiksno"
+msgstr "Ograničeno"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_product_product__fixed_ecotax
@@ -369,7 +369,7 @@ msgstr "Uvoznik"
 
 #. module: account_ecotax
 #. odoo-python
-#: code:addons/account_ecotax/models/account_move.py
+#: code:addons/account_ecotax/models/account_move.py:0
 #, python-format
 msgid "Included Ecotax"
 msgstr "Uključen ecotax"
@@ -392,7 +392,7 @@ msgstr "Uvodnik"
 #. module: account_ecotax
 #: model:ir.model,name:account_ecotax.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_ecotax
 #: model:ir.model,name:account_ecotax.model_account_move_line
@@ -402,7 +402,7 @@ msgstr "Stavka žurnala"
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__write_uid
@@ -444,7 +444,7 @@ msgstr "Menadžer"
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: account_ecotax
 #: model_terms:ir.ui.view,arch_db:account_ecotax.view_move_line_ecotax_form
@@ -469,7 +469,7 @@ msgstr "Partner"
 #. module: account_ecotax
 #: model:ir.model,name:account_ecotax.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__product_status
@@ -555,7 +555,7 @@ msgstr ""
 #. module: account_ecotax
 #: model_terms:ir.ui.view,arch_db:account_ecotax.view_move_line_ecotax_form
 msgid "Subtotal"
-msgstr "Podukupno"
+msgstr "Podzbroj"
 
 #. module: account_ecotax
 #: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__supplier_status
@@ -588,7 +588,7 @@ msgstr "Tip"
 
 #. module: account_ecotax
 #. odoo-python
-#: code:addons/account_ecotax/models/account_move.py
+#: code:addons/account_ecotax/models/account_move.py:0
 #, python-format
 msgid "Untaxed Amount"
 msgstr "Iznos bez PDV"

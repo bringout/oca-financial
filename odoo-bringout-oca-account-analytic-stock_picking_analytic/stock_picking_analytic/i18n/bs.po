@@ -26,7 +26,7 @@ msgstr "Nazivi analitičkih računa"
 #. module: stock_picking_analytic
 #: model:ir.model.fields,field_description:stock_picking_analytic.field_stock_picking__analytic_account_ids
 msgid "Analytic Accounts"
-msgstr "Analitički računi"
+msgstr "Analitička konta"
 
 #. module: stock_picking_analytic
 #: model:ir.model.fields,field_description:stock_picking_analytic.field_stock_picking__analytic_distribution_search

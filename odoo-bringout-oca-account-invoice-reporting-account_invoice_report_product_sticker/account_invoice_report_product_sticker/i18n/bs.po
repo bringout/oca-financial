@@ -36,7 +36,7 @@ msgstr "Prikaz naljepnica proizvoda na odabranoj poziciji unutar izvještaja."
 #. module: account_invoice_report_product_sticker
 #: model:ir.model,name:account_invoice_report_product_sticker.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_report_product_sticker
 #: model:ir.model.fields,field_description:account_invoice_report_product_sticker.field_res_config_settings__show_product_stickers

@@ -70,11 +70,11 @@ msgstr "Izvorni dnevnici"
 #. module: account_cutoff_start_end_dates
 #: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff__start_date
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: account_cutoff_start_end_dates
 #. odoo-python
-#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py
+#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py:0
 #, python-format
 msgid "Start date and end date are required for forecast mode."
 msgstr "Početni datum i završni datum su obavezni za mode prognoze."
@@ -96,14 +96,14 @@ msgstr ""
 # taken from hr.po
 #. module: account_cutoff_start_end_dates
 #. odoo-python
-#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py
+#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py:0
 #, python-format
 msgid "The start date is after the end date!"
 msgstr "Početni datum je nakon završnog!"
 
 #. module: account_cutoff_start_end_dates
 #. odoo-python
-#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py
+#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py:0
 #, python-format
 msgid ""
 "This cutoff is linked to a journal entry. You must delete it before entering"
@@ -124,7 +124,7 @@ msgstr "Ukupno dana"
 
 #. module: account_cutoff_start_end_dates
 #. odoo-python
-#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py
+#: code:addons/account_cutoff_start_end_dates/models/account_cutoff.py:0
 #, python-format
 msgid "You should set at least one Source Journal."
 msgstr "Trebali biste postaviti najmanje jedan izvorni dnevnik."

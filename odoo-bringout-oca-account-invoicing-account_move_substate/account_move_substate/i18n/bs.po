@@ -68,12 +68,12 @@ msgstr "Provjereno"
 #. module: account_move_substate
 #: model:target.state.value,name:account_move_substate.target_state_value_draft
 msgid "Draft"
-msgstr "U pripremi"
+msgstr "Nacrt"
 
 #. module: account_move_substate
 #: model:ir.model,name:account_move_substate.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_move_substate
 #: model:target.state.value,name:account_move_substate.target_state_value_posted

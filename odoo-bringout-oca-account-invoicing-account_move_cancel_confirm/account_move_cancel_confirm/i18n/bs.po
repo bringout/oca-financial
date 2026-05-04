@@ -36,7 +36,7 @@ msgstr "Razlog otkazivanja"
 #. module: account_move_cancel_confirm
 #: model:ir.model,name:account_move_cancel_confirm.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_move_cancel_confirm
 #: model:ir.model,name:account_move_cancel_confirm.model_account_payment

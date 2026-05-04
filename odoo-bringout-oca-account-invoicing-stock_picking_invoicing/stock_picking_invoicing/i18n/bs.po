@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: stock_picking_invoicing
 #. odoo-python
-#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py
+#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
 #, python-format
 msgid "All pickings are not related to your company!"
 msgstr "Nisu sva skladišna kretanja iz vaše Tvrtke!"
@@ -55,7 +55,7 @@ msgstr "Kreiraj nacrt računa"
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "Create Invoice"
-msgstr "Kreiraj račun"
+msgstr "Kreiraj fakturu"
 
 # taken from hr.po
 #. module: stock_picking_invoicing
@@ -143,13 +143,13 @@ msgstr ""
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_return_picking__invoice_state
 msgid "Invoicing"
-msgstr "Računovodstvo"
+msgstr "Fakturisanje"
 
 # taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_account_move
 msgid "Journal Entry"
-msgstr "Zapis dnevnika"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: stock_picking_invoicing
@@ -161,13 +161,13 @@ msgstr "Tip dnevnika"
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__write_date
@@ -177,7 +177,7 @@ msgstr "Zadnje ažurirano"
 # taken from hr.po
 #. module: stock_picking_invoicing
 #. odoo-python
-#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py
+#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
 #, python-format
 msgid "No invoice created!"
 msgstr "Račun nije kreiran!"
@@ -223,7 +223,7 @@ msgstr "Izbor to Invoice"
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__purchase_journal
 msgid "Purchase Journal"
-msgstr "Purchase Journal"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_stock_return_picking
@@ -233,37 +233,37 @@ msgstr "Prikupljanje proizvoda povrata"
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__sale_journal
 msgid "Sale Journal"
-msgstr "Sale Journal"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "Set to Not Billable"
-msgstr "Set to Not Billable"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "Set to as invoiced"
-msgstr "Set to as invoiced"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "Set to be invoiced"
-msgstr "Set to be invoiced"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_invoicing_internal_search
 msgid "Shipments to Invoice"
-msgstr "Shipments to Invoice"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__show_purchase_journal
 msgid "Show Purchase Journal"
-msgstr "Show Purchase Journal"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__show_sale_journal
 msgid "Show Sale Journal"
-msgstr "Show Sale Journal"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_stock_invoice_onshipping
@@ -288,7 +288,7 @@ msgstr "Skladišno pravilo"
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_state_mixin__invoice_state__2binvoiced
 msgid "To Be Invoiced"
-msgstr "To Be Invoiced"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.stock_picking_type_kanban
@@ -298,7 +298,7 @@ msgstr "Za fakturisanje"
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_return_picking__invoice_state__2binvoiced
 msgid "To be refunded/invoiced"
-msgstr "To be refunded/invoiced"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_stock_picking

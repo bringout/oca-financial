@@ -132,7 +132,7 @@ msgstr "Kompanija"
 #. module: account_chart_update
 #: model:ir.model.fields.selection,name:account_chart_update.selection__wizard_update_charts_accounts__state__init
 msgid "Configuration"
-msgstr "Postavke"
+msgstr "Konfiguracija"
 
 # taken from hr.po
 #. module: account_chart_update
@@ -149,7 +149,7 @@ msgstr "Kreiraj/Ažuriraj"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Created account %s."
 msgstr "Kreoran konto %s."
@@ -163,7 +163,7 @@ msgstr "Kreirao"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Created fiscal position %s."
 msgstr "Kreirana fiskalna pozicija %s."
@@ -177,7 +177,7 @@ msgstr "Kreirano"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Created tax %s."
 msgstr "Kreiran porez %s."
@@ -185,7 +185,7 @@ msgstr "Kreiran porez %s."
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Deactivated tax %s."
 msgstr "Porez %s deaktiviran."
@@ -210,7 +210,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Differences in these fields: %s."
 msgstr "Poteškoće sa sljedećim poljima: %s."
@@ -219,12 +219,12 @@ msgstr "Poteškoće sa sljedećim poljima: %s."
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_account_group_matching__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Exception creating account %s."
 msgstr "Iznimka pri kreiranju konta %s."
@@ -232,7 +232,7 @@ msgstr "Iznimka pri kreiranju konta %s."
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Exception writing account %s."
 msgstr "Iznimka pri zapisivanju izmjena na konto %s."
@@ -393,7 +393,7 @@ msgstr "Jezik"
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_account_group_matching____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: account_chart_update
@@ -433,7 +433,7 @@ msgstr "Poruke i greške"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Missing XML-ID."
 msgstr "Nedostaje XML-ID."
@@ -441,7 +441,7 @@ msgstr "Nedostaje XML-ID."
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Name or description not found."
 msgstr "Ime ili opis nisu pronađeni."
@@ -484,7 +484,7 @@ msgstr "Sljedeći"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "No account found with this code."
 msgstr "Nije pronađen konto sa ovom šifrom."
@@ -492,7 +492,7 @@ msgstr "Nije pronađen konto sa ovom šifrom."
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "No fiscal position found with this name."
 msgstr "Nije pronađena fiskalna pozicija ovog imena."
@@ -500,7 +500,7 @@ msgstr "Nije pronađena fiskalna pozicija ovog imena."
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "No real account found for template account with ID %s"
 msgstr "Nije pronađen konto za predložak konta sa ID %s"
@@ -526,7 +526,7 @@ msgstr "Bilješke"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid ""
 "One or more errors detected!\n"
@@ -546,7 +546,7 @@ msgstr "Ostale opcije"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Post-updated account fields for taxes with IDs %s."
 msgstr "Naknadno ažurirana polja konta za poreze sa ID %s."
@@ -591,12 +591,12 @@ msgstr "Odaberi zapise za ažuriranje"
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_account_group_matching__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts__state
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 # taken from hr.po
 #. module: account_chart_update
@@ -625,7 +625,7 @@ msgstr "Polja poreza"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Tax is disabled."
 msgstr "Porez je onemogućen."
@@ -681,7 +681,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "To deactivate: not in the template"
 msgstr "Za deaktivirati: nije u predlošku"
@@ -690,7 +690,7 @@ msgstr "Za deaktivirati: nije u predlošku"
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_account__type
 msgid "Type"
-msgstr "Vrsta"
+msgstr "Tip"
 
 # taken from hr.po
 #. module: account_chart_update
@@ -795,7 +795,7 @@ msgstr "Ažuriranih poreza"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Updated account %s."
 msgstr "Ažuriran konto %s."
@@ -803,21 +803,21 @@ msgstr "Ažuriran konto %s."
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Updated account %s. (Recreated XML-ID)"
 msgstr "Ažuriran konto %s. (XML-ID ponovo kreiran)"
 
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Updated account group %s."
 msgstr "Ažurirana grupa računa %s."
 
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Updated account group %s. (Recreated XML-ID)"
 msgstr "Ažurirana grupa računa %s. (Recreiran XML-ID)"
@@ -825,7 +825,7 @@ msgstr "Ažurirana grupa računa %s. (Recreiran XML-ID)"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Updated fiscal position %s."
 msgstr "Ažurirana fiskalna pozicija %s."
@@ -833,7 +833,7 @@ msgstr "Ažurirana fiskalna pozicija %s."
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Updated fiscal position %s. (Recreated XML-ID)"
 msgstr "Ažurirana fiskalna pozicija %s. (Ponovo kreiran XML-ID)"
@@ -847,7 +847,7 @@ msgstr "Ažurirane fiskalne pozicije"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Updated tax %s."
 msgstr "Ažuriran porez %s."
@@ -855,7 +855,7 @@ msgstr "Ažuriran porez %s."
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "Updated tax %s. (Recreated XML-IDs)"
 msgstr "Ažuriran porez %s. (Ponovo kreiran XML-ID)"
@@ -910,7 +910,7 @@ msgstr "Čarobnjak završio"
 # taken from hr.po
 #. module: account_chart_update
 #. odoo-python
-#: code:addons/account_chart_update/wizard/wizard_chart_update.py
+#: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid ""
 "You have at least one parent tax template (%s) whose children taxes are not "

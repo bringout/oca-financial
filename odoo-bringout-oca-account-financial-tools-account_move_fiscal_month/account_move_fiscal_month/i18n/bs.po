@@ -29,4 +29,4 @@ msgstr "Stavka dnevnika"
 #. module: account_move_fiscal_month
 #: model:ir.model,name:account_move_fiscal_month.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka dnevnika"
+msgstr "Stavka žurnala"

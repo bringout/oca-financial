@@ -31,7 +31,7 @@ msgstr "Kreirano"
 #. module: account_journal_lock_date
 #: model:ir.model.fields,field_description:account_journal_lock_date.field_update_journal_lock_dates_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_journal_lock_date
 #: model:ir.model.fields,field_description:account_journal_lock_date.field_update_journal_lock_dates_wizard__id
@@ -48,12 +48,12 @@ msgstr "Dnevnik"
 #. module: account_journal_lock_date
 #: model:ir.model,name:account_journal_lock_date.model_account_move
 msgid "Journal Entry"
-msgstr "Temeljnica"
+msgstr "Stavka dnevnika"
 
 #. module: account_journal_lock_date
 #: model:ir.model.fields,field_description:account_journal_lock_date.field_update_journal_lock_dates_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_journal_lock_date
 #: model:ir.model.fields,field_description:account_journal_lock_date.field_update_journal_lock_dates_wizard__write_uid
@@ -115,7 +115,7 @@ msgstr "Ažuriraj datume zaključavanja dnevnika"
 
 #. module: account_journal_lock_date
 #. odoo-python
-#: code:addons/account_journal_lock_date/wizards/update_journal_lock_dates.py
+#: code:addons/account_journal_lock_date/wizards/update_journal_lock_dates.py:0
 #, python-format
 msgid "You are not allowed to execute this action."
 msgstr "Nije vam odobreno izvršiti ovu radnju."
@@ -123,7 +123,7 @@ msgstr "Nije vam odobreno izvršiti ovu radnju."
 # taken from hr.po
 #. module: account_journal_lock_date
 #. odoo-python
-#: code:addons/account_journal_lock_date/models/account_move.py
+#: code:addons/account_journal_lock_date/models/account_move.py:0
 #, python-format
 msgid ""
 "You cannot add/modify entries for the journal '%(journal)s' prior to and "
@@ -135,7 +135,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_journal_lock_date
 #. odoo-python
-#: code:addons/account_journal_lock_date/models/account_move.py
+#: code:addons/account_journal_lock_date/models/account_move.py:0
 #, python-format
 msgid ""
 "You cannot add/modify entries for the journal '%(journal)s' prior to and "

@@ -21,4 +21,4 @@ msgstr "Obrnuto knjiženje"
 #. module: sale_line_refund_to_invoice_qty_skip_anglo_saxon
 #: model:ir.model.fields,field_description:sale_line_refund_to_invoice_qty_skip_anglo_saxon.field_account_move_reversal__editable_sale_qty_to_reinvoice
 msgid "Editable sale qty to reinvoice"
-msgstr "Editable sale qty to reinvoice"
+msgstr ""

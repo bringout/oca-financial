@@ -21,7 +21,7 @@ msgstr "Predložak kontnog plana"
 #. module: account_fiscal_position_type
 #: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position__type_position_use__all
 msgid "All"
-msgstr "Sve"
+msgstr "Svi"
 
 #. module: account_fiscal_position_type
 #: model:ir.model,name:account_fiscal_position_type.model_account_fiscal_position
@@ -41,7 +41,7 @@ msgstr ""
 #. module: account_fiscal_position_type
 #: model:ir.model,name:account_fiscal_position_type.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_fiscal_position_type
 #: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_fiscal_position__type_position_use

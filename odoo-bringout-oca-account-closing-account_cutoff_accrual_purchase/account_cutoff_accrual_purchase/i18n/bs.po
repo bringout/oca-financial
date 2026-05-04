@@ -46,7 +46,7 @@ msgstr "Ne generiši zapise presjecanja"
 #. module: account_cutoff_accrual_purchase
 #: model:ir.model,name:account_cutoff_accrual_purchase.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_cutoff_accrual_purchase
 #: model:ir.actions.server,name:account_cutoff_accrual_purchase.ir_cron_cutoff_ir_actions_server
@@ -71,7 +71,7 @@ msgstr "Nalog za nabavu"
 #. module: account_cutoff_accrual_purchase
 #: model:ir.model,name:account_cutoff_accrual_purchase.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: account_cutoff_accrual_purchase
 #: model:ir.model.fields.selection,name:account_cutoff_accrual_purchase.selection__account_cutoff__order_line_model__purchase_order_line

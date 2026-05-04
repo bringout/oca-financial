@@ -32,7 +32,7 @@ msgstr ""
 #. module: account_avatax_sale_oca
 #: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__tax_amount
 msgid "AvaTax"
-msgstr "AvaTax"
+msgstr ""
 
 #. module: account_avatax_sale_oca
 #: model:ir.model,name:account_avatax_sale_oca.model_avalara_salestax
@@ -71,7 +71,7 @@ msgstr "Kontakt"
 
 #. module: account_avatax_sale_oca
 #. odoo-python
-#: code:addons/account_avatax_sale_oca/models/partner.py
+#: code:addons/account_avatax_sale_oca/models/partner.py:0
 #, python-format
 msgid ""
 "Enabling the exemption status for all states may have tax compliance risks, and should be carefully considered.\n"
@@ -115,7 +115,7 @@ msgstr "Prikazuje broj oslobođenja kupca"
 #. module: account_avatax_sale_oca
 #: model:ir.model,name:account_avatax_sale_oca.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_avatax_sale_oca
 #: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__location_code
@@ -135,12 +135,12 @@ msgstr "Preskoči linije poreza"
 #. module: account_avatax_sale_oca
 #: model:ir.model,name:account_avatax_sale_oca.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: account_avatax_sale_oca
 #: model:ir.model,name:account_avatax_sale_oca.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: account_avatax_sale_oca
 #: model:ir.model,name:account_avatax_sale_oca.model_account_tax
@@ -154,7 +154,7 @@ msgstr "Poreska adresa"
 
 #. module: account_avatax_sale_oca
 #. odoo-python
-#: code:addons/account_avatax_sale_oca/models/partner.py
+#: code:addons/account_avatax_sale_oca/models/partner.py:0
 #, python-format
 msgid "Tax Compliance Risk"
 msgstr "Rizik poreske usklađenosti"

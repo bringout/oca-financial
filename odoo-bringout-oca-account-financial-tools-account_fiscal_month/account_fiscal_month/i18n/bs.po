@@ -40,7 +40,7 @@ msgstr "Je fiskalni mjesec?"
 # taken from hr.po
 #. module: account_fiscal_month
 #. odoo-python
-#: code:addons/account_fiscal_month/models/date_range_type.py
+#: code:addons/account_fiscal_month/models/date_range_type.py:0
 #, python-format
 msgid "You can't delete date range type: Fiscal month"
 msgstr "Nije moguće brisanje raspona tipa \"Fiskalni mjesec\""

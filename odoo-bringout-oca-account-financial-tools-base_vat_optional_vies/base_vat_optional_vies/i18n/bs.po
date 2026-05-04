@@ -49,9 +49,8 @@ msgstr "VIES Provjera"
 
 #. module: base_vat_optional_vies
 #. odoo-python
-#: code:addons/base_vat_optional_vies/models/res_config_settings.py
+#: code:addons/base_vat_optional_vies/models/res_config_settings.py:0
 #, python-format
 msgid ""
 "Vies passed calculated in %(partners)d partners (%(failures)d failures)"
 msgstr ""
-"Vies passed calculated in %(partners)d partners (%(failures)d failures)"

@@ -32,7 +32,7 @@ msgstr ""
 #. module: account_avatax_repair_oca
 #: model:ir.model.fields,field_description:account_avatax_repair_oca.field_repair_fee__tax_amt_avatax
 msgid "AvaTax"
-msgstr "AvaTax"
+msgstr ""
 
 #. module: account_avatax_repair_oca
 #: model:ir.model,name:account_avatax_repair_oca.model_avalara_salestax
@@ -71,7 +71,7 @@ msgstr "Kontakt"
 
 #. module: account_avatax_repair_oca
 #. odoo-python
-#: code:addons/account_avatax_repair_oca/models/partner.py
+#: code:addons/account_avatax_repair_oca/models/partner.py:0
 #, python-format
 msgid ""
 "Enabling the exemption status for all states may have tax compliance risks, and should be carefully considered.\n"
@@ -120,7 +120,7 @@ msgstr "Prikazuje broj oslobođenja kupca"
 #. module: account_avatax_repair_oca
 #: model:ir.model,name:account_avatax_repair_oca.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_avatax_repair_oca
 #: model:ir.model.fields,field_description:account_avatax_repair_oca.field_repair_order__location_code
@@ -159,7 +159,7 @@ msgstr "Poreska adresa"
 
 #. module: account_avatax_repair_oca
 #. odoo-python
-#: code:addons/account_avatax_repair_oca/models/partner.py
+#: code:addons/account_avatax_repair_oca/models/partner.py:0
 #, python-format
 msgid "Tax Compliance Risk"
 msgstr "Rizik poreske usklađenosti"

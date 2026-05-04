@@ -40,7 +40,7 @@ msgstr "<span class=\"o_stat_text\">Zajmovi</span>"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_increase_amount__account_id
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_generate_wizard__date
@@ -80,7 +80,7 @@ msgstr "Aktivnosti"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__activity_state
@@ -94,21 +94,21 @@ msgstr "Ikona tipa aktivnosti"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/wizards/account_loan_pay_amount.py
+#: code:addons/account_loan/wizards/account_loan_pay_amount.py:0
 #, python-format
 msgid "Amount cannot be bigger than debt"
 msgstr "Iznos ne može biti veći od duga"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/wizards/account_loan_increase_amount.py
+#: code:addons/account_loan/wizards/account_loan_increase_amount.py:0
 #, python-format
 msgid "Amount cannot be less than zero"
 msgstr "Iznos ne može biti manji od nule"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/models/account_loan_line.py
+#: code:addons/account_loan/models/account_loan_line.py:0
 #, python-format
 msgid "Amount cannot be recomputed if moves or invoices exists already"
 msgstr ""
@@ -236,13 +236,13 @@ msgstr "Datum kada će plaćanje biti obračunato"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: account_loan
 #: model:ir.model.fields.selection,name:account_loan.selection__account_loan__state__draft
 msgid "Draft"
-msgstr "U pripremi"
+msgstr "Nacrt"
 
 #. module: account_loan
 #: model:ir.model.fields.selection,name:account_loan.selection__account_loan__rate_type__ear
@@ -297,7 +297,7 @@ msgstr "Pratioci"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratioci (partneri)"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__activity_type_icon
@@ -352,17 +352,17 @@ msgstr "Ikona"
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ikona za prikaz iznimki."
+msgstr "Ikona za označavanje izuzetne aktivnosti."
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 #. module: account_loan
 #: model:ir.actions.act_window,name:account_loan.account_loan_increase_amount_act_window
@@ -402,7 +402,7 @@ msgstr "Fakture će biti knjižene automatski"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_is_follower
 msgid "Is Follower"
-msgstr "Pratilac"
+msgstr "Je pratilac"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__is_leasing
@@ -423,7 +423,7 @@ msgstr "Dnevnik"
 #. module: account_loan
 #: model:ir.model,name:account_loan.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__journal_type
@@ -434,7 +434,7 @@ msgstr "Tip dnevnika"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: account_loan
@@ -561,12 +561,12 @@ msgstr "Dugoročni račun"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Glavna zakačka"
+msgstr "Glavni prilog"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr "Greška dostave poruke"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__message_ids
@@ -586,7 +586,7 @@ msgstr "Metoda računanja anuitetnog perioda"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__move_ids
 msgid "Move"
-msgstr "Kretanje"
+msgstr "Knjiženje"
 
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_form
@@ -596,7 +596,7 @@ msgstr "Kretanja"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Rok za moju aktivnost"
+msgstr "Rok moje aktivnosti"
 
 # taken from hr.po
 #. module: account_loan
@@ -607,12 +607,12 @@ msgstr "Naziv"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Krajnji rok za sljedeću aktivnost"
+msgstr "Rok sljedeće aktivnosti"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__activity_summary
 msgid "Next Activity Summary"
-msgstr "Pregled sljedeće aktivnosti"
+msgstr "Sažetak sljedeće aktivnosti"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__activity_type_id
@@ -637,12 +637,12 @@ msgstr "Broj grešaka"
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju aktivnost"
+msgstr "Broj poruka koje zahtijevaju akciju"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr "Broj poruka sa greškom pri dostavi"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__periods
@@ -656,7 +656,7 @@ msgstr "Samo kamata"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/wizards/account_loan_post.py
+#: code:addons/account_loan/wizards/account_loan_post.py:0
 #, python-format
 msgid "Only loans in draft state can be posted"
 msgstr "Samo zajmovi u nacrt stanju mogu biti knjiženi"
@@ -814,7 +814,7 @@ msgstr "Pokrenut"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_line__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: account_loan
 #: model:ir.model.constraint,message:account_loan.constraint_account_loan_line_sequence_loan
@@ -828,42 +828,42 @@ msgstr "Kratkoročni račun"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/wizards/account_loan_increase_amount.py
+#: code:addons/account_loan/wizards/account_loan_increase_amount.py:0
 #, python-format
 msgid "Some future invoices already exists"
 msgstr "Neke buduće fakture već postoje"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/wizards/account_loan_increase_amount.py
+#: code:addons/account_loan/wizards/account_loan_increase_amount.py:0
 #, python-format
 msgid "Some future moves already exists"
 msgstr "Neki budući zapisi već postoje"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/wizards/account_loan_increase_amount.py
+#: code:addons/account_loan/wizards/account_loan_increase_amount.py:0
 #, python-format
 msgid "Some invoices are not created"
 msgstr "Neke fakture nisu kreirane"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/models/account_loan_line.py
+#: code:addons/account_loan/models/account_loan_line.py:0
 #, python-format
 msgid "Some invoices must be created first"
 msgstr "Neke fakture moraju biti kreirane prvo"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/wizards/account_loan_increase_amount.py
+#: code:addons/account_loan/wizards/account_loan_increase_amount.py:0
 #, python-format
 msgid "Some moves are not created"
 msgstr "Neki zapisi nisu kreirani"
 
 #. module: account_loan
 #. odoo-python
-#: code:addons/account_loan/models/account_loan_line.py
+#: code:addons/account_loan/models/account_loan_line.py:0
 #, python-format
 msgid "Some moves must be created first"
 msgstr "Neki zapisi moraju biti kreirani prvo"
@@ -871,7 +871,7 @@ msgstr "Neki zapisi moraju biti kreirani prvo"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__start_date
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__start_date
@@ -896,8 +896,8 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baziran na aktivnostima\n"
-"Zakašnjelo: Rok je već prošao\n"
+"Status na osnovu aktivnosti\n"
+"Isteklo: Rok je već prošao\n"
 "Danas: Datum aktivnosti je danas\n"
 "Planirano: Buduće aktivnosti."
 
@@ -929,7 +929,7 @@ msgstr "Ukupna plaćanja"
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Vrsta aktivnosti iznimke na zapisu."
+msgstr "Tip izuzetne aktivnosti na zapisu."
 
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_line_tree
@@ -939,12 +939,12 @@ msgstr "Vrijednosti"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Poruke web stranice"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije Web stranice"
+msgstr "Historija komunikacije web stranice"
 
 #. module: account_loan
 #: model:ir.model.fields,help:account_loan.field_account_loan__round_on_end

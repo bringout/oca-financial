@@ -21,7 +21,7 @@ msgstr "Žurnal (finansijski nalozi)"
 #. module: account_move_line_repair_info
 #: model:ir.model,name:account_move_line_repair_info.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_move_line_repair_info
 #: model:ir.model,name:account_move_line_repair_info.model_account_move_line

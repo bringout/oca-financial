@@ -100,4 +100,4 @@ msgstr "Mjesečno"
 #. module: partner_invoicing_mode_monthly
 #: model:ir.model,name:partner_invoicing_mode_monthly.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

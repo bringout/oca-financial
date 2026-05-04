@@ -16,4 +16,4 @@ msgstr ""
 #. module: product_analytic_sale
 #: model:ir.model,name:product_analytic_sale.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

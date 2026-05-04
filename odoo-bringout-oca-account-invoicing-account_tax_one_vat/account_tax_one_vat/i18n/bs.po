@@ -15,14 +15,12 @@ msgstr ""
 
 #. module: account_tax_one_vat
 #. odoo-python
-#: code:addons/account_tax_one_vat/models/account_move.py
+#: code:addons/account_tax_one_vat/models/account_move.py:0
 #, python-format
 msgid ""
 "%(message)s\n"
 "%(errors)s"
 msgstr ""
-"%(message)s\n"
-"%(errors)s"
 
 #. module: account_tax_one_vat
 #: model:ir.model,name:account_tax_one_vat.model_one_vat_mixin
@@ -47,7 +45,7 @@ msgstr "Postavke"
 
 #. module: account_tax_one_vat
 #. odoo-python
-#: code:addons/account_tax_one_vat/models/account_move.py
+#: code:addons/account_tax_one_vat/models/account_move.py:0
 #, python-format
 msgid "Invoice has a line %s with more than one vat tax"
 msgstr "Faktura ima liniju %s sa više od jednog PDV poreza"
@@ -60,7 +58,7 @@ msgstr "Je PDV porez"
 #. module: account_tax_one_vat
 #: model:ir.model,name:account_tax_one_vat.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_tax_one_vat
 #: model:ir.model,name:account_tax_one_vat.model_account_move_line
@@ -69,14 +67,14 @@ msgstr "Stavka žurnala"
 
 #. module: account_tax_one_vat
 #. odoo-python
-#: code:addons/account_tax_one_vat/models/one_vat_mixin.py
+#: code:addons/account_tax_one_vat/models/one_vat_mixin.py:0
 #, python-format
 msgid "More than one VAT tax selected!"
 msgstr "Više od jednog PDV poreza je odabrano!"
 
 #. module: account_tax_one_vat
 #. odoo-python
-#: code:addons/account_tax_one_vat/models/one_vat_mixin.py
+#: code:addons/account_tax_one_vat/models/one_vat_mixin.py:0
 #, python-format
 msgid "Multiple taxes of type VAT are selected. Only one is allowed."
 msgstr "Odabrano je više poreza tipa PDV. Dozvoljen je samo jedan."
@@ -89,7 +87,7 @@ msgstr "Samo jedan PDV porez"
 #. module: account_tax_one_vat
 #: model:ir.model,name:account_tax_one_vat.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: account_tax_one_vat
 #: model:ir.model,name:account_tax_one_vat.model_account_tax
@@ -118,7 +116,7 @@ msgstr "PDV porez"
 
 #. module: account_tax_one_vat
 #. odoo-python
-#: code:addons/account_tax_one_vat/models/one_vat_mixin.py
+#: code:addons/account_tax_one_vat/models/one_vat_mixin.py:0
 #, python-format
 msgid "You selected more than one tax of type VAT."
 msgstr "Odabrali ste više od jednog poreza tipa PDV."

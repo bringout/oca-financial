@@ -26,7 +26,7 @@ msgstr "Kompanije"
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__create_uid
@@ -41,12 +41,12 @@ msgstr "Kreirano"
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__date_to
 msgid "End Date"
-msgstr "Datum završetka"
+msgstr "Završni datum"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_res_company__fiscal_year_date_to
@@ -81,7 +81,7 @@ msgstr "ID"
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__write_uid
@@ -96,12 +96,12 @@ msgstr "Zadnje ažurirano"
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__date_from
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_res_company__fiscal_year_date_from
@@ -115,14 +115,14 @@ msgstr "Početni datum, uključen u fiskalnu godinu."
 
 #. module: account_fiscal_year
 #. odoo-python
-#: code:addons/account_fiscal_year/models/account_fiscal_year.py
+#: code:addons/account_fiscal_year/models/account_fiscal_year.py:0
 #, python-format
 msgid "The ending date must not be prior to the starting date."
 msgstr "Završni datum ne sme biti pre početnog datuma."
 
 #. module: account_fiscal_year
 #. odoo-python
-#: code:addons/account_fiscal_year/models/account_fiscal_year.py
+#: code:addons/account_fiscal_year/models/account_fiscal_year.py:0
 #, python-format
 msgid ""
 "This fiscal year '{fy}' overlaps with '{overlapping_fy}'.\n"

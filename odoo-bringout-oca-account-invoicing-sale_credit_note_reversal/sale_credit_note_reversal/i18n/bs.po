@@ -16,9 +16,9 @@ msgstr ""
 #. module: sale_credit_note_reversal
 #: model:ir.model,name:sale_credit_note_reversal.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: sale_credit_note_reversal
 #: model_terms:ir.ui.view,arch_db:sale_credit_note_reversal.view_order_form_revert_credit_note
 msgid "Revert Credit Note"
-msgstr "Revert Credit Note"
+msgstr ""

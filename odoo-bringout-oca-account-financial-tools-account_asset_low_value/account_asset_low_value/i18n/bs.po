@@ -53,7 +53,7 @@ msgstr "Otpiši sredstvo"
 
 #. module: account_asset_low_value
 #. odoo-python
-#: code:addons/account_asset_low_value/models/account_asset.py
+#: code:addons/account_asset_low_value/models/account_asset.py:0
 #, python-format
 msgid "Remove Low Value Asset"
 msgstr "Ukloni imovinu niske vrijednosti"

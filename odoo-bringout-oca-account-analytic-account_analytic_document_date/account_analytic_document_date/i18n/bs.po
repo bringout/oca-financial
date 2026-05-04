@@ -36,7 +36,7 @@ msgstr "Datum dokumenta"
 #. module: account_analytic_document_date
 #: model:ir.model,name:account_analytic_document_date.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_analytic_document_date
 #: model:ir.model,name:account_analytic_document_date.model_account_move_line

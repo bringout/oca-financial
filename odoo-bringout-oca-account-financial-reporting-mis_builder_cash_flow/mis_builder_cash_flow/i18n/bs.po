@@ -56,7 +56,7 @@ msgstr "+8s"
 #. module: mis_builder_cash_flow
 #: model:ir.model,name:mis_builder_cash_flow.model_account_account
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,help:mis_builder_cash_flow.field_mis_cash_flow__account_type
@@ -65,9 +65,6 @@ msgid ""
 "legal reports, and set the rules to close a fiscal year and generate opening"
 " entries."
 msgstr ""
-"Account Type is used for information purpose, to generate country-specific "
-"legal reports, and set the rules to close a fiscal year and generate opening"
-" entries."
 
 #. module: mis_builder_cash_flow
 #: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_balance
@@ -92,7 +89,7 @@ msgstr "Linija prognoze novčanog toka"
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__create_uid
@@ -127,7 +124,7 @@ msgstr "Duguje"
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields.selection,name:mis_builder_cash_flow.selection__mis_cash_flow__line_type__forecast_line
@@ -177,7 +174,7 @@ msgstr "LIKVIDNOST"
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__write_uid
@@ -212,7 +209,7 @@ msgstr "Broj poklapanja"
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: mis_builder_cash_flow
 #: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_out_total
@@ -256,7 +253,7 @@ msgstr "Status"
 
 #. module: mis_builder_cash_flow
 #. odoo-python
-#: code:addons/mis_builder_cash_flow/models/mis_cash_flow_forecast_line.py
+#: code:addons/mis_builder_cash_flow/models/mis_cash_flow_forecast_line.py:0
 #, python-format
 msgid "The Company and the Company of the Account must be the same."
 msgstr "Kompanija i kompanija računa moraju biti iste."

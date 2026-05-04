@@ -22,7 +22,7 @@ msgstr "Provjeri kronologiju"
 # taken from hr.po
 #. module: account_invoice_constraint_chronology
 #. odoo-python
-#: code:addons/account_invoice_constraint_chronology/model/account_move.py
+#: code:addons/account_invoice_constraint_chronology/model/account_move.py:0
 #, python-format
 msgid ""
 "Chronology conflict: A conflicting draft invoice dated before {date_invoice}"
@@ -34,7 +34,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_invoice_constraint_chronology
 #. odoo-python
-#: code:addons/account_invoice_constraint_chronology/model/account_move.py
+#: code:addons/account_invoice_constraint_chronology/model/account_move.py:0
 #, python-format
 msgid ""
 "Chronology conflict: A conflicting validated invoice dated after "
@@ -45,7 +45,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_invoice_constraint_chronology
 #. odoo-python
-#: code:addons/account_invoice_constraint_chronology/model/account_move.py
+#: code:addons/account_invoice_constraint_chronology/model/account_move.py:0
 #, python-format
 msgid ""
 "Chronology conflict: An invoice with a higher number {highest_name} dated "
@@ -56,7 +56,7 @@ msgstr ""
 
 #. module: account_invoice_constraint_chronology
 #. odoo-python
-#: code:addons/account_invoice_constraint_chronology/model/account_move.py
+#: code:addons/account_invoice_constraint_chronology/model/account_move.py:0
 #, python-format
 msgid ""
 "Chronology conflict: Invoice {name} cannot be {time} invoice {inv_name}."

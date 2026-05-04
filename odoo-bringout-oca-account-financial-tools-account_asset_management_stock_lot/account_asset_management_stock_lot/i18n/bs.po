@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_asset_management_stock_lot
 #. odoo-python
-#: code:addons/account_asset_management_stock_lot/models/account_asset.py
+#: code:addons/account_asset_management_stock_lot/models/account_asset.py:0
 #, python-format
 msgid "A serial number can't be linked to multiple assets"
 msgstr "Serijski broj ne može biti povezan sa više imovine"
@@ -38,4 +38,4 @@ msgstr "Lot/Serijski broj"
 #. module: account_asset_management_stock_lot
 #: model:ir.model.fields,field_description:account_asset_management_stock_lot.field_account_asset__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"

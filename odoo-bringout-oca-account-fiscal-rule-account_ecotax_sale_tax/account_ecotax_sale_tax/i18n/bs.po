@@ -26,4 +26,4 @@ msgstr "Ecotax jedinica"
 #. module: account_ecotax_sale_tax
 #: model:ir.model,name:account_ecotax_sale_tax.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

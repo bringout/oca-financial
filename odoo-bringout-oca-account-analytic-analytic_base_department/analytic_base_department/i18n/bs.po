@@ -31,7 +31,7 @@ msgstr "Analitički konto"
 #. module: analytic_base_department
 #: model:ir.model.fields,field_description:analytic_base_department.field_hr_department__analytic_account_ids
 msgid "Analytic Accounts"
-msgstr "Analitički računi"
+msgstr "Analitička konta"
 
 #. module: analytic_base_department
 #: model:ir.model,name:analytic_base_department.model_account_analytic_line

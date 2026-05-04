@@ -21,7 +21,7 @@ msgstr "Promena poreza za ovu kompaniju već postoji na ovaj datum."
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_tax_change__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: account_tax_change
 #: model:ir.model,name:account_tax_change.model_account_move_apply_tax_change
@@ -46,7 +46,7 @@ msgstr "Otkaži"
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change__create_uid
@@ -77,7 +77,7 @@ msgstr ""
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_tax_change_line__tax_src_id
@@ -97,7 +97,7 @@ msgstr "Fakture"
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_move_apply_tax_change__write_uid
@@ -117,7 +117,7 @@ msgstr "Mapiranje"
 #. module: account_tax_change
 #: model:ir.model.fields,field_description:account_tax_change.field_account_tax_change__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: account_tax_change
 #: model_terms:ir.ui.view,arch_db:account_tax_change.account_move_apply_tax_change_view_form
@@ -151,7 +151,7 @@ msgstr "Promene poreza"
 
 #. module: account_tax_change
 #. odoo-python
-#: code:addons/account_tax_change/models/account_tax_change.py
+#: code:addons/account_tax_change/models/account_tax_change.py:0
 #, python-format
 msgid "Taxes From/To have to share the same type."
 msgstr "Porezi Od/Za moraju imati isti tip."
@@ -163,7 +163,7 @@ msgstr "Na porez"
 
 #. module: account_tax_change
 #. odoo-python
-#: code:addons/account_tax_change/wizards/account_move_apply_tax_change.py
+#: code:addons/account_tax_change/wizards/account_move_apply_tax_change.py:0
 #, python-format
 msgid ""
 "Unable to update taxes on the following invoices:\n"

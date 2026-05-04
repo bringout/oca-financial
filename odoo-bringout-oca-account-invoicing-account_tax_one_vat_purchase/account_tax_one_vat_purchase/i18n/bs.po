@@ -16,4 +16,4 @@ msgstr ""
 #. module: account_tax_one_vat_purchase
 #: model:ir.model,name:account_tax_one_vat_purchase.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"

@@ -15,14 +15,14 @@ msgstr ""
 
 #. module: account_invoice_check_picking_date
 #. odoo-python
-#: code:addons/account_invoice_check_picking_date/wizards/invoice_stock_picking_date_wiz.py
+#: code:addons/account_invoice_check_picking_date/wizards/invoice_stock_picking_date_wiz.py:0
 #, python-format
 msgid "Accounting date does not match with stock move dates"
 msgstr "Računovodstveni datum se ne poklapa sa datumima knjiženja zaliha"
 
 #. module: account_invoice_check_picking_date
 #. odoo-python
-#: code:addons/account_invoice_check_picking_date/models/account_move.py
+#: code:addons/account_invoice_check_picking_date/models/account_move.py:0
 #, python-format
 msgid ""
 "Accounting date: %(accounting_date)s\n"
@@ -63,7 +63,7 @@ msgstr "Datumi se ne poklapaju"
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__exception_msg
@@ -88,12 +88,12 @@ msgstr "Čarobnjak provere datuma fakture i isporuke"
 #. module: account_invoice_check_picking_date
 #: model:ir.model,name:account_invoice_check_picking_date.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__write_uid

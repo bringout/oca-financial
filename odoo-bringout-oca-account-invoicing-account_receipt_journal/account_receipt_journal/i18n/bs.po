@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_journal.py
+#: code:addons/account_receipt_journal/models/account_journal.py:0
 #, python-format
 msgid "Create receipt"
 msgstr "Kreiraj primitak"
@@ -52,19 +52,19 @@ msgstr "Stavka dnevnika"
 # taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_move.py
+#: code:addons/account_receipt_journal/models/account_move.py:0
 #, python-format
 msgid ""
 "Purchase Receipt must use a Receipt Journal because there is already a "
 "Receipt Journal for Purchases"
 msgstr ""
 "Primitak u nabavi mora koristiti Dnevnik primitaka jer već postoji Dnevnik "
-"primitaka za nabavu"
+"primitaka za nabavku"
 
 # taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_move.py
+#: code:addons/account_receipt_journal/models/account_move.py:0
 #, python-format
 msgid "Receipt Journal is restricted to Receipts"
 msgstr "Dnevnik primitaka je ograničen za primitke"
@@ -78,7 +78,7 @@ msgstr "Primitci"
 # taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_move.py
+#: code:addons/account_receipt_journal/models/account_move.py:0
 #, python-format
 msgid ""
 "Sale Receipt must use a Receipt Journal because there is already a Receipt "
@@ -90,7 +90,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_receipt_journal
 #. odoo-python
-#: code:addons/account_receipt_journal/models/account_journal.py
+#: code:addons/account_receipt_journal/models/account_journal.py:0
 #, python-format
 msgid ""
 "The sequence of the journal '%s' must be higher than the sequence of the "

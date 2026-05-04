@@ -21,4 +21,4 @@ msgstr "Ne generiši zapise presjecanja"
 #. module: account_cutoff_accrual_sale_stock
 #: model:ir.model,name:account_cutoff_accrual_sale_stock.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

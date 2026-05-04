@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_invoice_refund_reinvoice
 #: model:ir.model,name:account_invoice_refund_reinvoice.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_refund_reinvoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_reinvoice.account_move_form_view
@@ -25,7 +25,7 @@ msgstr "Obnovi odobrenje"
 
 #. module: account_invoice_refund_reinvoice
 #. odoo-python
-#: code:addons/account_invoice_refund_reinvoice/models/account_move.py
+#: code:addons/account_invoice_refund_reinvoice/models/account_move.py:0
 #, python-format
 msgid "Reversal of: %s"
 msgstr "Storniranje od: %s"

@@ -41,7 +41,7 @@ msgstr "Kreirano"
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date__id
@@ -52,7 +52,7 @@ msgstr "ID"
 #. module: account_lock_date_update
 #: model:ir.model.fields,field_description:account_lock_date_update.field_account_update_lock_date____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: account_lock_date_update
@@ -136,7 +136,7 @@ msgstr "Čarobnjak za ažuriranje datuma zaključavanja računovodstva"
 # taken from hr.po
 #. module: account_lock_date_update
 #. odoo-python
-#: code:addons/account_lock_date_update/wizards/account_update_lock_date.py
+#: code:addons/account_lock_date_update/wizards/account_update_lock_date.py:0
 #, python-format
 msgid "You are not allowed to execute this action."
 msgstr "Nije vam odobreno izvršiti ovu radnju."

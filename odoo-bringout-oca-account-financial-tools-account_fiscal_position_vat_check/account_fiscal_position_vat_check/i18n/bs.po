@@ -40,7 +40,7 @@ msgstr "Prikaži upozorenje za Obavezni porezni broj"
 # taken from hr.po
 #. module: account_fiscal_position_vat_check
 #. odoo-python
-#: code:addons/account_fiscal_position_vat_check/models/account_move.py
+#: code:addons/account_fiscal_position_vat_check/models/account_move.py:0
 #, python-format
 msgid ""
 "You are trying to validate a customer invoice/refund with the fiscal "

@@ -21,12 +21,12 @@ msgstr "Uključena ekonaknada"
 #. module: account_ecotax_sale
 #: model:ir.model,name:account_ecotax_sale.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: account_ecotax_sale
 #: model:ir.model,name:account_ecotax_sale.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Red prodajnog naloga"
+msgstr "Stavka narudžbe"
 
 #. module: l10n_fr_ecotaxe_sale
 #: model:ir.model.fields,field_description:l10n_fr_ecotaxe_sale.field_sale_order_line__subtotal_ecotaxe
@@ -143,7 +143,7 @@ msgstr "Zadnja izmjena"
 #. module: account_ecotax_sale
 #: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: account_ecotax_sale
 #: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__write_date
@@ -183,7 +183,7 @@ msgstr "Naziv sekcije (npr. Proizvodi, Usluge)"
 #. module: account_ecotax_sale
 #: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
 msgid "Subtotal"
-msgstr "Međuzbir"
+msgstr "Podzbroj"
 
 #. module: account_ecotax_sale
 #: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form

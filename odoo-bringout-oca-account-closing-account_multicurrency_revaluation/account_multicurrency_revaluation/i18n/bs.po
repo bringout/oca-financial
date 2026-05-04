@@ -137,7 +137,7 @@ msgstr ""
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_account_account
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 # taken from hr.po
 #. module: account_multicurrency_revaluation
@@ -230,7 +230,7 @@ msgstr "Tvrtke"
 #. module: account_multicurrency_revaluation
 #: model_terms:ir.ui.view,arch_db:account_multicurrency_revaluation.curr_unrealized_report
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: account_multicurrency_revaluation
@@ -247,7 +247,7 @@ msgstr "Konfiguracijske postavke"
 # taken from hr.po
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
 #, python-format
 msgid "Created Revaluation Lines"
 msgstr "Stvorene stavke reevaluacije"
@@ -322,12 +322,12 @@ msgstr "Datum koji će biti dodijeljen reverznim unosima kreiranim."
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__end_date
 msgid "End Date"
-msgstr "Datum završetka"
+msgstr "Završni datum"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_reverse_currency_revaluation__entries_to_reverse_ids
@@ -359,23 +359,23 @@ msgstr ""
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__journal_id
 msgid "Journal"
-msgstr "Vrsta naloga"
+msgstr "Dnevnik"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: account_multicurrency_revaluation
 #: model:ir.model,name:account_multicurrency_revaluation.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka dnevnika"
+msgstr "Stavka žurnala"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__write_uid
@@ -394,14 +394,14 @@ msgstr "Multivalutna revalorizacija"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
 #, python-format
 msgid "N/A"
 msgstr "N/D"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
 #, python-format
 msgid ""
 "No account to be revaluated found. Please check 'Allow Currency Revaluation'"
@@ -412,14 +412,14 @@ msgstr ""
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
 #, python-format
 msgid "No accounting entry has been posted."
 msgstr "Nijedna računovodstvena stavka nije knjižena."
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_currency_revaluation.py:0
 #, python-format
 msgid ""
 "No revaluation or provision account are defined for your company.\n"
@@ -451,7 +451,7 @@ msgstr "Partner"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/print_currency_unrealized_report.py
+#: code:addons/account_multicurrency_revaluation/wizard/print_currency_unrealized_report.py:0
 #, python-format
 msgid "Please, select the accounts!"
 msgstr "Molimo, odaberite račune!"
@@ -593,7 +593,7 @@ msgstr "Računovodstveni datum reverznih unosa"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/wizard_reverse_currency_revaluation.py
+#: code:addons/account_multicurrency_revaluation/wizard/wizard_reverse_currency_revaluation.py:0
 #, python-format
 msgid "Reverse Revaluation Entries"
 msgstr "Storniraj unose revalorizacije"
@@ -601,7 +601,7 @@ msgstr "Storniraj unose revalorizacije"
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_unrealized_report_printer__start_date
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: account_multicurrency_revaluation
 #: model:ir.model.fields,field_description:account_multicurrency_revaluation.field_wizard_currency_revaluation__start_date
@@ -610,7 +610,7 @@ msgstr "Početni period revalorizacije"
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/wizard/print_currency_unrealized_report.py
+#: code:addons/account_multicurrency_revaluation/wizard/print_currency_unrealized_report.py:0
 #, python-format
 msgid "The Start Date cannot be higher than the End Date."
 msgstr "Početni datum ne može biti veći od krajnjeg datuma."
@@ -637,7 +637,7 @@ msgstr "Revalorizirani unosi koji će biti stornorani."
 
 #. module: account_multicurrency_revaluation
 #. odoo-python
-#: code:addons/account_multicurrency_revaluation/model/account.py
+#: code:addons/account_multicurrency_revaluation/model/account.py:0
 #, python-format
 msgid ""
 "There is an account that you are editing not having the Bring Balance Forward set, the currency revaluation cannot be applied on these accounts: \n"

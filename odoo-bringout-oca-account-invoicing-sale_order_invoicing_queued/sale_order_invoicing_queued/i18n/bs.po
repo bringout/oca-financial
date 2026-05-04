@@ -41,11 +41,11 @@ msgstr "Avansna faktura prodaje"
 #. module: sale_order_invoicing_queued
 #: model:ir.model,name:sale_order_invoicing_queued.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_invoicing_queued
 #. odoo-python
-#: code:addons/sale_order_invoicing_queued/wizards/sale_advance_payment_inv.py
+#: code:addons/sale_order_invoicing_queued/wizards/sale_advance_payment_inv.py:0
 #, python-format
 msgid ""
 "There's already an enqueued job for invoicing the sales order %s. Please "

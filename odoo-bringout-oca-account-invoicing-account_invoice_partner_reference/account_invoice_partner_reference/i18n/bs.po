@@ -21,4 +21,4 @@ msgstr "Referenca kupca"
 #. module: account_invoice_partner_reference
 #: model:ir.model,name:account_invoice_partner_reference.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"

@@ -130,7 +130,7 @@ msgstr "Kreirano"
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__id
@@ -145,7 +145,7 @@ msgstr "Faktura transakcija"
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_avatax_oca_log
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__write_uid

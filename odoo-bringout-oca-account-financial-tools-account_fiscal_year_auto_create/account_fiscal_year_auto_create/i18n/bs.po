@@ -22,7 +22,7 @@ msgstr "Automatski kreiraj nove fiskalne godine"
 # taken from hr.po
 #. module: account_fiscal_year_auto_create
 #. odoo-python
-#: code:addons/account_fiscal_year_auto_create/models/account_fiscal_year.py
+#: code:addons/account_fiscal_year_auto_create/models/account_fiscal_year.py:0
 #, python-format
 msgid "FY %(date_to)s - %(date_from)s"
 msgstr "FG %(date_to)s - %(date_from)s"

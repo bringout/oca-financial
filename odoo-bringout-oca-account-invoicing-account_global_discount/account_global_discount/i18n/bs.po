@@ -30,7 +30,7 @@ msgstr "<strong>Međuzbir bez popusta</strong>"
 #. module: account_global_discount
 #: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__account_id
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: account_global_discount
 #: model:ir.model.fields,field_description:account_global_discount.field_account_bank_statement_line__amount_untaxed_before_global_discounts
@@ -55,7 +55,7 @@ msgstr "Osnova pre popusta"
 #. module: account_global_discount
 #: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_global_discount
 #: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__create_uid
@@ -100,7 +100,7 @@ msgstr "Popusti..."
 #. module: account_global_discount
 #: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_global_discount
 #: model:ir.model,name:account_global_discount.model_global_discount
@@ -124,7 +124,7 @@ msgstr "ID"
 
 #. module: account_global_discount
 #. odoo-python
-#: code:addons/account_global_discount/models/account_move.py
+#: code:addons/account_global_discount/models/account_move.py:0
 #, python-format
 msgid "Incompatible taxes found for global discounts."
 msgstr "Pronađeni nekompatibilni porezi za globalne popuste."
@@ -157,7 +157,7 @@ msgstr "Statistika faktura"
 #. module: account_global_discount
 #: model:ir.model,name:account_global_discount.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_global_discount
 #: model:ir.model,name:account_global_discount.model_account_move_line
@@ -167,7 +167,7 @@ msgstr "Stavka žurnala"
 #. module: account_global_discount
 #: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_global_discount
 #: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__write_uid
@@ -196,7 +196,7 @@ msgstr "Iznos bez poreza pre popusta"
 
 #. module: account_global_discount
 #. odoo-python
-#: code:addons/account_global_discount/models/account_move.py
+#: code:addons/account_global_discount/models/account_move.py:0
 #, python-format
 msgid "With global discounts, taxes in lines are required."
 msgstr "Sa globalnim popustima, porezi u linijama su obavezni."

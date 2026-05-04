@@ -31,7 +31,7 @@ msgstr ""
 #. module: account_invoice_alternate_payer
 #: model:ir.model,name:account_invoice_alternate_payer.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_alternate_payer
 #: model:ir.model,name:account_invoice_alternate_payer.model_account_move_line
@@ -40,14 +40,14 @@ msgstr "Stavka žurnala"
 
 #. module: account_invoice_alternate_payer
 #. odoo-python
-#: code:addons/account_invoice_alternate_payer/models/account_move.py
+#: code:addons/account_invoice_alternate_payer/models/account_move.py:0
 #, python-format
 msgid "Outstanding credits"
 msgstr "Neplaćena potraživanja"
 
 #. module: account_invoice_alternate_payer
 #. odoo-python
-#: code:addons/account_invoice_alternate_payer/models/account_move.py
+#: code:addons/account_invoice_alternate_payer/models/account_move.py:0
 #, python-format
 msgid "Outstanding debits"
 msgstr "Neplaćena dugovanja"

@@ -31,7 +31,7 @@ msgstr "Kompanije"
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__create_uid
@@ -46,7 +46,7 @@ msgstr "Kreirano"
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__id
@@ -56,12 +56,12 @@ msgstr "ID"
 #. module: account_lock_to_date
 #: model:ir.model,name:account_lock_to_date.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_lock_to_date
 #: model:ir.model.fields,field_description:account_lock_to_date.field_account_update_lock_to_date__write_uid
@@ -125,7 +125,7 @@ msgstr ""
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py
+#: code:addons/account_lock_to_date/models/res_company.py:0
 #, python-format
 msgid "The lock date for advisors is irreversible and can't be removed."
 msgstr ""
@@ -133,7 +133,7 @@ msgstr ""
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py
+#: code:addons/account_lock_to_date/models/res_company.py:0
 #, python-format
 msgid ""
 "The new lock to date for advisors must be set after the previous lock to "
@@ -144,7 +144,7 @@ msgstr ""
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py
+#: code:addons/account_lock_to_date/models/res_company.py:0
 #, python-format
 msgid ""
 "There are still unposted entries in the period to date you want to lock. You"
@@ -165,14 +165,14 @@ msgstr "Ažuriraj datume zaključavanja računovodstva"
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/wizards/account_update_lock_to_date.py
+#: code:addons/account_lock_to_date/wizards/account_update_lock_to_date.py:0
 #, python-format
 msgid "You are not allowed to execute this action."
 msgstr "Nije vam odobreno izvršiti ovu radnju."
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/account_move.py
+#: code:addons/account_lock_to_date/models/account_move.py:0
 #, python-format
 msgid ""
 "You cannot add/modify entries after and inclusive of the lock to date %s"
@@ -182,7 +182,7 @@ msgstr ""
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/account_move.py
+#: code:addons/account_lock_to_date/models/account_move.py:0
 #, python-format
 msgid ""
 "You cannot add/modify entries after and inclusive of the lock to date %s. "
@@ -193,7 +193,7 @@ msgstr ""
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py
+#: code:addons/account_lock_to_date/models/res_company.py:0
 #, python-format
 msgid ""
 "You cannot define stricter conditions on advisors than on users. Please make"
@@ -205,7 +205,7 @@ msgstr ""
 
 #. module: account_lock_to_date
 #. odoo-python
-#: code:addons/account_lock_to_date/models/res_company.py
+#: code:addons/account_lock_to_date/models/res_company.py:0
 #, python-format
 msgid ""
 "You cannot lock a period that is not finished yet. Please make sure that the"

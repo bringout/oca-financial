@@ -76,7 +76,7 @@ msgstr "Shema naziva sekcije fakture"
 #. module: account_invoice_section_sale_order
 #: model:ir.model,name:account_invoice_section_sale_order.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_section_sale_order
 #: model:ir.model,name:account_invoice_section_sale_order.model_account_move_line
@@ -91,7 +91,7 @@ msgstr "Shema imenovanja"
 #. module: account_invoice_section_sale_order
 #: model:ir.model,name:account_invoice_section_sale_order.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: account_invoice_section_sale_order
 #: model:ir.model.fields,help:account_invoice_section_sale_order.field_res_company__invoice_section_name_scheme
@@ -106,7 +106,7 @@ msgstr ""
 
 #. module: account_invoice_section_sale_order
 #. odoo-python
-#: code:addons/account_invoice_section_sale_order/models/account_move.py
+#: code:addons/account_invoice_section_sale_order/models/account_move.py:0
 #, python-format
 msgid "Unrecognized invoice_section_grouping"
 msgstr "Neprepoznato grupiranje sekcije fakture"

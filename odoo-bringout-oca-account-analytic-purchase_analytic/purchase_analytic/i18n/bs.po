@@ -27,7 +27,7 @@ msgstr "Za fakturisanje"
 #. module: purchase_analytic
 #: model:ir.model.fields,field_description:purchase_analytic.field_purchase_order__analytic_account_ids
 msgid "Analytic Accounts"
-msgstr "Analitički računi"
+msgstr "Analitička konta"
 
 #. module: purchase_analytic
 #: model:ir.model.fields,field_description:purchase_analytic.field_purchase_order__analytic_distribution_search
@@ -74,4 +74,4 @@ msgstr "Posao"
 #. module: purchase_analytic
 #: model:ir.model,name:purchase_analytic.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavku"
+msgstr "Nalog za nabavu"

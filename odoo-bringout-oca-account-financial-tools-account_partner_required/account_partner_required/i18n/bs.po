@@ -17,7 +17,7 @@ msgstr ""
 #. module: account_partner_required
 #: model:ir.model,name:account_partner_required.model_account_account
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 # taken from hr.po
 #. module: account_partner_required
@@ -29,7 +29,7 @@ msgstr "Uvjek"
 #. module: account_partner_required
 #: model:ir.model,name:account_partner_required.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavke dnevnika"
+msgstr "Stavka žurnala"
 
 # taken from hr.po
 #. module: account_partner_required
@@ -51,7 +51,7 @@ msgstr "Pravila partnera"
 
 #. module: account_partner_required
 #. odoo-python
-#: code:addons/account_partner_required/models/account_move_line.py
+#: code:addons/account_partner_required/models/account_move_line.py:0
 #, python-format
 msgid ""
 "Partner policy is set to 'Always' on account '%(account)s' but the partner "
@@ -62,7 +62,7 @@ msgstr ""
 
 #. module: account_partner_required
 #. odoo-python
-#: code:addons/account_partner_required/models/account_move_line.py
+#: code:addons/account_partner_required/models/account_move_line.py:0
 #, python-format
 msgid ""
 "Partner policy is set to 'Never' on account '%(account)s' but the journal "

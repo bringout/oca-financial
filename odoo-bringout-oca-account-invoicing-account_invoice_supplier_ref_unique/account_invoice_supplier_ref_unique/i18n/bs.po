@@ -64,11 +64,11 @@ msgstr ""
 #. module: account_invoice_supplier_ref_unique
 #: model:ir.model,name:account_invoice_supplier_ref_unique.model_account_move
 msgid "Journal Entry"
-msgstr "Zapis dnevnika"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_supplier_ref_unique
 #. odoo-python
-#: code:addons/account_invoice_supplier_ref_unique/models/account_move.py
+#: code:addons/account_invoice_supplier_ref_unique/models/account_move.py:0
 #, python-format
 msgid ""
 "The invoice/refund with supplier invoice number %(number)s already exists in"

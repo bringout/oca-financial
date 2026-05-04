@@ -29,7 +29,7 @@ msgstr "Broj stavaka dnevnika"
 #. module: account_move_line_purchase_info
 #: model:ir.model,name:account_move_line_purchase_info.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka devnika"
+msgstr "Stavka žurnala"
 
 #. module: account_move_line_purchase_info
 #: model:ir.model.fields,field_description:account_move_line_purchase_info.field_account_move_line__oca_purchase_line_id
@@ -46,7 +46,7 @@ msgstr "Nalog za nabavu"
 #. module: account_move_line_purchase_info
 #: model:ir.model,name:account_move_line_purchase_info.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 # taken from hr.po
 #. module: account_move_line_purchase_info

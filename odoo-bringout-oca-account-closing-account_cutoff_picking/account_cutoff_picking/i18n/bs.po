@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid ""
 " • %(qty)s %(uom)s (picking %(picking)s transfered on %(date)s from "
@@ -46,7 +46,7 @@ msgstr "Postavke"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid ""
 "Missing expense account on product '%(product)s' or on its related product "
@@ -57,7 +57,7 @@ msgstr ""
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid ""
 "Missing income account on product '%(product)s' or on its related product "
@@ -68,49 +68,49 @@ msgstr ""
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid "Pre-cutoff delivered quantity details:"
 msgstr "Detalji pred-presjecanje isporučene količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid "Pre-cutoff delivered quantity minus invoiced quantity:"
 msgstr "Pred-presjecanje isporučene količine minus fakturisane količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid "Pre-cutoff delivered quantity:"
 msgstr "Pred-presjecanje isporučene količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid "Pre-cutoff invoiced quantity details:"
 msgstr "Detalji pred-presjecanje fakturisane količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid "Pre-cutoff invoiced quantity minus delivered quantity:"
 msgstr "Pred-presjecanje fakturisane količine minus isporučene količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid "Pre-cutoff invoiced quantity:"
 msgstr "Pred-presjecanje fakturisane količine:"
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid ""
 "Purchase order %(order)s confirmed on %(confirm_date)s\n"
@@ -121,7 +121,7 @@ msgstr ""
 
 #. module: account_cutoff_picking
 #. odoo-python
-#: code:addons/account_cutoff_picking/models/account_cutoff.py
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
 #, python-format
 msgid ""
 "Sale order %(order)s confirmed on %(confirm_date)s\n"

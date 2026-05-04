@@ -17,7 +17,7 @@ msgstr ""
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move_line__account_id
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping_template__dest_account
@@ -104,7 +104,7 @@ msgstr "Saldo"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__asset_cash
 msgid "Bank and Cash"
-msgstr "Banka i Blagajna"
+msgstr "Banka i gotovina"
 
 # taken from hr.po
 #. module: account_fiscal_year_closing
@@ -198,7 +198,7 @@ msgstr "Vrtse zatvaranja"
 # taken from hr.po
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
 #, python-format
 msgid "Code must be unique per fiscal year closing!"
 msgstr "Šifra mora biti jedinstvena za zatvaranje fiskale godine!"
@@ -207,7 +207,7 @@ msgstr "Šifra mora biti jedinstvena za zatvaranje fiskale godine!"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing_config__inverse
@@ -295,12 +295,12 @@ msgstr "Odredišni račun"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing__state__draft
 msgid "Draft"
-msgstr "U pripremi"
+msgstr "Nacrt"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__enabled
@@ -339,14 +339,14 @@ msgstr "Fiskalno zatvaranje"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
 #, python-format
 msgid "Fiscal closing move lines"
 msgstr "Linije knjiženja fiskalnog zatvaranja"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
 #, python-format
 msgid "Fiscal closing moves"
 msgstr "Knjiženja fiskalnog zatvaranja"
@@ -465,12 +465,12 @@ msgstr "Dnevnik"
 #. module: account_fiscal_year_closing
 #: model:ir.model,name:account_fiscal_year_closing.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__write_uid
@@ -495,7 +495,7 @@ msgstr "Dobit i gubitak"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__move_id
 msgid "Move"
-msgstr "Kretanje"
+msgstr "Knjiženje"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__date
@@ -520,11 +520,11 @@ msgstr "Konfiguracija knjiženja"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move_line__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
 #, python-format
 msgid "No destination account '%s' found."
 msgstr "Nije pronađen odredišni račun '%s'."
@@ -541,7 +541,7 @@ msgstr "Dugoročne obaveze"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_move.py
+#: code:addons/account_fiscal_year_closing/models/account_move.py:0
 #, python-format
 msgid "None"
 msgstr "Ništa"
@@ -553,7 +553,7 @@ msgstr "Vanbilansna evidencija"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
 #, python-format
 msgid "One or more draft moves found: \n"
 msgstr "Pronađeno jedno ili više knjiženja u nacrtu: \\ \n"
@@ -586,7 +586,7 @@ msgstr "Partner"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__liability_payable
 msgid "Payable"
-msgstr "Potražni saldo-konto"
+msgstr "Za naplatu"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing__state__posted
@@ -596,7 +596,7 @@ msgstr "Proknjižen"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__asset_prepayments
 msgid "Prepayments"
-msgstr "Avansne uplate"
+msgstr "Avansi"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing__state__calculated
@@ -611,7 +611,7 @@ msgstr "Ponovo izračunaj"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__asset_receivable
 msgid "Receivable"
-msgstr "Dugovni saldo-konto"
+msgstr "Kupci"
 
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move__ref
@@ -620,7 +620,7 @@ msgstr "Referenca"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
 #, python-format
 msgid "Result"
 msgstr "Rezultat"
@@ -628,12 +628,12 @@ msgstr "Rezultat"
 #. module: account_fiscal_year_closing
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: account_fiscal_year_closing
 #: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
 msgid "Show move lines"
-msgstr "Prikaži linije knjiženja"
+msgstr "Prikaži stavke knjiženja"
 
 #. module: account_fiscal_year_closing
 #: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
@@ -657,7 +657,7 @@ msgstr "Kontni plan za poduzeće (ukoliko postoji)"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
 #, python-format
 msgid ""
 "There should be only one fiscal year closing for that year and company!"
@@ -709,7 +709,7 @@ msgstr "Neusklađeno"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
 #, python-format
 msgid "Unbalanced journal entry found"
 msgstr "Pronađen nebalansiran zapis dnevnika"
@@ -736,7 +736,7 @@ msgstr "Godina"
 
 #. module: account_fiscal_year_closing
 #. odoo-python
-#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
 #, python-format
 msgid "You can't remove any closing that is not in draft or cancelled state."
 msgstr ""

@@ -60,7 +60,7 @@ msgstr "Imovina do"
 
 #. module: account_asset_transfer
 #. odoo-python
-#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py
+#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py:0
 #, python-format
 msgid "Asset Transfer Journal Entry"
 msgstr "Zapis dnevnika transfera imovine"
@@ -77,10 +77,10 @@ msgstr "Grupe osnovnih sredstava"
 
 #. module: account_asset_transfer
 #. odoo-python
-#: code:addons/account_asset_transfer/models/account_asset.py
+#: code:addons/account_asset_transfer/models/account_asset.py:0
 #, python-format
 msgid "Assets"
-msgstr "Osnovna sredstva"
+msgstr "Stalna sredstva"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__balance
@@ -105,7 +105,7 @@ msgstr "Otkaži"
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__create_uid
@@ -125,7 +125,7 @@ msgstr "Valuta"
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: account_asset_transfer
 #: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
@@ -160,7 +160,7 @@ msgstr "Je transfer"
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__write_uid
@@ -179,7 +179,7 @@ msgstr "Zabilješke"
 
 #. module: account_asset_transfer
 #. odoo-python
-#: code:addons/account_asset_transfer/models/account_asset.py
+#: code:addons/account_asset_transfer/models/account_asset.py:0
 #, python-format
 msgid "Only running assets without depreciation (AUC) can transfer"
 msgstr "Samo pokretna imovina bez amortizacije (AUC) može transfer"
@@ -220,7 +220,7 @@ msgstr "Na vrijednost"
 
 #. module: account_asset_transfer
 #. odoo-python
-#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py
+#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py:0
 #, python-format
 msgid "Total values of new assets must equal to source assets"
 msgstr ""
@@ -233,7 +233,7 @@ msgstr "Prijenos"
 
 #. module: account_asset_transfer
 #. odoo-python
-#: code:addons/account_asset_transfer/models/account_asset.py
+#: code:addons/account_asset_transfer/models/account_asset.py:0
 #, python-format
 msgid "Transfer AUC to Asset & Create Transfer Journal Entry"
 msgstr "Prenesi AUC na imovinu i kreiraj zapis dnevnika transfera"
@@ -280,7 +280,7 @@ msgstr "Cijena"
 
 #. module: account_asset_transfer
 #. odoo-python
-#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py
+#: code:addons/account_asset_transfer/wizard/account_asset_transfer.py:0
 #, python-format
 msgid "Value of new asset must greater than 0.0"
 msgstr "Vrijednost nove imovine mora biti veća od 0.0"

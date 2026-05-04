@@ -116,7 +116,7 @@ msgstr "Opis"
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: account_product_fiscal_classification
@@ -187,7 +187,7 @@ msgstr ""
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_rule.py
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_rule.py:0
 #, python-format
 msgid ""
 "Incorrect Fiscal Setting :\n"
@@ -206,7 +206,7 @@ msgstr ""
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: account_product_fiscal_classification
@@ -235,7 +235,7 @@ msgstr "Maknite proizvode u drugu fiskalnu klasifikaciju"
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 # taken from hr.po
 #. module: account_product_fiscal_classification
@@ -245,14 +245,14 @@ msgstr "Nova klasifikacija"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 #, python-format
 msgid "No Purchase Taxes"
 msgstr "Nema poreza nabavke"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 #, python-format
 msgid "No Sale Taxes"
 msgstr "Nema poreza prodaje"
@@ -260,7 +260,7 @@ msgstr "Nema poreza prodaje"
 # taken from hr.po
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 #, python-format
 msgid "No taxes"
 msgstr "Bez poreza"
@@ -274,7 +274,7 @@ msgstr "Stara klasifikacija"
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 # taken from hr.po
 #. module: account_product_fiscal_classification
@@ -290,7 +290,7 @@ msgstr "Količina proizvoda"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 #, python-format
 msgid "Purchase Tax: "
 msgstr "Porez nabavke: "
@@ -304,14 +304,14 @@ msgstr "Porezi nabave"
 # taken from hr.po
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 #, python-format
 msgid "Purchase Taxes: "
 msgstr "Porezi nabave: "
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 #, python-format
 msgid "Sale Tax: "
 msgstr "Porez prodaje: "
@@ -324,7 +324,7 @@ msgstr "Porezi prodaje"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 #, python-format
 msgid "Sale Taxes: "
 msgstr "Porezi prodaje: "
@@ -332,7 +332,7 @@ msgstr "Porezi prodaje: "
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,help:account_product_fiscal_classification.field_account_product_fiscal_classification__company_id
@@ -375,7 +375,7 @@ msgstr "Čarobnjak: Promjena fiskalne klasifikacije na proizvodu"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
-#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py
+#: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 #, python-format
 msgid ""
 "You cannot delete The Fiscal Classification '%(classification_name)s' "

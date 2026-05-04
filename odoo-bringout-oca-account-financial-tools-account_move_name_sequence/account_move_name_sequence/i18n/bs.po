@@ -88,7 +88,7 @@ msgstr "Broj"
 # taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py
+#: code:addons/account_move_name_sequence/models/account_journal.py:0
 #, python-format
 msgid ""
 "On journal '%s', the same sequence is used as Entry Sequence and Credit Note"
@@ -99,7 +99,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py
+#: code:addons/account_move_name_sequence/models/account_journal.py:0
 #, python-format
 msgid "Refund"
 msgstr "Storno/Odobrenje"
@@ -107,10 +107,10 @@ msgstr "Storno/Odobrenje"
 # taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py
+#: code:addons/account_move_name_sequence/models/account_journal.py:0
 #, python-format
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 # taken from hr.po
 #. module: account_move_name_sequence
@@ -127,7 +127,7 @@ msgstr "Prefiks sekvence"
 # taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py
+#: code:addons/account_move_name_sequence/models/account_journal.py:0
 #, python-format
 msgid ""
 "The company is not set on sequence '%(sequence)s' configured as credit note "
@@ -139,7 +139,7 @@ msgstr ""
 # taken from hr.po
 #. module: account_move_name_sequence
 #. odoo-python
-#: code:addons/account_move_name_sequence/models/account_journal.py
+#: code:addons/account_move_name_sequence/models/account_journal.py:0
 #, python-format
 msgid ""
 "The company is not set on sequence '%(sequence)s' configured on journal "

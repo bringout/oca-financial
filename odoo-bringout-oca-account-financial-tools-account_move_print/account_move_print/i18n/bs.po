@@ -46,7 +46,7 @@ msgstr "<strong>Referenca:</strong>"
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 # taken from hr.po
 #. module: account_move_print
@@ -58,13 +58,13 @@ msgstr "Iznos u valuti"
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Credit"
-msgstr "Potražno"
+msgstr "Potražuje"
 
 # taken from hr.po
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Debit"
-msgstr "Dugovno"
+msgstr "Duguje"
 
 # taken from hr.po
 #. module: account_move_print
@@ -76,7 +76,7 @@ msgstr "Stavke dnevnika"
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Label"
-msgstr "Labela"
+msgstr "Oznaka"
 
 # taken from hr.po
 #. module: account_move_print

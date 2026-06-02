@@ -17,7 +17,7 @@ msgstr ""
 #. module: account_fiscal_month
 #: model:ir.model,name:account_fiscal_month.model_res_company
 msgid "Companies"
-msgstr "Poduzeća"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: account_fiscal_month

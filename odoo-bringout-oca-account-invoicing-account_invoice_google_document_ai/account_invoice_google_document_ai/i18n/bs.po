@@ -64,7 +64,7 @@ msgstr "Kompanije"
 #. module: account_invoice_google_document_ai
 #: model:ir.model,name:account_invoice_google_document_ai.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: account_invoice_google_document_ai
 #: model:ir.model.fields.selection,name:account_invoice_google_document_ai.selection__res_company__ocr_google_enabled__no_send
@@ -84,7 +84,7 @@ msgstr "Europa"
 #. module: account_invoice_google_document_ai
 #: model:ir.model,name:account_invoice_google_document_ai.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_google_document_ai
 #: model_terms:ir.ui.view,arch_db:account_invoice_google_document_ai.res_config_settings_form_view

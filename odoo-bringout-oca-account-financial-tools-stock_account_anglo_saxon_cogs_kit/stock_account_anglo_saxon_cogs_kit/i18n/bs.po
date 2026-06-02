@@ -16,4 +16,4 @@ msgstr ""
 #. module: stock_account_anglo_saxon_cogs_kit
 #: model:ir.model,name:stock_account_anglo_saxon_cogs_kit.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"

@@ -88,7 +88,7 @@ msgstr "Popust 3 mora biti manji od 100%."
 #. module: account_invoice_triple_discount
 #: model:ir.model,name:account_invoice_triple_discount.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_triple_discount
 #: model:ir.model.fields,field_description:account_invoice_triple_discount.field_triple_discount_mixin__discount

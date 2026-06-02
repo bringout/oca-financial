@@ -29,7 +29,7 @@ msgstr "Prikaži popust"
 #. module: account_invoice_supplierinfo_update_discount
 #: model:ir.model,name:account_invoice_supplierinfo_update_discount.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: account_invoice_supplierinfo_update_discount

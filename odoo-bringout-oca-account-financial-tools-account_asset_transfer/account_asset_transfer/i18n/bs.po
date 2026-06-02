@@ -31,7 +31,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 #. module: account_asset_transfer
 #: model:ir.model,name:account_asset_transfer.model_account_asset
@@ -100,7 +100,7 @@ msgstr "Može se prenijeti"
 #. module: account_asset_transfer
 #: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__company_id
@@ -125,7 +125,7 @@ msgstr "Valuta"
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_asset_transfer
 #: model_terms:ir.ui.view,arch_db:account_asset_transfer.account_asset_transfer_view_form
@@ -160,22 +160,22 @@ msgstr "Je transfer"
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_asset_transfer
 #: model:ir.model.fields,field_description:account_asset_transfer.field_account_asset_transfer__note
 msgid "Notes"
-msgstr "Zabilješke"
+msgstr "Napomene"
 
 #. module: account_asset_transfer
 #. odoo-python

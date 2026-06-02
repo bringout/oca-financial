@@ -21,4 +21,4 @@ msgstr "Broj čeka"
 #. module: account_move_line_check_number
 #: model:ir.model,name:account_move_line_check_number.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"

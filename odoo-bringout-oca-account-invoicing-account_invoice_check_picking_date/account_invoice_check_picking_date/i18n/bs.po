@@ -38,7 +38,7 @@ msgstr ""
 #. module: account_invoice_check_picking_date
 #: model_terms:ir.ui.view,arch_db:account_invoice_check_picking_date.invoice_stock_picking_date_wizard
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_invoice_check_picking_date
 #: model_terms:ir.ui.view,arch_db:account_invoice_check_picking_date.invoice_stock_picking_date_wizard
@@ -63,7 +63,7 @@ msgstr "Datumi se ne poklapaju"
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__exception_msg
@@ -88,19 +88,19 @@ msgstr "Čarobnjak provere datuma fakture i isporuke"
 #. module: account_invoice_check_picking_date
 #: model:ir.model,name:account_invoice_check_picking_date.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: account_invoice_check_picking_date
 #: model:ir.model.fields,field_description:account_invoice_check_picking_date.field_invoice_picking_date_check_wiz__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"

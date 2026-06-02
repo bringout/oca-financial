@@ -21,7 +21,7 @@ msgstr "Iznos za Račun"
 #. module: account_sale_stock_report_non_billed
 #: model_terms:ir.ui.view,arch_db:account_sale_stock_report_non_billed.account_sale_stock_report_non_billed_wiz_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model,name:account_sale_stock_report_non_billed.model_res_company
@@ -31,7 +31,7 @@ msgstr "Kompanije"
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model,name:account_sale_stock_report_non_billed.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: account_sale_stock_report_non_billed
 #: model_terms:ir.ui.view,arch_db:account_sale_stock_report_non_billed.account_sale_stock_report_non_billed_wiz_form
@@ -70,7 +70,7 @@ msgstr ""
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_stock_move__date_done
@@ -90,22 +90,22 @@ msgstr "ID"
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model,name:account_sale_stock_report_non_billed.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.actions.act_window,name:account_sale_stock_report_non_billed.action_open_non_billed_stock_move

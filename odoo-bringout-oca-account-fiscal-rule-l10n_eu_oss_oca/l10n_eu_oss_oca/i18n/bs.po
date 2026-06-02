@@ -36,7 +36,7 @@ msgstr "Primjeni EU poreze u vezi OSS-a"
 #. module: l10n_eu_oss_oca
 #: model_terms:ir.ui.view,arch_db:l10n_eu_oss_oca.l10n_eu_oss_oca_wizard_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__company_id
@@ -66,7 +66,7 @@ msgstr "Kreirano"
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__todo_country_ids
@@ -97,17 +97,17 @@ msgstr "Intra-EU B2C u %(country_name)s"
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: l10n_eu_oss_oca
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: l10n_eu_oss_oca
 #: code:addons/l10n_eu_oss/wizard/l10n_eu_oss_wizard.py:0

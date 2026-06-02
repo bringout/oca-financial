@@ -31,7 +31,7 @@ msgstr "Analitička konta"
 #. module: account_analytic_tag_distribution
 #: model:ir.model.fields,field_description:account_analytic_tag_distribution.field_account_analytic_tag__active_analytic_distribution
 msgid "Analytic Distribution"
-msgstr "Analitička distribucija"
+msgstr "Analitička raspodjela"
 
 #. module: account_analytic_tag_distribution
 #: model:ir.model.fields,field_description:account_analytic_tag_distribution.field_account_analytic_tag__analytic_distribution_search
@@ -41,7 +41,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: account_analytic_tag_distribution
 #: model:ir.model.fields,field_description:account_analytic_tag_distribution.field_account_analytic_tag__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 #. module: account_analytic_tag_distribution
 #: model:ir.model,name:account_analytic_tag_distribution.model_account_analytic_tag
@@ -76,7 +76,7 @@ msgstr ""
 #. module: account_analytic_tag_distribution
 #: model:ir.model,name:account_analytic_tag_distribution.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_analytic_tag_distribution
 #: model:ir.model.fields,field_description:account_analytic_tag_distribution.field_account_analytic_tag__manual_distribution_id

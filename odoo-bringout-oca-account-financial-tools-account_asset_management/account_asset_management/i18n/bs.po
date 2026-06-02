@@ -44,7 +44,7 @@ msgstr "<span class=\"o_stat_text\"> Sredstvo(a)</span>"
 #: code:addons/account_asset_management/report/account_asset_report_xls.py:0
 #, python-format
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -154,7 +154,7 @@ msgstr "Analitički podaci"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -346,7 +346,7 @@ msgstr "Obračunaj po danima"
 #. module: account_asset_management
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_compute_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -398,7 +398,7 @@ msgstr ""
 #. module: account_asset_management
 #: model:ir.model.fields.selection,name:account_asset_management.selection__account_asset__state__close
 msgid "Close"
-msgstr "Amortizovano"
+msgstr "Zatvori"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -416,7 +416,7 @@ msgstr "Kompanija"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__currency_id
 msgid "Company Currency"
-msgstr "Valuta preduzeća"
+msgstr "Valuta kompanije"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -665,7 +665,7 @@ msgstr "Naziv amortizacije"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -961,37 +961,37 @@ msgstr "Stavke dnevnika"
 #: code:addons/account_asset_management/models/account_asset_line.py:0
 #, python-format
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 # taken from hr.po
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: account_asset_management
 #: model:ir.actions.act_window,name:account_asset_management.act_entries_open
 msgid "Journal Items"
-msgstr "Knjiženja"
+msgstr "Stavke dnevnika"
 
 # taken from hr.po
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 # taken from hr.po
 #. module: account_asset_management
@@ -1113,7 +1113,7 @@ msgstr "Zabilješka"
 #. module: account_asset_management
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_remove__note
 msgid "Notes"
-msgstr "Zabilješke"
+msgstr "Napomene"
 
 # taken from hr.po
 #. module: account_asset_management

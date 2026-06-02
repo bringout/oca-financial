@@ -21,7 +21,7 @@ msgstr "Osnovna sredstva"
 #. module: account_asset_low_value
 #: model_terms:ir.ui.view,arch_db:account_asset_low_value.asset_low_value_remove_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_asset_low_value
 #: model:ir.model.fields,field_description:account_asset_low_value.field_account_asset__low_value

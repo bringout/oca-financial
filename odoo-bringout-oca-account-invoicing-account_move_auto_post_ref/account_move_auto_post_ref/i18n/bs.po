@@ -16,4 +16,4 @@ msgstr ""
 #. module: account_move_auto_post_ref
 #: model:ir.model,name:account_move_auto_post_ref.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"

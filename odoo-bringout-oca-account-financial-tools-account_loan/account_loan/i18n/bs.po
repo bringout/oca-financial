@@ -40,7 +40,7 @@ msgstr "<span class=\"o_stat_text\">Zajmovi</span>"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_increase_amount__account_id
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_generate_wizard__date
@@ -153,7 +153,7 @@ msgstr "Bankarske naknade"
 #. module: account_loan
 #: model_terms:ir.ui.view,arch_db:account_loan.account_loan_generate_wizard_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan_pay_amount__cancel_loan
@@ -236,7 +236,7 @@ msgstr "Datum kada će plaćanje biti obračunato"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 # taken from hr.po
 #. module: account_loan
@@ -423,7 +423,7 @@ msgstr "Dnevnik"
 #. module: account_loan
 #: model:ir.model,name:account_loan.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__journal_type
@@ -434,19 +434,19 @@ msgstr "Tip dnevnika"
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_loan
 #: model:ir.model.fields,field_description:account_loan.field_account_loan__leased_asset_account_id

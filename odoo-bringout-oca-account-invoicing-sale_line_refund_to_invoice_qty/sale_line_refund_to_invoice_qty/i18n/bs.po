@@ -21,12 +21,12 @@ msgstr "Obrnuto knjiženje"
 #. module: sale_line_refund_to_invoice_qty
 #: model:ir.model,name:sale_line_refund_to_invoice_qty.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: sale_line_refund_to_invoice_qty
 #: model:ir.model,name:sale_line_refund_to_invoice_qty.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: sale_line_refund_to_invoice_qty
 #: model:ir.model.fields,help:sale_line_refund_to_invoice_qty.field_account_move_line__sale_qty_to_reinvoice

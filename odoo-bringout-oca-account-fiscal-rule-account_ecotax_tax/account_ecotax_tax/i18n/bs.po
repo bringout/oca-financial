@@ -36,7 +36,7 @@ msgstr "Ecotax-i"
 #. module: account_ecotax_tax
 #: model:ir.model,name:account_ecotax_tax.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_ecotax_tax
 #: model:ir.model.fields,field_description:account_ecotax_tax.field_account_ecotax_classification__purchase_ecotax_ids

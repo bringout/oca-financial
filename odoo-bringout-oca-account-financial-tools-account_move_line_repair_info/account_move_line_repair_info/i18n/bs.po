@@ -21,12 +21,12 @@ msgstr "Žurnal (finansijski nalozi)"
 #. module: account_move_line_repair_info
 #: model:ir.model,name:account_move_line_repair_info.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_move_line_repair_info
 #: model:ir.model,name:account_move_line_repair_info.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_move_line_repair_info
 #: model:ir.model,name:account_move_line_repair_info.model_repair_order

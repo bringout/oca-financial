@@ -151,7 +151,7 @@ msgstr "Kreirano"
 #. module: account_avatax_exemption_base
 #: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_avatax_exemption_base
 #: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__state__done
@@ -301,17 +301,17 @@ msgstr "Je pratilac"
 #. module: account_avatax_exemption_base
 #: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: account_avatax_exemption_base
 #: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: account_avatax_exemption_base
 #: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_avatax_exemption_base
 #: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__linked_to_customer

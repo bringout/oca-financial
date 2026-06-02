@@ -21,7 +21,7 @@ msgstr "Dnevnik"
 #. module: account_invoice_refund_code
 #: model:ir.model,name:account_invoice_refund_code.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_refund_code
 #: model:ir.model.fields,field_description:account_invoice_refund_code.field_account_journal__refund_code

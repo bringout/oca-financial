@@ -50,7 +50,7 @@ msgstr "1250"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__account_id
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__opt_account_id
@@ -82,7 +82,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
@@ -93,7 +93,7 @@ msgstr "Arhivirano"
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_run_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 # taken from hr.po
 #. module: account_move_template
@@ -105,7 +105,7 @@ msgstr "Kompanija"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__company_currency_id
 msgid "Company Currency"
-msgstr "Valuta tvrtke"
+msgstr "Valuta kompanije"
 
 # taken from hr.po
 #. module: account_move_template
@@ -174,7 +174,7 @@ msgstr "Smjer"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 # taken from hr.po
 #. module: account_move_template
@@ -302,19 +302,19 @@ msgstr "Oznaka"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 # taken from hr.po
 #. module: account_move_template

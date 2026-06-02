@@ -21,7 +21,7 @@ msgstr "Kompanije"
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model,name:sale_order_invoicing_grouping_criteria.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model,name:sale_order_invoicing_grouping_criteria.model_res_partner
@@ -51,7 +51,7 @@ msgstr "Zadani kriterij grupiranja fakturisanja prodaje"
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,help:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__field_ids
@@ -93,17 +93,17 @@ msgstr "Kriterij grupiranja fakturisanja"
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: sale_order_invoicing_grouping_criteria
 #: model:ir.model.fields,field_description:sale_order_invoicing_grouping_criteria.field_sale_invoicing_grouping_criteria__name

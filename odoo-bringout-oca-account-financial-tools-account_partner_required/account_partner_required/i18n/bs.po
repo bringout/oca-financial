@@ -17,7 +17,7 @@ msgstr ""
 #. module: account_partner_required
 #: model:ir.model,name:account_partner_required.model_account_account
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 # taken from hr.po
 #. module: account_partner_required
@@ -29,7 +29,7 @@ msgstr "Uvjek"
 #. module: account_partner_required
 #: model:ir.model,name:account_partner_required.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: account_partner_required

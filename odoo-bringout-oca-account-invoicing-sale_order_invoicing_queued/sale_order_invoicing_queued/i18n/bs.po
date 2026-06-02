@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_order_invoicing_queued
 #: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_queue_job_sale_order_invoicing
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: sale_order_invoicing_queued
 #: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_sale_advance_payment_inv

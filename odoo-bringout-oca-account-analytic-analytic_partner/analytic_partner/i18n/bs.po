@@ -35,7 +35,7 @@ msgstr "Troškovi & Prihodi"
 #. module: analytic_partner
 #: model:ir.model,name:analytic_partner.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: analytic_partner

@@ -236,7 +236,7 @@ msgstr "Kalkuliraj porez pri spremanju"
 #. module: account_avatax_oca
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_address_validate
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__city
@@ -412,7 +412,7 @@ msgstr "Onemogućava mogućnost izvršavanja validacije adrese"
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__upc_enable
@@ -543,27 +543,27 @@ msgstr "Prikazuje broj oslobođenja kupca"
 #. module: account_avatax_oca
 #: model:ir.model,name:account_avatax_oca.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_avatax_oca
 #: model:ir.model,name:account_avatax_oca.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__date_validation
@@ -1027,7 +1027,7 @@ msgstr ""
 #. module: account_avatax_oca
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_partner_details_form_inherit1
 msgid "Validate"
-msgstr "Ovjeri"
+msgstr "Potvrdi"
 
 #. module: account_avatax_oca
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_partner_details_form_inherit1

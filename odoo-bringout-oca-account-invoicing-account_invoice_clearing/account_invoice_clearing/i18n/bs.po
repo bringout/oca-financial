@@ -36,7 +36,7 @@ msgstr ""
 #: code:addons/account_invoice_clearing/wizards/account_invoice_clearing_wizard.py:0
 #, python-format
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 #. module: account_invoice_clearing
 #: model:ir.model,name:account_invoice_clearing.model_account_invoice_clearing_lines_wizard
@@ -84,7 +84,7 @@ msgstr "Može koristiti liniju"
 #. module: account_invoice_clearing
 #: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__clearing_id
@@ -109,7 +109,7 @@ msgstr "Kompanija"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__company_currency_id
 msgid "Company Currency"
-msgstr "Valuta preduzeća"
+msgstr "Valuta kompanije"
 
 #. module: account_invoice_clearing
 #: model_terms:ir.ui.view,arch_db:account_invoice_clearing.account_invoice_clearing_wizard_form_view
@@ -158,7 +158,7 @@ msgstr "Duguje"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__date_maturity
@@ -243,7 +243,7 @@ msgstr "Dnevnik"
 #. module: account_invoice_clearing
 #: model:ir.model,name:account_invoice_clearing.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_clearing
 #. odoo-python
@@ -255,17 +255,17 @@ msgstr "Oznaka"
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_lines_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_invoice_clearing
 #: model:ir.model.fields,field_description:account_invoice_clearing.field_account_invoice_clearing_wizard__line_ids

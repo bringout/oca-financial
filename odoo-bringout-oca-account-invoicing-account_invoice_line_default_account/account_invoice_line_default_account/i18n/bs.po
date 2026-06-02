@@ -51,7 +51,7 @@ msgstr "Zadati kontraračun za prodaju na linijama fakture"
 #. module: account_invoice_line_default_account
 #: model:ir.model,name:account_invoice_line_default_account.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_line_default_account
 #: model:ir.model.fields,help:account_invoice_line_default_account.field_res_partner__auto_update_account_expense

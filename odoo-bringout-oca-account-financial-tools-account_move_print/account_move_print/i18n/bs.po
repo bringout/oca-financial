@@ -46,7 +46,7 @@ msgstr "<strong>Referenca:</strong>"
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 # taken from hr.po
 #. module: account_move_print

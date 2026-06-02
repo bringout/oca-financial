@@ -89,7 +89,7 @@ msgstr "Fakturisana količina"
 #. module: account_cutoff_accrual_order_base
 #: model:ir.model,name:account_cutoff_accrual_order_base.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_cutoff_accrual_order_base
 #: model:ir.model.fields,field_description:account_cutoff_accrual_order_base.field_account_cutoff__order_line_model

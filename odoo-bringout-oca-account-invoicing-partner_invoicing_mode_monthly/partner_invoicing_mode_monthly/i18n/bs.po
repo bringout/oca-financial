@@ -23,13 +23,13 @@ msgstr "<span class=\"o_form_label\">Opcije mjesečnih računa</span>"
 #. module: partner_invoicing_mode_monthly
 #: model:ir.model,name:partner_invoicing_mode_monthly.model_res_company
 msgid "Companies"
-msgstr "Tvrtke"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: partner_invoicing_mode_monthly
 #: model:ir.model,name:partner_invoicing_mode_monthly.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: partner_invoicing_mode_monthly

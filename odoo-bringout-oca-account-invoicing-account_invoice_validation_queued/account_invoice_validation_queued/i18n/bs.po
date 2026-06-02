@@ -16,7 +16,7 @@ msgstr ""
 #. module: account_invoice_validation_queued
 #: model_terms:ir.ui.view,arch_db:account_invoice_validation_queued.view_queue_job_account_invoice_validation
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_invoice_validation_queued
 #: model_terms:ir.ui.view,arch_db:account_invoice_validation_queued.validate_account_move_view
@@ -26,7 +26,7 @@ msgstr "Stavi u red za validaciju"
 #. module: account_invoice_validation_queued
 #: model:ir.model,name:account_invoice_validation_queued.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_validation_queued
 #: model_terms:ir.ui.view,arch_db:account_invoice_validation_queued.view_queue_job_account_invoice_validation

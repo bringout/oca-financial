@@ -35,4 +35,4 @@ msgstr "Komentari dokumenata"
 #. module: account_comment_template
 #: model:ir.model,name:account_comment_template.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"

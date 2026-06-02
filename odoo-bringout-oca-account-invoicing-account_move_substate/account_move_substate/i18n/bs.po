@@ -73,7 +73,7 @@ msgstr "Nacrt"
 #. module: account_move_substate
 #: model:ir.model,name:account_move_substate.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_move_substate
 #: model:target.state.value,name:account_move_substate.target_state_value_posted

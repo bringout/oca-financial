@@ -46,7 +46,7 @@ msgstr "Ne generiši zapise presjecanja"
 #. module: account_cutoff_accrual_sale
 #: model:ir.model,name:account_cutoff_accrual_sale.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_cutoff_accrual_sale
 #: model:ir.actions.server,name:account_cutoff_accrual_sale.ir_cron_cutoff_revenue_ir_actions_server

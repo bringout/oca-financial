@@ -36,12 +36,12 @@ msgstr "Statistika faktura"
 #. module: account_invoice_crm_tag
 #: model:ir.model,name:account_invoice_crm_tag.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_crm_tag
 #: model:ir.model,name:account_invoice_crm_tag.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_crm_tag
 #: model:ir.model,name:account_invoice_crm_tag.model_sale_order

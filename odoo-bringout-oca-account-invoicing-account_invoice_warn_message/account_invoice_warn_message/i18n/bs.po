@@ -28,4 +28,4 @@ msgstr "Poruka upozorenja fakture"
 #. module: account_invoice_warn_message
 #: model:ir.model,name:account_invoice_warn_message.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"

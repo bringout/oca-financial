@@ -46,7 +46,7 @@ msgstr "Broj priloga"
 #. module: account_bank_statement_chatter
 #: model:ir.model,name:account_bank_statement_chatter.model_account_bank_statement
 msgid "Bank Statement"
-msgstr "Izvod banke"
+msgstr "Bankovni izvod"
 
 #. module: account_bank_statement_chatter
 #: model:ir.model.fields,field_description:account_bank_statement_chatter.field_account_bank_statement__message_follower_ids

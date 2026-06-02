@@ -44,7 +44,7 @@ msgstr ""
 #. module: account_invoice_production_lot
 #: model:ir.model,name:account_invoice_production_lot.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: account_invoice_production_lot

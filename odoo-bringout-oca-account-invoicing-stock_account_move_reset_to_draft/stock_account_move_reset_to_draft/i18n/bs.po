@@ -23,7 +23,7 @@ msgstr "Zapisi vrednovanja inventara su međusobno povezani za %(line_name)s."
 #. module: stock_account_move_reset_to_draft
 #: model:ir.model,name:stock_account_move_reset_to_draft.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: stock_account_move_reset_to_draft
 #. odoo-python

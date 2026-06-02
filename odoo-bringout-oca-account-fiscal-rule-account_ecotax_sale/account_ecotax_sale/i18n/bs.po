@@ -81,7 +81,7 @@ msgstr "Opis"
 #. module: account_ecotax_sale
 #: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_ecotax_sale
 #: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line__subtotal_ecotax
@@ -138,17 +138,17 @@ msgstr "Fakturisano"
 #. module: account_ecotax_sale
 #: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: account_ecotax_sale
 #: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: account_ecotax_sale
 #: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_ecotax_sale
 #: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form

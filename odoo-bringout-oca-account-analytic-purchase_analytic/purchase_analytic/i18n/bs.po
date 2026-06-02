@@ -38,7 +38,7 @@ msgstr "Pretraga analitičkih distribucija"
 #. module: purchase_analytic
 #: model:ir.model.fields,field_description:purchase_analytic.field_purchase_order__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 #. module: purchase_analytic
 #: model:ir.model.fields,help:purchase_analytic.field_purchase_order__analytic_account_ids

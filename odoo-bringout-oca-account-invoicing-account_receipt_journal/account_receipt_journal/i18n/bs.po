@@ -47,7 +47,7 @@ msgstr "Dnevnik"
 #. module: account_receipt_journal
 #: model:ir.model,name:account_receipt_journal.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 # taken from hr.po
 #. module: account_receipt_journal

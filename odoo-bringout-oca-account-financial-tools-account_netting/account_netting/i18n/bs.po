@@ -36,7 +36,7 @@ msgstr "Vrsta salda"
 #. module: account_netting
 #: model_terms:ir.ui.view,arch_db:account_netting.view_account_move_make_netting_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__company_id
@@ -70,7 +70,7 @@ msgstr "Valuta"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__id
@@ -92,19 +92,19 @@ msgstr "Stavke dnevnika za kompenzaciju"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_netting
 #. odoo-python

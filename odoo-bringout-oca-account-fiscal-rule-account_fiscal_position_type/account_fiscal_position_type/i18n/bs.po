@@ -41,7 +41,7 @@ msgstr ""
 #. module: account_fiscal_position_type
 #: model:ir.model,name:account_fiscal_position_type.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_fiscal_position_type
 #: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_fiscal_position__type_position_use

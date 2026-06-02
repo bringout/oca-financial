@@ -86,7 +86,7 @@ msgstr "Datum when the complete reconciliation of this Račun occurred."
 #. module: partner_time_to_pay
 #: model:ir.model,name:partner_time_to_pay.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: partner_time_to_pay
 #: model:ir.model.fields,field_description:partner_time_to_pay.field_account_bank_statement_line__full_reconcile_payment_date

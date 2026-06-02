@@ -21,7 +21,7 @@ msgstr "Automatsko praćenje"
 #. module: account_invoice_customer_no_autofollow
 #: model:ir.model,name:account_invoice_customer_no_autofollow.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: account_invoice_customer_no_autofollow
 #: model_terms:ir.ui.view,arch_db:account_invoice_customer_no_autofollow.res_config_settings_view_form
@@ -37,4 +37,4 @@ msgstr "Onemogući automatsko praćenje kupca/dobavljača"
 #. module: account_invoice_customer_no_autofollow
 #: model:ir.model,name:account_invoice_customer_no_autofollow.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"

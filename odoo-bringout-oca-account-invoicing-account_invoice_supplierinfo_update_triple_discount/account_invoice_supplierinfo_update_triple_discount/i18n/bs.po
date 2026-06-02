@@ -36,7 +36,7 @@ msgstr "Prikaži popust3"
 #. module: account_invoice_supplierinfo_update_triple_discount
 #: model:ir.model,name:account_invoice_supplierinfo_update_triple_discount.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_invoice_supplierinfo_update_triple_discount
 #: model:ir.model.fields,field_description:account_invoice_supplierinfo_update_triple_discount.field_wizard_update_invoice_supplierinfo_line__new_discount2

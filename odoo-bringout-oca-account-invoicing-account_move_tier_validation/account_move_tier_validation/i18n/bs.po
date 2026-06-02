@@ -82,7 +82,7 @@ msgstr "Je potrebna revalorizacija"
 #. module: account_move_tier_validation
 #: model:ir.model,name:account_move_tier_validation.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 # taken from hr.po
 #. module: account_move_tier_validation

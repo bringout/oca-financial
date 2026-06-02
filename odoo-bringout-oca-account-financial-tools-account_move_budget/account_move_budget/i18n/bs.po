@@ -23,7 +23,7 @@ msgstr "%s (kopija)"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget_line__account_id
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 #. module: account_move_budget
 #: model:ir.model,name:account_move_budget.model_account_move_budget
@@ -98,7 +98,7 @@ msgstr "Linije budžeta"
 #. module: account_move_budget
 #: model_terms:ir.ui.view,arch_db:account_move_budget.account_move_budget_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_move_budget
 #: model:ir.model.fields.selection,name:account_move_budget.selection__account_move_budget__state__cancelled
@@ -113,7 +113,7 @@ msgstr "Kompanija"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget_line__company_currency_id
 msgid "Company Currency"
-msgstr "Valuta preduzeća"
+msgstr "Valuta kompanije"
 
 #. module: account_move_budget
 #: model_terms:ir.ui.view,arch_db:account_move_budget.account_move_budget_form_view
@@ -163,7 +163,7 @@ msgstr "Opis"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_move_budget
 #: model:ir.model.fields.selection,name:account_move_budget.selection__account_move_budget__state__draft
@@ -233,17 +233,17 @@ msgstr "Oznaka"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__line_ids

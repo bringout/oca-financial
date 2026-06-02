@@ -33,4 +33,4 @@ msgstr "Dnevnik"
 #. module: purchase_invoicing_no_zero_line
 #: model:ir.model,name:purchase_invoicing_no_zero_line.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"

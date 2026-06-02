@@ -63,7 +63,7 @@ msgstr "Osnova ukupno"
 #. module: account_tax_balance
 #: model_terms:ir.ui.view,arch_db:account_tax_balance.wizard_open_tax_balances
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__company_ids
@@ -88,7 +88,7 @@ msgstr "Datumski opseg"
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_account_bank_statement_line__financial_type
@@ -118,27 +118,27 @@ msgstr "ID"
 #. module: account_tax_balance
 #: model:ir.model,name:account_tax_balance.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_tax_balance
 #: model:ir.model,name:account_tax_balance.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_tax_balance
 #. odoo-python
@@ -169,7 +169,7 @@ msgstr "Ostalo"
 #: code:addons/account_tax_balance/models/account_move.py:0
 #, python-format
 msgid "Payable"
-msgstr "Za naplatu"
+msgstr "Obveze"
 
 #. module: account_tax_balance
 #. odoo-python
@@ -183,7 +183,7 @@ msgstr "Povraćaj platnih obaveza"
 #: code:addons/account_tax_balance/models/account_move.py:0
 #, python-format
 msgid "Receivable"
-msgstr "Kupci"
+msgstr "Potraživanja"
 
 #. module: account_tax_balance
 #. odoo-python

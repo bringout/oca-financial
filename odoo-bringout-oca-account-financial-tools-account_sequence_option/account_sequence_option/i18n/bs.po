@@ -21,7 +21,7 @@ msgstr "Primijeni na model"
 #. module: account_sequence_option
 #: model:ir.model,name:account_sequence_option.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_sequence_option
 #: model:ir.model.fields,field_description:account_sequence_option.field_account_bank_statement_line__sequence_option

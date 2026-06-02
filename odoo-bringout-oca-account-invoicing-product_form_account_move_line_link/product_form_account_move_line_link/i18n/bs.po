@@ -21,7 +21,7 @@ msgstr "Fakturisano"
 #. module: product_form_account_move_line_link
 #: model:ir.actions.act_window,name:product_form_account_move_line_link.action_account_move_line_product_product_tree
 msgid "Journal Items"
-msgstr "Žurnal (stavke)"
+msgstr "Stavke dnevnika"
 
 #. module: product_form_account_move_line_link
 #: model:ir.model,name:product_form_account_move_line_link.model_product_template

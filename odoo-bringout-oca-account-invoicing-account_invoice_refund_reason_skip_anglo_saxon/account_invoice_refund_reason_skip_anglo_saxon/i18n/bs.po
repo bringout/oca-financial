@@ -21,7 +21,7 @@ msgstr "Razlog povrata knjiženog zapisa"
 #. module: account_invoice_refund_reason_skip_anglo_saxon
 #: model:ir.model,name:account_invoice_refund_reason_skip_anglo_saxon.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_refund_reason_skip_anglo_saxon
 #: model:ir.model.fields,field_description:account_invoice_refund_reason_skip_anglo_saxon.field_account_move_refund_reason__skip_anglo_saxon_entries

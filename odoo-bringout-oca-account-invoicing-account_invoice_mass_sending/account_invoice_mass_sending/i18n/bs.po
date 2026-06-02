@@ -53,7 +53,7 @@ msgstr "Fakture: masovno slanje"
 #. module: account_invoice_mass_sending
 #: model:ir.model,name:account_invoice_mass_sending.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_mass_sending
 #. odoo-python

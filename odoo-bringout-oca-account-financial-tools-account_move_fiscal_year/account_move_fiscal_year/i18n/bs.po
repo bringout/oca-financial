@@ -17,7 +17,7 @@ msgstr ""
 #. module: account_move_fiscal_year
 #: model:ir.model,name:account_move_fiscal_year.model_res_company
 msgid "Companies"
-msgstr "Tvrtke"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: account_move_fiscal_year
@@ -28,10 +28,10 @@ msgstr "Fiskalna godina"
 #. module: account_move_fiscal_year
 #: model:ir.model,name:account_move_fiscal_year.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 # taken from hr.po
 #. module: account_move_fiscal_year
 #: model:ir.model,name:account_move_fiscal_year.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"

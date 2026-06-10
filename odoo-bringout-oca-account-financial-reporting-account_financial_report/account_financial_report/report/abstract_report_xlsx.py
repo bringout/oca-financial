@@ -536,7 +536,7 @@ class AbstractReportXslx(models.AbstractModel):
                 currency = self.env["res.currency"].browse(line_object["currency_id"])
             else:
                 currency = line_object["currency_id"]
-            field_name = "{}_{}".format(field_prefix, currency.name)
+            field_name = f"{field_prefix}_{currency.name}"
             if hasattr(self, field_name):
                 format_amt = getattr(self, field_name)
             else:
@@ -558,7 +558,7 @@ class AbstractReportXslx(models.AbstractModel):
                 currency = self.env["res.currency"].browse(line_dict["currency_id"])
             else:
                 currency = line_dict["currency_id"]
-            field_name = "{}_{}".format(field_prefix, currency.name)
+            field_name = f"{field_prefix}_{currency.name}"
             if hasattr(self, field_name):
                 format_amt = getattr(self, field_name)
             else:
@@ -571,7 +571,7 @@ class AbstractReportXslx(models.AbstractModel):
         """Return amount header format for each currency."""
         format_amt = report_data["formats"]["format_header_amount"]
         if line_object.currency_id:
-            field_name = "format_header_amount_%s" % line_object.currency_id.name
+            field_name = f"format_header_amount_{line_object.currency_id.name}"
             if hasattr(self, field_name):
                 format_amt = getattr(self, field_name)
             else:
@@ -589,7 +589,7 @@ class AbstractReportXslx(models.AbstractModel):
         """Return amount header format for each currency."""
         format_amt = report_data["formats"]["format_header_amount"]
         if line_object["currency_id"]:
-            field_name = "format_header_amount_%s" % line_object["currency_name"]
+            field_name = f"format_header_amount_{line_object['currency_name']}"
             if hasattr(self, field_name):
                 format_amt = getattr(self, field_name)
             else:
@@ -610,8 +610,8 @@ class AbstractReportXslx(models.AbstractModel):
 
     def _get_report_complete_name(self, report, prefix, data=None):
         if report.company_id:
-            suffix = " - {} - {}".format(
-                report.company_id.name, report.company_id.currency_id.name
+            suffix = (
+                f" - {report.company_id.name} - {report.company_id.currency_id.name}"
             )
             return prefix + suffix
         return prefix

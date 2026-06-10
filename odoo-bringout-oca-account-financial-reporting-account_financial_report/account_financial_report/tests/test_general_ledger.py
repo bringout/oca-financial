@@ -7,6 +7,7 @@ import time
 from datetime import date
 
 from odoo import api, fields
+from odoo.fields import Command
 from odoo.tests import tagged
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
@@ -15,8 +16,8 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 @tagged("post_install", "-at_install")
 class TestGeneralLedgerReport(AccountTestInvoicingCommon):
     @classmethod
-    def setUpClass(cls, chart_template_ref=None):
-        super().setUpClass(chart_template_ref=chart_template_ref)
+    def setUpClass(cls):
+        super().setUpClass()
         cls.env = cls.env(
             context=dict(
                 cls.env.context,
@@ -42,18 +43,11 @@ class TestGeneralLedgerReport(AccountTestInvoicingCommon):
                     "=",
                     "equity_unaffected",
                 ),
-                ("company_id", "=", cls.env.user.company_id.id),
+                ("company_ids", "in", [cls.env.user.company_id.id]),
             ],
             limit=1,
         )
-        cls.partner = cls.env.ref("base.res_partner_12")
-        cls.account001 = cls.env["account.account"].create(
-            {
-                "code": "001",
-                "name": "Account 001",
-                "account_type": "income_other",
-            }
-        )
+        cls.partner = cls.partner_a
 
     def _add_move(
         self,
@@ -68,7 +62,7 @@ class TestGeneralLedgerReport(AccountTestInvoicingCommon):
         journal = self.env["account.journal"].search(
             [("company_id", "=", self.env.user.company_id.id)], limit=1
         )
-        partner = self.env.ref("base.res_partner_12")
+        partner = self.partner_a
         move_vals = {
             "journal_id": journal.id,
             "date": date,
@@ -125,7 +119,7 @@ class TestGeneralLedgerReport(AccountTestInvoicingCommon):
                 "centralize": centralize,
             }
         )
-        data = general_ledger._prepare_report_general_ledger()
+        data = general_ledger._prepare_report_data()
         res_data = self.env[
             "report.account_financial_report.general_ledger"
         ]._get_report_values(general_ledger, data)
@@ -695,10 +689,10 @@ class TestGeneralLedgerReport(AccountTestInvoicingCommon):
         self.assertEqual(unaffected_fin_balance["balance"], 500)
 
     def test_partner_filter(self):
-        partner_1 = self.env.ref("base.res_partner_1")
-        partner_2 = self.env.ref("base.res_partner_2")
-        partner_3 = self.env.ref("base.res_partner_3")
-        partner_4 = self.env.ref("base.res_partner_4")
+        partner_1 = self.partner_a
+        partner_2 = self.partner_a.copy()
+        partner_3 = self.partner_b
+        partner_4 = self.partner_b.copy({"name": "Other partner"})
         partner_1.write({"is_company": False, "parent_id": partner_2.id})
         partner_3.write({"is_company": False})
 
@@ -739,24 +733,101 @@ class TestGeneralLedgerReport(AccountTestInvoicingCommon):
         self.assertEqual(wizard.date_from, date(2018, 1, 1))
         self.assertEqual(wizard.date_to, date(2018, 12, 31))
 
-    def test_all_accounts_loaded(self):
-        # Tests if all accounts are loaded when the account_code_ fields changed
-        all_accounts = self.env["account.account"].search([], order="code")
-        general_ledger = self.env["general.ledger.report.wizard"].create(
+    def test_05_onchange_account_range_no_typeerror(self):
+        company_id = self.env.user.company_id.id
+        acc_from = self.env["account.account"].create(
             {
-                "date_from": self.fy_date_start,
-                "date_to": self.fy_date_end,
-                "account_code_from": self.account001.id,
-                "account_code_to": all_accounts[-1].id,
+                "code": "TEST43000",
+                "name": "Test From",
+                "account_type": "asset_receivable",
+                "company_ids": [(6, 0, [company_id])],
             }
         )
-        general_ledger.on_change_account_range()
-        all_accounts_code_set = set()
-        general_ledger_code_set = set()
-        [all_accounts_code_set.add(account.code) for account in all_accounts]
-        [
-            general_ledger_code_set.add(account.code)
-            for account in general_ledger.account_ids
-        ]
-        self.assertEqual(len(general_ledger_code_set), len(all_accounts_code_set))
-        self.assertTrue(general_ledger_code_set == all_accounts_code_set)
+        acc_to = self.env["account.account"].create(
+            {
+                "code": "TEST43005",
+                "name": "Test To",
+                "account_type": "asset_receivable",
+                "company_ids": [(6, 0, [company_id])],
+            }
+        )
+        acc_out = self.env["account.account"].create(
+            {
+                "code": "TEST44000",
+                "name": "Test Out",
+                "account_type": "asset_receivable",
+                "company_ids": [(6, 0, [company_id])],
+            }
+        )
+        wizard = (
+            self.env["general.ledger.report.wizard"]
+            .with_context(company_id=company_id)
+            .create(
+                {
+                    "company_id": company_id,
+                    "account_code_from": acc_from.id,
+                    "account_code_to": acc_to.id,
+                }
+            )
+        )
+        wizard.on_change_account_range()
+        self.assertIn(
+            acc_from,
+            wizard.account_ids,
+            "The starting account should be in the filter.",
+        )
+        self.assertIn(
+            acc_to, wizard.account_ids, "The ending account should be in the filter."
+        )
+        self.assertNotIn(
+            acc_out,
+            wizard.account_ids,
+            "Accounts out of the range should NOT be in the filter.",
+        )
+
+    def test_06_line_subsection_excluded(self):
+        """A posted move with a `line_subsection` row must not break the
+        General Ledger. See the Trial Balance counterpart for the root cause.
+        """
+        journal = self.env["account.journal"].search(
+            [("company_id", "=", self.env.user.company_id.id)], limit=1
+        )
+        move = self.env["account.move"].create(
+            {
+                "journal_id": journal.id,
+                "date": self.fy_date_start,
+                "line_ids": [
+                    Command.create(
+                        {
+                            "debit": 50.0,
+                            "credit": 0.0,
+                            "account_id": self.receivable_account.id,
+                            "partner_id": self.partner.id,
+                        }
+                    ),
+                    Command.create(
+                        {
+                            "debit": 0.0,
+                            "credit": 50.0,
+                            "account_id": self.income_account.id,
+                            "partner_id": self.partner.id,
+                        }
+                    ),
+                    Command.create(
+                        {
+                            "display_type": "line_subsection",
+                            "name": "Subsection label",
+                        }
+                    ),
+                ],
+            }
+        )
+        move.action_post()
+        self.assertIn("line_subsection", move.line_ids.mapped("display_type"))
+        res_data = self._get_report_lines()
+        self.assertIn("general_ledger", res_data)
+        for entry in res_data["general_ledger"]:
+            self.assertTrue(
+                entry.get("id"),
+                f"Report contains a line with falsy id: {entry}",
+            )

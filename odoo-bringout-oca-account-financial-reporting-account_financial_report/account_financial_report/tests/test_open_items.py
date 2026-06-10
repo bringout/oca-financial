@@ -12,8 +12,8 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 @tagged("post_install", "-at_install")
 class TestOpenItems(AccountTestInvoicingCommon):
     @classmethod
-    def setUpClass(cls, chart_template_ref=None):
-        super().setUpClass(chart_template_ref=chart_template_ref)
+    def setUpClass(cls):
+        super().setUpClass()
         cls.env = cls.env(
             context=dict(
                 cls.env.context,
@@ -34,10 +34,10 @@ class TestOpenItems(AccountTestInvoicingCommon):
         )
 
     def test_partner_filter(self):
-        partner_1 = self.env.ref("base.res_partner_1")
-        partner_2 = self.env.ref("base.res_partner_2")
-        partner_3 = self.env.ref("base.res_partner_3")
-        partner_4 = self.env.ref("base.res_partner_4")
+        partner_1 = self.partner_a
+        partner_2 = self.partner_a.copy()
+        partner_3 = self.partner_b
+        partner_4 = self.partner_b.copy({"name": "Other partner"})
         partner_1.write({"is_company": False, "parent_id": partner_2.id})
         partner_3.write({"is_company": False})
 
@@ -49,25 +49,6 @@ class TestOpenItems(AccountTestInvoicingCommon):
 
         wizard = self.env["open.items.report.wizard"].with_context(**context)
         self.assertEqual(wizard._default_partners(), expected_list)
-
-    def test_all_accounts_loaded(self):
-        # Tests if all accounts are loaded when the account_code_ fields changed
-        all_accounts = self.env["account.account"].search(
-            [("reconcile", "=", True)], order="code"
-        )
-        open_items = self.env["open.items.report.wizard"].create(
-            {
-                "account_code_from": self.account001.id,
-                "account_code_to": all_accounts[-1].id,
-            }
-        )
-        open_items.on_change_account_range()
-        all_accounts_code_set = set()
-        open_items_code_set = set()
-        [all_accounts_code_set.add(account.code) for account in all_accounts]
-        [open_items_code_set.add(account.code) for account in open_items.account_ids]
-        self.assertEqual(len(open_items_code_set), len(all_accounts_code_set))
-        self.assertTrue(open_items_code_set == all_accounts_code_set)
 
     def test_open_items_grouped_by(self):
         open_item_wizard = self.env["open.items.report.wizard"]
@@ -86,5 +67,5 @@ class TestOpenItems(AccountTestInvoicingCommon):
             }
         )
         wizard.on_change_account_range()
-        res = wizard._prepare_report_open_items()
+        res = wizard._prepare_report_data()
         self.assertEqual(res["grouped_by"], wizard.grouped_by)

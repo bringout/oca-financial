@@ -10,7 +10,7 @@
 import time
 from ast import literal_eval
 
-from odoo import _, api, fields, models
+from odoo import api, fields, models
 from odoo.exceptions import ValidationError
 from odoo.tools import date_utils
 
@@ -56,8 +56,10 @@ class GeneralLedgerReportWizard(models.TransientModel):
     cost_center_ids = fields.Many2many(
         comodel_name="account.analytic.account", string="Filter cost centers"
     )
-
-    not_only_one_unaffected_earnings_account = fields.Boolean(readonly=True)
+    only_one_unaffected_earnings_account = fields.Boolean(
+        readonly=True,
+        default=lambda self: self._only_one_unaffected_earnings_account(),
+    )
     foreign_currency = fields.Boolean(
         string="Show foreign currency",
         help="Display foreign currency for move lines, unless "
@@ -85,7 +87,7 @@ class GeneralLedgerReportWizard(models.TransientModel):
     domain = fields.Char(
         string="Journal Items Domain",
         default=[],
-        help="This domain will be used to select specific domain for Journal " "Items",
+        help="This domain will be used to select specific domain for Journal Items",
     )
 
     def _get_account_move_lines_domain(self):
@@ -96,19 +98,19 @@ class GeneralLedgerReportWizard(models.TransientModel):
     def on_change_account_range(self):
         if (
             self.account_code_from
-            and self.account_code_from.code.isdigit()
+            and self.account_code_from.code
             and self.account_code_to
-            and self.account_code_to.code.isdigit()
+            and self.account_code_to.code
         ):
-            start_range = self.account_code_from.code
-            end_range = self.account_code_to.code
-            self.account_ids = self.env["account.account"].search(
-                [("code", ">=", start_range), ("code", "<=", end_range)]
-            )
+            start_range = str(self.account_code_from.code)
+            end_range = str(self.account_code_to.code)
+            domain = [
+                ("code_store", ">=", start_range),
+                ("code_store", "<=", end_range),
+            ]
             if self.company_id:
-                self.account_ids = self.account_ids.filtered(
-                    lambda a: a.company_id == self.company_id
-                )
+                domain.append(("company_ids", "in", self.company_id.ids))
+            self.account_ids = [(6, 0, self.env["account.account"].search(domain).ids)]
 
     def _init_date_from(self):
         """set start date to begin of current year if fiscal year running"""
@@ -142,16 +144,21 @@ class GeneralLedgerReportWizard(models.TransientModel):
             else:
                 wiz.fy_start_date = False
 
-    @api.onchange("company_id")
-    def onchange_company_id(self):
-        """Handle company change."""
+    def _only_one_unaffected_earnings_account(self):
         count = self.env["account.account"].search_count(
             [
                 ("account_type", "=", "equity_unaffected"),
-                ("company_id", "=", self.company_id.id),
+                ("company_ids", "in", [self.company_id.id or self.env.company.id]),
             ]
         )
-        self.not_only_one_unaffected_earnings_account = count != 1
+        return count == 1
+
+    @api.onchange("company_id")
+    def onchange_company_id(self):
+        """Handle company change."""
+        self.only_one_unaffected_earnings_account = (
+            self._only_one_unaffected_earnings_account()
+        )
         if (
             self.company_id
             and self.date_range_id.company_id
@@ -171,7 +178,7 @@ class GeneralLedgerReportWizard(models.TransientModel):
                 self.onchange_type_accounts_only()
             else:
                 self.account_ids = self.account_ids.filtered(
-                    lambda a: a.company_id == self.company_id
+                    lambda a: self.company_id in a.company_ids
                 )
         if self.company_id and self.cost_center_ids:
             self.cost_center_ids = self.cost_center_ids.filtered(
@@ -189,7 +196,7 @@ class GeneralLedgerReportWizard(models.TransientModel):
         if not self.company_id:
             return res
         else:
-            res["domain"]["account_ids"] += [("company_id", "=", self.company_id.id)]
+            res["domain"]["account_ids"] += [("company_ids", "in", self.company_id.ids)]
             res["domain"]["account_journal_ids"] += [
                 ("company_id", "=", self.company_id.id)
             ]
@@ -220,7 +227,7 @@ class GeneralLedgerReportWizard(models.TransientModel):
                 and rec.company_id != rec.date_range_id.company_id
             ):
                 raise ValidationError(
-                    _(
+                    self.env._(
                         "The Company in the General Ledger Report Wizard and in "
                         "Date Range must be the same."
                     )
@@ -230,7 +237,7 @@ class GeneralLedgerReportWizard(models.TransientModel):
     def onchange_type_accounts_only(self):
         """Handle receivable/payable accounts only change."""
         if self.receivable_accounts_only or self.payable_accounts_only:
-            domain = [("company_id", "=", self.company_id.id)]
+            domain = [("company_ids", "in", [self.company_id.id])]
             if self.receivable_accounts_only and self.payable_accounts_only:
                 domain += [
                     ("account_type", "in", ("asset_receivable", "liability_payable"))
@@ -254,11 +261,8 @@ class GeneralLedgerReportWizard(models.TransientModel):
     @api.depends("company_id")
     def _compute_unaffected_earnings_account(self):
         for record in self:
-            record.unaffected_earnings_account = self.env["account.account"].search(
-                [
-                    ("account_type", "=", "equity_unaffected"),
-                    ("company_id", "=", record.company_id.id),
-                ]
+            record.unaffected_earnings_account = (
+                record.company_id.get_unaffected_earnings_account()
             )
 
     unaffected_earnings_account = fields.Many2one(
@@ -269,7 +273,7 @@ class GeneralLedgerReportWizard(models.TransientModel):
 
     def _print_report(self, report_type):
         self.ensure_one()
-        data = self._prepare_report_general_ledger()
+        data = self._prepare_report_data()
         if report_type == "xlsx":
             report_name = "a_f_r.report_general_ledger_xlsx"
         else:
@@ -284,6 +288,7 @@ class GeneralLedgerReportWizard(models.TransientModel):
         )
 
     def _prepare_report_general_ledger(self):
+        # TODO: Kept for compatibility - To be merged into _prepare_report_data in 19
         self.ensure_one()
         return {
             "wizard_id": self.id,
@@ -305,6 +310,11 @@ class GeneralLedgerReportWizard(models.TransientModel):
             "account_financial_report_lang": self.env.lang,
             "domain": self._get_account_move_lines_domain(),
         }
+
+    def _prepare_report_data(self):
+        res = super()._prepare_report_data()
+        res.update(self._prepare_report_general_ledger())
+        return res
 
     def _export(self, report_type):
         """Default export is PDF."""

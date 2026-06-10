@@ -23,11 +23,11 @@ class ResConfigSettings(models.TransientModel):
 
     @api.model
     def get_values(self):
-        res = super(ResConfigSettings, self).get_values()
+        res = super().get_values()
         res.update(
             age_partner_config_id=self.env["ir.default"]
             .sudo()
-            .get(
+            ._get(
                 "aged.partner.balance.report.wizard",
                 "age_partner_config_id",
                 company_id=self.env.company.id,

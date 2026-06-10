@@ -4,7 +4,7 @@
 # Copyright 2018 ForgeFlow, S.L.
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from odoo import _, api, fields, models
+from odoo import api, fields, models
 from odoo.exceptions import UserError, ValidationError
 from odoo.tools import date_utils
 
@@ -50,9 +50,10 @@ class TrialBalanceReportWizard(models.TransientModel):
     show_partner_details = fields.Boolean()
     partner_ids = fields.Many2many(comodel_name="res.partner", string="Filter partners")
     journal_ids = fields.Many2many(comodel_name="account.journal")
-
-    not_only_one_unaffected_earnings_account = fields.Boolean(readonly=True)
-
+    only_one_unaffected_earnings_account = fields.Boolean(
+        readonly=True,
+        default=lambda self: self._only_one_unaffected_earnings_account(),
+    )
     foreign_currency = fields.Boolean(
         string="Show foreign currency",
         help="Display foreign currency for move lines, unless "
@@ -87,20 +88,19 @@ class TrialBalanceReportWizard(models.TransientModel):
         ):
             start_range = self.account_code_from.code
             end_range = self.account_code_to.code
-            self.account_ids = self.env["account.account"].search(
-                [("code", ">=", start_range), ("code", "<=", end_range)]
-            )
+            domain = [("code", ">=", start_range), ("code", "<=", end_range)]
             if self.company_id:
-                self.account_ids = self.account_ids.filtered(
-                    lambda a: a.company_id == self.company_id
-                )
+                domain.append(("company_ids", "in", [self.company_id.id]))
+            self.account_ids = self.env["account.account"].search(domain)
 
     @api.constrains("show_hierarchy", "show_hierarchy_level")
     def _check_show_hierarchy_level(self):
         for rec in self:
             if rec.show_hierarchy and rec.show_hierarchy_level <= 0:
                 raise UserError(
-                    _("The hierarchy level to filter on must be greater than 0.")
+                    self.env._(
+                        "The hierarchy level to filter on must be greater than 0."
+                    )
                 )
 
     @api.depends("date_from")
@@ -116,16 +116,21 @@ class TrialBalanceReportWizard(models.TransientModel):
             else:
                 wiz.fy_start_date = False
 
-    @api.onchange("company_id")
-    def onchange_company_id(self):
-        """Handle company change."""
+    def _only_one_unaffected_earnings_account(self):
         count = self.env["account.account"].search_count(
             [
                 ("account_type", "=", "equity_unaffected"),
-                ("company_id", "=", self.company_id.id),
+                ("company_ids", "in", [self.company_id.id or self.env.company.id]),
             ]
         )
-        self.not_only_one_unaffected_earnings_account = count != 1
+        return count == 1
+
+    @api.onchange("company_id")
+    def onchange_company_id(self):
+        """Handle company change."""
+        self.only_one_unaffected_earnings_account = (
+            self._only_one_unaffected_earnings_account()
+        )
         if (
             self.company_id
             and self.date_range_id.company_id
@@ -145,7 +150,7 @@ class TrialBalanceReportWizard(models.TransientModel):
                 self.onchange_type_accounts_only()
             else:
                 self.account_ids = self.account_ids.filtered(
-                    lambda a: a.company_id == self.company_id
+                    lambda a: self.company_id in a.company_ids
                 )
         res = {
             "domain": {
@@ -158,7 +163,7 @@ class TrialBalanceReportWizard(models.TransientModel):
         if not self.company_id:
             return res
         else:
-            res["domain"]["account_ids"] += [("company_id", "=", self.company_id.id)]
+            res["domain"]["account_ids"] += [("company_ids", "in", self.company_id.ids)]
             res["domain"]["partner_ids"] += self._get_partner_ids_domain()
             res["domain"]["date_range_id"] += [
                 "|",
@@ -183,7 +188,7 @@ class TrialBalanceReportWizard(models.TransientModel):
                 and rec.company_id != rec.date_range_id.company_id
             ):
                 raise ValidationError(
-                    _(
+                    self.env._(
                         "The Company in the Trial Balance Report Wizard and in "
                         "Date Range must be the same."
                     )
@@ -193,7 +198,7 @@ class TrialBalanceReportWizard(models.TransientModel):
     def onchange_type_accounts_only(self):
         """Handle receivable/payable accounts only change."""
         if self.receivable_accounts_only or self.payable_accounts_only:
-            domain = [("company_id", "=", self.company_id.id)]
+            domain = [("company_ids", "in", [self.company_id.id])]
             if self.receivable_accounts_only and self.payable_accounts_only:
                 domain += [
                     ("account_type", "in", ("asset_receivable", "liability_payable"))
@@ -218,11 +223,8 @@ class TrialBalanceReportWizard(models.TransientModel):
     @api.depends("company_id")
     def _compute_unaffected_earnings_account(self):
         for record in self:
-            record.unaffected_earnings_account = self.env["account.account"].search(
-                [
-                    ("account_type", "=", "equity_unaffected"),
-                    ("company_id", "=", record.company_id.id),
-                ]
+            record.unaffected_earnings_account = (
+                record.company_id.get_unaffected_earnings_account()
             )
 
     unaffected_earnings_account = fields.Many2one(
@@ -233,7 +235,7 @@ class TrialBalanceReportWizard(models.TransientModel):
 
     def _print_report(self, report_type):
         self.ensure_one()
-        data = self._prepare_report_trial_balance()
+        data = self._prepare_report_data()
         if report_type == "xlsx":
             report_name = "a_f_r.report_trial_balance_xlsx"
         else:
@@ -248,6 +250,7 @@ class TrialBalanceReportWizard(models.TransientModel):
         )
 
     def _prepare_report_trial_balance(self):
+        # TODO: Kept for compatibility - To be merged into _prepare_report_data in 19
         self.ensure_one()
         return {
             "wizard_id": self.id,
@@ -270,6 +273,11 @@ class TrialBalanceReportWizard(models.TransientModel):
             "account_financial_report_lang": self.env.lang,
             "grouped_by": self.grouped_by,
         }
+
+    def _prepare_report_data(self):
+        res = super()._prepare_report_data()
+        res.update(self._prepare_report_trial_balance())
+        return res
 
     def _export(self, report_type):
         """Default export is PDF."""

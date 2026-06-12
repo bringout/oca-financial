@@ -2,20 +2,18 @@
 # Copyright 2021 Tecnativa - João Marques
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-import logging
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import _, api, fields, models
+from odoo import Command, api, fields, models
 from odoo.exceptions import UserError, ValidationError
-
-_logger = logging.getLogger(__name__)
 
 
 class AccountAssetRemove(models.TransientModel):
     _name = "account.asset.remove"
     _description = "Remove Asset"
     _check_company_auto = True
+    _check_company_domain = models.check_company_domain_parent_of
 
     company_id = fields.Many2one(
         comodel_name="res.company",
@@ -41,25 +39,25 @@ class AccountAssetRemove(models.TransientModel):
     account_sale_id = fields.Many2one(
         comodel_name="account.account",
         string="Asset Sale Account",
-        domain="[('deprecated', '=', False), ('company_id', '=', company_id)]",
+        check_company=True,
         default=lambda self: self._default_account_sale_id(),
     )
     account_plus_value_id = fields.Many2one(
         comodel_name="account.account",
         string="Plus-Value Account",
-        domain="[('deprecated', '=', False), ('company_id', '=', company_id)]",
+        check_company=True,
         default=lambda self: self._default_account_plus_value_id(),
     )
     account_min_value_id = fields.Many2one(
         comodel_name="account.account",
         string="Min-Value Account",
-        domain="[('deprecated', '=', False), ('company_id', '=', company_id)]",
+        check_company=True,
         default=lambda self: self._default_account_min_value_id(),
     )
     account_residual_value_id = fields.Many2one(
         comodel_name="account.account",
         string="Residual Value Account",
-        domain="[('deprecated', '=', False), ('company_id', '=', company_id)]",
+        check_company=True,
         default=lambda self: self._default_account_residual_value_id(),
     )
     posting_regime = fields.Selection(
@@ -78,7 +76,7 @@ class AccountAssetRemove(models.TransientModel):
     @api.constrains("sale_value", "company_id")
     def _check_sale_value(self):
         if self.company_id.currency_id.compare_amounts(self.sale_value, 0) < 0:
-            raise ValidationError(_("The Sale Value must be positive!"))
+            raise ValidationError(self.env._("The Sale Value must be positive!"))
 
     @api.model
     def _default_company_id(self):
@@ -138,8 +136,8 @@ class AccountAssetRemove(models.TransientModel):
     @api.model
     def _selection_posting_regime(self):
         return [
-            ("residual_value", _("Residual Value")),
-            ("gain_loss_on_sale", _("Gain/Loss on Sale")),
+            ("residual_value", self.env._("Residual Value")),
+            ("gain_loss_on_sale", self.env._("Gain/Loss on Sale")),
         ]
 
     @api.model
@@ -161,9 +159,7 @@ class AccountAssetRemove(models.TransientModel):
 
         asset_id = self.env.context.get("active_id")
         asset = self.env["account.asset"].browse(asset_id)
-        asset_ref = (
-            asset.code and "{} (ref: {})".format(asset.name, asset.code) or asset.name
-        )
+        asset_ref = asset.code and f"{asset.name} (ref: {asset.code})" or asset.name
 
         if self.env.context.get("early_removal"):
             residual_value = self._prepare_early_removal(asset)
@@ -188,7 +184,7 @@ class AccountAssetRemove(models.TransientModel):
 
         if self.date_remove < last_date:
             raise UserError(
-                _("The removal date must be after " "the last depreciation date.")
+                self.env._("The removal date must be after the last depreciation date.")
             )
 
         line_name = asset._get_depreciation_entry_name(len(dlines) + 1)
@@ -224,8 +220,8 @@ class AccountAssetRemove(models.TransientModel):
         move.with_context(allow_asset=True).write({"line_ids": move_lines})
 
         return {
-            "name": _("Asset '%s' Removal Journal Entry") % asset_ref,
-            "view_mode": "tree,form",
+            "name": self.env._("Asset '%s' Removal Journal Entry", asset_ref),
+            "view_mode": "list,form",
             "res_model": "account.move",
             "view_id": False,
             "type": "ir.actions.act_window",
@@ -245,11 +241,11 @@ class AccountAssetRemove(models.TransientModel):
         def _dlines(asset):
             lines = asset.depreciation_line_ids
             dlines = lines.filtered(
-                lambda l: l.type == "depreciate"
-                and not l.init_entry
-                and not l.move_check
+                lambda line: line.type == "depreciate"
+                and not line.init_entry
+                and not line.move_check
             )
-            dlines = dlines.sorted(key=lambda l: l.line_date)
+            dlines = dlines.sorted(key=lambda line: line.line_date)
             return dlines
 
         dlines = _dlines(asset)
@@ -263,7 +259,7 @@ class AccountAssetRemove(models.TransientModel):
         first_date = first_to_depreciate_dl.line_date
         if date_remove > first_date:
             raise UserError(
-                _(
+                self.env._(
                     "You can't make an early removal if all the depreciation "
                     "lines for previous periods are not posted."
                 )
@@ -321,7 +317,7 @@ class AccountAssetRemove(models.TransientModel):
                 "partner_id": partner_id,
                 "asset_id": asset.id,
             }
-            move_lines.append((0, 0, move_line_vals))
+            move_lines.append(Command.create(move_line_vals))
 
         depreciation_base_comp = currency.compare_amounts(asset.depreciation_base, 0)
         move_line_vals = {
@@ -332,48 +328,47 @@ class AccountAssetRemove(models.TransientModel):
             "partner_id": partner_id,
             "asset_id": asset.id,
         }
-        move_lines.append((0, 0, move_line_vals))
+        move_lines.append(Command.create(move_line_vals))
 
-        if residual_value:
-            if self.posting_regime == "residual_value":
+        if self.posting_regime == "residual_value" and residual_value:
+            move_line_vals = {
+                "name": asset.name,
+                "account_id": self.account_residual_value_id.id,
+                "analytic_distribution": asset.analytic_distribution,
+                "debit": residual_value,
+                "credit": 0.0,
+                "partner_id": partner_id,
+                "asset_id": asset.id,
+            }
+            move_lines.append(Command.create(move_line_vals))
+        elif self.posting_regime == "gain_loss_on_sale":
+            if self.sale_value:
+                sale_value = self.sale_value
                 move_line_vals = {
                     "name": asset.name,
-                    "account_id": self.account_residual_value_id.id,
+                    "account_id": self.account_sale_id.id,
                     "analytic_distribution": asset.analytic_distribution,
-                    "debit": residual_value,
+                    "debit": sale_value,
                     "credit": 0.0,
                     "partner_id": partner_id,
                     "asset_id": asset.id,
                 }
-                move_lines.append((0, 0, move_line_vals))
-            elif self.posting_regime == "gain_loss_on_sale":
-                if self.sale_value:
-                    sale_value = self.sale_value
-                    move_line_vals = {
-                        "name": asset.name,
-                        "account_id": self.account_sale_id.id,
-                        "analytic_distribution": asset.analytic_distribution,
-                        "debit": sale_value,
-                        "credit": 0.0,
-                        "partner_id": partner_id,
-                        "asset_id": asset.id,
-                    }
-                    move_lines.append((0, 0, move_line_vals))
-                balance = self.sale_value - residual_value
-                balance_comp = currency.compare_amounts(balance, 0)
-                account_id = (
-                    self.account_plus_value_id.id
-                    if balance_comp > 0
-                    else self.account_min_value_id.id
-                )
-                move_line_vals = {
-                    "name": asset.name,
-                    "account_id": account_id,
-                    "debit": balance_comp < 0 and -balance or 0.0,
-                    "credit": balance_comp > 0 and balance or 0.0,
-                    "analytic_distribution": asset.analytic_distribution,
-                    "partner_id": partner_id,
-                    "asset_id": asset.id,
-                }
-                move_lines.append((0, 0, move_line_vals))
+                move_lines.append(Command.create(move_line_vals))
+            balance = self.sale_value - residual_value
+            balance_comp = currency.compare_amounts(balance, 0)
+            account_id = (
+                self.account_plus_value_id.id
+                if balance_comp > 0
+                else self.account_min_value_id.id
+            )
+            move_line_vals = {
+                "name": asset.name,
+                "account_id": account_id,
+                "debit": balance_comp < 0 and -balance or 0.0,
+                "credit": balance_comp > 0 and balance or 0.0,
+                "analytic_distribution": asset.analytic_distribution,
+                "partner_id": partner_id,
+                "asset_id": asset.id,
+            }
+            move_lines.append(Command.create(move_line_vals))
         return move_lines

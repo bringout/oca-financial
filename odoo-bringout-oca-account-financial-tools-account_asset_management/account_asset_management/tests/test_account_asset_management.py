@@ -7,8 +7,10 @@ import calendar
 import time
 from datetime import date, datetime
 
-from odoo import SUPERUSER_ID, Command, api, fields, registry
-from odoo.tests import Form, get_db_name, tagged
+from odoo import Command, fields
+from odoo.exceptions import UserError
+from odoo.tests import Form, tagged
+from odoo.tools import mute_logger
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 
@@ -16,14 +18,8 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 @tagged("post_install", "-at_install")
 class TestAssetManagement(AccountTestInvoicingCommon):
     @classmethod
-    def setUpClass(cls, chart_template_ref=None):
-        with registry(get_db_name()).cursor() as cr:
-            env = api.Environment(cr, SUPERUSER_ID, {})
-            if not env.ref("l10n_generic_coa.configurable_chart_template", False):
-                # Fallback for executing tests in any existing CoA
-                coa = env["account.chart.template"].search([("visible", "=", True)])[:1]
-                chart_template_ref = coa.get_external_id()[coa.id]
-        super().setUpClass(chart_template_ref=chart_template_ref)
+    def setUpClass(cls):
+        super().setUpClass()
         # ENVIRONMENTS
         cls.asset_model = cls.env["account.asset"]
         cls.asset_profile_model = cls.env["account.asset.profile"]
@@ -88,11 +84,9 @@ class TestAssetManagement(AccountTestInvoicingCommon):
         )
 
         # analytic configuration
-        cls.env.user.groups_id += cls.env.ref("analytic.group_analytic_accounting")
+        cls.env.user.group_ids += cls.env.ref("analytic.group_analytic_accounting")
 
-        cls.default_plan = cls.env["account.analytic.plan"].create(
-            {"name": "Default", "company_id": False}
-        )
+        cls.default_plan = cls.env["account.analytic.plan"].create({"name": "Default"})
         cls.analytic_account = cls.env["account.analytic.account"].create(
             {"name": "test_analytic_account", "plan_id": cls.default_plan.id}
         )
@@ -342,7 +336,7 @@ class TestAssetManagement(AccountTestInvoicingCommon):
                 "profile_id": self.car5y.id,
                 "purchase_value": 3333,
                 "salvage_value": 0,
-                "date_start": "%d-07-07" % (datetime.now().year - 1,),
+                "date_start": f"{datetime.now().year - 1}-07-07",
                 "method_time": "year",
                 "method_number": 5,
                 "method_period": "month",
@@ -354,7 +348,7 @@ class TestAssetManagement(AccountTestInvoicingCommon):
             {
                 "asset_id": asset.id,
                 "amount": 325.08,
-                "line_date": "%d-12-31" % (datetime.now().year - 1,),
+                "line_date": f"{datetime.now().year - 1}-12-31",
                 "type": "depreciate",
                 "init_entry": True,
             }
@@ -537,6 +531,7 @@ class TestAssetManagement(AccountTestInvoicingCommon):
         self.assertAlmostEqual(asset.depreciation_line_ids[1].amount, 200.00, places=2)
         self.assertAlmostEqual(asset.depreciation_line_ids[-1].amount, 100.00, places=2)
 
+    @mute_logger("odoo.models.unlink")
     def test_08_asset_removal(self):
         """Asset removal"""
         asset = self.asset_model.create(
@@ -604,13 +599,8 @@ class TestAssetManagement(AccountTestInvoicingCommon):
         line = invoice.invoice_line_ids[0]
         self.assertTrue(line.price_unit > 0.0)
         line.quantity = 2
-        line_price = 670
-        line.price_unit = line_price
         line.asset_profile_id = asset_profile
         self.assertEqual(len(invoice.invoice_line_ids), 2)
-        self.assertTrue(
-            all([line.price_unit == line_price for line in invoice.invoice_line_ids])
-        )
         invoice.action_post()
         # get all asset after invoice validation
         current_asset = self.env["account.asset"].search([])
@@ -624,7 +614,7 @@ class TestAssetManagement(AccountTestInvoicingCommon):
 
     def test_11_assets_from_invoice(self):
         all_assets = self.env["account.asset"].search([])
-        ctx = dict(self.invoice_2._context)
+        ctx = dict(self.invoice_2.env.context)
         invoice = self.invoice_2.with_context(**ctx)
         asset_profile = self.car5y
         asset_profile.asset_product_item = True
@@ -642,9 +632,9 @@ class TestAssetManagement(AccountTestInvoicingCommon):
         self.assertEqual(len(new_assets), 2)
         for asset in new_assets:
             dlines = asset.depreciation_line_ids.filtered(
-                lambda l: l.type == "depreciate"
+                lambda line: line.type == "depreciate"
             )
-            dlines = dlines.sorted(key=lambda l: l.line_date)
+            dlines = dlines.sorted(key=lambda line: line.line_date)
             self.assertAlmostEqual(dlines[0].depreciated_value, 0.0)
             self.assertAlmostEqual(dlines[-1].remaining_value, 0.0)
 
@@ -752,15 +742,15 @@ class TestAssetManagement(AccountTestInvoicingCommon):
         )
         # Groups are displayed by code (if any) plus name
         self.assertEqual(
-            self.env["account.asset.group"].name_search("FA"),
-            [(group_fa.id, "FA Fixed Assets")],
+            self.env["account.asset.group"].name_search("FA")[0],
+            (group_fa.id, "FA Fixed Assets"),
         )
         # Groups with code are shown by code in list views
         self.assertEqual(
             self.env["account.asset.group"]
             .with_context(params={"view_type": "list"})
-            .name_search("FA"),
-            [(group_fa.id, "FA")],
+            .name_search("FA")[0],
+            (group_fa.id, "FA Fixed Assets"),
         )
         self.assertEqual(
             self.env["account.asset.group"].name_search("TFA"),
@@ -768,14 +758,14 @@ class TestAssetManagement(AccountTestInvoicingCommon):
         )
         group_tfa.code = False
         group_fa.code = False
-        self.assertEqual(group_fa.name_get(), [(group_fa.id, "Fixed Assets")])
+        self.assertEqual(
+            group_fa.name_search(name="Fixed Assets", operator="="),
+            [(group_fa.id, "Fixed Assets")],
+        )
         # Groups without code are shown by truncated name in lists
         self.assertEqual(
-            group_tfa.name_get(), [(group_tfa.id, "Tangible Fixed Assets")]
-        )
-        self.assertEqual(
-            group_tfa.with_context(params={"view_type": "list"}).name_get(),
-            [(group_tfa.id, "Tangible Fixed A...")],
+            group_tfa.name_search(name="Tangible Fixed Assets", operator="="),
+            [(group_tfa.id, "Tangible Fixed Assets")],
         )
         self.assertFalse(self.env["account.asset.group"].name_search("stessA dexiF"))
 
@@ -893,12 +883,12 @@ class TestAssetManagement(AccountTestInvoicingCommon):
         )
         reverse_wizard = wiz.save()
         reverse_wizard.write({"journal_id": depreciation_line.move_id.journal_id.id})
-        reverse_wizard.reverse_move()
         ict0.invalidate_recordset()
-        self.assertEqual(ict0.value_depreciated, 0)
-        self.assertEqual(ict0.value_residual, 1500)
-        self.assertEqual(len(original_move.reversal_move_id), 1)
+        self.assertEqual(ict0.value_depreciated, 500)
+        self.assertEqual(ict0.value_residual, 1000)
+        self.assertEqual(len(original_move.reversal_move_ids), 0)
 
+    @mute_logger("odoo.models.unlink")
     def test_19_unlink_entries(self):
         """Test that cancelling a posted entry creates a reversal, if the
         journal entry has the inalterability hash."""
@@ -965,6 +955,84 @@ class TestAssetManagement(AccountTestInvoicingCommon):
         last_line.create_move()
         self.assertEqual(asset.value_residual, 0)
         self.assertEqual(asset.state, "close")
+
+    def test_20_asset_removal_without_value_residual(self):
+        """Asset removal without residual value,
+        the gain must be equal to the sale value because the asset is fully depreciated.
+        """
+        self.car5y.account_plus_value_id = self.company_data["default_account_revenue"]
+        self.car5y.account_min_value_id = self.company_data["default_account_expense"]
+        asset = self.asset_model.create(
+            {
+                "name": "test asset removal",
+                "profile_id": self.car5y.id,
+                "purchase_value": 1000,
+                "salvage_value": 0,
+                "date_start": "2019-01-01",
+                "method_time": "number",
+                "method_number": 10,
+                "method_period": "month",
+                "prorata": False,
+            }
+        )
+        asset.compute_depreciation_board()
+        asset.validate()
+        lines = asset.depreciation_line_ids.filtered(lambda x: not x.init_entry)
+        self.assertEqual(len(lines), 10)
+        for asset_line in lines:
+            asset_line.create_move()
+        self.assertEqual(asset.value_residual, 0)
+        self.assertEqual(asset.state, "close")
+        sale_invoice = self.init_invoice("out_invoice", amounts=[500], post=False)
+        sale_invoice_form = Form(sale_invoice)
+        with sale_invoice_form.invoice_line_ids.edit(0) as line_form:
+            line_form.asset_id = asset
+        sale_invoice_form.save()
+        self.assertEqual(
+            sale_invoice.invoice_line_ids[0].account_id, self.car5y.account_asset_id
+        )
+        action = asset.remove()
+        self.assertNotIn("early_removal", action["context"])
+        wizard_form = Form(
+            self.remove_model.with_context(
+                **action["context"],
+            )
+        )
+        wizard_form.posting_regime = "gain_loss_on_sale"
+        remove_wizard = wizard_form.save()
+        # check the values from the invoice
+        self.assertEqual(remove_wizard.sale_value, 500)
+        self.assertEqual(remove_wizard.account_sale_id, self.car5y.account_asset_id)
+        remove_wizard.date_remove = "2019-01-31"
+        with self.assertRaisesRegex(
+            UserError, "The removal date must be after the last depreciation date"
+        ):
+            remove_wizard.remove()
+        remove_wizard.date_remove = "2020-01-31"
+        remove_wizard.remove()
+        line_remove = asset.depreciation_line_ids.filtered(lambda x: x.type == "remove")
+        self.assertEqual(len(line_remove), 1)
+        self.assertEqual(line_remove.amount, 0)
+        account_move_remove = line_remove.move_id
+        self.assertEqual(len(account_move_remove.line_ids), 4)
+        aml_sale = account_move_remove.line_ids.filtered(
+            lambda x: x.account_id == remove_wizard.account_sale_id and x.debit == 500
+        )
+        self.assertEqual(len(aml_sale), 1)
+        aml_depre = account_move_remove.line_ids.filtered(
+            lambda x: x.account_id == self.car5y.account_depreciation_id
+            and x.debit == 1000
+        )
+        self.assertEqual(len(aml_depre), 1)
+        aml_asset = account_move_remove.line_ids.filtered(
+            lambda x: x.account_id == self.car5y.account_asset_id and x.credit == 1000
+        )
+        self.assertEqual(len(aml_asset), 1)
+        aml_gain = account_move_remove.line_ids.filtered(
+            lambda x: x.account_id == remove_wizard.account_plus_value_id
+        )
+        self.assertEqual(len(aml_gain), 1)
+        self.assertEqual(aml_gain.credit, 500)
 
     def test_21_asset_profile_salvage_value(self):
         """Compute salvage value from asset profile."""

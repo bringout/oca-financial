@@ -2,8 +2,8 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 import time
 
-from odoo import SUPERUSER_ID, api, fields, registry
-from odoo.tests import get_db_name, tagged
+from odoo import fields
+from odoo.tests import tagged
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 
@@ -11,17 +11,11 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 @tagged("post_install", "-at_install")
 class TestAssetManagementXls(AccountTestInvoicingCommon):
     @classmethod
-    def setUpClass(cls, chart_template_ref=None):
-        with registry(get_db_name()).cursor() as cr:
-            env = api.Environment(cr, SUPERUSER_ID, {})
-            if not env.ref("l10n_generic_coa.configurable_chart_template", False):
-                # Fallback for executing tests in any existing CoA
-                coa = env["account.chart.template"].search([("visible", "=", True)])[:1]
-                chart_template_ref = coa.get_external_id()[coa.id]
-        super().setUpClass(chart_template_ref=chart_template_ref)
+    def setUpClass(cls):
+        super().setUpClass()
 
         module = __name__.split("addons.")[1].split(".")[0]
-        cls.xls_report_name = "{}.asset_report_xls".format(module)
+        cls.xls_report_name = f"{module}.asset_report_xls"
         cls.wiz_model = cls.env["wiz.account.asset.report"]
         cls.company = cls.env.ref("base.main_company")
         # Ensure we have something to report on
@@ -68,7 +62,7 @@ class TestAssetManagementXls(AccountTestInvoicingCommon):
                 "date_start": time.strftime("%Y-01-01"),
             }
         ).validate()
-        fy_dates = cls.company.compute_fiscalyear_dates(fields.date.today())
+        fy_dates = cls.company.compute_fiscalyear_dates(fields.Date.today())
 
         wiz_vals = {
             "asset_group_id": group_fa.id,
@@ -88,7 +82,8 @@ class TestAssetManagementXls(AccountTestInvoicingCommon):
                 "report_name": self.xls_report_name,
             }.items(),
         )
-        model = self.env["report.%s" % self.report_action["report_name"]].with_context(
+        report_model = f"report.{self.report_action['report_name']}"
+        model = self.env[report_model].with_context(
             active_model=self.xls_report._name, **self.report_action["context"]
         )
         model.create_xlsx_report(self.xls_report.ids, data=self.report_action["data"])

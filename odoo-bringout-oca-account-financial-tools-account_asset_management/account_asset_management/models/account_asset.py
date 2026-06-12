@@ -11,20 +11,13 @@ from traceback import format_exception
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import _, api, fields, models
+from odoo import api, fields, models
 from odoo.exceptions import UserError
-from odoo.osv import expression
 
 _logger = logging.getLogger(__name__)
 
-READONLY_STATES = {
-    "open": [("readonly", True)],
-    "close": [("readonly", True)],
-    "removed": [("readonly", True)],
-}
 
-
-class DummyFy(object):
+class DummyFy:
     def __init__(self, *args, **argv):
         for key, arg in argv.items():
             setattr(self, key, arg)
@@ -36,6 +29,8 @@ class AccountAsset(models.Model):
     _description = "Asset"
     _order = "date_start desc, code, name"
     _check_company_auto = True
+    _check_company_domain = models.check_company_domain_parent_of
+    _rec_names_search = ["code", "name"]
 
     account_move_line_ids = fields.One2many(
         comodel_name="account.move.line",
@@ -51,16 +46,13 @@ class AccountAsset(models.Model):
     name = fields.Char(
         string="Asset Name",
         required=True,
-        states=READONLY_STATES,
     )
     code = fields.Char(
         string="Reference",
         size=32,
-        states=READONLY_STATES,
     )
     purchase_value = fields.Monetary(
         required=True,
-        states=READONLY_STATES,
         help="This amount represent the initial value of the asset."
         "\nThe Depreciation Base is calculated as follows:"
         "\nPurchase Value - Salvage Value.",
@@ -69,7 +61,6 @@ class AccountAsset(models.Model):
         compute="_compute_salvage_value",
         store=True,
         readonly=False,
-        states=READONLY_STATES,
         help="The estimated value that an asset will realize upon "
         "its sale at the end of its useful life.\n"
         "This value is used to determine the depreciation amounts.",
@@ -96,7 +87,6 @@ class AccountAsset(models.Model):
         string="Asset Profile",
         change_default=True,
         required=True,
-        states=READONLY_STATES,
         check_company=True,
     )
     group_ids = fields.Many2many(
@@ -112,7 +102,6 @@ class AccountAsset(models.Model):
     date_start = fields.Date(
         string="Asset Start Date",
         required=True,
-        states=READONLY_STATES,
         help="You should manually add depreciation lines "
         "with the depreciations of previous fiscal years "
         "if the Depreciation Start Date is different from the date "
@@ -143,7 +132,6 @@ class AccountAsset(models.Model):
     partner_id = fields.Many2one(
         comodel_name="res.partner",
         string="Partner",
-        states=READONLY_STATES,
     )
     method = fields.Selection(
         selection=lambda self: self.env["account.asset.profile"]._selection_method(),
@@ -151,7 +139,6 @@ class AccountAsset(models.Model):
         compute="_compute_method",
         readonly=False,
         store=True,
-        states=READONLY_STATES,
         help="Choose the method to use to compute the depreciation lines.\n"
         "  * Linear: Calculated on basis of: "
         "Depreciation Base / Number of Depreciations. "
@@ -171,7 +158,6 @@ class AccountAsset(models.Model):
         compute="_compute_method_number",
         readonly=False,
         store=True,
-        states=READONLY_STATES,
         help="The number of years needed to depreciate your asset",
     )
     method_period = fields.Selection(
@@ -182,7 +168,6 @@ class AccountAsset(models.Model):
         compute="_compute_method_period",
         readonly=False,
         store=True,
-        states=READONLY_STATES,
         help="Period length for the depreciation accounting entries",
     )
     method_end = fields.Date(
@@ -190,14 +175,12 @@ class AccountAsset(models.Model):
         compute="_compute_method_end",
         readonly=False,
         store=True,
-        states=READONLY_STATES,
     )
     method_progress_factor = fields.Float(
         string="Degressive Factor",
         compute="_compute_method_progress_factor",
         readonly=False,
         store=True,
-        states=READONLY_STATES,
     )
     method_time = fields.Selection(
         selection=lambda self: self.env[
@@ -207,7 +190,6 @@ class AccountAsset(models.Model):
         compute="_compute_method_time",
         readonly=False,
         store=True,
-        states=READONLY_STATES,
         help="Choose the method to use to compute the dates and "
         "number of depreciation lines.\n"
         "  * Number of Years: Specify the number of years "
@@ -240,7 +222,6 @@ class AccountAsset(models.Model):
         compute="_compute_prorrata",
         readonly=False,
         store=True,
-        states=READONLY_STATES,
         help="Indicates that the first depreciation entry for this asset "
         "has to be done from the depreciation start date instead of "
         "the first day of the fiscal year.",
@@ -250,7 +231,6 @@ class AccountAsset(models.Model):
         inverse_name="asset_id",
         string="Depreciation Lines",
         copy=False,
-        states=READONLY_STATES,
         check_company=True,
     )
     company_id = fields.Many2one(
@@ -316,8 +296,8 @@ class AccountAsset(models.Model):
     def _compute_depreciation(self):
         for asset in self:
             lines = asset.depreciation_line_ids.filtered(
-                lambda l: l.type in ("depreciate", "remove")
-                and (l.init_entry or l.move_check)
+                lambda line: line.type in ("depreciate", "remove")
+                and (line.init_entry or line.move_check)
             )
             value_depreciated = sum(line.amount for line in lines)
             residual = asset.depreciation_base - value_depreciated
@@ -383,6 +363,11 @@ class AccountAsset(models.Model):
                 asset.prorata = asset.profile_id.prorata
 
     @api.depends("profile_id")
+    def _compute_account_analytic_id(self):
+        for asset in self:
+            asset.account_analytic_id = asset.profile_id.account_analytic_id
+
+    @api.depends("profile_id")
     def _compute_analytic_distribution(self):
         for asset in self:
             asset.analytic_distribution = asset.profile_id.analytic_distribution
@@ -393,7 +378,9 @@ class AccountAsset(models.Model):
             lambda a: a.method == "degr-linear" and a.method_time != "year"
         ):
             raise UserError(
-                _("Degressive-Linear is only supported for Time Method = Year.")
+                self.env._(
+                    "Degressive-Linear is only supported for Time Method = Year."
+                )
             )
 
     @api.constrains("date_start", "method_end", "method_number", "method_time")
@@ -404,15 +391,14 @@ class AccountAsset(models.Model):
             and a.method_end
             and a.method_end <= a.date_start
         ):
-            raise UserError(_("The Start Date must precede the Ending Date."))
+            raise UserError(self.env._("The Start Date must precede the Ending Date."))
 
     @api.constrains("profile_id")
     def _check_profile_change(self):
         if self.depreciation_line_ids.filtered("move_id"):
             raise UserError(
-                _(
-                    "You cannot change the profile of an asset "
-                    "with accounting entries."
+                self.env._(
+                    "You cannot change the profile of an asset with accounting entries."
                 )
             )
 
@@ -470,19 +456,24 @@ class AccountAsset(models.Model):
             if self.env.context.get("create_asset_from_move_line"):
                 asset_line.move_id = self.env.context["move_id"]
 
-    def unlink(self):
+    @api.ondelete(at_uninstall=False)
+    def _unlink_except_restricted_asset(self):
         for asset in self:
             if asset.state != "draft":
-                raise UserError(_("You can only delete assets in draft state."))
+                raise UserError(
+                    self.env._("You can only delete assets in draft state.")
+                )
             if asset.depreciation_line_ids.filtered(
                 lambda r: r.type == "depreciate" and r.move_check
             ):
                 raise UserError(
-                    _(
+                    self.env._(
                         "You cannot delete an asset that contains "
                         "posted depreciation lines."
                     )
                 )
+
+    def unlink(self):
         # update accounting entries linked to lines of type 'create'
         amls = self.with_context(allow_asset_removal=True).mapped(
             "account_move_line_ids"
@@ -490,26 +481,13 @@ class AccountAsset(models.Model):
         amls.write({"asset_id": False})
         return super().unlink()
 
-    @api.model
-    def name_search(self, name, args=None, operator="ilike", limit=100):
-        args = args or []
-        domain = []
-        if name:
-            domain = ["|", ("code", "=ilike", name + "%"), ("name", operator, name)]
-            if operator in expression.NEGATIVE_TERM_OPERATORS:
-                domain = ["&", "!"] + domain[1:]
-        assets = self.search(domain + args, limit=limit)
-        return assets.name_get()
-
     @api.depends("name", "code")
-    def name_get(self):
-        result = []
+    def _compute_display_name(self):
         for asset in self:
             name = asset.name
             if asset.code:
                 name = " - ".join([asset.code, name])
-            result.append((asset.id, name))
-        return result
+            asset.display_name = name
 
     def validate(self):
         for asset in self:
@@ -518,7 +496,7 @@ class AccountAsset(models.Model):
             else:
                 asset.state = "open"
                 if not asset.depreciation_line_ids.filtered(
-                    lambda l: l.type != "create"
+                    lambda line: line.type != "create"
                 ):
                     asset.compute_depreciation_board()
         return True
@@ -537,7 +515,7 @@ class AccountAsset(models.Model):
             ctx.update({"early_removal": True})
 
         return {
-            "name": _("Generate Asset Removal entries"),
+            "name": self.env._("Generate Asset Removal entries"),
             "view_mode": "form",
             "res_model": "account.asset.remove",
             "target": "new",
@@ -554,8 +532,8 @@ class AccountAsset(models.Model):
         context = dict(self.env.context)
         context.pop("group_by", None)
         return {
-            "name": _("Journal Entries"),
-            "view_mode": "tree,form",
+            "name": self.env._("Journal Entries"),
+            "view_mode": "list,form",
             "res_model": "account.move",
             "view_id": False,
             "type": "ir.actions.act_window",
@@ -642,7 +620,6 @@ class AccountAsset(models.Model):
             line_i_start = 0
 
     def compute_depreciation_board(self):
-
         line_obj = self.env["account.asset.line"]
 
         for asset in self:
@@ -692,7 +669,7 @@ class AccountAsset(models.Model):
                     and total_table_lines != len(move_check_lines)
                 ):
                     raise UserError(
-                        _(
+                        self.env._(
                             "The duration of the asset conflicts with the "
                             "posted depreciation table entry dates."
                         )
@@ -902,7 +879,7 @@ class AccountAsset(models.Model):
         """
         if self.method_time != "year":
             raise UserError(
-                _(
+                self.env._(
                     "The '_compute_year_amount' method is only intended for "
                     "Time Method 'Number of Years'."
                 )
@@ -931,7 +908,8 @@ class AccountAsset(models.Model):
             else:
                 return year_amount_degressive
         else:
-            raise UserError(_("Illegal value %s in asset.method.") % self.method)
+            msg = self.env._("Illegal value %s in asset.method.")
+            raise UserError(msg % self.method)
 
     def _compute_line_dates(self, table, start_date, stop_date):
         """
@@ -1036,14 +1014,14 @@ class AccountAsset(models.Model):
                 fy_residual_amount -= fy_amount
                 if currency.is_zero(fy_residual_amount):
                     break
-        i_max = i
+        if table:
+            i_max = i
         table = table[: i_max + 1]
         return table
 
     def _compute_depreciation_table_lines(
         self, table, depreciation_start_date, depreciation_stop_date, line_dates
     ):
-
         self.ensure_one()
         currency = self.company_id.currency_id
         asset_sign = 1 if self.depreciation_base >= 0 else -1
@@ -1056,7 +1034,6 @@ class AccountAsset(models.Model):
         )
 
         for i, entry in enumerate(table):
-
             lines = []
             fy_amount_check = 0.0
             fy_amount = entry["fy_amount"]
@@ -1230,17 +1207,20 @@ class AccountAsset(models.Model):
             try:
                 with self.env.cr.savepoint():
                     result += depreciation.create_move()
-            except Exception as e:
+            except Exception:
+                e = exc_info()[0]
                 tb = "".join(format_exception(*exc_info()))
                 asset_ref = depreciation.asset_id.name
                 if depreciation.asset_id.code:
-                    asset_ref = "[{}] {}".format(depreciation.asset_id.code, asset_ref)
-                error_log += _(
-                    "\nError while processing asset '{ref}': {exception}"
-                ).format(ref=asset_ref, exception=repr(e))
-                error_msg = _("Error while processing asset '{ref}': \n\n{tb}").format(
-                    ref=asset_ref, tb=tb
+                    asset_ref = f"[{depreciation.asset_id.code}] {asset_ref}"
+                msg_log = self.env._(
+                    "\nError while processing asset '%(ref)s': %(exception)s"
                 )
+                error_log += msg_log % {"ref": asset_ref, "exception": str(e)}
+                msg_err = self.env._(
+                    "Error while processing asset '%(ref)s': \n\n%(tb)s"
+                )
+                error_msg = msg_err % {"ref": asset_ref, "tb": tb}
                 _logger.error("%s, %s", self._name, error_msg)
 
         if check_triggers and recomputes:

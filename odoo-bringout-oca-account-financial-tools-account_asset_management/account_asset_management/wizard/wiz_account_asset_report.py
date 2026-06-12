@@ -3,7 +3,7 @@
 
 import unicodedata
 
-from odoo import _, api, fields, models
+from odoo import api, fields, models
 from odoo.exceptions import UserError
 
 
@@ -40,7 +40,7 @@ class WizAccountAssetReport(models.TransientModel):
 
     @api.onchange("company_id")
     def _onchange_company_id(self):
-        fy_dates = self.company_id.compute_fiscalyear_dates(fields.date.today())
+        fy_dates = self.company_id.compute_fiscalyear_dates(fields.Date.today())
         self.date_from = fy_dates["date_from"]
         self.date_to = fy_dates["date_to"]
 
@@ -48,7 +48,9 @@ class WizAccountAssetReport(models.TransientModel):
     def _check_dates(self):
         for wiz in self:
             if wiz.date_to <= wiz.date_from:
-                raise UserError(_("The Start Date must precede the Ending Date."))
+                raise UserError(
+                    self.env._("The Start Date must precede the Ending Date.")
+                )
 
     def xls_export(self):
         self.ensure_one()
@@ -60,7 +62,7 @@ class WizAccountAssetReport(models.TransientModel):
                 .decode("ascii")
             )
             prefix = "".join(x for x in prefix if x.isalnum())
-            report_file = "{}_asset_report".format(prefix)
+            report_file = f"{prefix}_asset_report"
         else:
             report_file = "asset_report"
         report = {

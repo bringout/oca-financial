@@ -4,18 +4,18 @@
         <field name="name">account.asset.profile.form</field>
         <field name="model">account.asset.profile</field>
         <field name="arch" type="xml">
-            <form string="Asset profile">
+            <form>
                 <sheet>
                     <widget
                         name="web_ribbon"
                         title="Archived"
                         bg_color="bg-danger"
-                        attrs="{'invisible': [('active', '=', True)]}"
+                        invisible="active"
                     />
                     <div class="oe_title">
                         <label for="name" class="oe_edit_only" />
                         <h1>
-                                <field name="name" />
+                            <field name="name" />
                         </h1>
                     </div>
                     <group>
@@ -29,12 +29,12 @@
                                 />
                                 <span
                                     class="o_form_label oe_inline"
-                                    attrs="{'invisible':[('salvage_type','!=','percent')]}"
+                                    invisible="salvage_type != 'percent'"
                                 >%</span>
                             </div>
                             <field
                                 name="salvage_type"
-                                attrs="{'required': [('salvage_value', '!=', 0.0)]}"
+                                required="salvage_value != 0.0"
                             />
                             <field name="company_id" invisible="1" />
                             <field name="group_ids" widget="many2many_tags" />
@@ -42,7 +42,7 @@
                             <field name="active" invisible="1" />
                             <field
                                 name="company_id"
-                                widget="selection"
+                                options="{'no_create': True, 'no_open': True}"
                                 groups="base.group_multi_company"
                             />
                         </group>
@@ -60,25 +60,21 @@
                             <field name="method_time" />
                             <field
                                 name="method_number"
-                                attrs="{'invisible': [('method_time', 'not in', ['number', 'year'])], 'required': [('method_time', 'in', ['number', 'year'])]}"
+                                invisible="method_time not in ['number', 'year']"
+                                required="method_time in ['number', 'year']"
                             />
                             <field name="method_period" />
                             <field name="days_calc" />
-                            <field
-                                name="use_leap_years"
-                                attrs="{'invisible': [('days_calc', '=', True)]}"
-                            />
+                            <field name="use_leap_years" invisible="days_calc" />
                         </group>
                         <group string="Depreciation Method">
                             <field name="method" />
                             <field
                                 name="method_progress_factor"
-                                attrs="{'invisible': [('method', 'in', ['linear', 'linear-limit'])], 'required': [('method', 'in', ['degressive', 'degr-linear', 'degr-limit'])]}"
+                                invisible="method in ['linear', 'linear-limit']"
+                                required="method in ['degressive', 'degr-linear', 'degr-limit']"
                             />
-                            <field
-                                name="prorata"
-                                attrs="{'readonly':[('method_time','!=','year')]}"
-                            />
+                            <field name="prorata" readonly="method_time != 'year'" />
                             <field name="open_asset" />
                         </group>
                         <group
@@ -98,10 +94,10 @@
         </field>
     </record>
     <record id="account_asset_profile_view_tree" model="ir.ui.view">
-        <field name="name">account.asset.profile.tree</field>
+        <field name="name">account.asset.profile.list</field>
         <field name="model">account.asset.profile</field>
         <field name="arch" type="xml">
-            <tree>
+            <list>
                 <field name="name" />
                 <field name="method_number" optional="hide" />
                 <field name="method_period" optional="hide" />
@@ -118,14 +114,14 @@
                     groups="base.group_multi_company"
                     optional="show"
                 />
-            </tree>
+            </list>
         </field>
     </record>
     <record id="account_asset_profile_view_search" model="ir.ui.view">
         <field name="name">account.asset.profile.search</field>
         <field name="model">account.asset.profile</field>
         <field name="arch" type="xml">
-            <search string="Search Asset Profile">
+            <search>
                 <field name="name" string="Asset Profile" />
                 <field name="journal_id" />
                 <separator />
@@ -147,6 +143,6 @@
     <record id="account_asset_profile_action" model="ir.actions.act_window">
         <field name="name">Asset Profiles</field>
         <field name="res_model">account.asset.profile</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
     </record>
 </odoo>

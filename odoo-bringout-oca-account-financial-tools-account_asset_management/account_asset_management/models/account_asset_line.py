@@ -2,7 +2,7 @@
 # Copyright 2021 Tecnativa - João Marques
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo import _, api, fields, models
+from odoo import api, fields, models
 from odoo.exceptions import UserError
 
 
@@ -11,6 +11,7 @@ class AccountAssetLine(models.Model):
     _description = "Asset depreciation table line"
     _order = "type, line_date"
     _check_company_auto = True
+    _check_company_domain = models.check_company_domain_parent_of
 
     name = fields.Char(string="Depreciation Name", size=64, readonly=True)
     asset_id = fields.Many2one(
@@ -83,9 +84,9 @@ class AccountAssetLine(models.Model):
         if self.env.context.get("no_compute_asset_line_ids"):
             # skip compute for lines in unlink
             exclude_ids = self.env.context["no_compute_asset_line_ids"]
-            dlines = self.filtered(lambda l: l.id not in exclude_ids)
-        dlines = dlines.filtered(lambda l: l.type == "depreciate")
-        dlines = dlines.sorted(key=lambda l: l.line_date)
+            dlines = self.filtered(lambda line: line.id not in exclude_ids)
+        dlines = dlines.filtered(lambda line: line.type == "depreciate")
+        dlines = dlines.sorted(key=lambda line: line.line_date)
         # Give value 0 to the lines that are not going to be calculated
         # to avoid cache miss error
         all_excluded_lines = self - dlines
@@ -95,7 +96,9 @@ class AccountAssetLine(models.Model):
         asset_ids = dlines.mapped("asset_id")
         grouped_dlines = []
         for asset in asset_ids:
-            grouped_dlines.append(dlines.filtered(lambda l: l.asset_id.id == asset.id))
+            grouped_dlines.append(
+                dlines.filtered(lambda line, asset=asset: line.asset_id.id == asset.id)
+            )
         for dlines in grouped_dlines:
             for i, dl in enumerate(dlines):
                 if i == 0:
@@ -130,7 +133,7 @@ class AccountAssetLine(models.Model):
                 # 'Delete Move' button on the depreciation lines.
                 if not self.env.context.get("unlink_from_asset"):
                     raise UserError(
-                        _(
+                        self.env._(
                             "You are not allowed to remove an accounting entry "
                             "linked to an asset."
                             "\nYou should remove such entries from the asset."
@@ -144,20 +147,20 @@ class AccountAssetLine(models.Model):
                 and dl.type != "create"
             ):
                 raise UserError(
-                    _(
+                    self.env._(
                         "You cannot change a depreciation line "
                         "with an associated accounting entry."
                     )
                 )
             elif vals.get("init_entry"):
                 check = asset_lines.filtered(
-                    lambda l: l.move_check
-                    and l.type == "depreciate"
-                    and l.line_date <= line_date
+                    lambda line, line_date=line_date: line.move_check
+                    and line.type == "depreciate"
+                    and line.line_date <= line_date
                 )
                 if check:
                     raise UserError(
-                        _(
+                        self.env._(
                             "You cannot set the 'Initial Balance Entry' flag "
                             "on a depreciation line "
                             "with prior posted entries."
@@ -166,48 +169,54 @@ class AccountAssetLine(models.Model):
             elif vals.get("line_date"):
                 if dl.type == "create":
                     check = asset_lines.filtered(
-                        lambda l: l.type != "create"
-                        and (l.init_entry or l.move_check)
-                        and l.line_date < fields.Date.to_date(vals["line_date"])
+                        lambda line: line.type != "create"
+                        and (line.init_entry or line.move_check)
+                        and line.line_date < fields.Date.to_date(vals["line_date"])
                     )
                     if check:
                         raise UserError(
-                            _(
+                            self.env._(
                                 "You cannot set the Asset Start Date "
                                 "after already posted entries."
                             )
                         )
                 else:
                     check = asset_lines.filtered(
-                        lambda al: al != dl
+                        lambda al, dl=dl: al != dl
                         and (al.init_entry or al.move_check)
                         and al.line_date > fields.Date.to_date(vals["line_date"])
                     )
                     if check:
                         raise UserError(
-                            _(
+                            self.env._(
                                 "You cannot set the date on a depreciation line "
                                 "prior to already posted entries."
                             )
                         )
         return super().write(vals)
 
-    def unlink(self):
+    @api.ondelete(at_uninstall=False)
+    def _unlink_except_restricted(self):
         for dl in self:
             if dl.type == "create" and dl.amount:
                 raise UserError(
-                    _("You cannot remove an asset line " "of type 'Depreciation Base'.")
+                    self.env._(
+                        "You cannot remove an asset line of type 'Depreciation Base'."
+                    )
                 )
             elif dl.move_id:
                 raise UserError(
-                    _(
+                    self.env._(
                         "You cannot delete a depreciation line with "
                         "an associated accounting entry."
                     )
                 )
+
+    def unlink(self):
+        for dl in self:
             previous = dl.previous_id
             next_line = dl.asset_id.depreciation_line_ids.filtered(
-                lambda l: l.previous_id == dl and l not in self
+                lambda line, dl=dl: line.previous_id == dl and line not in self
             )
             if next_line:
                 next_line.previous_id = previous
@@ -219,7 +228,7 @@ class AccountAssetLine(models.Model):
         asset = self.asset_id
         move_data = {
             "date": depreciation_date,
-            "ref": "{} - {}".format(asset.name, self.name),
+            "ref": f"{asset.name} - {self.name}",
             "journal_id": asset.profile_id.journal_id.id,
         }
         return move_data
@@ -285,7 +294,7 @@ class AccountAssetLine(models.Model):
     def open_move(self):
         self.ensure_one()
         return {
-            "name": _("Journal Entry"),
+            "name": self.env._("Journal Entry"),
             "view_mode": "form",
             "res_id": self.move_id.id,
             "res_model": "account.move",
@@ -305,7 +314,7 @@ class AccountAssetLine(models.Model):
     def unlink_move(self):
         for line in self:
             if line.asset_id.profile_id.allow_reversal:
-                context = dict(self._context or {})
+                context = dict(self.env.context)
                 context.update(
                     {
                         "active_model": self._name,
@@ -314,7 +323,7 @@ class AccountAssetLine(models.Model):
                     }
                 )
                 return {
-                    "name": _("Reverse Move"),
+                    "name": self.env._("Reverse Move"),
                     "view_mode": "form",
                     "res_model": "wiz.asset.move.reverse",
                     "target": "new",

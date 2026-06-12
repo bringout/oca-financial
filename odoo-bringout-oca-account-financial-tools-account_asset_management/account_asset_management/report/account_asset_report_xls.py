@@ -1,18 +1,14 @@
 # Copyright 2009-2019 Noviat
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-import logging
 
-from odoo import _, models
+from odoo import models
 from odoo.exceptions import UserError
 
 from odoo.addons.report_xlsx_helper.report.report_xlsx_format import (
     FORMATS,
     XLS_HEADERS,
 )
-
-_logger = logging.getLogger(__name__)
-
 
 IR_TRANSLATION_NAME = "account.asset.report"
 
@@ -30,21 +26,20 @@ class AssetReportXlsx(models.AbstractModel):
         return [s1, s2, s3]
 
     def _get_asset_template(self):
-
         asset_template = {
             "account": {
-                "header": {"type": "string", "value": _("Account")},
+                "header": {"type": "string", "value": self.env._("Account")},
                 "asset": {
                     "type": "string",
                     "value": self._render(
                         "asset.profile_id.account_asset_id.code or ''"
                     ),
                 },
-                "totals": {"type": "string", "value": _("Totals")},
+                "totals": {"type": "string", "value": self.env._("Totals")},
                 "width": 20,
             },
             "name": {
-                "header": {"type": "string", "value": _("Name")},
+                "header": {"type": "string", "value": self.env._("Name")},
                 "asset_group": {
                     "type": "string",
                     "value": self._render("group.name or ''"),
@@ -53,7 +48,7 @@ class AssetReportXlsx(models.AbstractModel):
                 "width": 40,
             },
             "code": {
-                "header": {"type": "string", "value": _("Reference")},
+                "header": {"type": "string", "value": self.env._("Reference")},
                 "asset_group": {
                     "type": "string",
                     "value": self._render("group.code or ''"),
@@ -62,7 +57,7 @@ class AssetReportXlsx(models.AbstractModel):
                 "width": 20,
             },
             "date_start": {
-                "header": {"type": "string", "value": _("Asset Start Date")},
+                "header": {"type": "string", "value": self.env._("Asset Start Date")},
                 "asset": {
                     "value": self._render("asset.date_start or ''"),
                     "format": FORMATS["format_tcell_date_left"],
@@ -70,7 +65,7 @@ class AssetReportXlsx(models.AbstractModel):
                 "width": 20,
             },
             "date_remove": {
-                "header": {"type": "string", "value": _("Asset Removal Date")},
+                "header": {"type": "string", "value": self.env._("Asset Removal Date")},
                 "asset": {
                     "value": self._render("asset.date_remove or ''"),
                     "format": FORMATS["format_tcell_date_left"],
@@ -80,7 +75,7 @@ class AssetReportXlsx(models.AbstractModel):
             "depreciation_base": {
                 "header": {
                     "type": "string",
-                    "value": _("Depreciation Base"),
+                    "value": self.env._("Depreciation Base"),
                     "format": FORMATS["format_theader_yellow_right"],
                 },
                 "asset_group": {
@@ -103,7 +98,7 @@ class AssetReportXlsx(models.AbstractModel):
             "salvage_value": {
                 "header": {
                     "type": "string",
-                    "value": _("Salvage Value"),
+                    "value": self.env._("Salvage Value"),
                     "format": FORMATS["format_theader_yellow_right"],
                 },
                 "asset_group": {
@@ -126,7 +121,7 @@ class AssetReportXlsx(models.AbstractModel):
             "purchase_value": {
                 "header": {
                     "type": "string",
-                    "value": _("Purchase Value"),
+                    "value": self.env._("Purchase Value"),
                     "format": FORMATS["format_theader_yellow_right"],
                 },
                 "asset_group": {
@@ -149,7 +144,7 @@ class AssetReportXlsx(models.AbstractModel):
             "period_start_value": {
                 "header": {
                     "type": "string",
-                    "value": _("Period Start Value"),
+                    "value": self.env._("Period Start Value"),
                     "format": FORMATS["format_theader_yellow_right"],
                 },
                 "asset_group": {
@@ -172,7 +167,7 @@ class AssetReportXlsx(models.AbstractModel):
             "period_depr": {
                 "header": {
                     "type": "string",
-                    "value": _("Period Depreciation"),
+                    "value": self.env._("Period Depreciation"),
                     "format": FORMATS["format_theader_yellow_right"],
                 },
                 "asset_group": {
@@ -195,7 +190,7 @@ class AssetReportXlsx(models.AbstractModel):
             "period_end_value": {
                 "header": {
                     "type": "string",
-                    "value": _("Period End Value"),
+                    "value": self.env._("Period End Value"),
                     "format": FORMATS["format_theader_yellow_right"],
                 },
                 "asset_group": {
@@ -218,7 +213,7 @@ class AssetReportXlsx(models.AbstractModel):
             "period_end_depr": {
                 "header": {
                     "type": "string",
-                    "value": _("Tot. Depreciation"),
+                    "value": self.env._("Tot. Depreciation"),
                     "format": FORMATS["format_theader_yellow_right"],
                 },
                 "asset_group": {
@@ -241,7 +236,7 @@ class AssetReportXlsx(models.AbstractModel):
             "method": {
                 "header": {
                     "type": "string",
-                    "value": _("Comput. Method"),
+                    "value": self.env._("Comput. Method"),
                     "format": FORMATS["format_theader_yellow_center"],
                 },
                 "asset": {
@@ -254,7 +249,7 @@ class AssetReportXlsx(models.AbstractModel):
             "method_number": {
                 "header": {
                     "type": "string",
-                    "value": _("Number of Years"),
+                    "value": self.env._("Number of Years"),
                     "format": FORMATS["format_theader_yellow_center"],
                 },
                 "asset": {
@@ -267,7 +262,7 @@ class AssetReportXlsx(models.AbstractModel):
             "prorata": {
                 "header": {
                     "type": "string",
-                    "value": _("Prorata Temporis"),
+                    "value": self.env._("Prorata Temporis"),
                     "format": FORMATS["format_theader_yellow_center"],
                 },
                 "asset": {
@@ -280,7 +275,7 @@ class AssetReportXlsx(models.AbstractModel):
             "state": {
                 "header": {
                     "type": "string",
-                    "value": _("Status"),
+                    "value": self.env._("Status"),
                     "format": FORMATS["format_theader_yellow_center"],
                 },
                 "asset": {
@@ -296,7 +291,6 @@ class AssetReportXlsx(models.AbstractModel):
         return asset_template
 
     def _get_acquisition_ws_params(self, wb, data, wiz):
-
         acquisition_template = self._get_asset_template()
         acquisition_template.update(
             self.env["account.asset"]._xls_acquisition_template()
@@ -316,7 +310,6 @@ class AssetReportXlsx(models.AbstractModel):
         }
 
     def _get_active_ws_params(self, wb, data, wiz):
-
         active_template = self._get_asset_template()
         active_template.update(self.env["account.asset"]._xls_active_template())
         wl_act = self.env["account.asset"]._xls_active_fields()
@@ -334,7 +327,6 @@ class AssetReportXlsx(models.AbstractModel):
         }
 
     def _get_removal_ws_params(self, wb, data, wiz):
-
         removal_template = self._get_asset_template()
         removal_template.update(self.env["account.asset"]._xls_removal_template())
         wl_dsp = self.env["account.asset"]._xls_removal_fields()
@@ -352,21 +344,20 @@ class AssetReportXlsx(models.AbstractModel):
         }
 
     def _get_title(self, wiz, report, frmt="normal"):
-
-        prefix = "{} - {}".format(wiz.date_from, wiz.date_to)
+        prefix = f"{wiz.date_from} - {wiz.date_to}"
         if report == "acquisition":
             if frmt == "normal":
-                title = prefix + " : " + _("New Acquisitions")
+                title = prefix + " : " + self.env._("New Acquisitions")
             else:
                 title = "ACQ"
         elif report == "active":
             if frmt == "normal":
-                title = prefix + " : " + _("Active Assets")
+                title = prefix + " : " + self.env._("Active Assets")
             else:
                 title = "ACT"
         else:
             if frmt == "normal":
-                title = prefix + " : " + _("Removed Assets")
+                title = prefix + " : " + self.env._("Removed Assets")
             else:
                 title = "DSP"
         return title
@@ -377,12 +368,12 @@ class AssetReportXlsx(models.AbstractModel):
     def _empty_report(self, ws, row_pos, ws_params, data, wiz):
         report = ws_params["report_type"]
         if report == "acquisition":
-            suffix = _("New Acquisitions")
+            suffix = self.env._("New Acquisitions")
         elif report == "active":
-            suffix = _("Active Assets")
+            suffix = self.env._("Active Assets")
         else:
-            suffix = _("Removed Assets")
-        no_entries = _("No") + " " + suffix
+            suffix = self.env._("Removed Assets")
+        no_entries = self.env._("No") + " " + suffix
         ws.write_string(row_pos, 0, no_entries, FORMATS["format_left_bold"])
 
     def _get_assets(self, wiz, data):
@@ -403,12 +394,11 @@ class AssetReportXlsx(models.AbstractModel):
                 children = children.sorted(lambda r: r.code or r.name)
                 for child in children:
                     if child in groups:
-                        raise UserError(
-                            _(
-                                "Inconsistent reporting structure."
-                                "\nPlease correct Asset Group '{group}' (id {id})"
-                            ).format(group=child.name, id=child.id)
+                        msg = self.env._(
+                            "Inconsistent reporting structure."
+                            "\nPlease correct Asset Group '%(group)s' (id %(id)s)"
                         )
+                        raise UserError(msg % {"group": child.name, "id": child.id})
                     groups.extend(_child_get(child))
                 return groups
 
@@ -461,7 +451,7 @@ class AssetReportXlsx(models.AbstractModel):
         report = ws_params["report_type"]
 
         def asset_filter(asset):
-            filt = getattr(self, "{}_filter".format(report))
+            filt = getattr(self, f"{report}_filter")
             return filt(wiz, asset)
 
         def _has_assets(group, group_val):
@@ -546,13 +536,11 @@ class AssetReportXlsx(models.AbstractModel):
 
         wl = ws_params["wanted_list"]
         if "account" not in wl:
-            raise UserError(
-                _(
-                    "The 'account' field is a mandatory entry of the "
-                    "'_xls_%s_fields' list !"
-                )
-                % report
+            msg = self.env._(
+                "The 'account' field is a mandatory entry of the "
+                "'_xls_%s_fields' list !"
             )
+            raise UserError(msg % report)
 
         self._set_column_width(ws, ws_params)
 
@@ -560,7 +548,7 @@ class AssetReportXlsx(models.AbstractModel):
         row_pos = self._report_title(ws, row_pos, ws_params, data, wiz)
 
         def asset_filter(asset):
-            filt = getattr(self, "{}_filter".format(report))
+            filt = getattr(self, f"{report}_filter")
             return filt(wiz, asset)
 
         assets = data["assets"].filtered(asset_filter)
@@ -618,7 +606,6 @@ class AssetReportXlsx(models.AbstractModel):
 
         processed = []
         for entry in entries:
-
             period_start_value_cell = period_start_value_pos and self._rowcol_to_cell(
                 row_pos, period_start_value_pos
             )
@@ -722,13 +709,13 @@ class AssetReportXlsx(models.AbstractModel):
         for k in error_dict:
             if error_dict[k]:
                 if k == "no_table":
-                    reason = _("Missing depreciation table")
+                    reason = self.env._("Missing depreciation table")
                 elif k == "dups":
-                    reason = _("Duplicate reporting entries")
+                    reason = self.env._("Duplicate reporting entries")
                 else:
-                    reason = _("Undetermined error")
+                    reason = self.env._("Undetermined error")
                 row_pos += 1
-                err_msg = _("Assets to be corrected") + ": "
-                err_msg += "%s" % [x[1] for x in error_dict[k].name_get()]
-                err_msg += " - " + _("Reason") + ": " + reason
+                err_msg = self.env._("Assets to be corrected") + ": "
+                err_msg += ", ".join(error_dict[k].mapped("display_name"))
+                err_msg += " - " + self.env._("Reason") + ": " + reason
                 ws.write_string(row_pos, 0, err_msg, FORMATS["format_left_bold"])
